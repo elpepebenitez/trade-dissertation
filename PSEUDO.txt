@@ -1,0 +1,13 @@
+PSEUDO Planning
+
+I already have data for:
+- Geographic classification of countries
+- Income classification of countries
+- All preferential trade agreements signed by country
+- All bilateral preferential trade relationships between countries
+- Exports at 6-digit HS codes for all countries and its destination country
+
+A first-order question for the analysis I want to do, is how should I classify "North" and "South" countries? 
+    North US + Europpe? South everything else?  
+    Should I classify by income level?
+    Should I exclude small-island states?
