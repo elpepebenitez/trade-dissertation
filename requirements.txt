@@ -3,3 +3,5 @@ matplotlib
 openpyxl
 numpy
 python-dotenv
+requests
+comtradeapicall
