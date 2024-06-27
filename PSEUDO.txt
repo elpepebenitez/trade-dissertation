@@ -1,0 +1,23 @@
+PSEUDO Planning
+
+I already have data for:
+- Geographic classification of countries
+- Income classification of countries
+- All preferential trade agreements signed by all countries, and with which countries are these relationships
+- Exports at 6-digit HS codes for all countries and its destination country
+
+A first-order question for the analysis I want to do, is how should I classify "North" and "South" countries? 
+    North US + Europpe? South everything else?  
+    Should I classify by income level?
+    Should I exclude small-island states?
+
+What is it that I want to research?
+
+1. Do SSPTAs have an impact? 
+    The change in the number of individual products exported
+    The change in the total value of individual products exported
+    The change in the weight of individual products exported
+
+5-year averages pre and post?
+
+2. 
