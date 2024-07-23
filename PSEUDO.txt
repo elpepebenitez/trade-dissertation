@@ -2,7 +2,7 @@ PSEUDO Planning
 
 I already have data for:
 - Geographic classification of countries
-- Income classification of countries
+- Historic income classification of countries
 - All preferential trade agreements signed by all countries, and with which countries are these relationships
 - Exports at 6-digit HS codes for all countries and its destination country
 
