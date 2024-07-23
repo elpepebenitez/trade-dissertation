@@ -1,0 +1,886 @@
+base_treaty,name,year,countries,classification
+663,South Africa Southern Rhodesia Customs Union,1948,"[710, 716]",South-South
+707,Bhutan India,1949,"[64, 356]",South-South
+436,European Coal and Steel Community,1951,"[56, 250, 276, 380, 442, 528]",North-North
+418,El Salvador Nicaragua Free Trade Area,1951,"[222, 558]",South-South
+695,Arab Trade Convention / Treaty on Transit Trade,1953,"[818, 368, 400, 414, 422, 682, 760]",South-South
+500,Iraq Jordan,1953,"[368, 400]",South-South
+783,Canada Portugal,1954,"[124, 620]",North-North
+784,Canada Spain,1954,"[124, 724]",North-North
+453,France Tunisia Customs Union Convention,1955,"[250, 788]",North-South
+773,Saudi Arabia Syria,1955,"[682, 760]",South-South
+1081,Australia UK,1957,"[36, 826]",North-North
+757,Lebanon Saudi Arabia,1957,"[422, 682]",South-South
+751,Iraq Saudi Arabia,1957,"[368, 682]",South-South
+189,Central American Free Trade Area (CAFTA),1958,"[188, 222, 320, 340, 558]",South-South
+729,Egypt Saudi Arabia,1958,"[818, 682]",South-South
+706,Benelux Economic Union,1958,"[56, 528, 442]",North-North
+731,Egypt Syria,1958,"[818, 760]",South-South
+779,West African Customs Union (UDAO),1959,"[686, 466, 478, 562, 854, 204, 384]",South-South
+680,Treaty of Economic Association,1960,"[320, 222, 340]",South-South
+74,Australia Canada,1960,"[36, 124]",North-North
+451,Finland USSR,1960,"[246, 643]",North-South
+422,Equatorial Customs Union,1959,"[140, 148, 266, 178, 120]",South-South
+460,Ghana Upper Volta Trade Agreement,1961,"[288, 854]",South-South
+445,EFTA Finland,1961,"[40, 208, 620, 756, 578, 752, 826, 246]",North-North
+753,Iraq Syria,1961,"[368, 760]",South-South
+776,Senegal Tunisia,1962,"[686, 788]",South-South
+533,Jordan Saudi Arabia,1962,"[400, 682]",South-South
+2,African Common Market,1962,"[12, 818, 288, 324, 466, 504]",South-South
+689,Yaounde I,1963,"[56, 276, 250, 380, 442, 528, 108, 120, 140, 148, 180, 204, 266, 384, 450, 466, 478, 562, 178, 646, 686, 706, 768, 854]",North-South
+452,France Monaco,1963,"[250, 492]",North-South
+769,Morocco Senegal,1963,"[504, 686]",South-South
+765,Mauritania Tunisia,1964,"[478, 788]",South-South
+182,Central African Customs and Economic Union (UDEAC),1964,"[140, 148, 266, 178, 120]",South-South
+664,South Africa Zimbabwe,1964,"[710, 716]",South-South
+505,Ireland UK Free Trade Area,1965,"[826, 372]",North-South
+79,Australia New Zealand Free Trade Agreement,1965,"[36, 554]",North-North
+170,Canada US Automotive Products Trade Agreement (APTA),1965,"[124, 840]",North-North
+179,Caribbean Free Trade Association (CARIFTA),1965,"[28, 52, 328]",South-South
+538,Jordan Syria,1965,"[400, 760]",South-South
+901,East African Community (EAC),1966,"[404, 800, 834]",South-South
+768,Morocco Saudi Arabia,1966,"[504, 682]",South-South
+726,Customs and Economic Union of West African States (UDEAO),1966,"[686, 466, 478, 562, 854, 204, 384]",South-South
+561,Latin American Free Trade Area (LAFTA),1960,"[32, 76, 152, 484, 600, 604, 858, 170, 218, 862, 68]",South-South
+406,Egypt Jordan,1967,"[818, 400]",South-South
+501,Iraq Lebanon,1967,"[368, 422]",South-South
+596,Malawi South Africa,1967,"[454, 710]",South-South
+682,Tripartite Agreement,1967,"[356, 818, 688]",South-South
+788,East Caribbean Common Market,1968,"[28, 212, 308, 500, 659, 662, 670]",South-South
+700,Arusha Agreement I,1968,"[56, 250, 276, 380, 442, 528, 404, 834, 800]",North-South
+333,EC Morocco Association Agreement,1969,"[56, 276, 250, 380, 442, 528, 504]",North-South
+759,Lebanon Sudan,1969,"[422, 729]",South-South
+353,EC Tunisia Association Agreement,1969,"[56, 276, 250, 380, 442, 528, 788]",North-South
+690,Yaounde II,1969,"[56, 276, 250, 380, 442, 528, 108, 120, 140, 148, 180, 204, 266, 384, 450, 466, 478, 562, 178, 646, 686, 706, 768, 854]",North-South
+61,Arusha Agreement II,1969,"[56, 250, 276, 380, 442, 528, 404, 834, 800]",North-South
+348,EC Spain,1970,"[56, 276, 250, 380, 442, 528, 724]",North-North
+314,EC Israel,1970,"[56, 276, 250, 380, 442, 528, 376]",North-North
+758,Lebanon Saudi Arabia,1971,"[422, 682]",South-South
+180,Caribbean Free Trade Association (CARIFTA),1968,"[28, 52, 328, 212, 308, 388, 500, 659, 662, 670, 780, 84]",South-South
+303,EC Egypt Agreement,1972,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 818]",North-South
+117,Bhutan India,1972,"[64, 356]",South-South
+554,Kuwait UAE,1972,"[414, 784]",South-South
+321,EC Lebanon,1972,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 422]",North-South
+743,Guyana Panama,1973,"[328, 591]",South-South
+356,EC Turkey Supplementary Protocol,1973,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 792]",North-South
+692,Algeria Morocco,1973,"[12, 504]",South-South
+633,Nicaragua Panama,1973,"[558, 591]",South-South
+249,Costa Rica Nicaragua Panama,1961,"[188, 591]",South-South
+478,Honduras Panama,1973,"[340, 591]",South-South
+698,Argentina Uruguay,1974,"[32, 858]",South-South
+447,Finland Hungary,1974,"[246, 348]",North-South
+151,Bulgaria Finland,1974,"[246, 100]",North-South
+290,Czechoslovakia Finland,1974,"[203, 246]",North-South
+469,Guatemala Panama,1974,"[320, 591]",South-South
+29,Arab Common Market,1962,"[818, 400, 368, 760, 434]",South-South
+539,Jordan Syria,1975,"[400, 760]",South-South
+584,Lome I,1975,"[56, 276, 208, 372, 826, 250, 380, 442, 528, 44, 52, 72, 108, 120, 140, 148, 180, 231, 204, 242, 266, 270, 288, 308, 324, 624, 226, 328, 388, 404, 426, 430, 384, 454, 450, 466, 478, 480, 562, 566, 178, 646, 686, 694, 706, 729, 748, 768, 834, 776, 780, 800, 882, 854, 894]",North-South
+446,Finland German Democratic Republic,1975,"[246, 276]",North-North
+733,Faroe Islands Sweden,1975,"[234, 752]",North-South
+311,EC Greece Association Agreement,1961,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 300]",North-South
+728,Egypt Morocco,1976,"[818, 504]",South-South
+365,Economic Community of the Great Lakes (CEPGL) Economic and Customs Cooperation Agreement,1976,"[108, 646, 180]",South-South
+366,Economic Community Of West African States (ECOWAS),1975,"[204, 854, 384, 270, 288, 624, 430, 466, 478, 562, 566, 686, 694, 768, 132]",South-South
+81,Australia Papua New Guinea,1976,"[36, 598]",North-South
+450,Finland Poland,1976,"[246, 616]",North-South
+338,EC Portugal,1972,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 620]",North-South
+504,Iraq UAE,1977,"[368, 784]",South-South
+656,Saudi Arabia UAE,1978,"[682, 784]",South-South
+585,Lome II,1979,"[56, 276, 208, 372, 826, 250, 380, 442, 528, 44, 52, 72, 108, 120, 140, 148, 180, 132, 174, 262, 212, 231, 204, 242, 266, 270, 288, 308, 324, 624, 226, 328, 388, 404, 296, 426, 430, 384, 454, 450, 466, 478, 480, 562, 566, 178, 598, 646, 90, 686, 694, 662, 678, 690, 706, 729, 740, 748, 768, 834, 776, 780, 798, 800, 882, 854, 894]",North-South
+400,EFTA Spain,1979,"[40, 620, 756, 578, 752, 352, 724]",North-North
+532,Jordan Qatar,1980,"[400, 634]",South-South
+668,South Pacific Trade and Economic Co Operation Agreement (SPARTECA),1980,"[36, 184, 242, 296, 554, 570, 598, 90, 776, 798, 882]",North-South
+638,Organisation of Eastern Caribbean States (OECS),1981,"[28, 212, 308, 500, 659, 662, 670]",South-South
+167,Canada New Zealand,1981,"[124, 554]",North-North
+21,Algeria Tunisia,1981,"[12, 788]",South-South
+246,Costa Rica Dominican Republic,1981,"[188, 214]",South-South
+778,Uruguay Venezuela,1981,"[858, 862]",South-South
+473,Gulf Cooperation Council (GCC),1981,"[48, 414, 512, 634, 682, 784]",South-South
+496,Inter-Arab Trade Agreement,1981,"[48, 400, 784, 788, 12, 262, 682, 729, 760, 706, 368, 512, 275, 634, 414, 422, 434, 504, 478, 887]",South-South
+247,Costa Rica Mexico,1982,"[188, 484]",South-South
+792,Brazil Uruguay,1982,"[76, 858]",South-South
+772,PTA for Eastern and Southern African States,1982,"[24, 72, 108, 174, 180, 262, 231, 404, 426, 450, 454, 480, 508, 646, 690, 706, 748, 834, 800, 894, 716]",South-South
+699,Argentina Uruguay,1982,"[32, 858]",South-South
+770,Niger Tunisia,1982,"[562, 788]",South-South
+708,Bhutan India,1983,"[64, 356]",South-South
+712,Brazil Mexico,1983,"[76, 484]",South-South
+37,Argentina Costa Rica,1983,"[32, 188]",South-South
+214,Chile Peru,1983,"[152, 604]",South-South
+766,Mexico Paraguay,1983,"[484, 600]",South-South
+42,Argentina El Salvador,1983,"[32, 222]",South-South
+673,Sudan Tunisia,1983,"[729, 788]",South-South
+761,Madagascar Mauritius (under Indian Ocean Commission),1984,"[450, 480]",South-South
+230,Colombia Costa Rica,1984,"[170, 188]",South-South
+235,Colombia El Salvador,1984,"[170, 222]",South-South
+237,Colombia Honduras,1984,"[170, 340]",South-South
+238,Colombia Nicaragua,1984,"[170, 558]",South-South
+236,Colombia Guatemala,1984,"[170, 320]",South-South
+40,Argentina Ecuador,1984,"[32, 218]",South-South
+697,Argentina Uruguay,1984,"[32, 858]",South-South
+38,Argentina Cuba,1984,"[32, 192]",South-South
+586,Lome III,1984,"[56, 276, 208, 372, 826, 300, 250, 380, 442, 528, 28, 44, 52, 72, 108, 84, 120, 140, 148, 180, 132, 262, 212, 231, 204, 242, 266, 270, 288, 308, 324, 624, 226, 328, 388, 404, 296, 174, 426, 430, 384, 454, 450, 466, 478, 480, 508, 562, 566, 178, 598, 646, 659, 662, 670, 90, 686, 694, 678, 690, 706, 729, 740, 748, 768, 834, 776, 780, 798, 548, 800, 882, 854, 894, 716]",North-South
+741,Greenland Sweden,1984,"[304, 752]",North-South
+292,Dominican Republic Panama,1985,"[214, 591]",South-South
+613,Mexico Panama,1985,"[484, 591]",South-South
+217,Chile Uruguay,1985,"[152, 858]",South-South
+313,EC Iceland,1972,"[352, 620, 724]",North-North
+309,EC Finland,1972,"[246, 620, 724]",North-North
+610,Mexico Nicaragua,1985,"[484, 558]",South-South
+467,Guatemala Mexico,1985,"[320, 484]",South-South
+85,Austria EC,1972,"[40, 620, 724]",North-North
+336,EC Norway,1973,"[578, 620, 724]",North-North
+780,West African Economic Community (CEAO),1973,"[686, 466, 478, 562, 854, 384, 204]",South-South
+477,Honduras Mexico,1985,"[340, 484]",South-South
+349,EC Sweden,1972,"[752, 620, 724]",North-North
+359,EC Yugoslavia,1980,"[688, 620, 724]",North-South
+516,Israel US,1985,"[376, 840]",North-North
+471,Guatemala Venezuela,1985,"[320, 862]",South-South
+463,Greenland Iceland,1985,"[304, 352]",North-South
+635,Nicaragua Venezuela,1986,"[558, 862]",South-South
+419,El Salvador Panama,1970,"[222, 591]",South-South
+615,Mexico Uruguay,1986,"[484, 858]",South-South
+525,Jordan Kuwait,1986,"[400, 414]",South-South
+480,Honduras Venezuela,1986,"[340, 862]",South-South
+251,Costa Rica Venezuela,1986,"[188, 862]",South-South
+48,Argentina Venezuela,1986,"[32, 862]",South-South
+601,Mauritania Morocco,1986,"[478, 504]",South-South
+32,Argentina Brazil,1986,"[32, 76]",South-South
+144,Brazil Uruguay,1986,"[76, 858]",South-South
+417,El Salvador Mexico,1986,"[222, 484]",South-South
+293,EC,1957,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 300, 724, 620]",North-South
+421,El Salvador Venezuela,1986,"[222, 862]",South-South
+274,Cuba Uruguay,1987,"[192, 858]",South-South
+767,Mexico Peru,1987,"[484, 604]",South-South
+647,Protocol on Trade Negotiations (PTN),1971,"[76, 152, 818, 356, 376, 484, 604, 410, 586, 608, 788, 792, 858, 688, 724]",North-South
+372,Ecuador Mexico,1987,"[218, 484]",South-South
+271,Cuba Peru,1987,"[192, 604]",South-South
+169,Canada US,1988,"[124, 840]",North-North
+33,Argentina Brazil,1988,"[32, 76]",South-South
+77,Australia New Zealand (ANZCERTA),1983,"[36, 554]",North-North
+231,Colombia Cuba,1988,"[170, 192]",South-South
+137,Botswana Zimbabwe,1988,"[72, 716]",South-South
+411,Egypt Morocco,1988,"[818, 504]",South-South
+46,Argentina Peru,1988,"[32, 604]",South-South
+36,Argentina Colombia,1988,"[32, 170]",South-South
+553,Kuwait Tunisia,1988,"[414, 788]",South-South
+681,Trinidad and Tobago Venezuela,1989,"[780, 862]",South-South
+587,Lome IV,1989,"[56, 276, 208, 724, 372, 826, 300, 250, 380, 442, 528, 620, 24, 28, 44, 52, 72, 108, 84, 120, 140, 148, 180, 132, 262, 212, 214, 231, 204, 242, 266, 270, 288, 308, 324, 624, 226, 328, 332, 388, 404, 296, 174, 426, 430, 384, 454, 450, 466, 478, 480, 508, 562, 566, 178, 598, 646, 659, 662, 670, 90, 686, 694, 678, 690, 706, 729, 740, 748, 768, 834, 776, 780, 798, 548, 800, 882, 854, 894, 716]",North-South
+45,Argentina Paraguay,1989,"[32, 600]",South-South
+43,Argentina Mexico,1986,"[32, 484]",South-South
+30,Arab Maghreb Union,1989,"[12, 434, 478, 504, 788]",South-South
+19,Algeria Morocco,1989,"[12, 504]",South-South
+536,Jordan Sudan,1966,"[400, 729]",South-South
+476,Guyana Venezuela,1990,"[328, 862]",South-South
+762,Malawi South Africa,1990,"[454, 710]",South-South
+709,Bhutan India,1990,"[64, 356]",South-South
+34,Argentina Brazil,1990,"[32, 76]",South-South
+408,Egypt Libya,1990,"[818, 434]",South-South
+574,Libya Morocco,1990,"[434, 504]",South-South
+669,Southern Africa Customs Union (SACU),1969,"[516, 72, 426, 748, 710]",South-South
+491,India Nepal,1991,"[356, 524]",South-South
+80,Australia Papua New Guinea,1991,"[36, 598]",North-South
+211,Chile Mexico,1991,"[152, 484]",South-South
+35,Argentina Chile,1991,"[32, 152]",South-South
+430,Estonia Sweden,1991,"[233, 752]",North-South
+126,Bolivia Uruguay,1991,"[68, 858]",South-South
+370,Economic Cooperation Organization (ECO) Preferences,1991,"[364, 586, 792]",South-South
+580,Lithuania Sweden,1991,"[440, 752]",North-South
+790,El Salvador Guatemala,1991,"[222, 320]",South-South
+560,Laos Thailand,1991,"[418, 764]",South-South
+413,Egypt Syria,1991,"[818, 760]",South-South
+636,North American Free Trade Agreement (NAFTA),1992,"[124, 484, 840]",North-South
+49,Argentina Venezuela,1992,"[32, 862]",South-South
+287,Czech Republic Slovakia,1992,"[203, 703]",South-South
+279,Czech and Slovak Republic EFTA,1992,"[203, 703, 40, 246, 752, 438, 352, 578, 756]",North-South
+57,Armenia Russia,1992,"[51, 643]",South-South
+546,Kazakhstan Russia,1992,"[398, 643]",South-South
+31,Argentina Bolivia,1992,"[32, 68]",South-South
+653,Russia Turkmenistan,1992,"[643, 795]",South-South
+652,Russia Tajikistan,1992,"[643, 762]",South-South
+448,Finland Latvia,1992,"[246, 428]",North-South
+655,Russia Uzbekistan,1992,"[643, 860]",South-South
+442,Faroe Islands Sweden,1992,"[234, 752]",North-South
+114,Belarus Ukraine,1992,"[112, 804]",South-South
+440,Faroe Islands Norway,1992,"[234, 578]",North-South
+732,Faroe Islands Finland,1992,"[234, 246]",North-South
+438,Faroe Islands Iceland,1992,"[234, 352]",North-South
+138,Brazil Cuba,1989,"[76, 192]",South-South
+564,Latvia Norway,1992,"[428, 578]",North-South
+725,Cross Border Initiative,1992,"[108, 174, 404, 450, 454, 480, 516, 646, 690, 748, 834, 800, 894, 716]",South-South
+178,Caribbean Community (CARICOM) Venezuela,1992,"[28, 52, 44, 84, 212, 308, 328, 388, 500, 659, 662, 670, 780, 862]",South-South
+568,Latvia Sweden,1992,"[428, 752]",North-South
+581,Lithuania Switzerland,1992,"[440, 756]",North-South
+425,Estonia Finland,1992,"[233, 246]",North-South
+569,Latvia Switzerland,1992,"[428, 756]",North-South
+576,Lithuania Norway,1992,"[440, 578]",North-South
+107,Belarus Russia,1992,"[112, 643]",South-South
+526,Jordan Lebanon,1992,"[400, 422]",South-South
+431,Estonia Switzerland,1992,"[233, 756]",North-South
+427,Estonia Norway,1992,"[233, 578]",North-South
+449,Finland Lithuania,1992,"[246, 440]",North-South
+90,Azerbaijan Russia,1992,"[31, 643]",South-South
+556,Kyrgyzstan Russia,1992,"[417, 643]",South-South
+528,Jordan Libya,1992,"[400, 434]",South-South
+142,Brazil Peru,1993,"[76, 604]",South-South
+701,Austria Faroe Islands,1993,"[40, 234]",North-South
+666,"South Asian Association for Regional Cooperation, Preferential Trading Arrangement (SAPTA)",1993,"[50, 64, 356, 586, 462, 524, 144]",South-South
+620,Moldova Turkmenistan,1993,"[498, 795]",South-South
+618,Moldova Russia,1993,"[498, 643]",South-South
+305,EC Estonia,1993,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 300, 724, 620, 40, 246, 752, 233]",North-South
+219,Chile Venezuela,1993,"[152, 862]",South-South
+240,Colombia Panama,1993,"[170, 591]",South-South
+654,Russia Ukraine,1993,"[643, 804]",South-South
+98,Baltic Free Trade Area (BAFTA) industrial,1993,"[233, 428, 440]",South-South
+41,Argentina Ecuador,1993,"[32, 218]",South-South
+288,Czech Republic Slovenia,1993,"[203, 705]",South-South
+106,Belarus Moldova,1993,"[112, 498]",South-South
+659,Slovakia Slovenia,1993,"[705, 703]",South-South
+119,Bolivia Chile,1993,"[68, 152]",South-South
+200,Chile Colombia,1993,"[152, 170]",South-South
+56,Armenia Moldova,1993,"[51, 498]",South-South
+572,Lebanon Syria,1993,"[422, 760]",South-South
+373,Ecuador Paraguay,1994,"[218, 600]",South-South
+329,EC Malta,1970,"[470, 40, 246, 752]",North-South
+325,EC Lithuania,1994,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 300, 724, 620, 40, 246, 752, 440]",North-South
+548,Kazakhstan Ukraine,1994,"[398, 804]",South-South
+315,EC Israel,1975,"[376, 40, 246, 752]",North-North
+327,EC Maastricht,1992,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 300, 724, 620, 40, 246, 752]",North-South
+317,EC Jordan,1977,"[400, 40, 246, 752]",North-South
+352,EC Tunisia,1976,"[788, 40, 246, 752]",North-South
+302,EC Egypt,1977,"[818, 40, 246, 752]",North-South
+617,Moldova Romania,1994,"[498, 642]",South-South
+337,EC Poland,1991,"[616, 40, 246, 752]",North-South
+345,EC Slovenia,1993,"[705, 40, 246, 752]",North-South
+322,EC Lebanon,1977,"[422, 40, 246, 752]",North-South
+340,EC Romania,1993,"[642, 40, 246, 752]",North-South
+308,EC Faroe Islands,1991,"[234, 40, 246, 752]",North-South
+319,EC Latvia,1994,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 300, 724, 620, 40, 246, 752, 428]",North-South
+344,EC Slovakia,1993,"[703, 40, 246, 752]",North-South
+332,EC Morocco,1976,"[504, 40, 246, 752]",North-South
+312,EC Hungary,1991,"[348, 40, 246, 752]",North-South
+529,Jordan Morocco,1994,"[400, 504]",South-South
+286,Czech Republic Romania,1994,"[203, 642]",South-South
+392,EFTA Poland,1992,"[438, 352, 578, 756, 616, 40, 246, 752]",North-South
+248,Costa Rica Mexico,1994,"[188, 484]",South-South
+744,Honduras Mexico,1994,"[340, 484]",South-South
+649,Romania Slovakia,1994,"[642, 703]",South-South
+402,EFTA Turkey,1991,"[438, 352, 578, 756, 792, 40, 246, 752]",North-South
+232,Colombia Cuba,1994,"[170, 192]",South-South
+443,Faroe Islands Switzerland,1994,"[234, 756]",North-South
+118,Bolivia Brazil,1994,"[68, 76]",South-South
+124,Bolivia Mexico,1994,"[68, 484]",South-South
+125,Bolivia Paraguay,1994,"[68, 600]",South-South
+487,Hungary Slovenia,1994,"[348, 705]",South-South
+145,Brazil Venezuela,1994,"[76, 862]",South-South
+203,Chile Ecuador,1994,"[152, 218]",South-South
+684,Turkmenistan Ukraine,1994,"[795, 804]",South-South
+149,Bulgaria EFTA,1993,"[100, 438, 352, 578, 756, 40, 246, 752]",North-South
+686,Ukraine Uzbekistan,1994,"[804, 860]",South-South
+172,Caribbean Community (CARICOM) Colombia,1994,"[28, 52, 44, 84, 212, 308, 328, 388, 500, 659, 662, 670, 780, 170]",South-South
+63,Association of Caribbean States,1994,"[28, 44, 52, 84, 188, 170, 192, 212, 214, 222, 308, 328, 320, 332, 340, 388, 558, 591, 659, 662, 670, 740, 780, 484, 862]",South-South
+60,Armenia Ukraine,1994,"[51, 804]",South-South
+393,EFTA Romania,1992,"[438, 352, 578, 756, 642, 40, 246, 752]",North-South
+191,Central Asian Economic Community,1994,"[398, 417, 860]",South-South
+272,Cuba Peru,1994,"[192, 604]",South-South
+374,Ecuador Uruguay,1994,"[218, 858]",South-South
+16,Algeria EC,1976,"[12, 40, 246, 752]",North-South
+278,Cyprus EC,1972,"[196, 40, 246, 752]",North-South
+280,Czech Republic EC,1991,"[203, 40, 246, 752]",North-South
+510,Israel PLO,1994,"[376, 275]",North-South
+55,Armenia Kyrgyzstan,1994,"[51, 417]",South-South
+455,Georgia Russia,1994,"[268, 643]",South-South
+380,EFTA Hungary,1993,"[438, 352, 578, 756, 348, 40, 246, 752]",North-South
+58,Armenia Tajikistan,1994,"[51, 762]",South-South
+382,EFTA Israel,1992,"[438, 352, 578, 756, 376, 40, 246, 752]",North-South
+433,Estonia Ukraine,1995,"[233, 804]",South-South
+158,Bulgaria Slovakia,1995,"[100, 703]",South-South
+531,Jordan PLO,1995,"[400, 275]",South-South
+147,Bulgaria Czech Republic,1995,"[100, 203]",South-South
+326,EC Lithuania Europe Agreement,1995,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 300, 724, 620, 40, 246, 752, 440]",North-South
+459,Georgia Uzbekistan,1995,"[268, 860]",South-South
+547,Kazakhstan Tajikistan,1995,"[398, 762]",South-South
+120,Bolivia Cuba,1995,"[68, 192]",South-South
+545,Kazakhstan Moldova,1995,"[398, 498]",South-South
+65,Association of Southeast Asian Nations (ASEAN) Preferential Trading Arrangements (PTA),1977,"[96, 360, 458, 608, 702, 764]",South-South
+544,Kazakhstan Kyrgyzstan,1995,"[398, 417]",South-South
+583,Lithuania Ukraine,1995,"[440, 804]",South-South
+763,Malawi Zimbabwe,1995,"[454, 716]",South-South
+122,Bolivia MERCOSUR,1995,"[68, 32, 76, 600, 858]",South-South
+89,Azerbaijan Moldova,1995,"[31, 498]",South-South
+92,Azerbaijan Ukraine,1995,"[31, 804]",South-South
+555,Kyrgyzstan Moldova,1995,"[417, 498]",South-South
+558,Kyrgyzstan Ukraine,1995,"[417, 804]",South-South
+52,Armenia Georgia,1995,"[51, 268]",South-South
+736,Fiji Tonga,1995,"[242, 776]",South-South
+59,Armenia Turkmenistan,1995,"[51, 795]",South-South
+53,Armenia Iran,1995,"[51, 364]",South-South
+458,Georgia Ukraine,1995,"[268, 804]",South-South
+385,EFTA Latvia,1995,"[438, 352, 578, 756, 428]",North-South
+306,EC Estonia Europe Agreement,1995,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 300, 724, 620, 40, 246, 752, 233]",North-South
+377,EFTA Estonia,1995,"[438, 352, 578, 756, 233]",North-South
+264,Cuba Ecuador,1995,"[192, 218]",South-South
+388,EFTA Lithuania,1995,"[438, 352, 578, 756, 440]",North-South
+623,Moldova Uzbekistan,1995,"[498, 860]",South-South
+678,Tajikistan Uzbekistan,1995,"[762, 860]",South-South
+685,Turkmenistan Uzbekistan,1995,"[795, 860]",South-South
+622,Moldova Ukraine,1995,"[498, 804]",South-South
+320,EC Latvia Europe Agreement,1995,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 300, 724, 620, 40, 246, 752, 428]",North-South
+398,EFTA Slovenia,1995,"[438, 352, 578, 756, 705]",North-South
+285,Czech Republic Lithuania,1995,"[203, 440]",South-South
+276,Cuba Venezuela,1995,"[192, 862]",South-South
+579,Lithuania Slovenia,1996,"[440, 705]",South-South
+671,Southern African Development Community (SADC),1992,"[72, 426, 480, 454, 508, 516, 748, 834, 894, 716, 710]",South-South
+603,Melanesian Spearhead Group (MSG),1993,"[598, 90, 548, 242]",South-South
+513,Israel Slovakia,1996,"[376, 703]",North-South
+444,Fiji Papua New Guinea,1996,"[242, 598]",South-South
+559,Kyrgyzstan Uzbekistan,1996,"[417, 860]",South-South
+405,Egypt Jordan,1996,"[818, 400]",South-South
+97,Baltic Free Trade Area (BAFTA) agriculture,1996,"[233, 428, 440]",South-South
+284,Czech Republic Latvia,1996,"[203, 428]",South-South
+93,Azerbaijan Uzbekistan,1996,"[31, 860]",South-South
+91,Azerbaijan Turkmenistan,1996,"[31, 795]",South-South
+346,EC Slovenia Europe Agreement,1996,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 300, 724, 620, 40, 246, 752, 705]",North-South
+86,Azerbaijan Georgia,1996,"[31, 268]",South-South
+283,Czech Republic Israel,1996,"[203, 376]",North-South
+457,Georgia Turkmenistan,1996,"[268, 795]",South-South
+515,Israel Turkey,1996,"[376, 792]",North-South
+428,Estonia Slovakia,1996,"[233, 703]",South-South
+159,Bulgaria Slovenia,1996,"[100, 705]",South-South
+777,South Africa Zimbabwe,1996,"[710, 716]",South-South
+429,Estonia Slovenia,1996,"[233, 705]",South-South
+577,Lithuania Poland,1996,"[440, 616]",South-South
+282,Czech Republic Estonia,1996,"[203, 233]",South-South
+567,Latvia Slovenia,1996,"[428, 705]",South-South
+578,Lithuania Slovakia,1996,"[440, 703]",South-South
+591,Macedonia Serbia and Montenegro,1996,"[807, 688]",South-South
+592,Macedonia Slovenia,1996,"[807, 705]",South-South
+27,Andean Community (consolidated),1996,"[68, 170, 218, 604, 862]",South-South
+566,Latvia Slovakia,1996,"[428, 703]",South-South
+454,Georgia Kazakhstan,1997,"[268, 398]",South-South
+511,Israel Poland,1997,"[376, 616]",North-South
+262,Croatia Slovenia,1997,"[191, 705]",South-South
+18,Algeria Jordan,1997,"[12, 400]",South-South
+300,EC Amsterdam,1997,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 300, 724, 620, 40, 246, 752]",North-South
+611,Mexico Nicaragua,1997,"[484, 558]",South-South
+258,Croatia Macedonia,1997,"[191, 807]",South-South
+3,African Economic Community,1991,"[12, 24, 204, 72, 854, 108, 120, 132, 140, 174, 178, 384, 262, 818, 231, 226, 266, 288, 270, 324, 624, 404, 426, 430, 434, 450, 454, 466, 478, 480, 508, 516, 562, 566, 646, 732, 678, 686, 690, 694, 706, 729, 748, 834, 148, 768, 788, 800, 894, 716, 180, 710]",South-South
+23,Andean Community Sucre Protocol,1997,"[68, 170, 218, 604, 862]",South-South
+549,Kazakhstan Uzbekistan,1997,"[398, 860]",South-South
+582,Lithuania Turkey,1997,"[440, 792]",South-South
+424,Estonia Faroe Islands,1997,"[233, 234]",South-South
+688,West African Economic and Monetary Union,1994,"[204, 854, 384, 466, 562, 686, 768, 624]",South-South
+171,Caribbean Community (CARICOM),1973,"[28, 52, 44, 84, 212, 308, 328, 388, 500, 659, 662, 670, 780, 740]",South-South
+198,Chad Morocco,1997,"[148, 504]",South-South
+705,Belarus Kazakhstan,1997,"[112, 398]",South-South
+289,Czech Republic Turkey,1997,"[203, 792]",South-South
+432,Estonia Turkey,1997,"[233, 792]",South-South
+488,Hungary Turkey,1997,"[348, 792]",South-South
+391,EFTA Morocco,1997,"[438, 352, 578, 756, 504]",North-South
+565,Latvia Poland,1997,"[428, 616]",South-South
+711,Bosnia and Herzegovina Macedonia,1997,"[70, 807]",South-South
+87,Azerbaijan Kazakhstan,1997,"[31, 398]",South-South
+740,Georgia Moldova,1997,"[268, 498]",South-South
+650,Romania Turkey,1997,"[642, 792]",South-South
+742,Guinea Morocco,1997,"[324, 504]",South-South
+481,Hungary Israel,1997,"[348, 376]",North-South
+99,Baltic Free Trade Area (BAFTA) Non Tariff Barriers,1997,"[233, 428, 440]",South-South
+660,Slovakia Turkey,1997,"[703, 792]",South-South
+494,India Sri Lanka,1998,"[356, 144]",South-South
+404,Egypt Jordan,1998,"[818, 400]",South-South
+483,Hungary Lithuania,1998,"[348, 440]",South-South
+407,Egypt Lebanon,1998,"[818, 422]",South-South
+414,Egypt Tunisia,1998,"[818, 788]",South-South
+441,Faroe Islands Poland,1998,"[234, 616]",South-South
+435,Eurasian Economic Community (Union of the Five),1996,"[112, 398, 643, 417, 762]",South-South
+410,Egypt Morocco,1998,"[818, 504]",South-South
+426,Estonia Hungary,1998,"[233, 348]",South-South
+514,Israel Slovenia,1998,"[376, 705]",North-South
+412,Egypt PLO,1998,"[818, 275]",South-South
+571,Latvia Ukraine,1995,"[428, 804]",South-South
+212,Chile Mexico,1998,"[152, 484]",South-South
+717,Commonwealth of Independent States (CIS) Common Agrarian Market (CAM),1998,"[51, 112, 268, 417, 398, 498, 643, 762, 804, 860]",South-South
+723,Cook Islands Fiji,1998,"[184, 242]",South-South
+215,Chile Peru,1998,"[152, 604]",South-South
+661,Slovenia Turkey,1998,"[705, 792]",South-South
+791,Estonia Poland,1998,"[233, 616]",South-South
+570,Latvia Turkey,1998,"[428, 792]",South-South
+727,Ecuador Peru,1998,"[218, 604]",South-South
+108,Belarus Russia,1995,"[112, 398, 643, 417, 762]",South-South
+175,Caribbean Community (CARICOM) Dominican Republic,1998,"[28, 52, 44, 84, 212, 308, 328, 388, 500, 659, 662, 670, 780, 740, 214]",South-South
+552,Kuwait Lebanon,1998,"[414, 422]",South-South
+540,Jordan Tunisia,1998,"[400, 788]",South-South
+113,Belarus Tajikistan,1998,"[112, 762]",South-South
+184,Central America Dominican Republic,1998,"[188, 222, 320, 340, 558, 214]",South-South
+160,Bulgaria Turkey,1998,"[100, 792]",South-South
+530,Jordan Morocco,1998,"[400, 504]",South-South
+275,Cuba Uruguay,1999,"[192, 858]",South-South
+266,Cuba Guatemala,1999,"[192, 320]",South-South
+625,Morocco Tunisia,1999,"[504, 788]",South-South
+64,Association of Southeast Asian Nations (ASEAN) FTA,1992,"[96, 360, 458, 608, 702, 764, 704, 418, 104, 116]",South-South
+54,Armenia Kazakhstan,1999,"[51, 398]",South-South
+646,Poland Turkey,1999,"[616, 792]",South-South
+277,Cuba Venezuela,1999,"[192, 862]",South-South
+183,Central America Chile,1999,"[188, 222, 320, 340, 558, 152]",South-South
+694,Andean Community (consolidated),1999,"[170, 218, 862]",South-South
+730,Egypt Saudi Arabia,1999,"[818, 682]",South-South
+482,Hungary Latvia,1999,"[348, 428]",South-South
+109,Belarus Russia (Union State),1999,"[112, 643]",South-South
+105,Belarus Kyrgyzstan,1999,"[112, 417]",South-South
+155,Bulgaria Macedonia,1999,"[100, 807]",South-South
+139,Brazil Cuba,1999,"[76, 192]",South-South
+715,Chile Cuba,1999,"[152, 192]",South-South
+593,Macedonia Turkey,1999,"[807, 792]",South-South
+39,Argentina Cuba,1999,"[32, 192]",South-South
+363,Economic Community of Central African States (ECCAS-CEEAC),1983,"[108, 120, 140, 178, 266, 226, 646, 678, 148, 180, 24]",South-South
+676,Syria UAE,2000,"[760, 784]",South-South
+233,Colombia Cuba,2000,"[170, 192]",South-South
+687,US Vietnam,2000,"[840, 704]",North-South
+651,Russia Serbia and Montenegro,2000,"[643, 688]",South-South
+174,Caribbean Community (CARICOM) Cuba,2000,"[28, 52, 44, 84, 212, 308, 328, 388, 500, 659, 662, 670, 780, 740, 192]",South-South
+129,Bosnia and Herzegovina Croatia,2000,"[70, 191]",South-South
+50,Armenia Belarus,2000,"[51, 112]",South-South
+389,EFTA Macedonia,2000,"[438, 352, 578, 756, 807]",North-South
+468,Guatemala Mexico,2000,"[320, 484]",South-South
+542,Jordan UAE,2000,"[400, 784]",South-South
+543,Jordan US,2000,"[400, 840]",North-South
+557,Kyrgyzstan Tajikistan,2000,"[417, 762]",South-South
+573,Lebanon UAE,2000,"[422, 784]",South-South
+367,Economic Community Of West African States (ECOWAS),1993,"[204, 854, 132, 384, 270, 288, 624, 430, 466, 562, 566, 686, 694, 768, 478]",South-South
+612,Mexico Northern Triangle,2000,"[484, 222, 320, 340]",South-South
+390,EFTA Mexico,2000,"[438, 352, 578, 756, 484]",North-South
+273,Cuba Peru,2000,"[192, 604]",South-South
+270,Cuba Paraguay,2000,"[192, 600]",South-South
+268,Cuba Mexico,1985,"[192, 484]",South-South
+265,Cuba Ecuador,2000,"[192, 218]",South-South
+121,Bolivia Cuba,2000,"[68, 192]",South-South
+509,Israel Mexico,2000,"[376, 484]",North-South
+631,New Zealand Singapore,2000,"[554, 702]",North-South
+24,Andean Countries Argentina,2000,"[170, 218, 604, 862, 32]",South-South
+755,Iraq Yemen,2001,"[368, 887]",South-South
+575,Libya Tunisia,2001,"[434, 788]",South-South
+255,Croatia EFTA,2001,"[191, 438, 352, 578, 756]",North-South
+154,Bulgaria Lithuania,2001,"[100, 440]",South-South
+94,Bahrain Jordan,2001,"[48, 400]",South-South
+152,Bulgaria Israel,2001,"[100, 376]",North-South
+150,Bulgaria Estonia,2001,"[100, 233]",South-South
+100,Bangkok Agreement,1975,"[356, 50, 410, 418, 144, 156]",South-South
+140,Brazil Guyana,2001,"[76, 328]",South-South
+524,Jordan Kuwait,2001,"[400, 414]",South-South
+135,Bosnia and Herzegovina Slovenia,2001,"[70, 705]",South-South
+537,Jordan Syria,2001,"[400, 760]",South-South
+774,Saudi Arabia Syria,2001,"[682, 760]",South-South
+474,Gulf Cooperation Council (GCC),2001,"[48, 414, 512, 634, 682, 784]",South-South
+512,Israel Romania,2001,"[376, 642]",North-South
+163,Canada Costa Rica,2001,"[124, 188]",North-South
+747,Iraq Libya,2001,"[368, 434]",South-South
+594,Macedonia Ukraine,2001,"[807, 804]",South-South
+375,EFTA,1960,"[352, 438, 578, 756]",North-South
+383,EFTA Jordan,2001,"[438, 352, 578, 756, 400]",North-South
+503,Iraq UAE,2001,"[368, 784]",South-South
+256,Croatia Hungary,2001,"[191, 348]",South-South
+754,Iraq Syria,2001,"[368, 760]",South-South
+403,Egypt Iraq,2001,"[818, 368]",South-South
+677,Tajikistan Ukraine,2001,"[762, 804]",South-South
+502,Iraq Tunisia,2001,"[368, 788]",South-South
+691,Algeria Iraq,2001,"[12, 368]",South-South
+627,Morocco UAE,2001,"[504, 784]",South-South
+752,Iraq Sudan,2002,"[368, 729]",South-South
+745,Iraq Jordan,2002,"[368, 400]",South-South
+462,Greater Arab Free Trade Agreement,1997,"[48, 818, 368, 400, 414, 422, 434, 504, 512, 634, 682, 729, 706, 760, 788, 784, 887, 275, 12]",South-South
+51,Armenia Estonia,2002,"[51, 233]",South-South
+746,Iraq Lebanon,2002,"[368, 422]",South-South
+11,Albania Macedonia,2002,"[8, 807]",South-South
+750,Iraq Qatar,2002,"[368, 634]",South-South
+7,Albania Croatia,2002,"[8, 191]",South-South
+527,Jordan Lebanon,2002,"[400, 422]",South-South
+132,Bosnia and Herzegovina Moldova,2002,"[70, 498]",South-South
+520,Japan Singapore,2002,"[392, 702]",North-South
+466,GUAM/GUUAM Organization for Democracy and Economic Development,2002,"[31, 268, 498, 804]",South-South
+263,Croatia Turkey,2002,"[191, 792]",South-South
+259,Croatia Macedonia,2002,"[191, 807]",South-South
+257,Croatia Lithuania,2002,"[191, 440]",South-South
+639,Pacific Island Countries Trade Agreement (PICTA),2001,"[184, 242, 296, 520, 570, 882, 776, 798, 548, 598, 90]",South-South
+131,Bosnia and Herzegovina Macedonia,2002,"[70, 807]",South-South
+396,EFTA Singapore,2002,"[438, 352, 578, 756, 702]",North-South
+640,Pakistan Sri Lanka,2002,"[586, 144]",South-South
+674,Syria Tunisia,2002,"[760, 788]",South-South
+177,Caribbean Community (CARICOM) revised,2001,"[28, 52, 44, 84, 212, 308, 328, 388, 500, 659, 662, 670, 740, 780, 332]",South-South
+703,Bahrain Iraq,2002,"[48, 368]",South-South
+153,Bulgaria Latvia,2002,"[100, 428]",South-South
+670,Southern Africa Customs Union (SACU),2002,"[72, 426, 516, 748, 710]",South-South
+134,Bosnia and Herzegovina Serbia and Montenegro,2002,"[70, 688]",South-South
+141,Brazil Mexico,2002,"[76, 484]",South-South
+136,Bosnia and Herzegovina Turkey,2002,"[70, 792]",South-South
+535,Jordan Sudan,2003,"[400, 729]",South-South
+976,Laos US,2003,"[840, 418]",North-South
+959,China Thailand,2003,"[156, 764]",South-South
+658,Singapore US,2003,"[702, 840]",North-South
+619,Moldova Serbia,2003,"[498, 688]",South-South
+642,Panama Taiwan,2003,"[591, 158]",South-South
+648,Romania Serbia,2003,"[642, 688]",South-South
+590,Macedonia Romania,2003,"[807, 642]",South-South
+621,Moldova Ukraine,2003,"[498, 804]",South-South
+1,Afghanistan India,2003,"[4, 356]",South-South
+242,Common Economic Zone,2003,"[112, 398, 643, 804]",South-South
+148,Bulgaria EC,1993,"[100, 196, 203, 233, 348, 428, 440, 470, 616, 703, 705]",South-South
+371,Economic Cooperation Organization Trade Agreement (ECOTA),2003,"[4, 31, 364, 398, 417, 586, 762, 792, 795, 860]",South-South
+205,Chile EFTA,2003,"[152, 438, 352, 578, 756]",North-South
+14,Albania Serbia,2003,"[8, 688]",South-South
+13,Albania Romania,2003,"[8, 642]",South-South
+12,Albania Moldova,2003,"[8, 498]",South-South
+10,Albania Kosovo,2003,"[8, 900]",South-South
+223,China Pakistan,2003,"[156, 586]",South-South
+157,Bulgaria Serbia,2003,"[100, 688]",South-South
+208,Chile Korea,2003,"[152, 410]",South-South
+5,Albania Bosnia and Herzegovina,2003,"[8, 70]",South-South
+221,China Macao,2003,"[156, 446]",South-South
+6,Albania Bulgaria,2003,"[8, 100]",South-South
+220,China Hong Kong,2003,"[156, 344]",South-South
+218,Chile US,2003,"[152, 840]",North-South
+409,Egypt Libya,2003,"[818, 434]",South-South
+47,Argentina Uruguay,2003,"[32, 858]",South-South
+128,Bosnia and Herzegovina Bulgaria,2003,"[100, 70]",South-South
+133,Bosnia and Herzegovina Romania,2003,"[70, 642]",South-South
+187,Central American Free Trade Agreement (CAFTA),2004,"[188, 222, 320, 340, 558, 840]",North-South
+260,Croatia Moldova,2004,"[191, 498]",South-South
+616,Mexico Uruguay,2004,"[484, 858]",South-South
+628,Morocco US,2004,"[504, 840]",North-South
+629,Mozambique Zimbabwe,2004,"[508, 716]",South-South
+96,Bahrain US,2004,"[48, 840]",North-South
+84,Australia US,2004,"[36, 840]",North-North
+83,Australia Thailand,2004,"[36, 764]",North-South
+156,Bulgaria Moldova,2004,"[100, 498]",South-South
+589,Macedonia Moldova,2004,"[498, 807]",South-South
+261,Croatia Serbia and Montenegro,2004,"[191, 688]",South-South
+88,Azerbaijan Kyrgyzstan,2004,"[31, 417]",South-South
+534,Jordan Singapore,2004,"[400, 702]",South-South
+626,Morocco Turkey,2004,"[504, 792]",South-South
+506,Israel Jordan,1995,"[376, 400]",North-South
+401,EFTA Tunisia,2004,"[438, 352, 578, 756, 788]",North-South
+675,Syria Turkey,2004,"[760, 792]",South-South
+683,Tunisia Turkey,2004,"[788, 792]",South-South
+4,Agadir Agreement,2004,"[818, 400, 504, 788]",South-South
+497,Iran Pakistan,2004,"[364, 586]",South-South
+518,Japan Mexico,2004,"[392, 484]",North-South
+963,Iran Sri Lanka,2004,"[144, 364]",South-South
+702,Azerbaijan Belarus,2004,"[31, 112]",South-South
+188,Central American Free Trade Agreement (CAFTA) Dominican Republic,2004,"[188, 222, 320, 340, 558, 840, 214]",North-South
+386,EFTA Lebanon,2004,"[438, 352, 578, 756, 422]",North-South
+173,Caribbean Community (CARICOM) Costa Rica,2004,"[28, 52, 44, 84, 212, 308, 328, 388, 500, 659, 662, 670, 780, 740, 188]",South-South
+254,Croatia EC,2001,"[191, 100, 642]",South-South
+595,Malawi Mozambique,2005,"[454, 508]",South-South
+771,Peru Thailand,2005,"[604, 764]",South-South
+588,Kosovo Macedonia,2005,"[807, 900]",South-South
+439,Faroe Islands Iceland,2005,"[234, 352]",North-South
+143,Brazil Suriname,2005,"[76, 740]",South-South
+493,India Singapore,2005,"[356, 702]",South-South
+760,Macedonia Serbia and Montenegro,2005,"[807, 688]",South-South
+415,Egypt Turkey,2005,"[818, 792]",South-South
+632,New Zealand Thailand,2005,"[554, 764]",North-South
+470,Guatemala Taiwan,2005,"[320, 158]",South-South
+517,Japan Malaysia,2005,"[392, 458]",North-South
+550,Korea Singapore,2005,"[410, 702]",South-South
+360,Economic and Monetary Community of Central Africa (CEMAC),1994,"[120, 140, 148, 226, 266, 178, 678, 180]",South-South
+335,EC Nice,2001,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 300, 724, 620, 40, 246, 752, 233, 428, 440, 196, 470, 203, 705, 703, 348, 616, 100, 642]",North-South
+679,Trans Pacific Strategic EPA,2005,"[96, 152, 554, 702]",North-South
+384,EFTA Korea,2005,"[438, 352, 578, 756, 410]",North-South
+608,MERCOSUR Southern African Customs Union (SACU),2004,"[72, 426, 516, 748, 710, 862]",South-South
+606,MERCOSUR Peru,2005,"[604, 862]",South-South
+267,Cuba MERCOSUR,2006,"[192, 862]",South-South
+693,Andean Community Auto Agreement withdrawal Venezuela,2006,"[170, 218, 862]",South-South
+465,Group of Three Auto Agreement withdrawal Venezuela,2006,"[170, 484, 862]",South-South
+605,MERCOSUR Mexico Auto Agreement,2002,"[484, 862]",South-South
+192,Central European Free Trade Agreement (CEFTA),1992,"[8, 70, 100, 191, 807, 498, 499, 642, 688, 900]",South-South
+116,Bhutan India,2006,"[64, 356]",South-South
+115,Belize Guatemala,2006,"[84, 320]",South-South
+291,D8 PTA,2006,"[50, 818, 360, 364, 458, 566, 586, 792]",South-South
+213,Chile Panama,2006,"[152, 591]",South-South
+716,Chile Peru,2006,"[152, 604]",South-South
+206,Chile India,2006,"[152, 356]",South-South
+519,Japan Philippines,2006,"[392, 608]",North-South
+724,Croatia Kosovo,2006,"[191, 900]",South-South
+710,Bosnia and Herzegovina Kosovo,2006,"[70, 900]",South-South
+15,Albania Turkey,2006,"[8, 792]",South-South
+634,Nicaragua Taiwan,2006,"[558, 158]",South-South
+22,Andean Countries Brazil,1999,"[170, 218, 604, 76, 862]",South-South
+645,Peru US,2006,"[604, 840]",North-South
+26,Andean Group Cartagena Agreement,1969,"[68, 170, 218, 604, 152, 862]",South-South
+637,Oman US,2006,"[512, 840]",North-South
+490,India MERCOSUR,2004,"[356, 862]",South-South
+201,Chile Colombia,2006,"[152, 170]",South-South
+641,Panama Singapore,2006,"[591, 702]",South-South
+25,Andean Countries MERCOSUR,2004,"[170, 218, 862]",South-South
+764,Malawi Zimbabwe,2006,"[454, 716]",South-South
+498,Iran Syria,2006,"[364, 760]",South-South
+399,EFTA Southern African Customs Union (SACU),2006,"[352, 438, 578, 756, 72, 426, 516, 748, 710]",North-South
+123,Bolivia MERCOSUR,1996,"[68, 862]",South-South
+207,Chile Japan,2007,"[152, 392]",North-South
+146,Brunei Japan,2007,"[96, 392]",North-South
+239,Colombia Northern Triangle,2007,"[170, 222, 320, 340]",South-South
+185,Central America Panama,2002,"[591, 188]",South-South
+364,Economic Community of Central African States (ECCAS-CEEAC) PTA/FTA/CU,2004,"[24, 108, 120, 140, 178, 266, 226, 678, 148, 180, 646]",South-South
+376,EFTA Egypt,2007,"[438, 352, 578, 756, 818]",North-South
+508,Israel MERCOSUR,2007,"[376, 32, 76, 600, 858]",North-South
+495,Indonesia Japan,2007,"[360, 392]",North-South
+416,El Salvador Honduras Taiwan,2007,"[222, 340, 158]",South-South
+67,Association of Southeast Asian Nations (ASEAN) China,2004,"[96, 116, 360, 418, 458, 104, 608, 702, 764, 704, 156]",South-South
+522,Japan Thailand,2007,"[392, 764]",North-South
+456,Georgia Turkey,2007,"[268, 792]",South-South
+461,Global System of Trade Preferences (GSTP),1988,"[12, 32, 24, 50, 204, 68, 76, 120, 152, 170, 192, 408, 410, 218, 818, 288, 324, 328, 332, 356, 360, 364, 368, 434, 458, 484, 504, 508, 558, 566, 586, 604, 634, 608, 702, 144, 729, 764, 780, 788, 834, 858, 862, 704, 716, 180, 688, 642]",South-South
+72,Association of Southeast Asian Nations (ASEAN) Korea,2006,"[96, 116, 360, 418, 458, 104, 608, 702, 704, 410]",South-South
+602,Mauritius Pakistan,2007,"[480, 586]",South-South
+599,Malaysia Pakistan,2007,"[458, 586]",South-South
+434,Eurasian Economic Community (EAEC),1999,"[112, 398, 417, 643, 762, 860]",South-South
+667,South Asian Free Trade Area (SAFTA),2004,"[50, 64, 356, 462, 524, 586, 144, 4]",South-South
+204,Chile Ecuador,2008,"[152, 218]",South-South
+624,Montenegro Turkey,2008,"[499, 792]",South-South
+164,Canada EFTA,2008,"[124, 438, 352, 578, 756]",North-South
+475,Gulf Cooperation Council (GCC) Singapore,2008,"[48, 414, 512, 634, 682, 784, 702]",South-South
+672,Southern African Development Community (SADC) Seychelles accession,2008,"[72, 426, 480, 454, 508, 516, 748, 834, 894, 716, 710, 180, 24, 450, 690]",South-South
+361,Economic and Monetary Community of Central Africa (CEMAC) revised,2008,"[120, 140, 148, 226, 266, 178, 678, 180]",South-South
+71,Association of Southeast Asian Nations (ASEAN) Japan,2008,"[96, 116, 360, 418, 458, 104, 608, 702, 764, 704, 392]",North-South
+168,Canada Peru,2008,"[124, 604]",North-South
+228,China Singapore,2008,"[156, 702]",South-South
+234,Colombia EFTA,2008,"[170, 438, 352, 578, 756]",North-South
+789,MERCOSUR Southern African Customs Union (SACU),2008,"[32, 76, 600, 858, 72, 426, 516, 710, 748]",South-South
+523,Japan Vietnam,2008,"[392, 704]",North-South
+782,Uruguay Venezuela,2008,"[858, 862]",South-South
+781,Paraguay Venezuela,2008,"[600, 862]",South-South
+20,Algeria Tunisia,2008,"[12, 788]",South-South
+600,Mano River Union,1973,"[430, 694, 324, 384]",South-South
+644,Peru Singapore,2008,"[604, 702]",South-South
+162,Canada Colombia,2008,"[124, 170]",North-South
+75,Australia Chile,2008,"[36, 152]",North-South
+521,Japan Switzerland,2009,"[392, 756]",North-North
+166,Canada Jordan,2009,"[124, 400]",North-South
+394,EFTA Serbia,2009,"[438, 352, 578, 756, 688]",North-South
+499,Iraq Jordan,2009,"[368, 400]",South-South
+492,India Nepal,2009,"[356, 524]",South-South
+489,India Korea,2009,"[356, 410]",South-South
+379,EFTA Gulf Cooperation Council (GCC),2009,"[352, 438, 578, 756, 784, 48, 414, 512, 682, 634]",North-South
+112,Belarus Serbia,2009,"[112, 688]",South-South
+69,Association of Southeast Asian Nations (ASEAN) Goods,2009,"[96, 116, 360, 418, 458, 104, 608, 702, 764, 704]",South-South
+104,Belarus Kazakhstan Russia,2009,"[112, 398, 643]",South-South
+630,Namibia Zimbabwe,1992,"[516, 716]",South-South
+598,Malaysia New Zealand,2009,"[458, 554]",North-South
+70,Association of Southeast Asian Nations (ASEAN) India,2009,"[96, 116, 360, 418, 458, 104, 608, 702, 764, 704, 356]",South-South
+244,Commonwealth of Independent States (CIS),1994,"[51, 31, 112, 417, 398, 498, 643, 762, 795, 804, 860, 268]",South-South
+787,East African Community (EAC),1999,"[108, 404, 646, 834, 800]",South-South
+227,China Peru,2009,"[156, 604]",South-South
+9,Albania EFTA,2009,"[8, 438, 352, 578, 756]",North-South
+657,Serbia Turkey,2009,"[688, 792]",South-South
+541,Jordan Turkey,2009,"[400, 792]",South-South
+216,Chile Turkey,2009,"[152, 792]",South-South
+209,Chile MERCOSUR,1996,"[152, 32, 76, 600, 858]",South-South
+825,Hong Kong New Zealand,2010,"[554, 344]",North-South
+798,Canada Panama,2010,"[124, 591]",North-South
+800,Chile Malaysia,2010,"[458, 152]",South-South
+804,China Costa Rica,2010,"[156, 188]",South-South
+819,EFTA Peru,2010,"[438, 352, 578, 756, 604]",North-South
+820,EFTA Ukraine,2010,"[438, 352, 578, 756, 804]",North-South
+821,Egypt MERCOSUR,2010,"[32, 76, 600, 858, 818]",South-South
+1083,Kazakhstan Serbia,2010,"[688, 398]",South-South
+814,Costa Rica Singapore,2010,"[188, 702]",South-South
+464,Group of Three,1994,"[170, 484]",South-South
+817,EFTA Hong Kong,2011,"[438, 352, 578, 756, 344]",North-South
+837,Panama Peru,2011,"[591, 604]",South-South
+833,Montenegro Ukraine,2011,"[804, 499]",South-South
+832,Mauritius Turkey,2011,"[792, 480]",South-South
+830,Korea Peru,2011,"[604, 410]",South-South
+829,Japan Peru,2011,"[392, 604]",North-South
+827,India Malaysia,2011,"[356, 458]",South-South
+823,Guatemala Peru,2011,"[604, 320]",South-South
+818,EFTA Montenegro,2011,"[438, 352, 578, 756, 499]",North-South
+813,Costa Rica Peru,2011,"[188, 604]",South-South
+811,Commonwealth of Independent States (CIS),2011,"[51, 112, 398, 417, 643, 762, 804, 498, 860]",South-South
+803,Chile Vietnam,2011,"[152, 704]",South-South
+826,India Japan,2011,"[356, 392]",North-South
+1014,Mexico Peru,2011,"[484, 604]",South-South
+949,Central America Mexico,2011,"[188, 222, 320, 340, 558, 484]",South-South
+908,Colombia Mexico Venezuela,1994,"[170, 484]",South-South
+916,Cuba El Salvador,2011,"[192, 222]",South-South
+1064,Ecuador Guatemala,2011,"[218, 320]",South-South
+551,Korea US,2007,"[410, 840]",North-South
+795,Australia Malaysia,2012,"[458, 36]",North-South
+831,Korea Turkey,2012,"[410, 792]",South-South
+643,Panama US,2007,"[591, 840]",North-South
+971,Indonesia Pakistan,2012,"[360, 586]",South-South
+186,Central American Common Market (CACM),1960,"[222, 320, 340, 558, 591]",South-South
+858,Chile Hong Kong,2012,"[344, 152]",South-South
+836,Pacific Alliance,2012,"[152, 170, 484, 604]",South-South
+1003,Brazil Venezuela,2012,"[76, 862]",South-South
+838,Peru Venezuela,2012,"[604, 862]",South-South
+797,Canada Honduras,2013,"[124, 340]",North-South
+190,Central American Integration System,1991,"[188, 222, 320, 340, 558, 591, 84, 214]",South-South
+805,Colombia Costa Rica,2013,"[188, 170]",South-South
+193,Central European Free Trade Agreement (CEFTA) withdrawal Croatia,2013,"[8, 70, 807, 498, 499, 688, 900, 191]",South-South
+806,Colombia Israel,2013,"[170, 376]",North-South
+808,Colombia Korea,2013,"[170, 410]",South-South
+809,Colombia Panama,2013,"[170, 591]",South-South
+862,China Switzerland,2013,"[756, 156]",North-South
+834,New Zealand Taiwan,2013,"[554, 158]",North-South
+961,Singapore Taiwan,2013,"[702, 158]",South-South
+896,Panama Trinidad and Tobago,2013,"[780, 591]",South-South
+955,China Iceland,2013,"[156, 352]",North-South
+62,Asia Pacific Trade Agreement (Bangkok Agreement) amended,2005,"[50, 156, 356, 410, 418, 144, 496]",South-South
+253,Cotonou Agreement,2000,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 300, 724, 620, 40, 246, 752, 196, 203, 233, 348, 428, 440, 470, 616, 703, 705, 100, 642, 191, 706]",North-South
+844,Bosnia and Herzegovina EFTA,2013,"[70, 438, 352, 578, 756]",North-South
+801,Chile Thailand,2013,"[152, 764]",South-South
+241,Colombia US,2006,"[170, 840]",North-South
+1089,Kosovo Turkey,2013,"[900, 792]",South-South
+983,Moldova Turkey,2014,"[498, 792]",South-South
+891,Mexico Panama,2014,"[484, 591]",South-South
+1097,Faroe Islands Turkey,2014,"[234, 792]",South-South
+852,Canada Korea,2014,"[410, 124]",North-South
+437,European Economic Area (EEA),1992,"[56, 208, 276, 250, 300, 724, 372, 380, 442, 528, 620, 826, 40, 246, 352, 578, 752, 438, 203, 233, 196, 428, 440, 348, 470, 703, 705, 616, 191]",North-South
+842,Australia Japan,2014,"[392, 36]",North-North
+943,Malaysia Turkey,2014,"[458, 792]",South-South
+911,Australia Korea,2014,"[36, 410]",North-South
+980,EC West African States EPA,2014,"[204, 854, 132, 384, 270, 288, 324, 624, 430, 466, 478, 562, 566, 686, 694, 768, 56, 100, 203, 191, 208, 276, 233, 372, 300, 724, 250, 380, 196, 428, 440, 442, 348, 470, 528, 40, 616, 620, 642, 705, 703, 246, 752]",North-South
+1040,Eurasian Economic Union (EAEU),2014,"[112, 398, 643]",South-South
+919,Honduras Peru,2015,"[340, 604]",South-South
+1000,Common Market for Eastern and Southern Africa (COMESA) East African Community (EAC) Southern African Development Community (SADC),2015,"[24, 72, 108, 174, 262, 180, 818, 232, 231, 404, 426, 434, 450, 454, 480, 508, 516, 646, 690, 710, 729, 748, 834, 800, 894, 716]",South-South
+864,Central America EFTA,2013,"[438, 352, 578, 756, 320]",North-South
+909,China Korea,2015,"[156, 410]",South-South
+912,Korea New Zealand,2015,"[554, 410]",North-South
+913,Korea Vietnam,2015,"[704, 410]",South-South
+915,Eurasian Economic Union (EAEU) Vietnam,2015,"[704, 112, 398, 643, 51, 417]",South-South
+840,Australia China,2015,"[36, 156]",North-South
+930,Japan Mongolia,2015,"[392, 496]",North-South
+962,Singapore Turkey,2015,"[702, 792]",South-South
+885,Guatemala Trinidad and Tobago,2015,"[320, 780]",South-South
+82,Australia Singapore,2003,"[36, 702]",North-South
+974,Chile Uruguay,2016,"[152, 858]",South-South
+899,Transpacific Partnership (TPP),2016,"[840, 36, 96, 124, 152, 392, 458, 484, 554, 604, 702, 704]",North-South
+965,EFTA Philippines,2016,"[608, 578, 352, 756, 438]",North-South
+981,EFTA Georgia,2016,"[352, 438, 578, 756, 268]",North-South
+984,Hong Kong Macao,2017,"[344, 446]",South-South
+920,Chile Indonesia,2017,"[152, 360]",South-South
+1012,Ecuador El Salvador,2017,"[218, 222]",South-South
+604,MERCOSUR,1991,"[32, 76, 600, 858, 862]",South-South
+990,China Georgia,2017,"[156, 268]",South-South
+1062,Eastern and Southern Africa States (ESA) EC Interim EPA,2009,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 174]",North-South
+161,Canada Chile,1996,"[124, 152]",North-South
+1043,Paraguay Taiwan,2017,"[600, 158]",South-South
+895,Pacific Agreement on Closer Economic Relations (PACER) Plus,2017,"[36, 184, 583, 296, 520, 554, 570, 585, 598, 584, 882, 90, 776, 798, 548]",North-South
+993,Argentina Chile,2017,"[32, 152]",South-South
+991,China Maldives,2017,"[156, 462]",South-South
+199,Chile China,2005,"[152, 156]",South-South
+1007,US Mexico Canada Agreement (USMCA),2018,"[840, 484, 124]",North-South
+243,Common Market for Eastern and Southern Africa (COMESA),1993,"[108, 174, 180, 262, 231, 404, 450, 454, 480, 646, 729, 748, 800, 894, 716, 232, 818, 690, 728, 788, 706]",South-South
+1063,Association of Southeast Asian Nations (ASEAN) Hong Kong,2018,"[96, 116, 360, 418, 458, 104, 608, 702, 764, 704, 344]",South-South
+995,Eurasian Economic Union (EAEU) Iran,2018,"[364, 51, 112, 398, 417, 643]",South-South
+992,Australia Peru,2018,"[36, 604]",North-South
+996,Colombia MERCOSUR,2017,"[170, 32, 76, 600, 858]",South-South
+987,Singapore Sri Lanka,2018,"[702, 144]",South-South
+1013,Georgia Hong Kong,2018,"[268, 344]",South-South
+972,Ecuador EFTA,2018,"[218, 438, 352, 578, 756]",North-South
+165,Canada Israel,1996,"[124, 376]",North-North
+879,EFTA Indonesia,2018,"[360, 438, 352, 578, 756]",North-South
+1100,Turkey Venezuela,2018,"[792, 862]",South-South
+928,Israel Panama,2018,"[376, 591]",North-South
+931,Central America Korea,2018,"[410, 591, 222, 188, 558, 340]",South-South
+1041,EFTA Turkey,2018,"[352, 438, 578, 756, 792]",North-South
+1073,Brazil Chile,2018,"[76, 152]",South-South
+1084,Eurasian Economic Union (EAEU) Serbia,2019,"[51, 112, 398, 417, 643, 688]",South-South
+941,Australia Indonesia,2019,"[360, 36]",North-South
+224,China Pakistan,2006,"[156, 586]",South-South
+222,China New Zealand,2008,"[156, 554]",North-South
+1015,Australia Hong Kong,2019,"[36, 344]",North-South
+1022,Georgia UK,2019,"[826, 268]",North-South
+1023,Iceland Norway UK,2019,"[826, 352, 578]",North-North
+1037,Southern African Customs Union Mozambique (SACUM) UK,2019,"[826, 72, 748, 426, 508, 516, 710]",North-South
+1035,Eastern and Southern African States UK,2019,"[826, 174, 450, 480, 690, 894, 716]",North-South
+1047,China Mauritius,2019,"[156, 480]",South-South
+1011,Bosnia and Herzegovina Turkey,2019,"[70, 792]",South-South
+1061,Israel Ukraine,2019,"[376, 804]",North-South
+1095,Japan US,2019,"[392, 840]",North-North
+1031,Pacific States UK,2019,"[826, 242, 598, 882]",North-South
+997,EC Kazakhstan,2015,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 398]",North-South
+1051,Cote d'Ivoire UK,2020,"[384, 826]",North-South
+1052,Kenya UK,2020,"[404, 826]",North-South
+1058,Cameroon UK,2020,"[120, 826]",North-South
+1044,Regional Comprehensive Economic Partnership (RCEP),2020,"[96, 116, 360, 418, 458, 104, 608, 702, 764, 704, 36, 156, 392, 554, 410]",North-South
+1056,UK Ukraine,2020,"[826, 804]",North-South
+1046,EC UK,2020,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826]",North-South
+1053,Moldova UK,2020,"[498, 826]",North-South
+1048,Turkey UK,2020,"[792, 826]",North-South
+1049,Japan UK,2020,"[392, 826]",North-North
+1080,Chile Ecuador,2020,"[152, 218]",South-South
+181,CARIFORUM EC EPA,2008,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 28, 44, 52, 84, 212, 214, 308, 328, 388, 659, 662, 670, 740, 780]",North-South
+866,EC Georgia,2014,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 268]",North-South
+979,EC Pacific States EPA Fiji Papua New Guinea,2009,"[242, 598, 56, 100, 203, 191, 208, 276, 233, 372, 300, 724, 250, 380, 196, 428, 440, 442, 348, 470, 528, 40, 616, 620, 642, 705, 703, 246, 752, 826, 882, 90]",North-South
+799,Central America EC,2012,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 188, 222, 320, 340, 558, 591]",North-South
+793,EC Switzerland Bilaterals I,1999,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 756]",North-South
+347,EC South Africa,1999,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 710]",North-South
+342,EC Serbia SAA,2008,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 688]",North-South
+341,EC San Marino,1991,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 674]",North-South
+334,EC Morocco Euro-Med Association Agreement,1996,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 504]",North-South
+562,Latin American Integration Association (ALADI LAIA),1980,"[76, 600]",South-South
+17,Algeria EC Euro-Med Association Agreement,2002,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 12]",North-South
+331,EC Montenegro SAA,2007,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 499]",North-South
+350,EC Switzerland Liechtenstein,1972,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 438, 756]",North-South
+330,EC Mexico,2000,"[484, 826]",North-South
+28,Andorra EC,1990,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 20]",North-South
+324,EC Lisbon,2007,"[56, 276, 250, 380, 442, 528, 208, 372, 826, 300, 724, 620, 40, 246, 752, 233, 428, 440, 196, 470, 203, 705, 703, 348, 616, 100, 642, 191]",North-South
+323,EC Lebanon Euro-Med Association Agreement,2002,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 422]",North-South
+318,EC Jordan Euro-Med Association Agreement,1997,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 400]",North-South
+316,EC Israel Euro-Med Association Agreement,1995,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 376]",North-South
+307,EC Faroe Islands,1996,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 234]",North-South
+304,EC Egypt Euro-Med Association Agreement,2001,"[818, 826]",North-South
+130,Bosnia and Herzegovina EC SAA,2008,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 70]",North-South
+252,Cote d'Ivoire EC EPA,2008,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 384]",North-South
+202,Chile EC,2002,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 152]",North-South
+328,EC Macedonia SAA,2001,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 807]",North-South
+815,EC Korea,2010,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 410]",North-South
+810,Colombia EC Peru,2012,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 170, 604, 218]",North-South
+351,EC Syria,1977,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 760]",North-South
+357,EC Turkey Association Agreement (Ankara Agreement),1963,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 792]",North-South
+978,EC South African Development Community (SADC) EPA,2016,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 72, 426, 508, 516, 710, 748]",North-South
+975,EC Kosovo SAA,2015,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 900]",North-South
+355,EC Turkey,1995,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 792]",North-South
+1091,Cambodia China,2020,"[116, 156]",South-South
+914,Indonesia Korea,2020,"[360, 410]",South-South
+354,EC Tunisia Euro-Med Association Agreement,1995,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 788]",North-South
+877,EC Vietnam,2019,"[826, 704]",North-South
+876,EC Ukraine,2014,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 804]",North-South
+8,Albania EC SAA,2006,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 8]",North-South
+872,EC Moldova,2014,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 498]",North-South
+869,EC Japan,2018,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 392]",North-South
+867,Armenia EC,2017,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 51]",North-South
+848,Canada EC (CETA),2016,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826, 124]",North-South
+1072,Cambodia Korea,2021,"[116, 410]",South-South
+1067,Albania UK,2021,"[8, 826]",North-South
+1066,Ghana UK,2021,"[288, 826]",North-South
+1076,Israel Korea,2021,"[376, 410]",North-South
+933,India Mauritius,2021,"[356, 480]",South-South
+1036,CARIFORUM UK,2019,"[826, 740]",North-South
+1082,Iceland Liechtenstein Norway UK,2021,"[826, 352, 438, 578]",North-South
+1018,Australia UK,2021,"[826, 36]",North-North
+1090,Chile Paraguay,2021,"[152, 600]",South-South
+1078,Serbia UK,2021,"[688, 826]",North-South
+1096,Israel UAE,2022,"[376, 784]",North-South
+1088,Pacific Alliance Singapore,2022,"[152, 170, 484, 604, 702]",South-South
+1098,Pakistan Uzbekistan,2022,"[586, 860]",South-South
+1092,India UAE,2022,"[356, 784]",South-South
+1030,New Zealand UK,2022,"[826, 554]",North-North
+904,Turkey Ukraine,2022,"[804, 792]",South-South
+936,Australia India,2022,"[356, 36]",North-South
+953,Pakistan Turkey,2022,"[586, 792]",South-South
+874,EC Singapore,2018,"[702, 826]",North-South
+966,EC New Zealand,2023,"[554, 40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 826]",North-South
+1105,Korea Philippines,2023,"[410, 608]",South-South
+1104,China Nicaragua,2023,"[156, 558]",South-South
+1103,EC Kenya,2023,"[40, 56, 100, 191, 196, 203, 208, 233, 246, 250, 276, 300, 348, 372, 380, 428, 440, 442, 470, 528, 616, 620, 642, 703, 705, 724, 752, 404]",North-South
+1102,EFTA Moldova,2023,"[352, 438, 578, 756, 498]",North-South
+1101,Lebanon Turkey,2023,"[422, 792]",South-South
+1099,China Ecuador,2023,"[156, 218]",South-South
+1085,Indonesia UAE,2023,"[360, 784]",South-South
+66,Association of Southeast Asian Nations (ASEAN) Australia New Zealand FTA (AANZFTA),2009,"[96, 116, 360, 418, 458, 104, 608, 702, 764, 704, 36, 554]",North-South
+1106,Turkey UAE,2023,"[792, 784]",South-South
+1094,Guatemala Israel,2023,"[320, 376]",North-South
+989,Comprehensive and Progressive Agreement for Transpacific Partnership (CPTPP),2018,"[36, 96, 124, 152, 392, 458, 484, 554, 604, 702, 704, 826]",North-South
+948,Gulf Cooperation Council (GCC) Pakistan,2023,"[586, 48, 414, 512, 634, 682, 784]",South-South
+988,African Continental Free Trade Area (AfCFTA),2018,"[12, 24, 854, 120, 140, 132, 148, 384, 174, 178, 180, 262, 818, 226, 231, 266, 270, 288, 324, 404, 430, 434, 450, 454, 466, 478, 480, 504, 508, 562, 646, 678, 686, 690, 706, 728, 729, 748, 834, 768, 788, 800, 732, 716, 108, 426, 516, 694, 710, 72, 624, 894, 204, 566]",South-South
+855,Canada Ukraine,2016,"[804, 124]",North-South
+1107,China Serbia,2023,"[156, 688]",South-South
