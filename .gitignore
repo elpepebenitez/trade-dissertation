@@ -164,3 +164,5 @@ cython_debug/
 *.DS_Store
 HS_data
 visualizations
+input_data/cepii/Gravity_csv_V202211/Gravity_V202211.csv
+./input_data/cepii/Gravity_csv_V202211/Gravity_V202211.csv
