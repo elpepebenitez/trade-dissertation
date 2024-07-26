@@ -7,3 +7,5 @@ requests
 comtradeapicall
 seaborn
 statsmodels
+pylatex
+gegravity

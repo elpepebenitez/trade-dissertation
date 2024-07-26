@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'dissertation.blg'
+[108] biber-darwin:340> INFO - === Fri Jul 26, 2024, 16:41:22
+[129] Biber.pm:419> INFO - Reading 'dissertation.bcf'
+[270] Biber.pm:979> INFO - Found 1 citekeys in bib section 0
+[292] Biber.pm:4419> INFO - Processing section 0
+[306] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[307] bibtex.pm:1713> INFO - LaTeX decoding ...
+[311] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[358] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[359] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[359] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[359] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[361] bbl.pm:660> INFO - Writing 'dissertation.bbl' with encoding 'UTF-8'
+[361] bbl.pm:763> INFO - Output to dissertation.bbl

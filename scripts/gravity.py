@@ -1,12 +1,12 @@
 import pandas as pd
-import statsmodels.api as sm
 import numpy as np
+import gegravity as geg
 
 # Load data
-file_path = './input_data/cepii/Gravity_csv_V202211/Gravity_V202211.csv'
+file_path = './data/raw_data/cepii/Gravity_csv_V202211/Gravity_V202211.csv'
 df_gravity = pd.read_csv(file_path, low_memory=False)
-df_treaties = pd.read_csv('./input_data/pta/desta_list_of_treaties_02_02_dyads.csv')
-df_country_codes = pd.read_csv('./output_data/country_agreements_classified_summary.csv')
+df_treaties = pd.read_csv('./pre_analisis/input_data/pta/desta_list_of_treaties_02_02_dyads.csv')
+df_country_codes = pd.read_csv('./pre_analisis/output_data/country_agreements_classified_summary.csv')
 
 # Replace non-finite values in 'numeric_code' column and convert to integer
 df_country_codes['numeric_code'] = pd.to_numeric(df_country_codes['numeric_code'], errors='coerce')
@@ -55,7 +55,6 @@ df_filtered.replace([np.inf, -np.inf], np.nan, inplace=True)
 df_filtered.dropna(subset=['tradeflow_baci', 'gdp_o', 'gdp_d', 'dist'], inplace=True)
 
 # Log-transform and add constant
-df_filtered['log_trade'] = np.log(df_filtered['tradeflow_baci'] + 1)
 df_filtered['log_gdp_o'] = np.log(df_filtered['gdp_o'].replace(0, np.nan))
 df_filtered['log_gdp_d'] = np.log(df_filtered['gdp_d'].replace(0, np.nan))
 df_filtered['log_distance'] = np.log(df_filtered['dist'].replace(0, np.nan))
@@ -95,44 +94,27 @@ for i in range(-10, 11):
     if i != 0:  # Dropping event_time_0 as the reference category
         df_ns.loc[:, f'event_time_{i}'] = (df_ns['event_time'] == i).astype(int)
 
-# PPML estimation for NS dataset
+# PPML estimation for NS dataset using gegravity
 X_ns = df_ns[['log_gdp_o', 'log_gdp_d', 'log_distance', 'exporter_time', 'importer_time'] + controls + [f'event_time_{i}' for i in range(-10, 11) if i != 0]]
-X_ns = sm.add_constant(X_ns)
-y_ns = df_ns['log_trade']
-model_ns = sm.GLM(y_ns, X_ns, family=sm.families.Poisson()).fit(cov_type='HC0')
+y_ns = df_ns['tradeflow_baci']
+model_ns = geg.ppml(y_ns, X_ns)
 
 # Create event time dummies and drop one to avoid perfect multicollinearity for SS dataset
 for i in range(-10, 11):
     if i != 0:  # Dropping event_time_0 as the reference category
         df_ss.loc[:, f'event_time_{i}'] = (df_ss['event_time'] == i).astype(int)
 
-# PPML estimation for SS dataset
+# PPML estimation for SS dataset using gegravity
 X_ss = df_ss[['log_gdp_o', 'log_gdp_d', 'log_distance', 'exporter_time', 'importer_time'] + controls + [f'event_time_{i}' for i in range(-10, 11) if i != 0]]
-X_ss = sm.add_constant(X_ss)
-y_ss = df_ss['log_trade']
-model_ss = sm.GLM(y_ss, X_ss, family=sm.families.Poisson()).fit(cov_type='HC0')
+y_ss = df_ss['tradeflow_baci']
+model_ss = geg.ppml(y_ss, X_ss)
 
-# Enhance the summary output with stars indicating statistical significance for NS model
-def significance_stars(p):
-    if p < 0.01:
-        return '***'
-    elif p < 0.05:
-        return '**'
-    elif p < 0.1:
-        return '*'
-    else:
-        return ''
+# Display model summaries
+print("North-South PTA Model Summary:")
+print(model_ns.summary())
 
-summary_ns = model_ns.summary2().tables[1]
-pvalues_ns = summary_ns['P>|z|']
-summary_ns['Significance'] = pvalues_ns.apply(significance_stars)
-print("North-South PTA Model Summary:\n", summary_ns)
-
-# Enhance the summary output with stars indicating statistical significance for SS model
-summary_ss = model_ss.summary2().tables[1]
-pvalues_ss = summary_ss['P>|z|']
-summary_ss['Significance'] = pvalues_ss.apply(significance_stars)
-print("South-South PTA Model Summary:\n", summary_ss)
+print("South-South PTA Model Summary:")
+print(model_ss.summary())
 
 # Visualization with Statistical Significance for NS model
 import matplotlib.pyplot as plt
@@ -168,6 +150,9 @@ plt.ylabel('Coefficient')
 plt.title('Event Study: Impact of North-South PTA on Trade Flows')
 plt.grid(True)
 plt.show()
+# plt.tight_layout()
+# plt.savefig(f'./analisis/gravity/NS.pdf')
+# plt.close()
 
 # Visualization with Statistical Significance for SS model
 
@@ -202,34 +187,6 @@ plt.ylabel('Coefficient')
 plt.title('Event Study: Impact of South-South PTA on Trade Flows')
 plt.grid(True)
 plt.show()
-
-
-
-# # Filter the data for years between 1995 and 2017
-# df_filtered = df[(df['year'] >= 1995) & (df['year'] <= 2017)]
-# df_filtered = df_filtered[df_filtered['country_id_o'] != df_filtered['country_id_d']]
-# df_filtered.replace([np.inf, -np.inf], np.nan, inplace=True)
-# df_filtered.dropna(subset=['tradeflow_baci', 'gdp_o', 'gdp_d', 'dist'], inplace=True)
-
-# # Log-transform and add constant
-# df_filtered['log_trade'] = np.log(df_filtered['tradeflow_baci'] + 1)
-# df_filtered['log_gdp_o'] = np.log(df_filtered['gdp_o'].replace(0, np.nan))
-# df_filtered['log_gdp_d'] = np.log(df_filtered['gdp_d'].replace(0, np.nan))
-# df_filtered['log_distance'] = np.log(df_filtered['dist'].replace(0, np.nan))
-
-# # Adding fixed effects
-# df_filtered['exporter_time'] = df_filtered.groupby(['country_id_o', 'year']).ngroup()
-# df_filtered['importer_time'] = df_filtered.groupby(['country_id_d', 'year']).ngroup()
-
-# # Adding additional control variables
-# controls = ['comlang_off', 'contig', 'col_dep_ever', 'pop_o', 'pop_d']
-# df_filtered[controls] = df_filtered[controls].fillna(0)  # Fill NaNs for dummy variables with 0
-
-# # PPML estimation with fixed effects and additional controls
-# X = df_filtered[['log_gdp_o', 'log_gdp_d', 'log_distance', 'exporter_time', 'importer_time'] + controls]
-# X = sm.add_constant(X)
-# y = df_filtered['log_trade']
-# model = sm.GLM(y, X, family=sm.families.Poisson()).fit(cov_type='HC0')
-
-# # Display summary
-# print(model.summary())
+# plt.tight_layout()
+# plt.savefig(f'./analisis/gravity/SS.pdf')
+# plt.close()
