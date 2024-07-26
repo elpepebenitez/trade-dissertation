@@ -8,3 +8,4 @@ comtradeapicall
 seaborn
 statsmodels
 pylatex
+gegravity
