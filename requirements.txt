@@ -7,3 +7,4 @@ requests
 comtradeapicall
 seaborn
 statsmodels
+pylatex

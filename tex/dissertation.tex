@@ -1,0 +1,36 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage[backend=biber]{biblatex}%
+%
+\addbibresource{references.bib}%
+\title{Master's Dissertation}%
+\author{Your Name}%
+\date{\today}%
+%
+\begin{document}%
+\normalsize%
+\maketitle%
+\section*{Abstract}%
+\label{sec:Abstract}%
+This is the abstract of the dissertation. It provides a brief overview of the research, methodology, findings, and conclusions.
+
+%
+\tableofcontents%
+\newpage%
+\listoffigures%
+\newpage%
+\listoftables%
+\newpage%
+\section{Introduction}%
+\label{sec:Introduction}%
+This is the introduction section. Here is a citation: %
+\cite{example_reference}
+
+%
+\newpage%
+\printbibliography%
+\end{document}

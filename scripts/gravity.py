@@ -3,7 +3,7 @@ import statsmodels.api as sm
 import numpy as np
 
 # Load data
-file_path = './input_data/cepii/Gravity_csv_V202211/Gravity_V202211.csv'
+file_path = './data/cepii/Gravity_csv_V202211/Gravity_V202211.csv'
 df_gravity = pd.read_csv(file_path, low_memory=False)
 df_treaties = pd.read_csv('./input_data/pta/desta_list_of_treaties_02_02_dyads.csv')
 df_country_codes = pd.read_csv('./output_data/country_agreements_classified_summary.csv')
@@ -168,6 +168,9 @@ plt.ylabel('Coefficient')
 plt.title('Event Study: Impact of North-South PTA on Trade Flows')
 plt.grid(True)
 plt.show()
+# plt.tight_layout()
+# plt.savefig(f'./analisis/gravity/NS.pdf')
+# plt.close()
 
 # Visualization with Statistical Significance for SS model
 
@@ -202,34 +205,6 @@ plt.ylabel('Coefficient')
 plt.title('Event Study: Impact of South-South PTA on Trade Flows')
 plt.grid(True)
 plt.show()
-
-
-
-# # Filter the data for years between 1995 and 2017
-# df_filtered = df[(df['year'] >= 1995) & (df['year'] <= 2017)]
-# df_filtered = df_filtered[df_filtered['country_id_o'] != df_filtered['country_id_d']]
-# df_filtered.replace([np.inf, -np.inf], np.nan, inplace=True)
-# df_filtered.dropna(subset=['tradeflow_baci', 'gdp_o', 'gdp_d', 'dist'], inplace=True)
-
-# # Log-transform and add constant
-# df_filtered['log_trade'] = np.log(df_filtered['tradeflow_baci'] + 1)
-# df_filtered['log_gdp_o'] = np.log(df_filtered['gdp_o'].replace(0, np.nan))
-# df_filtered['log_gdp_d'] = np.log(df_filtered['gdp_d'].replace(0, np.nan))
-# df_filtered['log_distance'] = np.log(df_filtered['dist'].replace(0, np.nan))
-
-# # Adding fixed effects
-# df_filtered['exporter_time'] = df_filtered.groupby(['country_id_o', 'year']).ngroup()
-# df_filtered['importer_time'] = df_filtered.groupby(['country_id_d', 'year']).ngroup()
-
-# # Adding additional control variables
-# controls = ['comlang_off', 'contig', 'col_dep_ever', 'pop_o', 'pop_d']
-# df_filtered[controls] = df_filtered[controls].fillna(0)  # Fill NaNs for dummy variables with 0
-
-# # PPML estimation with fixed effects and additional controls
-# X = df_filtered[['log_gdp_o', 'log_gdp_d', 'log_distance', 'exporter_time', 'importer_time'] + controls]
-# X = sm.add_constant(X)
-# y = df_filtered['log_trade']
-# model = sm.GLM(y, X, family=sm.families.Poisson()).fit(cov_type='HC0')
-
-# # Display summary
-# print(model.summary())
+# plt.tight_layout()
+# plt.savefig(f'./analisis/gravity/SS.pdf')
+# plt.close()
