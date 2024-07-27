@@ -9,7 +9,8 @@ from significance_stars import add_significance_stars  # Import the significance
 # Load data
 # file_path = './data/raw_data/cepii/Gravity_csv_V202211/Gravity_V202211.csv'
 # file_path = './data/processed_data/Gravity_V202211_sample.csv'
-file_path = './data/processed_data/filtered_gravity_data.csv'
+# file_path = './data/processed_data/filtered_gravity_data.csv'
+file_path = './data/processed_data/sample_filtered_gravity.csv'
 data = pd.read_csv(file_path, low_memory=False)
 
 # Required columns
