@@ -1,4 +1,5 @@
 # I have to run gme package with python 3.7; it does not work with python 3.9
+# /Users/pepe/.pyenv/versions/3.7.12/bin/python3.7 scripts/ppml.py
 import gme as gm
 import pandas as pd
 import numpy as np
