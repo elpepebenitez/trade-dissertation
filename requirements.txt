@@ -9,3 +9,5 @@ seaborn
 statsmodels
 pylatex
 gegravity
+gme
+scikit-learn
