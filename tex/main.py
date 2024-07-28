@@ -21,14 +21,39 @@ from sections.appendix import add_appendix
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # Create a new document
-doc = Document('dissertation')
+doc = Document('23802_DV410_2024')
 
 # Add necessary packages
 doc.packages.append(NoEscape(r'\usepackage[backend=biber]{biblatex}'))
 doc.packages.append(NoEscape(r'\usepackage{fancyhdr}'))
 doc.packages.append(NoEscape(r'\usepackage{lastpage}'))
 doc.packages.append(NoEscape(r'\usepackage{ragged2e}'))
+doc.packages.append(NoEscape(r'\usepackage{pdfpages}'))  # Add pdfpages package
+doc.packages.append(NoEscape(r'\usepackage{hyperref}'))  # Add hyperref package for links
 doc.preamble.append(NoEscape(r'\addbibresource{references.bib}'))
+doc.preamble.append(NoEscape(r'\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}'))
+
+# Define page styles
+front_matter_style = PageStyle("frontmatter")
+front_matter_style.append(NoEscape(r'\fancyhf{}'))
+front_matter_style.append(NoEscape(r'\fancyhead[L]{DV410}'))
+front_matter_style.append(NoEscape(r'\fancyhead[C]{\thepage}'))
+front_matter_style.append(NoEscape(r'\fancyhead[R]{23802}'))
+doc.preamble.append(front_matter_style)
+
+main_matter_style = PageStyle("mainmatter")
+main_matter_style.append(NoEscape(r'\fancyhf{}'))
+main_matter_style.append(NoEscape(r'\fancyhead[L]{DV410}'))
+main_matter_style.append(NoEscape(r'\fancyhead[C]{Page \thepage\ of \pageref{LastPage}}'))
+main_matter_style.append(NoEscape(r'\fancyhead[R]{23802}'))
+doc.preamble.append(main_matter_style)
+
+# Include the external PDF at the beginning (excluded from TOC and page count)
+doc.append(NoEscape(r'\includepdf[pages=-, offset=0 -1cm, frame]{DV410_Dissertation Cover Sheet_ Consent Form_Front Page_2023-24.pdf}'))
+
+# Set roman numbering for the front matter
+doc.preamble.append(NoEscape(r'\pagenumbering{roman}'))
+doc.append(NoEscape(r'\pagestyle{frontmatter}'))
 
 # Configure the header
 doc.preamble.append(NoEscape(r'\pagestyle{fancy}'))
@@ -37,31 +62,22 @@ doc.preamble.append(NoEscape(r'\fancyhead[L]{DV410}'))
 doc.preamble.append(NoEscape(r'\fancyhead[C]{Page \thepage\ of \pageref{LastPage}}'))
 doc.preamble.append(NoEscape(r'\fancyhead[R]{23802}'))
 
-# Add a title
 add_title(doc)
 doc.append(NoEscape(r'\newpage'))
-
-# Add abstract
 add_abstract(doc)
 doc.append(NoEscape(r'\newpage'))
-
-# Add table of contents
 doc.append(NoEscape(r'\tableofcontents'))
 doc.append(NoEscape(r'\newpage'))
-
-# Add abbreviations
 add_abbreviations(doc)
 doc.append(NoEscape(r'\newpage'))
-
-# Add list of figures
 add_list_of_figures(doc)
-# doc.append(NoEscape(r'\listoffigures'))
 doc.append(NoEscape(r'\newpage'))
-
-# Add list of tables
-# doc.append(NoEscape(r'\listoftables'))
 add_list_of_tables(doc)
 doc.append(NoEscape(r'\newpage'))
+
+# Switch to Arabic numbering starting from the introduction
+doc.append(NoEscape(r'\pagenumbering{arabic}'))
+doc.append(NoEscape(r'\pagestyle{mainmatter}'))
 
 # Add main sections
 add_introduction(doc)
@@ -80,7 +96,7 @@ doc.append(NoEscape(r'\newpage'))
 add_appendix(doc)
 
 # Save the LaTeX document
-doc.generate_tex('dissertation')
+doc.generate_tex('23802_DV410_2024')
 
 # Print current working directory and list files to debug path issues
 # print("Current working directory:", os.getcwd())
@@ -100,16 +116,16 @@ def run_command(command):
 # Run the sequence of commands
 try:
     # First pdflatex pass
-    run_command('pdflatex -interaction=nonstopmode dissertation.tex')
+    run_command('pdflatex -interaction=nonstopmode 23802_DV410_2024.tex')
     
     # Run biber
-    run_command('biber dissertation')
+    run_command('biber 23802_DV410_2024')
     
     # Second pdflatex pass
-    run_command('pdflatex -interaction=nonstopmode dissertation.tex')
+    run_command('pdflatex -interaction=nonstopmode 23802_DV410_2024.tex')
     
     # Final pdflatex pass
-    run_command('pdflatex -interaction=nonstopmode dissertation.tex')
+    run_command('pdflatex -interaction=nonstopmode 23802_DV410_2024.tex')
     
     print("PDF generated successfully.")
 except Exception as e:
@@ -120,7 +136,7 @@ word_count = "Error"  # Default value in case of an error
 
 # Run texcount to get word count, excluding certain sections
 try:
-    texcount_command = 'texcount -inc -total -1 dissertation.tex'
+    texcount_command = 'texcount -inc -total -1 23802_DV410_2024.tex'
     result = subprocess.run(texcount_command, shell=True, capture_output=True, text=True)
     if result.returncode != 0:
         print(result.stdout)
@@ -148,18 +164,18 @@ except Exception as e:
     print(f"An error occurred while running TeXcount: {e}")
 
 # Add the word count to the title page
-with open('dissertation.tex', 'r') as f:
+with open('23802_DV410_2024.tex', 'r') as f:
     lines = f.readlines()
 
-with open('dissertation.tex', 'w') as f:
+with open('23802_DV410_2024.tex', 'w') as f:
     for line in lines:
         f.write(line)
         if r'\maketitle' in line:
-            f.write(f'\n\\vfill\n\\begin{{center}}\\textbf{{Total Word Count: {word_count}}}\\end{{center}}\n')
+            f.write(f'\n\\vfill\n\\begin{{center}}\\textbf{{Word Count: {word_count}}}\\end{{center}}\n')
 
 # Run the final pdflatex pass to include the word count
 try:
-    run_command('pdflatex -interaction=nonstopmode dissertation.tex')
+    print(run_command('pdflatex -interaction=nonstopmode 23802_DV410_2024.tex'))
     print("Final PDF with word count generated successfully.")
 except Exception as e:
     print(f"An error occurred during the final PDF generation: {e}")
