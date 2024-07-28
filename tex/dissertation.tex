@@ -5,25 +5,72 @@
 \usepackage{textcomp}%
 \usepackage{lastpage}%
 \usepackage[backend=biber]{biblatex}%
+\usepackage{fancyhdr}%
+\usepackage{lastpage}%
+\usepackage{ragged2e}%
 %
 \addbibresource{references.bib}%
+\pagestyle{fancy}%
+\fancyhf{}%
+\fancyhead[L]{DV410}%
+\fancyhead[C]{Page \thepage\ of \pageref{LastPage}}%
+\fancyhead[R]{23802}%
+%TC:ignore%
 \title{Master's Dissertation}%
 \author{Your Name}%
 \date{\today}%
+%TC:endignore%
 %
 \begin{document}%
 \normalsize%
 \maketitle%
-\section*{Abstract}%
-\label{sec:Abstract}%
-This is the abstract of the dissertation. It provides a brief overview of the research, methodology, findings, and conclusions.
 
-%
+\vfill
+\begin{center}\textbf{Total Word Count: 10}\end{center}
+\newpage%
+%TC:ignore%
+\vspace*{\fill}%
+\begin{center}%
+\begin{minipage}{0.8\textwidth}%
+\begin{center}%
+\section*{Abstract}%
+\end{center}%
+\justify%
+This is the abstract text. It should be centered on the page, and the text should be justified. This is the abstract text. It should be centered on the page, and the text should be justified. This is the abstract text. It should be centered on the page, and the text should be justified. This is the abstract text. It should be centered on the page, and the text should be justified. This is the abstract text. It should be centered on the page, and the text should be justified. %
+\end{minipage}%
+\end{center}%
+\vspace*{\fill}%
+%TC:endignore%
+\newpage%
 \tableofcontents%
 \newpage%
-\listoffigures%
+%TC:ignore%
+\section*{Abbreviations}%
+\label{sec:Abbreviations}%
+\begin{tabbing}%
+\hspace{3cm} \= \kill%
+\textbf{AI} \> Artificial Intelligence \\%
+\textbf{API} \> Application Programming Interface \\%
+\textbf{CPU} \> Central Processing Unit \\%
+\textbf{GPU} \> Graphics Processing Unit \\%
+\textbf{IoT} \> Internet of Things \\%
+\textbf{ML} \> Machine Learning \\%
+\textbf{NLP} \> Natural Language Processing \\%
+\textbf{RAM} \> Random Access Memory \\%
+\textbf{UI} \> User Interface \\%
+\textbf{UX} \> User Experience \\%
+\end{tabbing}
+
+%
+%TC:endignore%
 \newpage%
+%TC:ignore%
+\listoffigures%
+%TC:endignore%
+\newpage%
+%TC:ignore%
 \listoftables%
+%TC:endignore%
 \newpage%
 \section{Introduction}%
 \label{sec:Introduction}%
@@ -32,5 +79,21 @@ This is the introduction section. Here is a citation: %
 
 %
 \newpage%
-\printbibliography%
+%TC:ignore%
+\section{References}%
+\label{sec:References}%
+\printbibliography
+
+%
+%TC:endignore%
+\newpage%
+%TC:ignore%
+\section{Appendix}%
+\label{sec:Appendix}%
+\subsection{Subsection in Appendix}%
+\label{subsec:SubsectioninAppendix}%
+Content in the appendix should not be counted in the word count.
+
+%
+%TC:endignore%
 \end{document}
