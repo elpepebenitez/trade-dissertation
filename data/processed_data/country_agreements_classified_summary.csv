@@ -1,4 +1,4 @@
-Economy,Code,numeric_code,Region,Income group,North-North,North-South,South-South
+Economy,iso3,numeric_code,Region,Income group,North-North,North-South,South-South
 Aruba,ABW,533,Latin America & Caribbean,High income,0,0,0
 Afghanistan,AFG,4,South Asia,Low income,0,0,3
 Angola,AGO,24,Sub-Saharan Africa,Lower middle income,0,1,8
