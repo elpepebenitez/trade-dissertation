@@ -3,6 +3,7 @@
 # International and intra-trade data for dependent trade variable
 # Export data as reported by destination country
 # exporter-year, importer-year and country-pair fixed effects
+# Calculate x-year intervals
 
 import gme as gm
 import pandas as pd
@@ -10,8 +11,8 @@ import numpy as np
 from pathlib import Path
 from significance_stars import add_significance_stars
 
-trade_data_file_path = "./data/raw_data/cepii/TPe_V202401.csv"
-gravity_data_file_path = "./data/raw_data/cepii/Gravity_csv_V202211/Gravity_V202211.csv"
+trade_data_file_path = "./data/processed_data/filtered_TPe_V202401.csv"
+gravity_data_file_path = "./data/processed_data/filtered_Gravity_V202211.csv"
 # trade_data_file_path = "./data/processed_data/TPe_V202401_sample.csv"
 # gravity_data_file_path = "./data/processed_data/Gravity_V202211_sample.csv"
 country_key_file_path = "data/raw_data/cepii/TradeProd_Gravity_country_key.csv"
@@ -49,6 +50,11 @@ gravity_data = gravity_data.dropna(subset=['iso3num_o', 'iso3num_d'])
 # Convert iso3num columns to strings without decimal points
 gravity_data['iso3num_o'] = gravity_data['iso3num_o'].astype(float).astype(int).astype(str)
 gravity_data['iso3num_d'] = gravity_data['iso3num_d'].astype(float).astype(int).astype(str)
+
+# Filter data for 5-year intervals
+interval_years = [1990, 1995, 2000, 2005, 2010, 2015]
+trade_data = trade_data[trade_data['year'].isin(interval_years)]
+gravity_data = gravity_data[gravity_data['year'].isin(interval_years)]
 
 # Merge trade_data with gravity_data using the numeric codes and year
 merged_data = pd.merge(trade_data, gravity_data, left_on=['cnum_o', 'cnum_d', 'year'], right_on=['iso3num_o', 'iso3num_d', 'year'])
