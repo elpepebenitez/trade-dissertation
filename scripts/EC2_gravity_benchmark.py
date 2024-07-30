@@ -13,6 +13,7 @@ import numpy as np
 import boto3
 from pathlib import Path
 from significance_stars import add_significance_stars
+from scipy.stats import norm
 
 # Initialize boto3 S3 client
 s3 = boto3.client('s3')
@@ -28,15 +29,13 @@ local_merged_data_file_path = '/tmp/merged_trade_gravity_NS_SS.csv'
 s3.download_file(bucket_name, merged_data_file_key, local_merged_data_file_path)
 
 # Define chunk size
-chunk_size = 100000  # Adjust this value based on your memory capacity
+chunk_size = 150000  # Adjust this value based on your memory capacity
 
 # Filter years
 interval_years = [1990, 1995, 2000, 2005, 2010, 2015]
 
-# Initialize lists to store coefficients, variances, and number of observations
-coefficients = []
-variances = []
-total_observations = 0
+# Initialize an empty DataFrame for combined results
+combined_results = []
 
 # Process the data in chunks
 for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksize=chunk_size):
@@ -46,6 +45,12 @@ for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksiz
 
     # Filter data for 5-year intervals
     chunk = chunk[chunk['year'].isin(interval_years)]
+
+    # Create RTA variables before and after, North-South and South-South
+    chunk['RTA_NS_pre'] = (chunk['year'] < chunk['rta_year']) & (chunk['rta_type'] == 'NS')
+    chunk['RTA_NS_post'] = (chunk['year'] >= chunk['rta_year']) & (chunk['rta_type'] == 'NS')
+    chunk['RTA_SS_pre'] = (chunk['year'] < chunk['rta_year']) & (chunk['rta_type'] == 'SS')
+    chunk['RTA_SS_post'] = (chunk['year'] >= chunk['rta_year']) & (chunk['rta_type'] == 'SS')
 
     # Create fixed effects
     chunk['exporter_time'] = chunk['iso3num_o'] + '_' + chunk['year'].astype(str)
@@ -58,7 +63,7 @@ for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksiz
     chunk['pair'] = chunk['pair'].astype('category')
 
     # Handle NaN values in the merged data
-    chunk = chunk.dropna(subset=['trade_comb', 'fta_wto'])
+    chunk = chunk.dropna(subset=['trade_comb', 'RTA_NS_pre', 'RTA_NS_post', 'RTA_SS_pre', 'RTA_SS_post'])
 
     # Create EstimationData object
     est_data = gm.EstimationData(data_frame=chunk,
@@ -71,7 +76,7 @@ for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksiz
     model = gm.EstimationModel(
         estimation_data=est_data,
         lhs_var='trade_comb',  # Dependent variable
-        rhs_var=['fta_wto'],   # Independent variable (RTA variable)
+        rhs_var=['RTA_NS_pre', 'RTA_NS_post', 'RTA_SS_pre', 'RTA_SS_post'],  # Independent variables (RTA variables)
         fixed_effects=[['iso3num_d', 'year'], ['iso3num_o', 'year'], ['iso3num_o', 'iso3num_d']]  # Fixed effects
     )
 
@@ -85,35 +90,58 @@ for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksiz
         coef_df = summary.tables[1]
         coef_df = pd.read_html(coef_df.as_html(), header=0, index_col=0)[0]
         
-        fta_wto_coef = coef_df.loc['fta_wto', 'coef']
-        fta_wto_se = coef_df.loc['fta_wto', 'std err']
-
-        coefficients.append(fta_wto_coef)
-        variances.append(fta_wto_se ** 2)
-        total_observations += results.nobs
-
+        # Add significance stars (first time for intermediate results)
+        coef_df['Significance'] = add_significance_stars(coef_df['P>|z|'])
+        coef_df['coef'] = coef_df.apply(lambda x: f"{x['coef']}{x['Significance']}", axis=1)
+        
+        # Extract the relevant RTA coefficients
+        rta_df = coef_df.loc[['RTA_NS_pre', 'RTA_NS_post', 'RTA_SS_pre', 'RTA_SS_post']]
+        
+        # Add the total number of observations
+        observations_row = pd.DataFrame([['', '', '', results.nobs, '', '', '']], columns=rta_df.columns, index=['Observations'])
+        rta_df = pd.concat([rta_df, observations_row])
+        
+        # Append the results to the combined results list
+        combined_results.append(rta_df)
+        
         # Print diagnostics
         print(model.ppml_diagnostics)
     except Exception as e:
         print(f"An error occurred: {e}")
 
-# Aggregate coefficients and variances
-coefficients = np.array(coefficients)
-variances = np.array(variances)
+# Combine all chunk results into a single DataFrame
+combined_df = pd.concat(combined_results)
 
-weights = 1 / variances
-aggregated_coef = np.sum(weights * coefficients) / np.sum(weights)
-aggregated_se = np.sqrt(1 / np.sum(weights))
+# Extract the coefficients and standard errors
+coefficients = combined_df.loc[['RTA_NS_pre', 'RTA_NS_post', 'RTA_SS_pre', 'RTA_SS_post'], 'coef'].astype(float)
+standard_errors = combined_df.loc[['RTA_NS_pre', 'RTA_NS_post', 'RTA_SS_pre', 'RTA_SS_post'], 'std err'].astype(float)
 
-# Create final results DataFrame
+# Calculate the weights as the inverse of the variance (standard error squared)
+weights = 1 / (standard_errors ** 2)
+
+# Calculate weighted average coefficients
+weighted_avg_coef = (coefficients * weights).sum() / weights.sum()
+
+# Calculate the standard error of the weighted average
+weighted_avg_se = np.sqrt(1 / weights.sum())
+
+# Calculate the p-value for the aggregated coefficient
+z_score = weighted_avg_coef / weighted_avg_se
+p_value = 2 * (1 - norm.cdf(abs(z_score)))
+
+# Create a DataFrame to store the final results
 final_results = pd.DataFrame({
-    'coef': [aggregated_coef],
-    'std err': [aggregated_se],
-    'Significance': add_significance_stars([aggregated_coef / aggregated_se])
+    'coef': [weighted_avg_coef],
+    'std err': [weighted_avg_se],
+    'P>|z|': [p_value]
 })
 
+# Add significance stars to the final results (second time for final results)
+final_results['Significance'] = add_significance_stars(final_results['P>|z|'])
+final_results['coef'] = final_results.apply(lambda x: f"{x['coef']}{x['Significance']}", axis=1)
+
 # Add the total number of observations
-observations_row = pd.DataFrame([['', '', '', total_observations, '', '', '']], columns=final_results.columns, index=['Observations'])
+observations_row = pd.DataFrame([['', '', '', combined_df.shape[0], '', '', '']], columns=final_results.columns, index=['Observations'])
 final_results = pd.concat([final_results, observations_row])
 
 # Generate LaTeX table string
