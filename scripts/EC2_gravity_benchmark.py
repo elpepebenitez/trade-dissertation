@@ -33,9 +33,10 @@ chunk_size = 100000  # Adjust this value based on your memory capacity
 # Filter years
 interval_years = [1990, 1995, 2000, 2005, 2010, 2015]
 
-# Initialize lists to store coefficients and variances
+# Initialize lists to store coefficients, variances, and number of observations
 coefficients = []
 variances = []
+total_observations = 0
 
 # Process the data in chunks
 for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksize=chunk_size):
@@ -89,6 +90,7 @@ for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksiz
 
         coefficients.append(fta_wto_coef)
         variances.append(fta_wto_se ** 2)
+        total_observations += results.nobs
 
         # Print diagnostics
         print(model.ppml_diagnostics)
@@ -111,7 +113,7 @@ final_results = pd.DataFrame({
 })
 
 # Add the total number of observations
-observations_row = pd.DataFrame([['', '', '', merged_data.shape[0], '', '', '']], columns=final_results.columns, index=['Observations'])
+observations_row = pd.DataFrame([['', '', '', total_observations, '', '', '']], columns=final_results.columns, index=['Observations'])
 final_results = pd.concat([final_results, observations_row])
 
 # Generate LaTeX table string
