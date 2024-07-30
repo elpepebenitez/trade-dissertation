@@ -1,4 +1,4 @@
-from pylatex import Document, PageStyle, Command, NoEscape
+from pylatex import Document, PageStyle, Command, NoEscape, Package
 import subprocess
 import os
 
@@ -11,7 +11,7 @@ from sections.list_of_tables import add_list_of_tables
 from sections.introduction import add_introduction
 # from sections.literature_review import add_literature_review
 # from sections.methodology import add_methodology
-# from sections.findings import add_findings
+from sections.findings import add_findings
 # from sections.analysis_and_discussion import add_analysis_and_discussion
 # from sections.conclusion import add_conclusion
 from sections.references import add_references
@@ -30,6 +30,7 @@ doc.packages.append(NoEscape(r'\usepackage{lastpage}'))
 doc.packages.append(NoEscape(r'\usepackage{ragged2e}'))
 doc.packages.append(NoEscape(r'\usepackage{pdfpages}'))  # Add pdfpages package
 doc.packages.append(NoEscape(r'\usepackage{hyperref}'))  # Add hyperref package for links
+doc.packages.append(Package('booktabs'))
 doc.preamble.append(NoEscape(r'\addbibresource{references.bib}'))
 doc.preamble.append(NoEscape(r'\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}'))
 
@@ -83,7 +84,7 @@ doc.append(NoEscape(r'\pagestyle{mainmatter}'))
 add_introduction(doc)
 # add_literature_review(doc)
 # add_methodology(doc)
-# add_findings(doc)
+add_findings(doc)
 # add_analysis_and_discussion(doc)
 # add_conclusion(doc)
 doc.append(NoEscape(r'\newpage'))
