@@ -170,3 +170,5 @@ data/raw_data/cepii/Gravity_csv_V202211/Gravity_V202211.csv
 ./data/raw_data/cepii/Gravity_csv_V202211/Gravity_V202211.csv
 data/processed_data/filtered_gravity_data.csv
 ./data/processed_data/filtered_gravity_data.csv
+data/raw_data/cepii/TPe_V202401.csv
+./data/raw_data/cepii/TPe_V202401.csv
