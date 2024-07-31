@@ -4,16 +4,13 @@
 # Export data as reported by destination country
 # exporter-year, importer-year and country-pair fixed effects
 # Calculate x-year intervals
+# Filtered data for only 1995-2015 and S countries with at least one NS and one SS
 
-# Chunks with coefficient aggregations
-
+# Saving aggregated results in CSV. Removing post processing: significance and latex table
 import gme as gm
 import pandas as pd
-import numpy as np
 import boto3
 from pathlib import Path
-from significance_stars import add_significance_stars
-from scipy.stats import norm
 
 # Initialize boto3 S3 client
 s3 = boto3.client('s3')
@@ -29,13 +26,15 @@ local_merged_data_file_path = '/tmp/merged_trade_gravity_NS_SS.csv'
 s3.download_file(bucket_name, merged_data_file_key, local_merged_data_file_path)
 
 # Define chunk size
-chunk_size = 150000  # Adjust this value based on your memory capacity
+chunk_size = 100000  # Adjust this value based on your memory capacity
 
 # Filter years
-interval_years = [1990, 1995, 2000, 2005, 2010, 2015]
+interval_years = [1995, 2000, 2005, 2010, 2015]
 
-# Initialize an empty DataFrame for combined results
-combined_results = []
+# Initialize lists to store coefficients and standard errors
+coef_list = []
+se_list = []
+nobs_list = []
 
 # Process the data in chunks
 for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksize=chunk_size):
@@ -45,12 +44,6 @@ for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksiz
 
     # Filter data for 5-year intervals
     chunk = chunk[chunk['year'].isin(interval_years)]
-
-    # Create RTA variables before and after, North-South and South-South
-    chunk['RTA_NS_pre'] = (chunk['year'] < chunk['rta_year']) & (chunk['rta_type'] == 'NS')
-    chunk['RTA_NS_post'] = (chunk['year'] >= chunk['rta_year']) & (chunk['rta_type'] == 'NS')
-    chunk['RTA_SS_pre'] = (chunk['year'] < chunk['rta_year']) & (chunk['rta_type'] == 'SS')
-    chunk['RTA_SS_post'] = (chunk['year'] >= chunk['rta_year']) & (chunk['rta_type'] == 'SS')
 
     # Create fixed effects
     chunk['exporter_time'] = chunk['iso3num_o'] + '_' + chunk['year'].astype(str)
@@ -63,7 +56,7 @@ for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksiz
     chunk['pair'] = chunk['pair'].astype('category')
 
     # Handle NaN values in the merged data
-    chunk = chunk.dropna(subset=['trade_comb', 'RTA_NS_pre', 'RTA_NS_post', 'RTA_SS_pre', 'RTA_SS_post'])
+    chunk = chunk.dropna(subset=['trade_comb', 'fta_wto'])
 
     # Create EstimationData object
     est_data = gm.EstimationData(data_frame=chunk,
@@ -76,7 +69,7 @@ for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksiz
     model = gm.EstimationModel(
         estimation_data=est_data,
         lhs_var='trade_comb',  # Dependent variable
-        rhs_var=['RTA_NS_pre', 'RTA_NS_post', 'RTA_SS_pre', 'RTA_SS_post'],  # Independent variables (RTA variables)
+        rhs_var=['fta_wto'],   # Independent variable (RTA variable)
         fixed_effects=[['iso3num_d', 'year'], ['iso3num_o', 'year'], ['iso3num_o', 'iso3num_d']]  # Fixed effects
     )
 
@@ -90,68 +83,161 @@ for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksiz
         coef_df = summary.tables[1]
         coef_df = pd.read_html(coef_df.as_html(), header=0, index_col=0)[0]
         
-        # Add significance stars (first time for intermediate results)
-        coef_df['Significance'] = add_significance_stars(coef_df['P>|z|'])
-        coef_df['coef'] = coef_df.apply(lambda x: f"{x['coef']}{x['Significance']}", axis=1)
+        # Extract only the RTA coefficient
+        coef = coef_df.loc['fta_wto', 'coef']
+        se = coef_df.loc['fta_wto', 'std err']
+        nobs = results.nobs
         
-        # Extract the relevant RTA coefficients
-        rta_df = coef_df.loc[['RTA_NS_pre', 'RTA_NS_post', 'RTA_SS_pre', 'RTA_SS_post']]
-        
-        # Add the total number of observations
-        observations_row = pd.DataFrame([['', '', '', results.nobs, '', '', '']], columns=rta_df.columns, index=['Observations'])
-        rta_df = pd.concat([rta_df, observations_row])
-        
-        # Append the results to the combined results list
-        combined_results.append(rta_df)
+        # Append to lists
+        coef_list.append(coef)
+        se_list.append(se)
+        nobs_list.append(nobs)
         
         # Print diagnostics
         print(model.ppml_diagnostics)
     except Exception as e:
         print(f"An error occurred: {e}")
 
-# Combine all chunk results into a single DataFrame
-combined_df = pd.concat(combined_results)
+# Compute weighted averages for coefficients and standard errors
+if coef_list:
+    total_nobs = sum(nobs_list)
+    weighted_avg_coef = sum(c * n for c, n in zip(coef_list, nobs_list)) / total_nobs
+    weighted_avg_se = sum(se * n for se, n in zip(se_list, nobs_list)) / total_nobs
+    
+    # Create final results DataFrame
+    final_results = pd.DataFrame({
+        'Coefficient': [weighted_avg_coef],
+        'Standard Error': [weighted_avg_se],
+        'Observations': [total_nobs]
+    })
+    
+    # Save results to CSV
+    results_file_path = './data/estimations_results/EC2_gravity_benchmark_results.csv'
+    final_results.to_csv(results_file_path, index=False)
+    print(f"Estimation completed and results saved to {results_file_path}.")
+else:
+    print("No results to combine.")
 
-# Extract the coefficients and standard errors
-coefficients = combined_df.loc[['RTA_NS_pre', 'RTA_NS_post', 'RTA_SS_pre', 'RTA_SS_post'], 'coef'].astype(float)
-standard_errors = combined_df.loc[['RTA_NS_pre', 'RTA_NS_post', 'RTA_SS_pre', 'RTA_SS_post'], 'std err'].astype(float)
+###############################################################################
+# Chunks with coefficient aggregations
 
-# Calculate the weights as the inverse of the variance (standard error squared)
-weights = 1 / (standard_errors ** 2)
+# import gme as gm
+# import pandas as pd
+# import numpy as np
+# import boto3
+# from pathlib import Path
+# from significance_stars import add_significance_stars
 
-# Calculate weighted average coefficients
-weighted_avg_coef = (coefficients * weights).sum() / weights.sum()
+# # Initialize boto3 S3 client
+# s3 = boto3.client('s3')
 
-# Calculate the standard error of the weighted average
-weighted_avg_se = np.sqrt(1 / weights.sum())
+# # S3 bucket and file paths
+# bucket_name = 'trade-dissertation-data'
+# merged_data_file_key = 'merged_trade_gravity_NS_SS.csv'
 
-# Calculate the p-value for the aggregated coefficient
-z_score = weighted_avg_coef / weighted_avg_se
-p_value = 2 * (1 - norm.cdf(abs(z_score)))
+# # Local path to save the downloaded file
+# local_merged_data_file_path = '/tmp/merged_trade_gravity_NS_SS.csv'
 
-# Create a DataFrame to store the final results
-final_results = pd.DataFrame({
-    'coef': [weighted_avg_coef],
-    'std err': [weighted_avg_se],
-    'P>|z|': [p_value]
-})
+# # Download file from S3
+# s3.download_file(bucket_name, merged_data_file_key, local_merged_data_file_path)
 
-# Add significance stars to the final results (second time for final results)
-final_results['Significance'] = add_significance_stars(final_results['P>|z|'])
-final_results['coef'] = final_results.apply(lambda x: f"{x['coef']}{x['Significance']}", axis=1)
+# # Define chunk size
+# chunk_size = 100000  # Adjust this value based on your memory capacity
 
-# Add the total number of observations
-observations_row = pd.DataFrame([['', '', '', combined_df.shape[0], '', '', '']], columns=final_results.columns, index=['Observations'])
-final_results = pd.concat([final_results, observations_row])
+# # Filter years
+# interval_years = [1990, 1995, 2000, 2005, 2010, 2015]
 
-# Generate LaTeX table string
-latex_table = final_results.to_latex()
+# # Initialize lists to store coefficients, variances, and number of observations
+# coefficients = []
+# variances = []
+# total_observations = 0
 
-# Save LaTeX table to a file in the ./tex folder
-tex_file_path = Path('./tex/tables/benchmark_results_table.tex')
-tex_file_path.write_text(latex_table)
+# # Process the data in chunks
+# for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksize=chunk_size):
+#     # Convert relevant columns to string type for merging
+#     chunk['iso3num_o'] = chunk['iso3num_o'].astype(str)
+#     chunk['iso3num_d'] = chunk['iso3num_d'].astype(str)
 
-print("Estimation completed and results saved.")
+#     # Filter data for 5-year intervals
+#     chunk = chunk[chunk['year'].isin(interval_years)]
+
+#     # Create fixed effects
+#     chunk['exporter_time'] = chunk['iso3num_o'] + '_' + chunk['year'].astype(str)
+#     chunk['importer_time'] = chunk['iso3num_d'] + '_' + chunk['year'].astype(str)
+#     chunk['pair'] = chunk['iso3num_o'] + '_' + chunk['iso3num_d']
+
+#     # Convert fixed effects to categorical
+#     chunk['exporter_time'] = chunk['exporter_time'].astype('category')
+#     chunk['importer_time'] = chunk['importer_time'].astype('category')
+#     chunk['pair'] = chunk['pair'].astype('category')
+
+#     # Handle NaN values in the merged data
+#     chunk = chunk.dropna(subset=['trade_comb', 'fta_wto'])
+
+#     # Create EstimationData object
+#     est_data = gm.EstimationData(data_frame=chunk,
+#                                  imp_var_name='iso3num_d',
+#                                  exp_var_name='iso3num_o',
+#                                  trade_var_name='trade_comb',
+#                                  year_var_name='year')
+
+#     # Define the gravity model
+#     model = gm.EstimationModel(
+#         estimation_data=est_data,
+#         lhs_var='trade_comb',  # Dependent variable
+#         rhs_var=['fta_wto'],   # Independent variable (RTA variable)
+#         fixed_effects=[['iso3num_d', 'year'], ['iso3num_o', 'year'], ['iso3num_o', 'iso3num_d']]  # Fixed effects
+#     )
+
+#     # Estimate the model and process results
+#     try:
+#         estimates = model.estimate()
+#         results = estimates['all']
+        
+#         # Process and display summary
+#         summary = results.summary()
+#         coef_df = summary.tables[1]
+#         coef_df = pd.read_html(coef_df.as_html(), header=0, index_col=0)[0]
+        
+#         fta_wto_coef = coef_df.loc['fta_wto', 'coef']
+#         fta_wto_se = coef_df.loc['fta_wto', 'std err']
+
+#         coefficients.append(fta_wto_coef)
+#         variances.append(fta_wto_se ** 2)
+#         total_observations += results.nobs
+
+#         # Print diagnostics
+#         print(model.ppml_diagnostics)
+#     except Exception as e:
+#         print(f"An error occurred: {e}")
+
+# # Aggregate coefficients and variances
+# coefficients = np.array(coefficients)
+# variances = np.array(variances)
+
+# weights = 1 / variances
+# aggregated_coef = np.sum(weights * coefficients) / np.sum(weights)
+# aggregated_se = np.sqrt(1 / np.sum(weights))
+
+# # Create final results DataFrame
+# final_results = pd.DataFrame({
+#     'coef': [aggregated_coef],
+#     'std err': [aggregated_se],
+#     'Significance': add_significance_stars([aggregated_coef / aggregated_se])
+# })
+
+# # Add the total number of observations
+# observations_row = pd.DataFrame([['', '', '', total_observations, '', '', '']], columns=final_results.columns, index=['Observations'])
+# final_results = pd.concat([final_results, observations_row])
+
+# # Generate LaTeX table string
+# latex_table = final_results.to_latex()
+
+# # Save LaTeX table to a file in the ./tex folder
+# tex_file_path = Path('./tex/tables/benchmark_results_table.tex')
+# tex_file_path.write_text(latex_table)
+
+# print("Estimation completed and results saved.")
 
 ##############################################################
 # With Chunks
