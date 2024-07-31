@@ -5,7 +5,9 @@ import pandas as pd
 # local_gravity_data_file_path = './data/processed_data/filtered_Gravity_V202211.csv'
 # local_country_key_file_path = './data/raw_data/cepii/TradeProd_Gravity_country_key.csv'
 # local_merged_data_file_path = './data/processed_data/merged_trade_gravity_data.csv'
+
 # agreements_file_path = 'data/processed_data/country_agreements_classified_summary.csv'
+
 # gravity_file_path = './data/processed_data/filtered_Gravity_V202211.csv'
 # trade_file_path = './data/processed_data/filtered_TPe_V202401.csv'
 
@@ -41,7 +43,7 @@ import pandas as pd
 # # Select columns to keep
 # gravity_columns_to_keep = [
 #     'year', 'iso3_o', 'iso3_d', 'iso3num_o', 'iso3num_d', 'dist', 
-#     'contig', 'comlang_off', 'gdp_o', 'gdp_d', 'fta_wto'
+#     'contig', 'comlang_off', 'gdp_o', 'gdp_d', 'fta_wto', 'col_dep_ever'
 # ]
 
 # trade_columns_to_keep = [
@@ -52,8 +54,8 @@ import pandas as pd
 # filtered_trade_df = filtered_trade_df[trade_columns_to_keep]
 
 # Save the filtered datasets
-filtered_gravity_file_path = './data/processed_data/filtered_Gravity_NS_SS.csv'
-filtered_trade_file_path = './data/processed_data/filtered_Trade_NS_SS.csv'
+# filtered_gravity_file_path = './data/processed_data/filtered_Gravity_NS_SS.csv'
+# filtered_trade_file_path = './data/processed_data/filtered_Trade_NS_SS.csv'
 
 # print(filtered_gravity_data.shape)
 # print(filtered_trade_df.shape)
@@ -61,7 +63,7 @@ filtered_trade_file_path = './data/processed_data/filtered_Trade_NS_SS.csv'
 # filtered_gravity_data.to_csv(filtered_gravity_file_path, index=False)
 # filtered_trade_df.to_csv(filtered_trade_file_path, index=False)
 
-# # Filter rows where 'iso3_tp_o' is equal to 'iso3_tp_d'
+# # Filter rows where 'iso3_tp_o' is equal to 'iso3_tp_d' in gravity data
 # inter_trade_rows = filtered_gravity_data[filtered_gravity_data['iso3_o'] == filtered_gravity_data['iso3_d']]
 
 # # Get the count of these rows
@@ -69,7 +71,7 @@ filtered_trade_file_path = './data/processed_data/filtered_Trade_NS_SS.csv'
 
 # print(f"Number of gravity rows where 'iso3_tp_o' is equal to 'iso3_tp_d': {intra_trade_count}")
 
-# # Filter rows where 'iso3_tp_o' is equal to 'iso3_tp_d'
+# # Filter rows where 'iso3_tp_o' is equal to 'iso3_tp_d' in trade data
 # intra_trade_rows = filtered_trade_df[filtered_trade_df['iso3_tp_o'] == filtered_trade_df['iso3_tp_d']]
 
 # # Get the count of these rows
@@ -79,10 +81,10 @@ filtered_trade_file_path = './data/processed_data/filtered_Trade_NS_SS.csv'
 
 # print("Filtered datasets saved.")
 
-#########################################
+####################################################################################################
 
 # Path to save the merged data
-merged_file_path = "./data/processed_data/merged_trade_gravity_NS_SS.csv"
+# merged_file_path = "./data/processed_data/merged_trade_gravity_NS_SS.csv"
 
 # # Chunksize for processing data in chunks
 # chunk_size = 10000
@@ -105,7 +107,7 @@ merged_file_path = "./data/processed_data/merged_trade_gravity_NS_SS.csv"
 #     self_trade_mask = merged_chunk['iso3_tp_o'] == merged_chunk['iso3_tp_d']
 
 #     # Fill missing values for control variables in those rows with 0
-#     columns_to_fill = ['dist', 'contig', 'comlang_off', 'fta_wto', 'gdp_d']
+#     columns_to_fill = ['dist', 'contig', 'comlang_off', 'fta_wto', 'gdp_d', 'col_dep_ever']
 #     merged_chunk.loc[self_trade_mask, columns_to_fill] = 0
 
 #     return merged_chunk
@@ -125,10 +127,16 @@ merged_file_path = "./data/processed_data/merged_trade_gravity_NS_SS.csv"
 
 #########################################
 
-merged_df = pd.read_csv(merged_file_path)
+# merged_df = pd.read_csv(merged_file_path, low_memory=False)
 
-print(merged_df.shape)
-print(merged_df.columns)
+# # Count the rows where 'trade_comb' is 0
+# count_zero_trade_comb = (merged_df['trade_comb'] == 0).sum()
+# count_not_zero_trade_comb = (merged_df['trade_comb'] != 0).sum()
+
+# print(merged_df.shape)
+# print(merged_df.columns)
+# print(f"Number of rows where 'trade_comb' is 0: {count_zero_trade_comb}")
+# print(f"Number of rows where 'trade_comb' is different from 0: {count_not_zero_trade_comb}")
 
 
 
