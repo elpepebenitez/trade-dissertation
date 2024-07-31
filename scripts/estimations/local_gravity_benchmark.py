@@ -14,10 +14,10 @@ from pathlib import Path
 
 # Define file paths
 local_merged_data_file_path = './data/processed_data/sample_merged_trade_gravity_NS_SS.csv'
-results_file_path = './data/estimations_results/local_gravity_benchmark_results.csv'
+# results_file_path = './data/estimations_results/local_gravity_benchmark_results.csv'
 
 # Define chunk size
-chunk_size = 10000  # Adjusted for local testing
+chunk_size = 100000  # Adjust this value based on your memory capacity
 
 # Filter years
 interval_years = [1995, 2000, 2005, 2010, 2015]
@@ -26,6 +26,7 @@ interval_years = [1995, 2000, 2005, 2010, 2015]
 coef_list = []
 se_list = []
 nobs_list = []
+variable_name = 'fta_wto'  # The variable we are estimating
 
 # Process the data in chunks
 for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksize=chunk_size):
@@ -47,7 +48,7 @@ for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksiz
     chunk['pair'] = chunk['pair'].astype('category')
 
     # Handle NaN values in the merged data
-    chunk = chunk.dropna(subset=['trade_comb', 'fta_wto'])
+    chunk = chunk.dropna(subset=['trade_comb', variable_name])
 
     # Create EstimationData object
     est_data = gm.EstimationData(data_frame=chunk,
@@ -60,7 +61,7 @@ for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksiz
     model = gm.EstimationModel(
         estimation_data=est_data,
         lhs_var='trade_comb',  # Dependent variable
-        rhs_var=['fta_wto'],   # Independent variable (RTA variable)
+        rhs_var=[variable_name],   # Independent variable (RTA variable)
         fixed_effects=[['iso3num_d', 'year'], ['iso3num_o', 'year'], ['iso3num_o', 'iso3num_d']]  # Fixed effects
     )
 
@@ -75,8 +76,8 @@ for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksiz
         coef_df = pd.read_html(coef_df.as_html(), header=0, index_col=0)[0]
         
         # Extract only the RTA coefficient
-        coef = coef_df.loc['fta_wto', 'coef']
-        se = coef_df.loc['fta_wto', 'std err']
+        coef = coef_df.loc[variable_name, 'coef']
+        se = coef_df.loc[variable_name, 'std err']
         nobs = results.nobs
         
         # Append to lists
@@ -93,19 +94,27 @@ for chunk in pd.read_csv(local_merged_data_file_path, low_memory=False, chunksiz
 if coef_list:
     total_nobs = sum(nobs_list)
     weighted_avg_coef = sum(c * n for c, n in zip(coef_list, nobs_list)) / total_nobs
-    weighted_avg_se = sum(se * n for se, n in zip(se_list, nobs_list)) / total_nobs
+    
+    # Calculate the variance for each chunk
+    var_list = [se ** 2 for se in se_list]
+    
+    # Calculate the weighted average variance
+    weighted_avg_var = sum(var * n for var, n in zip(var_list, nobs_list)) / total_nobs
+    
+    # Calculate the combined standard error from the weighted average variance
+    weighted_avg_se = np.sqrt(weighted_avg_var)
     
     # Create final results DataFrame
     final_results = pd.DataFrame({
+        'Variable': [variable_name],
         'Coefficient': [weighted_avg_coef],
         'Standard Error': [weighted_avg_se],
         'Observations': [total_nobs]
     })
     
     # Save results to CSV
+    results_file_path = './data/estimations_results/local_gravity_benchmark_results.csv'
     final_results.to_csv(results_file_path, index=False)
     print(f"Estimation completed and results saved to {results_file_path}.")
 else:
     print("No results to combine.")
-
-
