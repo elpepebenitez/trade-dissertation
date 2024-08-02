@@ -1,0 +1,26 @@
+	(1)
+VARIABLES	Post NS PPML Estimation Results
+	
+LogDist	-0.889***
+	(0.034)
+Contig	0.565***
+	(0.096)
+ComlangOff	0.301***
+	(0.086)
+ColDepEver	-0.171
+	(0.177)
+Post	0.200*
+	(0.115)
+PostNS	0.569***
+	(0.175)
+Constant	13.375***
+	(0.310)
+	
+Observations	773,703
+N	773703
+Pseudo R2	0.804
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	
+* p<0.10	
+** p<0.05	
+*** p<0.01	

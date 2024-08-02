@@ -11,6 +11,10 @@
 \usepackage{pdfpages}%
 \usepackage{hyperref}%
 \usepackage{booktabs}%
+\usepackage{float}%
+\usepackage{threeparttable}%
+\usepackage{amssymb}%
+\usepackage{amsmath}%
 \usepackage{fancyhdr}%
 %
 \addbibresource{references.bib}%
@@ -70,7 +74,7 @@
 \maketitle%
 
 \vfill
-\begin{center}\textbf{Word Count: 21}\end{center}
+\begin{center}\textbf{Word Count: 44}\end{center}
 \newpage%
 %TC:ignore%
 \vspace*{\fill}%
@@ -126,7 +130,15 @@ This is the introduction section. Here is a citation: %
 %
 \subsection{Estimation Results}%
 \label{subsec:EstimationResults}%
-\input{tables/benchmark_results_table.tex}
+\subsubsection{NS and SS Post Model Results}%
+\label{ssubsec:NSandSSPostModelResults}%
+\input{tables/ns_ss_post_table.tex}
+
+%
+\newpage%
+\subsubsection{Additional Findings}%
+\label{ssubsec:AdditionalFindings}%
+Here you can include additional findings and discussions.
 
 %
 \newpage%
