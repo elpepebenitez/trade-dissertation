@@ -1,0 +1,28 @@
+
+\begin{table}[H]
+    \centering
+    \begin{threeparttable}
+        \begin{tabular}{lcccc}
+            \toprule
+            & \multicolumn{2}{c}{NS Model} & \multicolumn{2}{c}{SS Model} \\
+            \cmidrule(lr){2-3} \cmidrule(lr){4-5}
+            Variable & Coefficient & Std. Error & Coefficient & Std. Error \\
+            \midrule
+            log\_dist & -0.889$^{\ast\ast\ast}$ & (0.034) & -0.889$^{\ast\ast\ast}$ & (0.034) \\
+            contig & 0.565$^{\ast\ast\ast}$ & (0.096) & 0.565$^{\ast\ast\ast}$ & (0.096) \\
+            comlang\_off & 0.301$^{\ast\ast\ast}$ & (0.086) & 0.301$^{\ast\ast\ast}$ & (0.086) \\
+            col\_dep\_ever & -0.171 & (0.177) & -0.171 & (0.177) \\
+            post & 0.200$^{\ast}$ & (0.115) & 0.769$^{\ast\ast\ast}$ & (0.147) \\
+            post\_ns & 0.569$^{\ast\ast\ast}$ & (0.175) & -0.569$^{\ast\ast\ast}$ & (0.175) \\
+            Constant & 13.375$^{\ast\ast\ast}$ & (0.310) & 13.375$^{\ast\ast\ast}$ & (0.310) \\
+            \bottomrule
+        \end{tabular}
+        \begin{tablenotes}
+            \footnotesize
+            \item Robust standard errors in parentheses.
+            \item $^{\ast\ast\ast}$ p<0.01, $^{\ast\ast}$ p<0.05, $^{\ast}$ p<0.1
+        \end{tablenotes}
+    \end{threeparttable}
+    \caption{Estimation Results for NS and SS Models}
+    \label{tab:ns_ss_post_model}
+\end{table}

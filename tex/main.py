@@ -21,7 +21,7 @@ from sections.appendix import add_appendix
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # Create a new document
-doc = Document('23802_DV410_2024')
+doc = Document('23802_DV410_2024', documentclass='article')
 
 # Add necessary packages
 doc.packages.append(NoEscape(r'\usepackage[backend=biber]{biblatex}'))
@@ -31,6 +31,10 @@ doc.packages.append(NoEscape(r'\usepackage{ragged2e}'))
 doc.packages.append(NoEscape(r'\usepackage{pdfpages}'))  # Add pdfpages package
 doc.packages.append(NoEscape(r'\usepackage{hyperref}'))  # Add hyperref package for links
 doc.packages.append(Package('booktabs'))
+doc.packages.append(Package('float'))
+doc.packages.append(Package('threeparttable'))
+doc.packages.append(Package('amssymb'))
+doc.packages.append(Package('amsmath'))
 doc.preamble.append(NoEscape(r'\addbibresource{references.bib}'))
 doc.preamble.append(NoEscape(r'\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}'))
 
