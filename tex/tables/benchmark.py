@@ -2,8 +2,8 @@ import pandas as pd
 import re
 
 # Paths to the .txt files
-ns_file_path = "./data/estimations_results/results_ns_post_model.txt"
-ss_file_path = "./data/estimations_results/results_ss_post_model.txt"
+long_file_path = "./data/estimations_results/results_benchmark_long.txt"
+short_file_path = "./data/estimations_results/results_benchmark_short.txt"
 
 # Function to read and parse the .txt files
 def parse_results(file_path):
@@ -31,16 +31,16 @@ def parse_results(file_path):
     
     return variables, coefficients, std_errors
 
-# Parse the results from the NS and SS models
-variables_ns, coefficients_ns, std_errors_ns = parse_results(ns_file_path)
-variables_ss, coefficients_ss, std_errors_ss = parse_results(ss_file_path)
+# Parse the results from the models
+variables_long, coefficients_long, std_errors_long = parse_results(long_file_path)
+variables_short, coefficients_short, std_errors_short = parse_results(short_file_path)
 
 # Create a set of all unique variables
-all_variables = set(variables_ns + variables_ss)
+all_variables = set(variables_long + variables_short)
 
 # Function to format LaTeX table rows
-def format_latex_row(var, coef_ns, err_ns, coef_ss, err_ss):
-    return f"            {var} & {coef_ns} & {err_ns} & {coef_ss} & {err_ss} \\\\\n"
+def format_latex_row(var, coef_long, err_long, coef_short, err_short):
+    return f"            {var} & {coef_long} & {err_long} & {coef_short} & {err_short} \\\\\n"
 
 # Create LaTeX table string
 latex_table = r"""
@@ -49,7 +49,7 @@ latex_table = r"""
     \begin{threeparttable}
         \begin{tabular}{lcccc}
             \toprule
-            & \multicolumn{2}{c}{NS Model} & \multicolumn{2}{c}{SS Model} \\
+            & \multicolumn{2}{c}{Long Model} & \multicolumn{2}{c}{Short Model} \\
             \cmidrule(lr){2-3} \cmidrule(lr){4-5}
             Variable & Coefficient & Std. Error & Coefficient & Std. Error \\
             \midrule
@@ -57,10 +57,10 @@ latex_table = r"""
 
 # Add rows for each variable
 for var in sorted(all_variables):
-    coef_ns = coefficients_ns.get(var, "")
-    err_ns = f"({std_errors_ns.get(var, '')})" if var in std_errors_ns else ""
-    coef_ss = coefficients_ss.get(var, "")
-    err_ss = f"({std_errors_ss.get(var, '')})" if var in std_errors_ss else ""
+    coef_long = coefficients_long.get(var, "")
+    err_long = f"({std_errors_long.get(var, '')})" if var in std_errors_long else ""
+    coef_short = coefficients_short.get(var, "")
+    err_short = f"({std_errors_short.get(var, '')})" if var in std_errors_short else ""
     
     # Formatting coefficients with significance stars
     def format_coef(coef):
@@ -79,10 +79,10 @@ for var in sorted(all_variables):
 #             if r'\ast' in formatted_coefficient:
 #                 formatted_coefficient = re.sub(r'(\d+\.\d+)', r'\1$^{', formatted_coefficient) + '}$'
 
-    coef_ns = format_coef(coef_ns)
-    coef_ss = format_coef(coef_ss)
+    coef_long = format_coef(coef_long)
+    coef_short = format_coef(coef_short)
     
-    latex_table += format_latex_row(var, coef_ns, err_ns, coef_ss, err_ss)
+    latex_table += format_latex_row(var, coef_long, err_long, coef_short, err_short)
 
 # Add the closing lines for the table
 latex_table += r"""
@@ -94,20 +94,20 @@ latex_table += r"""
             \item $^{\ast\ast\ast}$ p<0.01, $^{\ast\ast}$ p<0.05, $^{\ast}$ p<0.1
         \end{tablenotes}
     \end{threeparttable}
-    \caption{Estimation Results for NS and SS Models}
+    \caption{Estimation Results for Benchmark Long and Short Models}
     \label{tab:ns_ss_post_model}
 \end{table}
 """
 
 # Save the LaTeX table string to a .tex file
-tex_file_path = "./tex/tables/ns_ss_post_table.tex"
+tex_file_path = "./tex/tables/benchmark_table.tex"
 with open(tex_file_path, 'w') as file:
     file.write(latex_table)
 
 print(f"LaTeX table saved to {tex_file_path}")
 
 # # Paths to the .txt files
-# ns_file_path = "./data/estimations_results/results_ns_post_model.txt"
+# long_file_path = "./data/estimations_results/results_ns_post_model.txt"
 # ss_file_path = "./data/estimations_results/results_ss_post_model.txt"
 
 # def parse_results(file_path):
@@ -151,8 +151,8 @@ print(f"LaTeX table saved to {tex_file_path}")
 #     return variables, coefficients, std_errors
 
 # # Parse the results from the NS and SS models
-# variables_ns, coefficients_ns, std_errors_ns = parse_results(ns_file_path)
-# variables_ss, coefficients_ss, std_errors_ss = parse_results(ss_file_path)
+# variables_long, coefficients_long, std_errors_long = parse_results(ns_file_path)
+# variables_short, coefficients_ss, std_errors_ss = parse_results(ss_file_path)
 
 # # Debugging: print lengths of the lists
 # if len(variables_ns) != len(coefficients_ns) or len(coefficients_ns) != len(std_errors_ns):
@@ -161,7 +161,7 @@ print(f"LaTeX table saved to {tex_file_path}")
 #     print("Warning: SS model data lengths do not match!")
 
 # # Function to format LaTeX table rows
-# def format_latex_row(var, coef_ns, err_ns, coef_ss, err_ss):
+# def format_latex_row(var, coef_long, err_long, coef_short, err_short):
 #     return f"            {var} & {coef_ns} & {err_ns} & {coef_ss} & {err_ss} \\\\\n"
 
 # latex_table = r"""

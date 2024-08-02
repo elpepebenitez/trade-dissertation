@@ -1,0 +1,28 @@
+
+\begin{table}[H]
+    \centering
+    \begin{threeparttable}
+        \begin{tabular}{lcccc}
+            \toprule
+            & \multicolumn{2}{c}{Long Model} & \multicolumn{2}{c}{Short Model} \\
+            \cmidrule(lr){2-3} \cmidrule(lr){4-5}
+            Variable & Coefficient & Std. Error & Coefficient & Std. Error \\
+            \midrule
+            ColDepEver & -0.087 & (0.177) &  &  \\
+            ComlangOff & 0.205$^{\ast\ast}$ & (0.080) &  &  \\
+            Constant & 13.372$^{\ast\ast\ast}$ & (0.314) & 6.931$^{\ast\ast\ast}$ & (0.027) \\
+            Contig & 0.465$^{\ast\ast\ast}$ & (0.094) &  &  \\
+            LogDist & -0.843$^{\ast\ast\ast}$ & (0.035) &  &  \\
+            PTA & 0.456$^{\ast\ast\ast}$ & (0.060) & -0.076 & (0.075) \\
+
+            \bottomrule
+        \end{tabular}
+        \begin{tablenotes}
+            \footnotesize
+            \item Robust standard errors in parentheses.
+            \item $^{\ast\ast\ast}$ p<0.01, $^{\ast\ast}$ p<0.05, $^{\ast}$ p<0.1
+        \end{tablenotes}
+    \end{threeparttable}
+    \caption{Estimation Results for Benchmark Long and Short Models}
+    \label{tab:ns_ss_post_model}
+\end{table}

@@ -1,0 +1,16 @@
+	(1)
+VARIABLES	Benchmark Short Pair Fixed Effects PPML Estimation Results
+	
+PTA	-0.076
+	(0.075)
+Constant	6.931***
+	(0.027)
+	
+Observations	716,373
+N	716373
+Pseudo R2	0.843
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	
+* p<0.10	
+** p<0.05	
+*** p<0.01	
