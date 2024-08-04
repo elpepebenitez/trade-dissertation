@@ -55,7 +55,7 @@ def process_file(key):
             os.remove(local_file_name)
 
 # Chunk size (number of files to process at once)
-chunk_size = 10
+chunk_size = 50
 
 # Process files in chunks
 chunk_number = 0
