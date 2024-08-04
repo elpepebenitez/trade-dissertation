@@ -59,6 +59,8 @@ chunk_size = 50
 
 # Process files in chunks
 chunk_number = 0
+chunk_files_list = []
+
 for i in range(0, len(files), chunk_size):
     chunk_files = files[i:i + chunk_size]
     dataframes = []
@@ -74,7 +76,7 @@ for i in range(0, len(files), chunk_size):
         # Count unique cmdCode values where aggrLevel == 6 for each importer country
         aggr6_df = combined_df[combined_df['aggrLevel'] == 6]
         unique_cmd_counts = aggr6_df.groupby('partnerCode')['cmdCode'].nunique().reset_index()
-        unique_cmd_counts.columns = ['partnerCode', 'uniqueCmdCount']
+        unique_cmd_counts.columns = ['partnerCode', 'unique_cmd_count']
 
         # Merge the unique counts back to the combined DataFrame
         combined_df = combined_df.merge(unique_cmd_counts, on='partnerCode', how='left')
@@ -90,20 +92,27 @@ for i in range(0, len(files), chunk_size):
         # Upload the chunk CSV back to S3
         s3_client.upload_file(chunk_csv_path, bucket_name, f'{folder_name}{chunk_csv_path}')
 
+        # Keep track of chunk files
+        chunk_files_list.append(chunk_csv_path)
+
         # Remove the local chunk CSV file
         os.remove(chunk_csv_path)
 
         chunk_number += 1
 
-# List of intermediate result files
-chunk_files = [file for file in glob.glob("combined_comtrade_data_chunk_*.csv")]
-
 # Combine all chunk files into a single DataFrame
 combined_dataframes = []
-for chunk_file in chunk_files:
-    df = pd.read_csv(chunk_file)
+for chunk_file in chunk_files_list:
+    # Download the chunk file from S3
+    local_chunk_file = chunk_file.split('/')[-1]
+    s3_client.download_file(bucket_name, f'{folder_name}{chunk_file}', local_chunk_file)
+    
+    # Read the chunk file into a DataFrame
+    df = pd.read_csv(local_chunk_file)
     combined_dataframes.append(df)
-    os.remove(chunk_file)  # Remove the local chunk file after reading
+    
+    # Remove the local chunk file after reading
+    os.remove(local_chunk_file)
 
 if combined_dataframes:
     final_combined_df = pd.concat(combined_dataframes, ignore_index=True)
