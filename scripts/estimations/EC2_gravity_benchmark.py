@@ -5,6 +5,7 @@
 # exporter-year, importer-year and country-pair fixed effects
 # Calculate x-year intervals
 # Filtered data for only 1995-2015 and S countries with at least one NS and one SS
+# Rubust standard errors clustered at country-pairs
 
 # Fixing coefficient aggregation issues
 import gme as gm
