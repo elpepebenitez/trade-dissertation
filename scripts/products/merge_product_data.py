@@ -8,7 +8,7 @@ s3_client = boto3.client('s3')
 
 # Define the S3 bucket and folder
 bucket_name = 'trade-dissertation-data'
-folder_name = 'products/'
+folder_name = 'products/filtered/'
 
 # List all files in the S3 bucket folder
 response = s3_client.list_objects_v2(Bucket=bucket_name, Prefix=folder_name)
@@ -82,7 +82,7 @@ for i in range(0, len(files), chunk_size):
         combined_df = combined_df.merge(unique_cmd_counts, on='partnerCode', how='left')
 
         # Keep only rows where aggrLevel == 2
-        combined_df = combined_df[combined_df['aggrLevel'] == 2]
+        combined_df = combined_df[combined_df['aggrLevel'] == 6]
 
         # Save the combined DataFrame to a CSV file
         chunk_csv_path = f'combined_comtrade_data_chunk_{chunk_number}.csv'
@@ -118,7 +118,7 @@ if combined_dataframes:
     final_combined_df = pd.concat(combined_dataframes, ignore_index=True)
 
     # Save the final combined DataFrame to a CSV file
-    final_combined_csv_path = 'final_combined_comtrade_data.csv'
+    final_combined_csv_path = 'final_sample_combined_comtrade_data.csv'
     final_combined_df.to_csv(final_combined_csv_path, index=False)
 
     # Upload the final combined CSV back to S3

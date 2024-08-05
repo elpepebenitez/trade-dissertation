@@ -186,3 +186,9 @@ data/processed_data/updated_merged_trade_gravity_NS_SS.csv
 ./data/processed_data/updated_merged_trade_gravity_NS_SS.csv
 data/raw_data/comtrade/comtrade_export_data_1995_2015_filtered.csv
 ./data/raw_data/comtrade/comtrade_export_data_1995_2015_filtered.csv
+data/raw_data/comtrade/final_combined_comtrade_data.csv
+./data/raw_data/comtrade/final_combined_comtrade_data.csv
+data/processed_data/final_merged_trade_gravity_NS_SS.csv
+./data/processed_data/final_merged_trade_gravity_NS_SS.csv
+data/raw_data/cepii/TPc_V202401.csv
+./data/raw_data/cepii/TPc_V202401.csv

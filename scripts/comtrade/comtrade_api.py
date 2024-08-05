@@ -31,89 +31,89 @@ classification_code = "HS"  # Harmonized System
 trade_flow_code = "X"  # Exports
 max_records = 250000
 
-# Read the CSV file
-csv_file_path = "./data/processed_data/country_agreements_classified_summary.csv"
-data = pd.read_csv(csv_file_path)
+# # Read the CSV file
+# csv_file_path = "./data/processed_data/country_agreements_classified_summary.csv"
+# data = pd.read_csv(csv_file_path)
 
-# Filter the countries based on the conditions
-filtered_data = data[(data['North-South'] > 0) & (data['South-South'] > 0)]
+# # Filter the countries based on the conditions
+# filtered_data = data[(data['North-South'] > 0) & (data['South-South'] > 0)]
 
-# Keep the specified columns
-filtered_data = filtered_data[['iso3', 'numeric_code', 'region', 'income_group']]
+# # Keep the specified columns
+# filtered_data = filtered_data[['iso3', 'numeric_code', 'region', 'income_group']]
 
-# Clean the numeric_code column to remove or handle non-finite values
-filtered_data = filtered_data.dropna(subset=['numeric_code'])
-filtered_data['numeric_code'] = filtered_data['numeric_code'].astype(int)
+# # Clean the numeric_code column to remove or handle non-finite values
+# filtered_data = filtered_data.dropna(subset=['numeric_code'])
+# filtered_data['numeric_code'] = filtered_data['numeric_code'].astype(int)
 
-# Ensure the directory exists
-directory = "./data/raw_data/comtrade/"
-os.makedirs(directory, exist_ok=True)
+# # Ensure the directory exists
+# directory = "./data/raw_data/comtrade/"
+# os.makedirs(directory, exist_ok=True)
 
-finished = ["8","12","24","28","32","44","48","51","52","70","72","76","84","90","96", 
-            "100","104","108","116","120","132","140","148","152","156","158","174","178","180","188","191","196",
-            "203","204","212","214","218","222","226","231","233","234","242","262","266","268","270","275","288","296",
-            "308","320","324","328","332","340","344","348","356","360","384","388","398",
-            "400","404","410","414","418","422","426","428","430","440","450","454","458","466","470","478","480","484","496","498","499",
-            "504","508","512","516","520","548","558","562","566","586","591","598",
-            "600","604","608","616","624","634","642","643","646","659","662","670","678","682","686","688","690","694",
-            "702","703","704","705","706","710","716","729","740","748","760","764","768","776","780","784","788","792","798",
-            "800","804","807","818","834","854","858","882","894"]
+# finished = ["8","12","24","28","32","44","48","51","52","70","72","76","84","90","96", 
+#             "100","104","108","116","120","132","140","148","152","156","158","174","178","180","188","191","196",
+#             "203","204","212","214","218","222","226","231","233","234","242","262","266","268","270","275","288","296",
+#             "308","320","324","328","332","340","344","348","356","360","384","388","398",
+#             "400","404","410","414","418","422","426","428","430","440","450","454","458","466","470","478","480","484","496","498","499",
+#             "504","508","512","516","520","548","558","562","566","586","591","598",
+#             "600","604","608","616","624","634","642","643","646","659","662","670","678","682","686","688","690","694",
+#             "702","703","704","705","706","710","716","729","740","748","760","764","768","776","780","784","788","792","798",
+#             "800","804","807","818","834","854","858","882","894"]
 
-# Function to fetch data for a given reporter-year combination
-def fetch_data(reporter_code, year):
-    try:
-        print(f"Fetching data for reporter {reporter_code} for year {year}")
-        data = comtradeapicall.getFinalData(
-            subscription_key=api_key,
-            typeCode=type_code,
-            freqCode=freq_code,
-            clCode=classification_code,
-            period=str(year),
-            reporterCode=str(reporter_code),
-            partnerCode=None,  # Fetch all partners
-            flowCode=trade_flow_code,
-            cmdCode=None,  # Default value
-            partner2Code=None,  # Default value
-            customsCode=None,  # Default value
-            motCode=None,  # Default value
-            maxRecords=max_records,
-            format_output='JSON',
-            aggregateBy=None,
-            breakdownMode='classic', 
-            countOnly=None, 
-            includeDesc=True
-        )
-        if not data.empty:
-            return data
-        else:
-            print(f"No data found for reporter {reporter_code} for year {year}")
-            return pd.DataFrame()
-    except Exception as e:
-        print(f"Error processing data for reporter {reporter_code} for year {year}: {e}")
-        return pd.DataFrame()
+# # Function to fetch data for a given reporter-year combination
+# def fetch_data(reporter_code, year):
+#     try:
+#         print(f"Fetching data for reporter {reporter_code} for year {year}")
+#         data = comtradeapicall.getFinalData(
+#             subscription_key=api_key,
+#             typeCode=type_code,
+#             freqCode=freq_code,
+#             clCode=classification_code,
+#             period=str(year),
+#             reporterCode=str(reporter_code),
+#             partnerCode=None,  # Fetch all partners
+#             flowCode=trade_flow_code,
+#             cmdCode=None,  # Default value
+#             partner2Code=None,  # Default value
+#             customsCode=None,  # Default value
+#             motCode=None,  # Default value
+#             maxRecords=max_records,
+#             format_output='JSON',
+#             aggregateBy=None,
+#             breakdownMode='classic', 
+#             countOnly=None, 
+#             includeDesc=True
+#         )
+#         if not data.empty:
+#             return data
+#         else:
+#             print(f"No data found for reporter {reporter_code} for year {year}")
+#             return pd.DataFrame()
+#     except Exception as e:
+#         print(f"Error processing data for reporter {reporter_code} for year {year}: {e}")
+#         return pd.DataFrame()
 
-# Filter out the finished countries
-filtered_data = filtered_data[~filtered_data['numeric_code'].astype(str).isin(finished)]
+# # Filter out the finished countries
+# filtered_data = filtered_data[~filtered_data['numeric_code'].astype(str).isin(finished)]
 
-# Loop through the filtered reporter countries and download data
-for index, row in filtered_data.iterrows():
-    reporter_code = str(row['numeric_code'])
-    country_data = []
-    for year in range(1995, 2016):
-        data = fetch_data(reporter_code, year)
-        country_data.append(data)
-        print(f"Processed data for reporter {reporter_code} for year {year}")
-        time.sleep(1)  # Respectful delay to avoid hitting rate limits
+# # Loop through the filtered reporter countries and download data
+# for index, row in filtered_data.iterrows():
+#     reporter_code = str(row['numeric_code'])
+#     country_data = []
+#     for year in range(1995, 2016):
+#         data = fetch_data(reporter_code, year)
+#         country_data.append(data)
+#         print(f"Processed data for reporter {reporter_code} for year {year}")
+#         time.sleep(1)  # Respectful delay to avoid hitting rate limits
 
-    # Concatenate data for the country and save to a CSV file
-    country_df = pd.concat(country_data, ignore_index=True)
+#     # Concatenate data for the country and save to a CSV file
+#     country_df = pd.concat(country_data, ignore_index=True)
 
-    # Save the data to a CSV file for the country
-    country_csv_file_path = os.path.join(directory, f"comtrade_export_data_{reporter_code}_1995_2015.csv")
-    country_df.to_csv(country_csv_file_path, index=False)
-    print(f"Saved data for reporter {reporter_code} to {country_csv_file_path}")
+#     # Save the data to a CSV file for the country
+#     country_csv_file_path = os.path.join(directory, f"comtrade_export_data_{reporter_code}_1995_2015.csv")
+#     country_df.to_csv(country_csv_file_path, index=False)
+#     print(f"Saved data for reporter {reporter_code} to {country_csv_file_path}")
 
-print("All data has been processed and saved.")
+# print("All data has been processed and saved.")
 
 # # Save the data to a CSV file
 # output_csv_file_path = "./data/raw_data/comtrade/comtrade_export_data_1995_2015_filtered.csv"
@@ -130,3 +130,26 @@ print("All data has been processed and saved.")
 
 # print(mydf.head(5))
 # print(mydf.count())
+
+data = comtradeapicall.getFinalData(
+            subscription_key=api_key,
+            typeCode=type_code,
+            freqCode=freq_code,
+            clCode=classification_code,
+            period="2005",
+            reporterCode="760",
+            partnerCode=None,  # Fetch all partners
+            flowCode=trade_flow_code,
+            cmdCode=None,  # Default value
+            partner2Code=None,  # Default value
+            customsCode=None,  # Default value
+            motCode=None,  # Default value
+            maxRecords=max_records,
+            format_output='JSON',
+            aggregateBy=None,
+            breakdownMode='classic', 
+            countOnly=None, 
+            includeDesc=True
+        )
+
+print(data)
