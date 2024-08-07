@@ -1,9 +1,14 @@
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Benchmark Estimation Results}{1}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Benchmark Long and Short Models Results}{1}{subsubsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.2}NS and SS Post Model Estimation Results}{1}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}NS and SS Post Model Results}{1}{subsubsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}Additional Findings}{2}{subsubsection.1.2.2}%
-\contentsline {section}{\numberline {2}References}{3}{section.2}%
-\contentsline {section}{\numberline {3}Appendix}{4}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Subsection in Appendix}{4}{subsection.3.1}%
+\contentsline {section}{\numberline {2}Literature Review}{1}{section.2}%
+\contentsline {section}{\numberline {3}Methodology}{1}{section.3}%
+\contentsline {section}{\numberline {4}Findings}{1}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Benchmark Estimation Results}{1}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Benchmark Long and Short Models Results}{1}{subsubsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.2}NS and SS Post Model Estimation Results}{2}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}NS and SS Post Model Results}{2}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Additional Findings}{3}{subsubsection.4.2.2}%
+\contentsline {section}{\numberline {5}Analysis and Discussion}{3}{section.5}%
+\contentsline {section}{\numberline {6}Conclusion}{3}{section.6}%
+\contentsline {section}{\numberline {7}References}{4}{section.7}%
+\contentsline {section}{\numberline {8}Appendix}{5}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Subsection in Appendix}{5}{subsection.8.1}%

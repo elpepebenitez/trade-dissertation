@@ -127,10 +127,18 @@ final_filtered_pairs_count = len(final_filtered_iso_pairs_list)
 print(f"Filtered number of unique pairs (excluding NN agreements and with North-South or South-South agreements > 0): {final_filtered_pairs_count}")
 
 # Print the final list of filtered unique ISO pairs
-# print(final_filtered_iso_pairs_list)
+print(final_filtered_iso_pairs_list)
 
 # {'348', '440', '188', '792', '484', '191', '498', '428', '591', '218', '703', '32', '705', 
 #  '788', '854', '410', '196', '398', '140', '152', '600', '450', '807', '120', '702', '642', 
 #  '740', '344', '470', '400', '508', '558', '170', '222', '108', '320', '818', '504', '800', 
 #  '764', '340', '233', '616', '203', '156', '682', '84', '360', '512', '894', '458', '454', 
 #  '562', '231', '270', '780', '384', '604', '12', '716', '662', '480', '858', '76'}
+
+# Identify and count pairs with at least one country in the excluded_iso list
+pairs_with_excluded = [pair for pair in final_filtered_iso_pairs_list if pair[0] in excluded_iso3num or pair[1] in excluded_iso3num]
+total_pairs_with_excluded = len(pairs_with_excluded)
+
+# Print the count and the pairs
+print(f"Total number of pairs with at least one country in the excluded list: {total_pairs_with_excluded}")
+# print(f"Pairs with at least one country in the excluded list: {pairs_with_excluded}")

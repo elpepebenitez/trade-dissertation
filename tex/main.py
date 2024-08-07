@@ -9,11 +9,11 @@ from sections.abbreviations import add_abbreviations
 from sections.list_of_figures import add_list_of_figures
 from sections.list_of_tables import add_list_of_tables
 from sections.introduction import add_introduction
-# from sections.literature_review import add_literature_review
-# from sections.methodology import add_methodology
+from sections.literature_review import add_literature_review
+from sections.methodology import add_methodology
 from sections.findings import add_findings
-# from sections.analysis_and_discussion import add_analysis_and_discussion
-# from sections.conclusion import add_conclusion
+from sections.analysis_and_discussion import add_analysis_and_discussion
+from sections.conclusion import add_conclusion
 from sections.references import add_references
 from sections.appendix import add_appendix
 
@@ -86,11 +86,11 @@ doc.append(NoEscape(r'\pagestyle{mainmatter}'))
 
 # Add main sections
 add_introduction(doc)
-# add_literature_review(doc)
-# add_methodology(doc)
+add_literature_review(doc)
+add_methodology(doc)
 add_findings(doc)
-# add_analysis_and_discussion(doc)
-# add_conclusion(doc)
+add_analysis_and_discussion(doc)
+add_conclusion(doc)
 doc.append(NoEscape(r'\newpage'))
 
 # Add references
