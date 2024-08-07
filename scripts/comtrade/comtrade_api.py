@@ -16,7 +16,6 @@
 
 import pandas as pd
 import os
-import requests
 from dotenv import load_dotenv
 import comtradeapicall
 import time
@@ -59,38 +58,38 @@ max_records = 250000
 #             "702","703","704","705","706","710","716","729","740","748","760","764","768","776","780","784","788","792","798",
 #             "800","804","807","818","834","854","858","882","894"]
 
-# # Function to fetch data for a given reporter-year combination
-# def fetch_data(reporter_code, year):
-#     try:
-#         print(f"Fetching data for reporter {reporter_code} for year {year}")
-#         data = comtradeapicall.getFinalData(
-#             subscription_key=api_key,
-#             typeCode=type_code,
-#             freqCode=freq_code,
-#             clCode=classification_code,
-#             period=str(year),
-#             reporterCode=str(reporter_code),
-#             partnerCode=None,  # Fetch all partners
-#             flowCode=trade_flow_code,
-#             cmdCode=None,  # Default value
-#             partner2Code=None,  # Default value
-#             customsCode=None,  # Default value
-#             motCode=None,  # Default value
-#             maxRecords=max_records,
-#             format_output='JSON',
-#             aggregateBy=None,
-#             breakdownMode='classic', 
-#             countOnly=None, 
-#             includeDesc=True
-#         )
-#         if not data.empty:
-#             return data
-#         else:
-#             print(f"No data found for reporter {reporter_code} for year {year}")
-#             return pd.DataFrame()
-#     except Exception as e:
-#         print(f"Error processing data for reporter {reporter_code} for year {year}: {e}")
-#         return pd.DataFrame()
+# Function to fetch data for a given reporter-year combination
+def fetch_data(reporter_code, year):
+    try:
+        print(f"Fetching data for reporter {reporter_code} for year {year}")
+        data = comtradeapicall.getFinalData(
+            subscription_key=api_key,
+            typeCode=type_code,
+            freqCode=freq_code,
+            clCode=classification_code,
+            period=str(year),
+            reporterCode=str(reporter_code),
+            partnerCode=None,  # Fetch all partners
+            flowCode=trade_flow_code,
+            cmdCode=None,  # Default value
+            partner2Code=None,  # Default value
+            customsCode=None,  # Default value
+            motCode=None,  # Default value
+            maxRecords=max_records,
+            format_output='JSON',
+            aggregateBy=None,
+            breakdownMode='classic', 
+            countOnly=None, 
+            includeDesc=True
+        )
+        if not data.empty:
+            return data
+        else:
+            print(f"No data found for reporter {reporter_code} for year {year}")
+            return pd.DataFrame()
+    except Exception as e:
+        print(f"Error processing data for reporter {reporter_code} for year {year}: {e}")
+        return pd.DataFrame()
 
 # # Filter out the finished countries
 # filtered_data = filtered_data[~filtered_data['numeric_code'].astype(str).isin(finished)]

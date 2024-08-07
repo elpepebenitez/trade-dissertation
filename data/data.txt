@@ -1,0 +1,15 @@
+./data/raw_data/comtrade/final_sample_combined_comtrade_data.csv
+period,reporterCode,reporterISO,reporterDesc,partnerCode,partnerISO,partnerDesc,cmdCode,cmdDesc,aggrLevel,netWgt,fobvalue,unique_cmd_count
+
+./data/raw_data/cepii/TPe_V202401.csv
+year,iso3_tp_o,iso3_tp_d,trade_comb,trade_i,trade_e,pref,mfn,tariff,industry
+
+./data/processed_data/final_merged_trade_gravity_NS_SS.csv
+year,iso3_tp_o,iso3_tp_d,trade_comb,iso3_o,iso3_d,iso3num_o,iso3num_d,dist,contig,comlang_off,gdp_o,gdp_d,fta_wto,col_dep_ever,pair1,pair2,NS,SS,Post,pair_type
+
+./data/processed_data/country_agreements_classified_summary.csv
+Economy,iso3,numeric_code,region,income_group,North-North,North-South,South-South
+
+./data/raw_data/pta/desta_list_of_treaties_02_02_dyads.csv
+country1,country2,iso1,iso2,number,base_treaty,name,entry_type,consolidated,year,entryforceyear,language,typememb,regioncon,wto_listed,wto_name
+
