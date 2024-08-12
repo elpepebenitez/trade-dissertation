@@ -1,1 +1,228 @@
-This is the methodology
+The Gravity Model of Trade
+
+Often referred as the ``workhorse'' of international trade, the gravity
+model is prominent in the empirical literature of applied international
+trade analysis. Among the arguments that could explain/support the use
+of the gravity model, there are four that are particularly relevant for
+our purposes. First, the gravity model of trade is intuitive to
+understand. Following the metaphor of Newton's Law of Universal
+Gravitation, it predicts that international trade between two countries
+is directly proportional to the product of their economic size, and
+inversely proportional to trade frictions between them. In simpler
+words, the bigger (smaller) the economies of two countries, and the
+easier (harder) it is for them to trade with each other, the more (less)
+we expect them to trade. Second, it is referred to as a structural model
+with solid theoretical foundations, which makes it appropriate for
+counterfactual analysis, such as measuring the effects of trade policies
+as we aim to do with the effects of South-North versus South-South
+agreements. Third, model has a flexible structure, which will allow us
+to construct a specification tailored to our research. Finally, fourth,
+it holds consistent and remarkable predictive power, both with aggregate
+and sectoral data (Yotov et al. 2016).
+
+Through the decades, the gravity equation has been regularly upgraded in
+the theoretical and empirical literature. Of relevance, the simple
+intuition of the gravity model was theoretically extended by Anderson to
+note that, after controlling for size, the increase or decrease is
+\emph{relative} to the average barriers of the two countries with all
+their partners, which are referred as ``multilateral resistance''
+(Anderson 1979). The more trade barriers or resistance to trade exists
+with other countries relative to a given partner, the more a country is
+pushed to trade with said partner. Anderson also introduced the
+assumptions of product differentiation by place of origin, and Constant
+Elasticity of Substitution (CES) expenditures ,or the Armington-CES
+assumption (Yotov et al. 2016; Chatzilazarou and Dadakas 2023), which
+led us to today's generalized form of the gravity equation, as developed
+and popularised by Anderson and van Wincoop (Anderson and van Wincoop
+2003).
+
+Do I need to add more on the theory underlying the Gravity Models of
+Trade?
+
+Equally important, several empirical developments have strengthened the
+gravity model and inform our choice of methodology: Exporter-time and
+importer-time fixed effects are used to account for the multilateral
+resistance terms in a gravity estimation with panel data (Olivero and
+Yotov 2012); As the gravity model is often estimated with an OSL
+estimator, zero-trade flows were dropped from the sample when trade was
+transformed into a logarithmic form. Also, trade data is recognized to
+suffer from heteroscedasticity (Yotov et al. 2016). To solve for
+zero-trade flows and heteroscedasticity, the Poisson Pseudo Maximum
+Likelihood (PPML) estimator has been proposed to estimate the gravity
+model, avoiding potential biases (Silva and Tenreyro 2006; Santos Silva
+and Tenreyro 2011); Country-pair fixed effects has been proposed to
+account for the unobserved endogeneity of trade policy (Baier and
+Bergstrand 2007). It is worth nothing that the inclusion of
+exporter-time and importer-time fixed effects will absorb all observable
+and unobservable time-varying country-specific characteristics that
+could affect the dependent variable, while the country-pair fixed
+effects will absorb observable and unobservable bilateral time-invariant
+characteristics that could affect trade costs; The inclusion of
+intra-trade flows as well as international trade flows is proposed to
+correctly estimate the effects of non-discriminatory trade policy,
+allowing for consumers to choose products from both international and
+domestic sources (Dai, Yotov, and Zylkin 2014; Heid, Larch, and Yotov
+2017); Year-intervals instead of data pooled over consecutive years
+should be used to allow for adjustment of trade flows to policies that
+might not have immediate effects (Baier and Bergstrand 2007; Anderson
+and Yotov 2016); And finally, to account for the effects of
+globalization forces that may biased the estimates of trade policies, a
+set of globalization dummies are recommended to control for the effects
+of globalization in the gravity model (Yotov 2012; Bergstrand, Larch,
+and Yotov 2015). Based on the theoretical and empirical best-practices
+found in the relevant literature, we employ the following gravity
+equation using a PPML estimator and a balanced panel data approach with
+multiple exporters, multiple importers and time as our benchmark model:
+
+\[(1)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1}{PTA}_{ij,t} + \beta_{2}{PTA}_{ij,t - 5} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+
+Where \(X_{ij,t}\) denotes the value of exports from an origin country
+\(i\) to a destination country \(j\); \(\eta_{i,t}\) and \(\psi_{j,t}\)
+are, respectively, exporter-time and importer-time fixed-effects;
+\(\gamma_{\binom{-}{ij}}\) is a country-pair fixed-effect;
+\({PTA}_{ij,t}\) and \({PTA}_{ij,t - 5}\) are our main variables of
+interest, which, respectively indicate if \(i\) and \(j\) are members of
+a PTA at time \(t\) and, to account for potential ``phase-in'' effects
+over time of the PTA, at time \(t - 5\); \(\sum_{t}^{}b_{t}\) is a set
+of dummies that equal 1 for international trade and 0 for domestic trade
+observations at each time \(t\); and \(\epsilon_{ij,t}\) is an error
+term.
+
+In contrast with our main interest of research, which are the potential
+heterogenous effects of PTAs on different members for different types of
+agreements, this benchmark model, specifically
+\(\beta = \beta_{1} + \beta_{2}\) , would provide the average ``total''
+partial effect of PTAs on trade after accounting for lagged effects, but
+it cannot provide the effects for a given agreement, country-pairs o
+specific country members to a specific agreement. As such, three
+successive expansions can be implemented to capture heterogeneity in PTA
+effects as proposed by Baier \emph{et al}. (Baier, Yotov, and Zylkin
+2019):
+
+\[(2)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}^{}{\beta_{1,A}{PTA}_{ij,t}} + \sum_{A}^{}{\beta_{2,A}{PTA}_{ij,t - 5}} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+
+Equation (2) can be implemented to account for heterogeneous effects of
+PTAs at the level of the specific agreement, by allowing for distinct
+average partial effects for each individual agreement, using superscript
+\(A\) to index by agreement and also allowing for agreement-specific
+lags: \(\beta_{A} = \beta_{1,A} + \beta_{2,A}\).
+
+Extended Benchmark Model with PTA Types
+
+You want to modify the benchmark model to allow for different types of
+PTAs (NN, NS, SS) while still keeping the same overall structure. Here's
+how you can adjust the model:
+
+Equation (1) with PTA Types:
+
+\[(3)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1NN}{PTA\_ NN}_{ij,t} + \beta_{2NN}{PTA\_ NN}_{ij,t - 5} + + \beta_{1NS}{PTA\_ NS}_{ij,t} + \beta_{2NS}{PTA\_ NS}_{ij,t - 5} + \beta_{1SS}{PTA\_ SS}_{ij,t} + \beta_{2SS}{PTA\_ SS}_{ij,t - 5} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+
+Where:
+
+\begin{itemize}
+\item
+  \(X_{ij,t}\)\hspace{0pt} denotes the value of exports from country
+  \(i\) to country \(j\) at time \(t\).
+\item
+  \(\eta_{i,t}\) and \(\psi_{j,t}\ \)are exporter-time and importer-time
+  fixed effects, respectively.
+\item
+  \(\gamma_{\binom{-}{ij}}\) is a country-pair fixed effect.
+\item
+  \hspace{0pt}\(\beta_{1NN}\) and \(\beta_{2NN}\) are the coefficients
+  for the immediate and lagged effects of a North-North PTA
+  (\(PTA\_ NN\)).
+\item
+  \hspace{0pt}\hspace{0pt}\(\beta_{1NS}\) and \(\beta_{2NS}\) are the
+  coefficients for the immediate and lagged effects of a North-South PTA
+  (\(PTA\_ SN\)).
+\item
+  \hspace{0pt}\hspace{0pt}\(\beta_{1SS}\) and \(\beta_{2SS}\) are the
+  coefficients for the immediate and lagged effects of a South-South PTA
+  (\(PTA\_ SS\)).
+\item
+  \(\sum_{t}^{}b_{t}\) is a set of time dummies accounting for
+  international trade-specific effects at each time \(t\).
+\item
+  \(\epsilon_{ij,t}\) is the error term.
+\end{itemize}
+
+Extended Model with PTA Heterogeneity and Types
+
+Next, you want to extend the model allowing for PTA heterogeneity to
+also distinguish between different types of PTAs.
+
+Equation (2) with PTA Types:
+
+\[(4)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}^{}{(\beta_{1,A,NN}{PTA\_ NN}_{ij,t}\  + \ \beta_{2,A,NN}{PTA\_ NN}_{ij,t - 5})} + \sum_{A}^{}{(\beta_{1,A,NS}{PTA\_ NS}_{ij,t}\  + \ \beta_{2,A,NS}{PTA\_ NS}_{ij,t - 5})} + \sum_{A}^{}{(\beta_{1,A,SS}{PTA\_ SS}_{ij,t}\  + \ \beta_{2,A,SS}{PTA\_ SS}_{ij,t - 5})} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+
+Where:
+
+\begin{itemize}
+\item
+  \(X_{ij,t}\)\hspace{0pt} denotes the value of exports from country
+  \(i\) to country \(j\) at time \(t\).
+\item
+  \(\eta_{i,t}\) and \(\psi_{j,t}\ \)are exporter-time and importer-time
+  fixed effects, respectively.
+\item
+  \(\gamma_{\binom{-}{ij}}\) is a country-pair fixed effect.
+\item
+  The summations \hspace{0pt}\(\sum_{}^{}A\) denote the sum over
+  different agreements \(A\) for:
+
+  \begin{itemize}
+  \item
+    \(\beta_{1,A,NN}\) and \(\beta_{2,A,NN}\): Coefficients for the
+    immediate and lagged effects of North-North PTAs
+    \hspace{0pt}(\(PTA\_ NN\)).
+  \item
+    \(\beta_{1,A,NS}\) and \(\beta_{2,A,NS}\): Coefficients for the
+    immediate and lagged effects of North-South PTAs (\(PTA\_ SN\)).
+  \item
+    \(\beta_{1,A,SS}\) and \(\beta_{2,A,SS}\): Coefficients for the
+    immediate and lagged effects of South-South PTAs (\(PTA\_ SS\)).
+  \end{itemize}
+\item
+  \(\sum_{t}^{}b_{t}\) is a set of time dummies accounting for
+  trade-specific effects at each time \(t\).
+\item
+  \(\epsilon_{ij,t}\) is the error term.
+\end{itemize}
+
+Variables:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \({PTA\_ NN}_{ij,t}\): Dummy variable that takes the value of 1 if the
+  trade pair \((i,j)\) is part of a North-North PTA at time \(t\), and 0
+  otherwise.
+\item
+  \({PTA\_ NN}_{ij,t - 5}\): Dummy variable that takes the value of 1 if
+  the trade pair \((i,j)\) was part of a North-North PTA at time
+  \(t\)\emph{-5}, and 0 otherwise.
+\item
+  \({PTA\_ NS}_{ij,t}\): Dummy variable that takes the value of 1 if the
+  trade pair \((i,j)\) is part of a North-South PTA at time \(t\), and 0
+  otherwise.
+\item
+  \({PTA\_ NS}_{ij,t - 5}\): Dummy variable that takes the value of 1 if
+  the trade pair \((i,j)\) was part of a North-South PTA at time
+  \(t\)\emph{-5}, and 0 otherwise.
+\item
+  \({PTA\_ SS}_{ij,t}\): Dummy variable that takes the value of 1 if the
+  trade pair \((i,j)\) is part of a South-South PTA at time \(t\), and 0
+  otherwise.
+\item
+  \({PTA\_ SS}_{ij,t - 5}\):: Dummy variable that takes the value of 1
+  if the trade pair \((i,j)\) was part of a South-South PTA at time
+  \(t\)\emph{-5}, and 0 otherwise.
+\end{enumerate}
+
+These models allow you to capture the differentiated impacts of PTAs
+depending on whether they are between two developed countries (NN),
+between a developed and a developing country (NS), or between two
+developing countries (SS).
+
+References

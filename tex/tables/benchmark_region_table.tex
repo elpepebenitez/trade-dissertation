@@ -1,0 +1,33 @@
+\begin{table}[htbp]
+    \centering
+    \caption{Benchmark Model Regional Results}
+    \label{tab:benchmark_region_analysis} % This allows you to reference the table in the text with \ref{tab:pta_analysis}
+    \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{lccccc}
+    \hline
+     & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} \\
+    \hline
+    \textbf{Variables} &  &  &  &  &  \\
+    \hline
+     & PPML & PPML & PPML & PPML & PPML \\
+     & Africa & Americas & Asia & Europe & Intercontinental \\
+    \hline
+    PTA & 0.578$^{\ast\ast\ast}$ & 0.287$^{\ast\ast\ast}$ & 0.064 & 0.237$^{\ast\ast\ast}$ & 0.015 \\
+    & (0.154) & (0.071) & (0.083) & (0.019) & (0.093) \\
+
+    PTA Lag & -0.278 & 0.146 & -0.167$^{\ast\ast\ast}$ & 0.238$^{\ast\ast\ast}$ & 0.188$^{\ast\ast\ast}$ \\
+    & (0.300) & (0.149) & (0.056) & (0.022) & (0.043) \\
+
+    PTA + PTA Lag & 0.301 & 0.433$^{\ast\ast\ast}$ & -0.103 & 0.475$^{\ast\ast\ast}$ & 0.203$^{\ast}$ \\
+    & (0.295) & (0.140) & (0.094) & (0.025) & (0.106) \\
+    \hline
+    Exporter-Year FE & Yes & Yes & Yes & Yes & Yes \\
+    Importer-Year FE & Yes & Yes & Yes & Yes & Yes \\
+    Country-Pair FE & Yes & Yes & Yes & Yes & Yes \\
+    R-Squared & 0.997 & 0.999 & 0.999 & 0.997 & 0.998 \\
+    Observations & 5838 & 10997 & 25308 & 28168 & 73930 \\
+    \hline
+    \multicolumn{6}{l}{\footnotesize{Notes: Robust standard errors clustered at the country-pair in parentheses. Significance levels are indicated as follows: $^{\ast}$p$<$0.1; $^{\ast\ast}$p$<$0.05; $^{\ast\ast\ast}$p$<$0.01.}} \\
+    \end{tabular}
+    \end{adjustbox}
+\end{table}    

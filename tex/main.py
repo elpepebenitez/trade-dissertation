@@ -24,7 +24,8 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 doc = Document('23802_DV410_2024', documentclass='article')
 
 # Add necessary packages
-doc.packages.append(NoEscape(r'\usepackage[backend=biber]{biblatex}'))
+# doc.packages.append(NoEscape(r'\usepackage[backend=biber]{biblatex}'))
+doc.packages.append(Package('biblatex', options='backend=biber'))
 doc.packages.append(NoEscape(r'\usepackage{fancyhdr}'))
 doc.packages.append(NoEscape(r'\usepackage{lastpage}'))
 doc.packages.append(NoEscape(r'\usepackage{ragged2e}'))
@@ -35,6 +36,13 @@ doc.packages.append(Package('float'))
 doc.packages.append(Package('threeparttable'))
 doc.packages.append(Package('amssymb'))
 doc.packages.append(Package('amsmath'))
+doc.packages.append(Package('adjustbox'))
+doc.packages.append(Package('geometry'))  # Add the geometry package
+doc.packages.append(Package('inputenc', options='utf8'))
+
+# Set the margins using the geometry package
+doc.preamble.append(NoEscape(r'\geometry{left=1in, right=1in, top=1in, bottom=1in}'))
+
 doc.preamble.append(NoEscape(r'\addbibresource{references.bib}'))
 doc.preamble.append(NoEscape(r'\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}'))
 

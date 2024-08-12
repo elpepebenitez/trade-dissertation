@@ -1,0 +1,43 @@
+\begin{table}[htbp]
+    \centering
+    \caption{Regional Results by PTA Type}
+    \label{tab:pta_types}
+    \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{lccccc}
+    \hline
+     & \multicolumn{1}{c}{Africa} & \multicolumn{1}{c}{Americas} & \multicolumn{1}{c}{Asia} & \multicolumn{1}{c}{Europe} & \multicolumn{1}{c}{Intercontinental} \\
+    \hline
+    \textbf{Variables} &  &  &  &  &  \\
+    \hline
+    NN PTA &  &  &  & 0.207$^{\ast\ast\ast}$ & 0.013 \\
+     &  &  &  & (0.021) & (0.072) \\
+    NN PTA Lag &  &  &  & 0.192$^{\ast\ast\ast}$ & 0.016 \\
+     &  &  &  & (0.023) & (0.073) \\
+    NN PTA + NN PTA Lag &  &  &  & 0.399$^{\ast\ast\ast}$ & 0.029 \\
+     &  &  &  & (0.026) & (0.102) \\
+    \hline
+    NS PTA &  & 0.199$^{\ast\ast\ast}$ & -0.089 & 0.374$^{\ast\ast\ast}$ & 0.013 \\
+     &  & (0.069) & (0.089) & (0.041) & (0.144) \\
+    NS PTA Lag &  & 0.234 & -0.067 & 0.349$^{\ast\ast\ast}$ & 0.231$^{\ast\ast\ast}$ \\
+     &  & (0.190) & (0.060) & (0.041) & (0.061) \\
+    NS PTA + NS PTA Lag &  & 0.434$^{\ast\ast}$ & -0.156$^{\ast}$ & 0.723$^{\ast\ast\ast}$ & 0.244 \\
+     &  & (0.200) & (0.090) & (0.046) & (0.156) \\
+    \hline
+    SS PTA & 0.578$^{\ast\ast\ast}$ & 0.476$^{\ast\ast\ast}$ & 0.153 & 0.530$^{\ast\ast\ast}$ & 0.004 \\
+     & (0.154) & (0.139) & (0.117) & (0.107) & (0.121) \\
+    SS PTA Lag & -0.278 & -0.023 & -0.208$^{\ast\ast\ast}$ & 0.575$^{\ast\ast\ast}$ & 0.204$^{\ast\ast\ast}$ \\
+     & (0.300) & (0.133) & (0.063) & (0.119) & (0.073) \\
+    SS PTA + SS PTA Lag & 0.301 & 0.453$^{\ast\ast\ast}$ & -0.055 & 1.105$^{\ast\ast\ast}$ & 0.208 \\
+     & (0.295) & (0.112) & (0.130) & (0.092) & (0.128) \\
+    \hline
+    Exporter-Year FE & Yes & Yes & Yes & Yes & Yes \\
+    Importer-Year FE & No & Yes & Yes & Yes & Yes \\
+    Country-Pair FE & Yes & Yes & Yes & Yes & Yes \\
+    R-Squared & 0.997 & 0.999 & 0.999 & 0.997 & 0.998 \\
+    Observations & 5838 & 10997 & 25308 & 28168 & 73930 \\
+    \hline
+    \multicolumn{6}{l}{\footnotesize{Notes: Robust standard errors clustered at the country-pair level in parentheses.}} \\
+    \multicolumn{6}{l}{\footnotesize{Significance levels are indicated as follows: $^{\ast}$p$<$0.1; $^{\ast\ast}$p$<$0.05; $^{\ast\ast\ast}$p$<$0.01.}} \\
+    \end{tabular}
+    \end{adjustbox}
+\end{table}

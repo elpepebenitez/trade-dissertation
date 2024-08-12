@@ -19,31 +19,59 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{example_reference}{article}{}
-      \name{author}{1}{}{%
-        {{hash=bd051a2f7a5f377e3a62581b0e0f8577}{%
-           family={Doe},
+    \entry{dahi_preferential_2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c1d506d1cee8559ce739f11b2a4d8445}{%
+           family={Dahi},
            familyi={D\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
+           given={Omar\bibnamedelima S.},
+           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=6da76faadbec759e64d245c2dcdacf72}{%
+           family={Demir},
+           familyi={D\bibinitperiod},
+           given={Firat},
+           giveni={F\bibinitperiod}}}%
       }
-      \strng{namehash}{bd051a2f7a5f377e3a62581b0e0f8577}
-      \strng{fullhash}{bd051a2f7a5f377e3a62581b0e0f8577}
-      \strng{bibnamehash}{bd051a2f7a5f377e3a62581b0e0f8577}
-      \strng{authorbibnamehash}{bd051a2f7a5f377e3a62581b0e0f8577}
-      \strng{authornamehash}{bd051a2f7a5f377e3a62581b0e0f8577}
-      \strng{authorfullhash}{bd051a2f7a5f377e3a62581b0e0f8577}
+      \strng{namehash}{975eaa1103c053196c10726bfd776c97}
+      \strng{fullhash}{975eaa1103c053196c10726bfd776c97}
+      \strng{bibnamehash}{975eaa1103c053196c10726bfd776c97}
+      \strng{authorbibnamehash}{975eaa1103c053196c10726bfd776c97}
+      \strng{authornamehash}{975eaa1103c053196c10726bfd776c97}
+      \strng{authorfullhash}{975eaa1103c053196c10726bfd776c97}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Examples}
-      \field{number}{1}
-      \field{title}{An example article}
-      \field{volume}{1}
-      \field{year}{2021}
-      \field{pages}{1\bibrangedash 10}
-      \range{pages}{10}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This article explores two questions. First, do preferential trade agreements ({PTAs}) affect manufactured goods exports of developing countries? Second, does it matter for developing countries whom they sign the {PTAs} with? We find that the answer to both questions is yes. Using bilateral manufactured goods exports data from 28 developing countries during 1978–2005; we find that South–South {PTAs} have a significantly positive effect on manufactured goods exports. In contrast, no such effect is detected in the case of South–North {PTAs}. We confirmed the robustness of these findings to estimation methodology, sample selection, time period, zero trade flows and multilateral trade resistance.}
+      \field{issn}{00036846}
+      \field{journaltitle}{Applied Economics}
+      \field{month}{12}
+      \field{note}{Publisher: Routledge}
+      \field{number}{34}
+      \field{shorttitle}{Preferential trade agreements and manufactured goods exports}
+      \field{title}{Preferential trade agreements and manufactured goods exports: does it matter whom you {PTA} with?}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{45}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4754\bibrangedash 4772}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1080/00036846.2013.804169
+      \endverb
+      \verb{file}
+      \verb EBSCO Full Text:/Users/pepe/Zotero/storage/RAX7BPZ2/Dahi and Demir - 2013 - Preferential trade agreements and manufactured goo.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://search.ebscohost.com/login.aspx?direct=true&db=bth&AN=89600898&site=ehost-live
+      \endverb
+      \verb{url}
+      \verb https://search.ebscohost.com/login.aspx?direct=true&db=bth&AN=89600898&site=ehost-live
+      \endverb
+      \keyw{F15,International trade,developing countries,Economic conditions in developing countries,Exports,F13,F14,gravity equation,Gravity model (Social sciences),industrial development,L60,manufactured goods exports,Manufactured products,Mathematical models,O24,preferential trade agreements,south–south and south–north trade}
     \endentry
   \enddatalist
 \endrefsection
