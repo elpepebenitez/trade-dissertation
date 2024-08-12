@@ -6,4 +6,4 @@ def add_introduction(doc):
             introduction_content = file.read()
         doc.append(NoEscape(introduction_content))
         doc.append('This is the introduction section. Here is a citation: ')
-        doc.append(NoEscape(r'\cite{example_reference}'))
+        doc.append(NoEscape(r'\cite{dahi_preferential_2013}'))

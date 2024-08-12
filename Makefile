@@ -1,9 +1,10 @@
 # Makefile for dissertation project
 
 # Define directories
-DOC_DIR = ./tex/sections/docs
-TEX_DIR = ./tex/sections
+DOC_DIR = ./tex/sections/docs/
+TEX_DIR = ./tex/sections/
 PY_DIR = ./tex
+BIB_FILE = $(PY_DIR)/references.bib
 
 # Define Word documents and corresponding LaTeX files
 DOCS = introduction literature_review methodology findings analysis_and_discussion conclusion
@@ -36,9 +37,9 @@ tables:
 # Convert Word documents to LaTeX files
 convert_tex: $(TEX_FILES)
 
-# Rule to convert .docx files to .tex using pandoc
-$(TEX_DIR)/%.tex: $(DOC_DIR)/%.docx
-	pandoc $< -o $@
+# Rule to convert .docx files to .tex using pandoc with citation processing
+$(TEX_DIR)/%.tex: $(DOC_DIR)/%.docx $(BIB_FILE)
+	pandoc --bibliography=$(BIB_FILE) --citeproc $< -o $@
 
 # Compile the PyLaTeX document
 compile_tex:
@@ -48,6 +49,7 @@ compile_tex:
 clean:
 	rm -f $(TEX_DIR)/*.aux $(TEX_DIR)/*.bbl $(TEX_DIR)/*.bcf $(TEX_DIR)/*.blg $(TEX_DIR)/*.log $(TEX_DIR)/*.out $(TEX_DIR)/*.run.xml $(TEX_DIR)/*.toc $(TEX_DIR)/*.lof $(TEX_DIR)/*.lot
 	rm -f $(PY_DIR)/$(MAIN_TEX) $(PY_DIR)/$(basename $(MAIN_TEX)).pdf
+	rm -f $(TEX_FILES)
 
 # # Makefile for dissertation project
 
