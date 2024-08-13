@@ -1,0 +1,19 @@
+\begin{multline}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1} \, PTA_{ij,t} \right. + \beta_{2} \, PTA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+\end{multline}
+
+\begin{multline}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A} \beta_{1,A} \, PTA_{ij,t} \right. + \sum_{A} \beta_{2,A} \, PTA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+\end{multline}
+
+\begin{multline}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1NN} \, PTA\_NN_{ij,t} + \beta_{2NN} \, PTA\_NN_{ij,t-5} \right. \\
+    + \beta_{1NS} \, PTA\_NS_{ij,t} + \beta_{2NS} \, PTA\_NS_{ij,t-5} + \beta_{1SS} \, PTA\_SS_{ij,t} + \beta_{2SS} \, PTA\_SS_{ij,t-5} \\
+    + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+\end{multline}
+
+\begin{multline}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}\left(\beta_{1,A,NN} \, PTA\_NN_{ij,t} + \beta_{2,A,NN} \, PTA\_NN_{ij,t-5}\right) \right. \\
+    + \sum_{A}\left(\beta_{1,A,NS} \, PTA\_NS_{ij,t} + \beta_{2,A,NS} \, PTA\_NS_{ij,t-5}\right) + \sum_{A}\left(\beta_{1,A,SS} \, PTA\_SS_{ij,t} + \beta_{2,A,SS} \, PTA\_SS_{ij,t-5}\right) \\
+    + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+\end{multline}

@@ -1,4 +1,4 @@
-The Gravity Model of Trade
+\textbf{The Gravity Model of Trade}
 
 Often referred as the ``workhorse'' of international trade, the gravity
 model is prominent in the empirical literature of applied international
@@ -36,9 +36,6 @@ led us to today's generalized form of the gravity equation, as developed
 and popularised by Anderson and van Wincoop (Anderson and van Wincoop
 2003).
 
-Do I need to add more on the theory underlying the Gravity Models of
-Trade?
-
 Equally important, several empirical developments have strengthened the
 gravity model and inform our choice of methodology: Exporter-time and
 importer-time fixed effects are used to account for the multilateral
@@ -74,7 +71,10 @@ found in the relevant literature, we employ the following gravity
 equation using a PPML estimator and a balanced panel data approach with
 multiple exporters, multiple importers and time as our benchmark model:
 
-\[(1)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1}{PTA}_{ij,t} + \beta_{2}{PTA}_{ij,t - 5} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+% \[(1)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1}{PTA}_{ij,t} + \beta_{2}{PTA}_{ij,t - 5} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+\begin{multline}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1} \, PTA_{ij,t} \right. + \beta_{2} \, PTA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+\end{multline}
 
 Where \(X_{ij,t}\) denotes the value of exports from an origin country
 \(i\) to a destination country \(j\); \(\eta_{i,t}\) and \(\psi_{j,t}\)
@@ -99,7 +99,10 @@ successive expansions can be implemented to capture heterogeneity in PTA
 effects as proposed by Baier \emph{et al}. (Baier, Yotov, and Zylkin
 2019):
 
-\[(2)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}^{}{\beta_{1,A}{PTA}_{ij,t}} + \sum_{A}^{}{\beta_{2,A}{PTA}_{ij,t - 5}} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+% \[(2)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}^{}{\beta_{1,A}{PTA}_{ij,t}} + \sum_{A}^{}{\beta_{2,A}{PTA}_{ij,t - 5}} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+\begin{multline}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A} \beta_{1,A} \, PTA_{ij,t} \right. + \sum_{A} \beta_{2,A} \, PTA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+\end{multline}
 
 Equation (2) can be implemented to account for heterogeneous effects of
 PTAs at the level of the specific agreement, by allowing for distinct
@@ -107,122 +110,79 @@ average partial effects for each individual agreement, using superscript
 \(A\) to index by agreement and also allowing for agreement-specific
 lags: \(\beta_{A} = \beta_{1,A} + \beta_{2,A}\).
 
-Extended Benchmark Model with PTA Types
+In order to analyse the differentiated effects of North-North,
+North-South and South-South PTAs, we extend both models to get estimates
+for each type of PTA. Our benchmark model is extended as follows:
 
-You want to modify the benchmark model to allow for different types of
-PTAs (NN, NS, SS) while still keeping the same overall structure. Here's
-how you can adjust the model:
+% \[(3)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1NN}{PTA\_ NN}_{ij,t} + \beta_{2NN}{PTA\_ NN}_{ij,t - 5} + \beta_{1NS}{PTA\_ NS}_{ij,t} + \beta_{2NS}{PTA\_ NS}_{ij,t - 5} + \beta_{1SS}{PTA\_ SS}_{ij,t} + \beta_{2SS}{PTA\_ SS}_{ij,t - 5} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+\begin{multline}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1NN} \, PTA\_NN_{ij,t} + \beta_{2NN} \, PTA\_NN_{ij,t-5} \right. \\
+    + \beta_{1NS} \, PTA\_NS_{ij,t} + \beta_{2NS} \, PTA\_NS_{ij,t-5} + \beta_{1SS} \, PTA\_SS_{ij,t} + \beta_{2SS} \, PTA\_SS_{ij,t-5} \\
+    + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+\end{multline}
 
-Equation (1) with PTA Types:
+Where \(X_{ij,t}\)\hspace{0pt} denotes the value of exports from country
+\(i\) to country \(j\) at time \(t\); \(\eta_{i,t}\) and
+\(\psi_{j,t}\ \)are exporter-time and importer-time fixed effects,
+respectively; \(\gamma_{\binom{-}{ij}}\) is a country-pair fixed effect;
+\hspace{0pt}\(\beta_{1NN}\) and \(\beta_{2NN}\) are the coefficients for
+the immediate and lagged effects of a North-North PTA (\(PTA\_ NN\));
+\hspace{0pt}\hspace{0pt}\(\beta_{1NS}\) and \(\beta_{2NS}\) are the
+coefficients for the immediate and lagged effects of a North-South PTA
+(\(PTA\_ SN\)); \hspace{0pt}\hspace{0pt}\(\beta_{1SS}\) and
+\(\beta_{2SS}\) are the coefficients for the immediate and lagged
+effects of a South-South PTA (\(PTA\_ SS\)); \(\sum_{t}^{}b_{t}\) is a
+set of time dummies accounting for international trade-specific effects
+at each time \(t\); and \(\epsilon_{ij,t}\) is the error term.
 
-\[(3)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1NN}{PTA\_ NN}_{ij,t} + \beta_{2NN}{PTA\_ NN}_{ij,t - 5} + + \beta_{1NS}{PTA\_ NS}_{ij,t} + \beta_{2NS}{PTA\_ NS}_{ij,t - 5} + \beta_{1SS}{PTA\_ SS}_{ij,t} + \beta_{2SS}{PTA\_ SS}_{ij,t - 5} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+Equation (2) also gets extended to capture the heterogeneous effects of
+the different types of PTAs as follows:
 
-Where:
+% \[(4)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}^{}{(\beta_{1,A,NN}{PTA\_ NN}_{ij,t}\  + \ \beta_{2,A,NN}{PTA\_ NN}_{ij,t - 5})} + \sum_{A}^{}{(\beta_{1,A,NS}{PTA\_ NS}_{ij,t}\  + \ \beta_{2,A,NS}{PTA\_ NS}_{ij,t - 5})} + \sum_{A}^{}{(\beta_{1,A,SS}{PTA\_ SS}_{ij,t}\  + \ \beta_{2,A,SS}{PTA\_ SS}_{ij,t - 5})} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
 
-\begin{itemize}
-\item
-  \(X_{ij,t}\)\hspace{0pt} denotes the value of exports from country
-  \(i\) to country \(j\) at time \(t\).
-\item
-  \(\eta_{i,t}\) and \(\psi_{j,t}\ \)are exporter-time and importer-time
-  fixed effects, respectively.
-\item
-  \(\gamma_{\binom{-}{ij}}\) is a country-pair fixed effect.
-\item
-  \hspace{0pt}\(\beta_{1NN}\) and \(\beta_{2NN}\) are the coefficients
-  for the immediate and lagged effects of a North-North PTA
-  (\(PTA\_ NN\)).
-\item
-  \hspace{0pt}\hspace{0pt}\(\beta_{1NS}\) and \(\beta_{2NS}\) are the
-  coefficients for the immediate and lagged effects of a North-South PTA
-  (\(PTA\_ SN\)).
-\item
-  \hspace{0pt}\hspace{0pt}\(\beta_{1SS}\) and \(\beta_{2SS}\) are the
-  coefficients for the immediate and lagged effects of a South-South PTA
-  (\(PTA\_ SS\)).
-\item
-  \(\sum_{t}^{}b_{t}\) is a set of time dummies accounting for
-  international trade-specific effects at each time \(t\).
-\item
-  \(\epsilon_{ij,t}\) is the error term.
-\end{itemize}
+\begin{multline}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}\left(\beta_{1,A,NN} \, PTA\_NN_{ij,t} + \beta_{2,A,NN} \, PTA\_NN_{ij,t-5}\right) \right. \\
+    + \sum_{A}\left(\beta_{1,A,NS} \, PTA\_NS_{ij,t} + \beta_{2,A,NS} \, PTA\_NS_{ij,t-5}\right) + \sum_{A}\left(\beta_{1,A,SS} \, PTA\_SS_{ij,t} + \beta_{2,A,SS} \, PTA\_SS_{ij,t-5}\right) \\
+    + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+\end{multline}
 
-Extended Model with PTA Heterogeneity and Types
+Where \(X_{ij,t}\)\hspace{0pt} denotes the value of exports from country
+\(i\) to country \(j\) at time \(t\); \(\eta_{i,t}\) and
+\(\psi_{j,t}\ \)are exporter-time and importer-time fixed effects,
+respectively; \(\gamma_{\binom{-}{ij}}\) is a country-pair fixed effect;
+The summations \hspace{0pt}\(\sum_{}^{}A\) denote the sum over different
+agreements \(A\) for: \(\beta_{1,A,NN}\) and \(\beta_{2,A,NN}\):
+Coefficients for the immediate and lagged effects of North-North PTAs
+\hspace{0pt}(\(PTA\_ NN\)); \(\beta_{1,A,NS}\) and \(\beta_{2,A,NS}\):
+Coefficients for the immediate and lagged effects of North-South PTAs
+(\(PTA\_ SN\)); \(\beta_{1,A,SS}\) and \(\beta_{2,A,SS}\): Coefficients
+for the immediate and lagged effects of South-South PTAs (\(PTA\_ SS\));
+\(\sum_{t}^{}b_{t}\) is a set of time dummies accounting for
+trade-specific effects at each time \(t\); and \(\epsilon_{ij,t}\) is
+the error term.
 
-Next, you want to extend the model allowing for PTA heterogeneity to
-also distinguish between different types of PTAs.
+For both extended models we use the following variables:
+\({PTA\_ NN}_{ij,t}\) is a dummy variable that takes the value of 1 if
+the trade pair \((i,j)\) is part of a North-North PTA at time \(t\), and
+0 otherwise; \({PTA\_ NN}_{ij,t - 5}\) is a dummy variable that takes
+the value of 1 if the trade pair \((i,j)\) was part of a North-North PTA
+at time \(t\)\emph{-5}, and 0 otherwise; \({PTA\_ NS}_{ij,t}\) is a
+dummy variable that takes the value of 1 if the trade pair \((i,j)\) is
+part of a North-South PTA at time \(t\), and 0 otherwise;
+\({PTA\_ NS}_{ij,t - 5}\) is a dummy variable that takes the value of 1
+if the trade pair \((i,j)\) was part of a North-South PTA at time
+\(t\)\emph{-5}, and 0 otherwise; \({PTA\_ SS}_{ij,t}\) is a dummy
+variable that takes the value of 1 if the trade pair \((i,j)\) is part
+of a South-South PTA at time \(t\), and 0 otherwise;
+\({PTA\_ SS}_{ij,t - 5}\) is a dummy variable that takes the value of 1
+if the trade pair \((i,j)\) was part of a South-South PTA at time
+\(t\)\emph{-5}, and 0 otherwise;
 
-Equation (2) with PTA Types:
+The extended models allow us to capture the differentiated effects of
+PTAs on bilateral exports depending on whether they are between two
+``North'' countries (NN), between a ``North'' and a ``South'' country
+(NS), or between two ``South'' countries (SS).
 
-\[(4)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}^{}{(\beta_{1,A,NN}{PTA\_ NN}_{ij,t}\  + \ \beta_{2,A,NN}{PTA\_ NN}_{ij,t - 5})} + \sum_{A}^{}{(\beta_{1,A,NS}{PTA\_ NS}_{ij,t}\  + \ \beta_{2,A,NS}{PTA\_ NS}_{ij,t - 5})} + \sum_{A}^{}{(\beta_{1,A,SS}{PTA\_ SS}_{ij,t}\  + \ \beta_{2,A,SS}{PTA\_ SS}_{ij,t - 5})} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+\textbf{Defining South and North}
 
-Where:
-
-\begin{itemize}
-\item
-  \(X_{ij,t}\)\hspace{0pt} denotes the value of exports from country
-  \(i\) to country \(j\) at time \(t\).
-\item
-  \(\eta_{i,t}\) and \(\psi_{j,t}\ \)are exporter-time and importer-time
-  fixed effects, respectively.
-\item
-  \(\gamma_{\binom{-}{ij}}\) is a country-pair fixed effect.
-\item
-  The summations \hspace{0pt}\(\sum_{}^{}A\) denote the sum over
-  different agreements \(A\) for:
-
-  \begin{itemize}
-  \item
-    \(\beta_{1,A,NN}\) and \(\beta_{2,A,NN}\): Coefficients for the
-    immediate and lagged effects of North-North PTAs
-    \hspace{0pt}(\(PTA\_ NN\)).
-  \item
-    \(\beta_{1,A,NS}\) and \(\beta_{2,A,NS}\): Coefficients for the
-    immediate and lagged effects of North-South PTAs (\(PTA\_ SN\)).
-  \item
-    \(\beta_{1,A,SS}\) and \(\beta_{2,A,SS}\): Coefficients for the
-    immediate and lagged effects of South-South PTAs (\(PTA\_ SS\)).
-  \end{itemize}
-\item
-  \(\sum_{t}^{}b_{t}\) is a set of time dummies accounting for
-  trade-specific effects at each time \(t\).
-\item
-  \(\epsilon_{ij,t}\) is the error term.
-\end{itemize}
-
-Variables:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  \({PTA\_ NN}_{ij,t}\): Dummy variable that takes the value of 1 if the
-  trade pair \((i,j)\) is part of a North-North PTA at time \(t\), and 0
-  otherwise.
-\item
-  \({PTA\_ NN}_{ij,t - 5}\): Dummy variable that takes the value of 1 if
-  the trade pair \((i,j)\) was part of a North-North PTA at time
-  \(t\)\emph{-5}, and 0 otherwise.
-\item
-  \({PTA\_ NS}_{ij,t}\): Dummy variable that takes the value of 1 if the
-  trade pair \((i,j)\) is part of a North-South PTA at time \(t\), and 0
-  otherwise.
-\item
-  \({PTA\_ NS}_{ij,t - 5}\): Dummy variable that takes the value of 1 if
-  the trade pair \((i,j)\) was part of a North-South PTA at time
-  \(t\)\emph{-5}, and 0 otherwise.
-\item
-  \({PTA\_ SS}_{ij,t}\): Dummy variable that takes the value of 1 if the
-  trade pair \((i,j)\) is part of a South-South PTA at time \(t\), and 0
-  otherwise.
-\item
-  \({PTA\_ SS}_{ij,t - 5}\):: Dummy variable that takes the value of 1
-  if the trade pair \((i,j)\) was part of a South-South PTA at time
-  \(t\)\emph{-5}, and 0 otherwise.
-\end{enumerate}
-
-These models allow you to capture the differentiated impacts of PTAs
-depending on whether they are between two developed countries (NN),
-between a developed and a developing country (NS), or between two
-developing countries (SS).
-
-References
+\textbf{Data}

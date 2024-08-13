@@ -1,4 +1,4 @@
-\documentclass{article}%
+\documentclass[12pt]{article}%
 \usepackage[T1]{fontenc}%
 \usepackage[utf8]{inputenc}%
 \usepackage{lmodern}%
@@ -10,12 +10,17 @@
 \usepackage{ragged2e}%
 \usepackage{pdfpages}%
 \usepackage{hyperref}%
+\usepackage{setspace}%
 \usepackage{booktabs}%
 \usepackage{float}%
 \usepackage{threeparttable}%
 \usepackage{amssymb}%
 \usepackage{amsmath}%
 \usepackage{adjustbox}%
+\usepackage{longtable}%
+\usepackage{breqn}%
+\usepackage{tabularx}%
+\usepackage{graphicx}%
 \usepackage{geometry}%
 \usepackage{fancyhdr}%
 %
@@ -46,6 +51,8 @@
 \fancyhead[C]{Page \thepage\ of \pageref{LastPage}}%
 \fancyhead[R]{23802}%
 }%
+\setstretch{1.5}%
+\justifying%
 \pagenumbering{roman}%
 \pagestyle{fancy}%
 \fancyhf{}%
@@ -77,7 +84,7 @@
 \maketitle%
 
 \vfill
-\begin{center}\textbf{Word Count: 3841}\end{center}
+\begin{center}\textbf{Word Count: 3886}\end{center}
 \newpage%
 %TC:ignore%
 \vspace*{\fill}%
@@ -129,6 +136,24 @@ This is the abstract text. It should be centered on the page, and the text shoul
 \label{sec:Introduction}%
 This is the introduction
 
+\textbf{Stylised facts}
+
+\textbf{Ideas:}
+
+Total number of SS, NS and NN PTAs
+
+Share of SS, NS and NN PTAs
+
+Total exports by S and N countries
+
+Share of total exports by S and N countries
+
+Total exports of manufactured by S and N countries
+
+Share of total exports of manufactured by S and N countries
+
+Number of products exported by S and N countries
+
 The organization of this article is as follows: Section II provides a
 brief literature review of the PTAs, South--South trade and the
 importance of the structure of trade. Section III introduces the
@@ -142,10 +167,12 @@ This is the introduction section. Here is a citation: %
 \section{Literature Review}%
 \label{sec:LiteratureReview}%
 This section reviews the literature on the theoretical and empirical
-effects of PTAs on exports and situates the analysis in the relevant
-field of research.
+potential effects of PTAs on exports and welfare and situates the
+analysis in the relevant field of research.
 
 \textbf{Theoretical Framework}
+
+Stumbling block vs building block dichotomy
 
 \textbf{Comparative advantage and trade creation and diversion}
 
@@ -172,275 +199,104 @@ relative to the world and to each other, suggests that, when the country
 with the ``extreme'' comparative advantage is a high-income country,
 relative to a lower-income country with an ``intermediate'' comparative
 advantage, the lower-income country should seek a PTA with the other
-country as it will gain more. On the contrary, if both members are
-lower-income countries, the country with the ``extreme'' comparative
-advantage, should not seek a PTA with the other low-income member
-country as it will be vulnerable. (Sanguinetti, Siedschlag and
+high-income country as it will gain more. On the contrary, if both
+members are lower-income countries, the country with the ``extreme''
+comparative advantage, should not seek a PTA with the other low-income
+member country as it will be vulnerable. (Sanguinetti, Siedschlag and
 Martincus, 2010). This logic can be easily extended to the North-South
-and South-South types of PTAs, as North countries will reasonably have
-an ``extreme'' comparative advantage in skill-intensive goods relative
-to South countries, while South countries will reasonably have an
-``extreme'' comparative advantage in labour-intensive goods relative to
-North countries. Furthermore, it is also argued that benefiting from
-economies of scale through South-South economic integration is more
-difficult because member countries do not have complementary production
-and trade structures nor high interpenetration of each other's markets
-on intra-industry trade. (Schiff, Winters and Schiff, 2003). Also, South
-countries can benefit from greater technological diffusion from
-North-South PTAs as the North countries have higher industrial
-development as well as investment in research (Schiff and Wang, 2008).
-Finally, as the trend in manufacturing has been in favour of vertical
-specialization or value chain fragmentation (Krugman, 1995), North-South
-PTAs are preferable as developing countries strive to capture a greater
-portion of the value added. For these arguments, developing countries
-should therefore be better off entering into North-South rather than
-South-South agreements.
+and South-South types of PTAs, as ``North'' countries will reasonably
+have an ``extreme'' comparative advantage in skill-intensive goods
+relative to ``South'' countries, while ``South'' countries will
+reasonably have an ``extreme'' comparative advantage in labour-intensive
+goods relative to ``North'' countries. Furthermore, it is also argued in
+the literature that benefiting from economies of scale through
+South-South economic integration is more difficult because member
+countries do not have complementary production and trade structures, nor
+high interpenetration of each other's markets on intra-industry trade.
+(Schiff, Winters and Schiff, 2003). Also, South countries can benefit
+from greater technological diffusion from North-South PTAs as the
+``North'' countries have higher industrial development as well as
+investment in research (Schiff and Wang, 2008). Finally, as the trend in
+manufacturing has been in favour of vertical specialization or value
+chain fragmentation (Krugman, 1995), North-South PTAs are preferable as
+developing countries strive to capture a greater portion of the value
+added. Based on these arguments, developing countries should therefore
+be better off entering into North-South rather than South-South
+agreements.
 
-\textbf{Economies of Scale and Input-Output linkages}
+\textbf{Economies of Scale, Input-Output linkages and Products Exported}
 
 In contrast, classical development theory and new trade literature go
 beyond the static welfare gains from trade creation and diversion
-effects when analysing the effect of PTAs.
+effects when analysing the effect of PTAs. Developing countries can use
+PTAs to overcome limitations of their domestic market size in the
+industrialization process (Dahi and Demir, 2013). Such potential
+increases in the effective market size could help industries in
+developing countries achieve economies of scale and increase the skill
+content of production and exports, which in turn could improve the
+market penetration of exports of developing countries in developed
+markets in industrial products (Fugazza and Robert-Nicoud, 2006). Also,
+due to similarities in production patterns and resource base among
+developing countries, incentivising trade by lowering barriers could
+facilitate appropriate technology transfer, according to the needs of
+developing countries (UNIDO, 2006). Of particular relevance for
+developing countries, it is argued that the products that countries
+export matter for long-term economic performance. If a country exports
+products from industries that are more technology-intensive, these are
+likely to create input-output linkages and spillover effects in human
+and physical capital accumulation and innovation (Hausmann, Hwang and
+Rodrik, 2007). Furthermore, by allowing for factor accumulation, PTAs
+can reduce intra-block trade barriers and increase competition and
+access to cheaper intermediate goods, triggering changes in industrial
+production in member countries. As such, PTAs among ``South'' countries
+can reduce intra-South barriers and lead to industrialization of the
+region (Puga and Venables, 1998). In this context, what matters are not
+static gains from PTAs, but dynamic gains in industrial development. If
+South-South PTAs truly promote industrial development of member
+countries, they might be desirable even if there are short-term losses
+due to trade diversion (Dahi and Demir, 2013). Other arguments in the
+development literature emphasize the asymmetries in bargaining power
+between ``North'' and ``South'' countries, which could lead to worse
+outcomes for developing countries if their policy space gets restricted
+(Thrasher and Gallagher, 2008). To the extent that these arguments hold
+true, developing countries could be better off entering into South-South
+rather than North-South agreements, or at least should pursue both kinds
+of agreements.
 
-``Preferential trade arrangements between developing countries can lead
-to industrialization of the region as a whole as a consequence of the
-effective market enlargement induced by reducing intra-South barriers.''
-(Puga and Venables, 1998)
+\textbf{Empirical Evidence}
 
-Other arguments
-
-\begin{itemize}
-\item
-  Infant industry development
-\item
-  Economies of scale
-\item
-  Decoupling
-\end{itemize}
-
-``Trade can also arise from product differentiation and from economies
-of scale that reduce costs as production grows. In these circumstances
-competition between firms is weakened, and consumers lose. International
-trade then offers an important means of increasing competition by
-allowing new suppliers to enter markets.'' (Schiff, Winters and Schiff,
-2003)
-
-Stumbling block vs building block dichotomy
-
-\textbf{Discussions on SS PTAs}
-
-``\emph{The trade literature long argued that PTAs can benefit member
-states through economies of scale and comparative advantage and higher
-competition (Schiff, 2003). However, these arguments are generally
-reserved for North--North and South--North but not South--South PTAs.
-First, it is argued that similar production and trade structures in the
-South make it more difficult to benefit from economies of scale. Second,
-given the lower industrial development and research and development
-activities in the South, greater technology diffusion for the Southern
-country can be reaped from South--North integration (Schiff and Wang,
-2008).3 Third, the more advanced members are argued to be the likely
-winners in South--South integration, thanks to their higher industrial
-and institutional development. As a result, lower income Southern
-countries might be better off entering South-- North PTAs. It is also
-claimed that industries with long term development potential are more
-likely to move to the bigger and richer members, leading to divergence
-once the barriers are lowered under South--South PTAs (Puga and
-Venables, 1997; Schiff, 2003; Venables, 2003). Last but not the least,
-North--South PTAs are argued to facilitate increasing vertical
-specialization or value chain fragmentation, what Krugman (1995)
-referred to as the slicing up of the value added.4}
-
-\emph{In contrast, the classical development theory and new trade
-literature has a more positive view of South--South PTAs, focusing on
-their developmental benefits through infant industry development,
-economies of scale and decoupling rather than on the static welfare
-gains (from trade creation and diversion) or the `stumbling block/
-building block' dichotomy. Myrdal (1956), for example, suggested that
-regional integration in the South can help developing countries overcome
-local market size limita- tions during industrialization. Accordingly,
-given the strongly skill biased structure of output expansion in inter-
-national trade (Antweiler and Trefler, 2002), increasing market size can
-help developing countries enjoy scale effects and increase the skill
-content of their exports while reducing the cost of intermediaries,
-which in return may help stimulate export penetration into Northern mar-
-kets in industrial goods (Fugazza and Robert-Nicoud, 2006). Likewise,
-Lewis (1980), and more recently UNCTAD (2005) and World Bank (2008),
-also pointed out that South--South trade can reduce the growth depen-
-dence of the South on Northern growth, leading perhaps to decoupling
-from Northern business cycles (thus helping the recovery from current
-global downturn (ESCAP, 2009)). Furthermore, the structure of
-South--South trade is argued to have dynamic and long term benefits for
-developing countries because of its comparatively higher technology and
-human capital intensive factor content (Amsden, 1987; Lall et al., 1989;
-Demir and Dahi, 2011). Besides, similarity in production pattern and
-resource base may facilitate appropriate technology trans- fer (Amsden,
-1980, 1987; UNIDO, 2005; World Bank, 2006).}
-
-\emph{It is also possible that South--North PTAs can yield more benefits
-to Northern countries than the Southern ones because of asymmetries in
-bargaining power, nego- tiating capacity and retaliatory capability.
-Even though these asymmetries are also present between Southern
-countries, the gap is likely to be smaller.}
-
-\emph{Thrasher and Gallagher (2008), for example, show that South--South
-PTAs leave the greatest policy space available to `deploy effective
-policy for long-run diversification and develop- ment' than South--North
-PTAs. We should also note that structuralist North--South models have
-long discussed how interactions between countries with asymmetrical
-economic structures, patterns of specialization, and devel- opment can
-lead to uneven development (Findlay, 1980; Darity, 1990; Dutt, 1992; and
-also see the survey articles Findlay, 1984; Dutt, 1989; Darity and
-Davis, 2005).}
-
-\emph{In addition to the debate above, the effects of PTAs on the
-structure of trade are of particular importance for long term
-development and growth. Development economics and the new trade theory
-provide strong evidence that not all trade is equal and what you export
-might matter for long term economic performance (Kaldor, 1967; An and
-Iyigun, 2004; Hausmann et al., 2007). Exports in more technology
-intensive industries are likely to generate lar- ger spillovers (such as
-innovation and physical and human capital accumulation) and linkages for
-development than lower technology and labour intensive ones (Hausman et
-al., 2007). Earlier on, this point was also raised by Kaldor (1967) in
-his three growth laws; which stated that there is a strong positive
-relationship between the growth of manufacturing output and (i) the
-growth of GDP, (ii) the growth of labour productivity in manufacturing
-(i.e. the Verdoorn's law) and (iii) the growth of productivity in
-nonmanufacturing sectors.}
-
-\emph{Note that the question we raise here is different than the one
-usually discussed in the literature, which is whether PTAs are trade
-creating or diverting.5 To the extent that PTAs enhance manufactures
-exports, we can then start evaluating the success or failure of PTAs
-according to their potential long term developmental impact. Much of the
-traditional PTA literature, both theoretical and empiri- cal, is taken
-up by trade creation versus trade diversion debate. These questions are
-not unimportant; however, there is reason to question the
-disproportionate attention still given to the classic Vinerian
-dichotomy.}
-
-\emph{(...)}
-
-\emph{Second, since North--North, South--North and North--South trade
-barriers appear to be significantly lower than the ones present in
-South--South trade (Kowalski and Shepherd, 2006, also see Kee et al.,
-2009; Medvedev, 2010), it is unlikely that South--South PTAs are trade
-diverting from the North, which has retrospectively been the main point
-of contention among trade theorists on the relative costs and benefits
-of South--South PTAs. In fact, consistent with Mundell (1968)'s
-assertion that `a member's gain from a free-trade area will be larger,
-the higher are the initial tariffs of partner countries', South--South
-trade barrier reduction is found to generate a significant increase in
-South--South exports, while no such effect is reported in the case of
-North--South, South--North or North--North trade (Kowalski and Shepherd,
-2006). Besides, there is also some empirical evidence showing that
-South--South PTAs are no more trade diverting than other PTAs (Cernat,
-2001). Third, since higher transportation costs and former colonial
-linkages with Northern countries (which always appear to be significant
-in gravity models of trade), in addition to higher trade barriers (Kee
-et al., 2009), con- tinue to limit South--South trade expansion, PTAs
-might be seen as a way of compensating for such trade barriers that are
-lower in South--North, North--South or North-- North trade.6 Last but
-not least, in the case of industrial development, what matters are
-dynamic not static gains. That is to say, if South--South PTAs are found
-to enhance industrial development, the long term gains may very well
-outweigh the static short term losses.}'' (Dahi and Demir, 2013)
+The preference of a type of partner in a PTAs then becomes an empirical
+question. Do South-South PTAs promote trade and industrial development
+among their members? The empirical literature overall reports positive
+effects of PTAs on the trade of member countries, but with considerable
+heterogeneity on the estimation coefficients. For example, a
+meta-analysis of research papers on the effects of PTAs on member trade,
+encompassing 85 papers and 1827 estimates, finds an average of 0.59 (an
+80\% increase in trade), with a median of 0.38 (a 46\% increase in
+trade), a wide range of coefficient estimates (-9.01 to 15.41), and only
+312 out of 1827 estimates reported as negative (Cipollina and Salvatici,
+2010). Furthermore, a survey of the empirical research on the effect of
+economic integration agreements on international trade flows, as well as
+using the most modern econometric techniques to address biases, found an
+increase of 50\% on international trade, but with significant variation
+in the effects of specific agreements (Kohl, 2014). However, much of the
+empirical research is focused on the effects of PTAs on or including the
+most advanced economies. Empirical research focused exclusively on the
+effects of South-South PTAs or comparing them to the effects of
+North-North or North-South PTAs, is much less prevalent in the
+literature. However, several research papers do control for the type of
+agreement (North-South or South-South) and have found positive and
+significant effects of South-South PTAs (Medvedev, 2006; Mayda and
+Steinberg, 2007; Dahi and Demir, 2013; Deme and Ndrianasy, 2017), but
+these articles tend to be limited in their scope, sample size or only
+focus on trade volumes.
 
 \textbf{Significance of Exports}
-
-\textbf{Defining South and North}
-
-\textbf{Empirical literature}
-
-``Turning to the empirical work on PTAs, the majority of research
-reports a significantly positive effect of PTAs on member trade.
-Cipollina and Salvatici (2010) review 85 papers on the effects of PTAs
-and find that the mean effect is 0.59 (or an 80\% increase in trade),
-while the median is 0.38 (or a 46\% increase in trade). Although the
-range of coefficient estimates is quite large (--9.01 to 15.41), only
-312 out of 1827 coefficient estimates are reported as negative.
-Nevertheless, despite the diversity of research, there are only few
-studies that compare heterogeneous effects of PTAs within and between
-developing and developed countries. Among the few, Medvedev (2010),
-using a cross sectional analysis, reports that while North--North PTAs
-are insignificant in stimulating preferential trade, North--South PTAs
-increase trade by 40\% and South-- South PTAs increase them by 163\%.
-
-Cipollina, M. and Salvatici, L. (2010) Reciprocal trade agreements in
-gravity models: a meta analysis, Review of International Economics, 18,
-63-80.
-
-Medvedev, Denis, Preferential Trade Agreements and Their Role in World
-Trade (October 1, 2006). World Bank Policy Research Working Paper No.
-4038, Available at SSRN: \url{https://ssrn.com/abstract=938031}''
-
-The empirical work on the structure of trade under PTAs has also been
-scarce. Sanguinetti et al. (2010) examine the impact of PTAs on
-South--South manufacturing production patterns in the case of MERCOSUR
-for the period of 1985--1998 and find that South--South PTAs cause a
-spatial regional reorganization of production along the lines of
-internal comparative advantage.
-
-Sanguinetti, P., Siedschlag, I., \& Martincus, C. V. (2010). The Impact
-of South-South Preferential Trade Agreements on Industrial Development:
-An Empirical Test. Journal of Economic Integration, 25(1), 69--103.
-http://www.jstor.org/stable/23000966
-
-\textbf{Stylised facts}
-
-\textbf{Ideas:}
-
-Total number of SS, NS and NN PTAs
-
-Share of SS, NS and NN PTAs
-
-Total exports by S and N countries
-
-Share of total exports by S and N countries
-
-Total exports of manufactured by S and N countries
-
-Share of total exports of manufactured by S and N countries
-
-Number of products exported by S and N countries
-
-\textbf{References}
-
-Dahi, O.S. and Demir, F. (2013) `Preferential trade agreements and
-manufactured goods exports: does it matter whom you PTA with?',
-\emph{Applied Economics}, 45(34), pp. 4754--4772. Available at:
-https://doi.org/10.1080/00036846.2013.804169.
-
-Krugman, P. (1995) `Growing World Trade: Causes and Consequences',
-\emph{Brookings Papers on Economic Activity} {[}Preprint{]}.
-
-Puga, D. and Venables, A.J. (1998) `Trading Arrangements and Industrial
-Development'.
-
-Sanguinetti, P., Siedschlag, I. and Martincus, C.V. (2010) `The Impact
-of South-South Preferential Trade Agreements on Industrial Development:
-An Empirical Test', \emph{Journal of Economic Integration}, 25(1), pp.
-69--103.
-
-Schiff, M. and Wang, Y. (2008) `North-South and South-South
-Trade-Related Technology Diffusion: How Important Are They in Improving
-TFP Growth?', \emph{The Journal of Development Studies}, 44(1), pp.
-49--59. Available at: https://doi.org/10.1080/00220380701722282.
-
-Schiff, M.W., Winters, L.A. and Schiff, M. (2003) \emph{Regional
-Integration And Development}. Washington, UNITED STATES: World Bank
-Publications. Available at:
-http://ebookcentral.proquest.com/lib/londonschoolecons/detail.action?docID=3050563
-(Accessed: 12 August 2024).
-
-Venables, A.J. (2003) `Winners and Losers from Regional Integration
-Agreements', \emph{The Economic Journal}, 113(490), pp. 747--761.
-Available at: https://doi.org/10.1111/1468-0297.t01-1-00155.
 
 %
 \section{Methodology}%
 \label{sec:Methodology}%
-The Gravity Model of Trade
+\textbf{The Gravity Model of Trade}
 
 Often referred as the ``workhorse'' of international trade, the gravity
 model is prominent in the empirical literature of applied international
@@ -478,9 +334,6 @@ led us to today's generalized form of the gravity equation, as developed
 and popularised by Anderson and van Wincoop (Anderson and van Wincoop
 2003).
 
-Do I need to add more on the theory underlying the Gravity Models of
-Trade?
-
 Equally important, several empirical developments have strengthened the
 gravity model and inform our choice of methodology: Exporter-time and
 importer-time fixed effects are used to account for the multilateral
@@ -516,7 +369,10 @@ found in the relevant literature, we employ the following gravity
 equation using a PPML estimator and a balanced panel data approach with
 multiple exporters, multiple importers and time as our benchmark model:
 
-\[(1)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1}{PTA}_{ij,t} + \beta_{2}{PTA}_{ij,t - 5} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+% \[(1)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1}{PTA}_{ij,t} + \beta_{2}{PTA}_{ij,t - 5} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+\begin{multline}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1} \, PTA_{ij,t} \right. + \beta_{2} \, PTA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+\end{multline}
 
 Where \(X_{ij,t}\) denotes the value of exports from an origin country
 \(i\) to a destination country \(j\); \(\eta_{i,t}\) and \(\psi_{j,t}\)
@@ -541,7 +397,10 @@ successive expansions can be implemented to capture heterogeneity in PTA
 effects as proposed by Baier \emph{et al}. (Baier, Yotov, and Zylkin
 2019):
 
-\[(2)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}^{}{\beta_{1,A}{PTA}_{ij,t}} + \sum_{A}^{}{\beta_{2,A}{PTA}_{ij,t - 5}} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+% \[(2)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}^{}{\beta_{1,A}{PTA}_{ij,t}} + \sum_{A}^{}{\beta_{2,A}{PTA}_{ij,t - 5}} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+\begin{multline}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A} \beta_{1,A} \, PTA_{ij,t} \right. + \sum_{A} \beta_{2,A} \, PTA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+\end{multline}
 
 Equation (2) can be implemented to account for heterogeneous effects of
 PTAs at the level of the specific agreement, by allowing for distinct
@@ -549,125 +408,82 @@ average partial effects for each individual agreement, using superscript
 \(A\) to index by agreement and also allowing for agreement-specific
 lags: \(\beta_{A} = \beta_{1,A} + \beta_{2,A}\).
 
-Extended Benchmark Model with PTA Types
+In order to analyse the differentiated effects of North-North,
+North-South and South-South PTAs, we extend both models to get estimates
+for each type of PTA. Our benchmark model is extended as follows:
 
-You want to modify the benchmark model to allow for different types of
-PTAs (NN, NS, SS) while still keeping the same overall structure. Here's
-how you can adjust the model:
+% \[(3)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1NN}{PTA\_ NN}_{ij,t} + \beta_{2NN}{PTA\_ NN}_{ij,t - 5} + \beta_{1NS}{PTA\_ NS}_{ij,t} + \beta_{2NS}{PTA\_ NS}_{ij,t - 5} + \beta_{1SS}{PTA\_ SS}_{ij,t} + \beta_{2SS}{PTA\_ SS}_{ij,t - 5} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+\begin{multline}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1NN} \, PTA\_NN_{ij,t} + \beta_{2NN} \, PTA\_NN_{ij,t-5} \right. \\
+    + \beta_{1NS} \, PTA\_NS_{ij,t} + \beta_{2NS} \, PTA\_NS_{ij,t-5} + \beta_{1SS} \, PTA\_SS_{ij,t} + \beta_{2SS} \, PTA\_SS_{ij,t-5} \\
+    + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+\end{multline}
 
-Equation (1) with PTA Types:
+Where \(X_{ij,t}\)\hspace{0pt} denotes the value of exports from country
+\(i\) to country \(j\) at time \(t\); \(\eta_{i,t}\) and
+\(\psi_{j,t}\ \)are exporter-time and importer-time fixed effects,
+respectively; \(\gamma_{\binom{-}{ij}}\) is a country-pair fixed effect;
+\hspace{0pt}\(\beta_{1NN}\) and \(\beta_{2NN}\) are the coefficients for
+the immediate and lagged effects of a North-North PTA (\(PTA\_ NN\));
+\hspace{0pt}\hspace{0pt}\(\beta_{1NS}\) and \(\beta_{2NS}\) are the
+coefficients for the immediate and lagged effects of a North-South PTA
+(\(PTA\_ SN\)); \hspace{0pt}\hspace{0pt}\(\beta_{1SS}\) and
+\(\beta_{2SS}\) are the coefficients for the immediate and lagged
+effects of a South-South PTA (\(PTA\_ SS\)); \(\sum_{t}^{}b_{t}\) is a
+set of time dummies accounting for international trade-specific effects
+at each time \(t\); and \(\epsilon_{ij,t}\) is the error term.
 
-\[(3)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1NN}{PTA\_ NN}_{ij,t} + \beta_{2NN}{PTA\_ NN}_{ij,t - 5} + + \beta_{1NS}{PTA\_ NS}_{ij,t} + \beta_{2NS}{PTA\_ NS}_{ij,t - 5} + \beta_{1SS}{PTA\_ SS}_{ij,t} + \beta_{2SS}{PTA\_ SS}_{ij,t - 5} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+Equation (2) also gets extended to capture the heterogeneous effects of
+the different types of PTAs as follows:
 
-Where:
+% \[(4)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}^{}{(\beta_{1,A,NN}{PTA\_ NN}_{ij,t}\  + \ \beta_{2,A,NN}{PTA\_ NN}_{ij,t - 5})} + \sum_{A}^{}{(\beta_{1,A,NS}{PTA\_ NS}_{ij,t}\  + \ \beta_{2,A,NS}{PTA\_ NS}_{ij,t - 5})} + \sum_{A}^{}{(\beta_{1,A,SS}{PTA\_ SS}_{ij,t}\  + \ \beta_{2,A,SS}{PTA\_ SS}_{ij,t - 5})} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
 
-\begin{itemize}
-\item
-  \(X_{ij,t}\)\hspace{0pt} denotes the value of exports from country
-  \(i\) to country \(j\) at time \(t\).
-\item
-  \(\eta_{i,t}\) and \(\psi_{j,t}\ \)are exporter-time and importer-time
-  fixed effects, respectively.
-\item
-  \(\gamma_{\binom{-}{ij}}\) is a country-pair fixed effect.
-\item
-  \hspace{0pt}\(\beta_{1NN}\) and \(\beta_{2NN}\) are the coefficients
-  for the immediate and lagged effects of a North-North PTA
-  (\(PTA\_ NN\)).
-\item
-  \hspace{0pt}\hspace{0pt}\(\beta_{1NS}\) and \(\beta_{2NS}\) are the
-  coefficients for the immediate and lagged effects of a North-South PTA
-  (\(PTA\_ SN\)).
-\item
-  \hspace{0pt}\hspace{0pt}\(\beta_{1SS}\) and \(\beta_{2SS}\) are the
-  coefficients for the immediate and lagged effects of a South-South PTA
-  (\(PTA\_ SS\)).
-\item
-  \(\sum_{t}^{}b_{t}\) is a set of time dummies accounting for
-  international trade-specific effects at each time \(t\).
-\item
-  \(\epsilon_{ij,t}\) is the error term.
-\end{itemize}
+\begin{multline}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}\left(\beta_{1,A,NN} \, PTA\_NN_{ij,t} + \beta_{2,A,NN} \, PTA\_NN_{ij,t-5}\right) \right. \\
+    + \sum_{A}\left(\beta_{1,A,NS} \, PTA\_NS_{ij,t} + \beta_{2,A,NS} \, PTA\_NS_{ij,t-5}\right) + \sum_{A}\left(\beta_{1,A,SS} \, PTA\_SS_{ij,t} + \beta_{2,A,SS} \, PTA\_SS_{ij,t-5}\right) \\
+    + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+\end{multline}
 
-Extended Model with PTA Heterogeneity and Types
+Where \(X_{ij,t}\)\hspace{0pt} denotes the value of exports from country
+\(i\) to country \(j\) at time \(t\); \(\eta_{i,t}\) and
+\(\psi_{j,t}\ \)are exporter-time and importer-time fixed effects,
+respectively; \(\gamma_{\binom{-}{ij}}\) is a country-pair fixed effect;
+The summations \hspace{0pt}\(\sum_{}^{}A\) denote the sum over different
+agreements \(A\) for: \(\beta_{1,A,NN}\) and \(\beta_{2,A,NN}\):
+Coefficients for the immediate and lagged effects of North-North PTAs
+\hspace{0pt}(\(PTA\_ NN\)); \(\beta_{1,A,NS}\) and \(\beta_{2,A,NS}\):
+Coefficients for the immediate and lagged effects of North-South PTAs
+(\(PTA\_ SN\)); \(\beta_{1,A,SS}\) and \(\beta_{2,A,SS}\): Coefficients
+for the immediate and lagged effects of South-South PTAs (\(PTA\_ SS\));
+\(\sum_{t}^{}b_{t}\) is a set of time dummies accounting for
+trade-specific effects at each time \(t\); and \(\epsilon_{ij,t}\) is
+the error term.
 
-Next, you want to extend the model allowing for PTA heterogeneity to
-also distinguish between different types of PTAs.
+For both extended models we use the following variables:
+\({PTA\_ NN}_{ij,t}\) is a dummy variable that takes the value of 1 if
+the trade pair \((i,j)\) is part of a North-North PTA at time \(t\), and
+0 otherwise; \({PTA\_ NN}_{ij,t - 5}\) is a dummy variable that takes
+the value of 1 if the trade pair \((i,j)\) was part of a North-North PTA
+at time \(t\)\emph{-5}, and 0 otherwise; \({PTA\_ NS}_{ij,t}\) is a
+dummy variable that takes the value of 1 if the trade pair \((i,j)\) is
+part of a North-South PTA at time \(t\), and 0 otherwise;
+\({PTA\_ NS}_{ij,t - 5}\) is a dummy variable that takes the value of 1
+if the trade pair \((i,j)\) was part of a North-South PTA at time
+\(t\)\emph{-5}, and 0 otherwise; \({PTA\_ SS}_{ij,t}\) is a dummy
+variable that takes the value of 1 if the trade pair \((i,j)\) is part
+of a South-South PTA at time \(t\), and 0 otherwise;
+\({PTA\_ SS}_{ij,t - 5}\) is a dummy variable that takes the value of 1
+if the trade pair \((i,j)\) was part of a South-South PTA at time
+\(t\)\emph{-5}, and 0 otherwise;
 
-Equation (2) with PTA Types:
+The extended models allow us to capture the differentiated effects of
+PTAs on bilateral exports depending on whether they are between two
+``North'' countries (NN), between a ``North'' and a ``South'' country
+(NS), or between two ``South'' countries (SS).
 
-\[(4)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}^{}{(\beta_{1,A,NN}{PTA\_ NN}_{ij,t}\  + \ \beta_{2,A,NN}{PTA\_ NN}_{ij,t - 5})} + \sum_{A}^{}{(\beta_{1,A,NS}{PTA\_ NS}_{ij,t}\  + \ \beta_{2,A,NS}{PTA\_ NS}_{ij,t - 5})} + \sum_{A}^{}{(\beta_{1,A,SS}{PTA\_ SS}_{ij,t}\  + \ \beta_{2,A,SS}{PTA\_ SS}_{ij,t - 5})} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+\textbf{Defining South and North}
 
-Where:
-
-\begin{itemize}
-\item
-  \(X_{ij,t}\)\hspace{0pt} denotes the value of exports from country
-  \(i\) to country \(j\) at time \(t\).
-\item
-  \(\eta_{i,t}\) and \(\psi_{j,t}\ \)are exporter-time and importer-time
-  fixed effects, respectively.
-\item
-  \(\gamma_{\binom{-}{ij}}\) is a country-pair fixed effect.
-\item
-  The summations \hspace{0pt}\(\sum_{}^{}A\) denote the sum over
-  different agreements \(A\) for:
-
-  \begin{itemize}
-  \item
-    \(\beta_{1,A,NN}\) and \(\beta_{2,A,NN}\): Coefficients for the
-    immediate and lagged effects of North-North PTAs
-    \hspace{0pt}(\(PTA\_ NN\)).
-  \item
-    \(\beta_{1,A,NS}\) and \(\beta_{2,A,NS}\): Coefficients for the
-    immediate and lagged effects of North-South PTAs (\(PTA\_ SN\)).
-  \item
-    \(\beta_{1,A,SS}\) and \(\beta_{2,A,SS}\): Coefficients for the
-    immediate and lagged effects of South-South PTAs (\(PTA\_ SS\)).
-  \end{itemize}
-\item
-  \(\sum_{t}^{}b_{t}\) is a set of time dummies accounting for
-  trade-specific effects at each time \(t\).
-\item
-  \(\epsilon_{ij,t}\) is the error term.
-\end{itemize}
-
-Variables:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  \({PTA\_ NN}_{ij,t}\): Dummy variable that takes the value of 1 if the
-  trade pair \((i,j)\) is part of a North-North PTA at time \(t\), and 0
-  otherwise.
-\item
-  \({PTA\_ NN}_{ij,t - 5}\): Dummy variable that takes the value of 1 if
-  the trade pair \((i,j)\) was part of a North-North PTA at time
-  \(t\)\emph{-5}, and 0 otherwise.
-\item
-  \({PTA\_ NS}_{ij,t}\): Dummy variable that takes the value of 1 if the
-  trade pair \((i,j)\) is part of a North-South PTA at time \(t\), and 0
-  otherwise.
-\item
-  \({PTA\_ NS}_{ij,t - 5}\): Dummy variable that takes the value of 1 if
-  the trade pair \((i,j)\) was part of a North-South PTA at time
-  \(t\)\emph{-5}, and 0 otherwise.
-\item
-  \({PTA\_ SS}_{ij,t}\): Dummy variable that takes the value of 1 if the
-  trade pair \((i,j)\) is part of a South-South PTA at time \(t\), and 0
-  otherwise.
-\item
-  \({PTA\_ SS}_{ij,t - 5}\):: Dummy variable that takes the value of 1
-  if the trade pair \((i,j)\) was part of a South-South PTA at time
-  \(t\)\emph{-5}, and 0 otherwise.
-\end{enumerate}
-
-These models allow you to capture the differentiated impacts of PTAs
-depending on whether they are between two developed countries (NN),
-between a developed and a developing country (NS), or between two
-developing countries (SS).
-
-References
+\textbf{Data}
 
 %
 \section{Findings}%
@@ -720,6 +536,37 @@ Here you can include additional findings and discussions.
 \section{Analysis and Discussion}%
 \label{sec:AnalysisandDiscussion}%
 This is the analysis and discussion
+
+``Several themes emerge from this newly bourgeoning literature. First,
+South--South trade and finance is now a significant economic and
+political force for South countries as well as for the global economy.
+There is a near consensus therefore that South--South economic relations
+do matter and that they have the potential to have a significant
+developmental impact. Moreover, this impact may be positive or negative,
+that is, that it may help or hinder the long-term developmental goals of
+exchanging parties. Second, much of South--South manufactures trade is
+concentrated in high-technology-and-skill content, opening the door for
+potential long-run dynamic gains from trade. However, these gains are
+being increasingly concentrated within a small number of South
+countries. The global South is, in fact, splitting into two groups,
+which we refer to as the Emerging South and the Rest of South with very
+different outcomes. While there is evidence for gains through
+South--South trade, there is also evidence that the Emerging South is
+rising at the expense of the Rest of South. Finally, the South--South
+exchanges have expanded significantly to cover issues including
+financial flows and technology transfer, among other topics. The overall
+conclusion of this diverse literature is that while it does matter who
+is exchanging what and with whom, South--South trade is not a panacea
+for the development challenges in Southern countries. On the contrary,
+South--South exchange themselves may become a potential threat for
+development for some of the Southern countries.'' (Dahi \& Demir, 2017)
+
+References
+
+Dahi, O. S., \& Demir, F. (2017). South-South and North-South Economic
+Exchanges: Does It Matter Who Is Exchanging What and with Whom?
+\emph{Journal of Economic Surveys}, \emph{31}(5), 1449--1486.
+https://doi.org/10.1111/joes.12225
 
 %
 \section{Conclusion}%
