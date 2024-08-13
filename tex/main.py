@@ -21,7 +21,7 @@ from sections.appendix import add_appendix
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # Create a new document
-doc = Document('23802_DV410_2024', documentclass='article')
+doc = Document('23802_DV410_2024', documentclass='article', document_options=["12pt"])
 
 # Add necessary packages
 # doc.packages.append(NoEscape(r'\usepackage[backend=biber]{biblatex}'))
@@ -31,12 +31,17 @@ doc.packages.append(NoEscape(r'\usepackage{lastpage}'))
 doc.packages.append(NoEscape(r'\usepackage{ragged2e}'))
 doc.packages.append(NoEscape(r'\usepackage{pdfpages}'))  # Add pdfpages package
 doc.packages.append(NoEscape(r'\usepackage{hyperref}'))  # Add hyperref package for links
+doc.packages.append(Package('setspace')) 
 doc.packages.append(Package('booktabs'))
 doc.packages.append(Package('float'))
 doc.packages.append(Package('threeparttable'))
 doc.packages.append(Package('amssymb'))
 doc.packages.append(Package('amsmath'))
 doc.packages.append(Package('adjustbox'))
+doc.packages.append(Package('longtable'))
+doc.packages.append(Package('breqn'))
+doc.packages.append(Package('tabularx'))
+doc.packages.append(Package('graphicx'))
 doc.packages.append(Package('geometry'))  # Add the geometry package
 doc.packages.append(Package('inputenc', options='utf8'))
 
@@ -60,6 +65,11 @@ main_matter_style.append(NoEscape(r'\fancyhead[L]{DV410}'))
 main_matter_style.append(NoEscape(r'\fancyhead[C]{Page \thepage\ of \pageref{LastPage}}'))
 main_matter_style.append(NoEscape(r'\fancyhead[R]{23802}'))
 doc.preamble.append(main_matter_style)
+# Set line spacing to 1.5
+doc.preamble.append(NoEscape(r'\setstretch{1.5}'))
+
+# Ensure text is justified
+doc.preamble.append(NoEscape(r'\justifying'))
 
 # Include the external PDF at the beginning (excluded from TOC and page count)
 doc.append(NoEscape(r'\includepdf[pages=-, offset=0 -1cm, frame]{DV410_Dissertation Cover Sheet_ Consent Form_Front Page_2023-24.pdf}'))
