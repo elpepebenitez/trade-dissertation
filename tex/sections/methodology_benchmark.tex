@@ -1,0 +1,21 @@
+Based on the theoretical and empirical best-practices found in the
+relevant literature, we employ the following gravity equation using a
+PPML estimator and a balanced panel data approach with multiple
+exporters, multiple importers and time as our benchmark model:
+
+% \[(1)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1}{PTA}_{ij,t} + \beta_{2}{PTA}_{ij,t - 5} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
+\begin{multline}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1} \, PTA_{ij,t} \right. + \beta_{2} \, PTA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+\end{multline}
+
+Where \(X_{ij,t}\) denotes the value of exports from an origin country
+\(i\) to a destination country \(j\); \(\eta_{i,t}\) and \(\psi_{j,t}\)
+are, respectively, exporter-time and importer-time fixed-effects;
+\(\gamma_{\binom{-}{ij}}\) is a country-pair fixed-effect;
+\({PTA}_{ij,t}\) and \({PTA}_{ij,t - 5}\) are our main variables of
+interest, which, respectively indicate if \(i\) and \(j\) are members of
+a PTA at time \(t\) and, to account for potential ``phase-in'' effects
+over time of the PTA, at time \(t - 5\); \(\sum_{t}^{}b_{t}\) is a set
+of dummies that equal 1 for international trade and 0 for domestic trade
+observations at each time \(t\); and \(\epsilon_{ij,t}\) is an error
+term.

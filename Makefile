@@ -7,7 +7,11 @@ PY_DIR = ./tex
 BIB_FILE = $(PY_DIR)/references.bib
 
 # Define Word documents and corresponding LaTeX files
-DOCS = introduction literature_review methodology findings analysis_and_discussion conclusion
+# DOCS = introduction literature_review methodology_benchmark methodology_data methodology_epuv methodology_gravity methodology_het methodology_ns methodology_south findings analysis_and_discussion conclusion
+# DOCS = findings_benchmark findings_het findings_nsb findings_nsh findings_epuv
+# DOCS = compad_literature_review scale_literature_review empirical_literature_review exports_literature_review
+DOCS = introduction analysis_and_discussion conclusion
+
 TEX_FILES = $(patsubst %, $(TEX_DIR)/%.tex, $(DOCS))
 
 # Define the main LaTeX file name

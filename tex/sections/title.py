@@ -9,10 +9,11 @@ def add_title(doc):
         \vspace*{30mm}
         \begin{center}
         \large MSc in Development Management 2023 \\
+        \large (Applied Development Economics Specialism) \\
         \vspace*{5mm}
         Dissertation submitted in partial fulfilment of the requirements of the degree. \\
         \vspace*{35mm}
-        \Huge \textbf{Title title title} \\
+        \Huge \textbf{Building and Stumbling Blocks: An Empirical Analysis of the Heterogenous Effects of Preferential Trade Agreements Between North and South Countries} \\
         \vspace*{20mm}
         \end{center}
     ''')))

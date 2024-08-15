@@ -1,0 +1,46 @@
+To construct our dataset we have combined PTA data from the ``Design of
+International Trade Agreements'' (DESTA) (Dür, Andreas, Leonardo Baccini
+and Manfred Elsig 2014) and from the CEPII ``Trade and Production
+Database'' (TradeProd) (Thierry Mayer, Gianluca Santoni, Vincent Vicard
+2023). The DESTA database aims to aggregate all agreements that have the
+potential to liberalise trade, including all agreements notified to the
+World Trade Organisation (WTO) and other agreements from a wide range of
+sources, covering 880 agreements for 204 countries since 1948 to 2023 in
+the last updated version.
+
+Our sample consists of PTAs signed between the years 2000 to 2010 and
+the country members to these PTAs, totalling 154 agreements and 143
+member countries. For ease of estimation, and to get a sense of
+geographical differences, we estimate our models by PTA region for five
+main regions: Africa, Americas, Asia, Europe and Intercontinental (We
+exclude Oceania {[}11 countries and 1 agreement{]} for lack of
+sufficient trade data for our estimations). Each region has the
+following samples of agreements and countries: Intercontinental (114
+countries and 64 agreements), Europe (42 countries and 41 agreements),
+Asia (35 countries and 33 agreements), Americas (15 countries and 13
+agreements) and Africa (10 countries and 2 agreements).
+
+For all countries in our sample, we get international trade and domestic
+trade flows from the TradeProd database, which has been created
+specifically for estimating gravity models and combines trade data from
+the UN Commodity Trade Statistics Database (COMTRADE) and production
+data from UNIDO Industrial Statistics database (INDSTAT). We also
+download export data directly from COMTRADE for all countries in our
+sample to construct our export product unit value measurements. For
+estimations on trade flows, we use international trade flow data as
+reported by importer. In order to measure the appropriate lags for the
+effects of each agreement, our period of interest for international flow
+data is between 1995 to 2015, and since we are estimating in 5-year
+intervals, we get trade flow data for the years 1995, 2000, 2005, 2010
+and 2015. Finally, as mentioned before, export product unit values are
+constructed using the total value exported per product per year divided
+by the net weight exported of said product for said year at the HS
+2-digit code level for the 84 and 85 codes for manufacturing products.
+As it is not possible to get data for product unit values for domestic
+trade, the estimations using this measure as the dependent variable will
+suffer from bias as the estimation does not include intra-trade effects.
+However, the direction of bias is important as not including intra-trade
+measures is expected to bias the effects of PTAs downwards (Yotov et al.
+2016), so we use this estimates as illustrative conservative
+measurements of the effects of PTAs on the unit value of exported
+products.
