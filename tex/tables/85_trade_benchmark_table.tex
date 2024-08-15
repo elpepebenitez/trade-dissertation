@@ -1,0 +1,33 @@
+\begin{table}[htbp]
+    \centering
+    \caption{HS 85 Trade Volume Benchmark Model Regional Results}
+    \label{tab:85_trade_benchmark_region_analysis}
+    \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{l@{\extracolsep{1pt}}ccccc}
+    \hline
+    & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)} & \multicolumn{1}{c}{(4)} & \multicolumn{1}{c}{(5)} \\
+    \hline
+    \textbf{Variables} &  &  &  &  &  \\
+    \hline
+     & PPML & PPML & PPML & PPML & PPML \\
+     & Africa & Americas & Asia & Europe & Intercontinental \\
+    \hline
+    PTA & 0.023 & -0.106 & 0.140 & -0.138 & 0.142$^{\ast}$ \\
+    & (0.419) & (0.178) & (0.088) & (0.152) & (0.072) \\
+
+    PTA Lag & 1.009$^{\ast\ast}$ & 0.052 & -0.070 & -0.311$^{\ast\ast}$ & -0.209$^{\ast\ast}$ \\
+    & (0.441) & (0.172) & (0.058) & (0.127) & (0.926) \\
+
+    PTA + PTA Lag & 1.033$^{\ast\ast}$ & -0.055 & 0.069 & -0.449$^{\ast\ast\ast}$ & -0.067 \\
+    & (0.404) & (0.253) & (0.102) & (0.165) & (0.872) \\
+    \hline
+    Exporter-Year FE & Yes & Yes & Yes & Yes & Yes \\
+    Importer-Year FE & Yes & Yes & Yes & Yes & Yes \\
+    Country-Pair FE & Yes & Yes & Yes & Yes & Yes \\
+    R-Squared & 0.989 & 0.998 & 0.993 & 0.980 & 0.989 \\
+    Observations & 1205 & 3836 & 10465 & 16436 & 33999 \\
+    \hline
+    \multicolumn{6}{l}{\footnotesize{Notes: Robust standard errors clustered at the country-pair level in parentheses. Significance levels are indicated as follows: $^{\ast}$p$<$0.1; $^{\ast\ast}$p$<$0.05; $^{\ast\ast\ast}$p$<$0.01.}} \\
+    \end{tabular}
+    \end{adjustbox}
+\end{table}

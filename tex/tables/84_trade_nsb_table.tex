@@ -1,0 +1,43 @@
+\begin{table}[htbp]
+    \centering
+    \caption{HS 84 Trade Volume Regional Results by PTA Type}
+    \label{tab:84_trade_pta_types}
+    \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{lccccc}
+    \hline
+     & \multicolumn{1}{c}{Africa} & \multicolumn{1}{c}{Americas} & \multicolumn{1}{c}{Asia} & \multicolumn{1}{c}{Europe} & \multicolumn{1}{c}{Intercontinental} \\
+    \hline
+    \textbf{Variables} &  &  &  &  &  \\
+    \hline
+    NN PTA &  &  &  & -0.087 & 0.084 \\
+     &  &  &  & (0.163) & (0.080) \\
+    NN PTA Lag &  &  &  & -0.234 & 0.187$^{\ast}$ \\
+     &  &  &  & (0.191) & (0.098) \\
+    NN PTA + NN PTA Lag &  &  &  & -0.321 & 0.272$^{\ast\ast}$ \\
+     &  &  &  & (0.233) & (0.121) \\
+    \hline
+    NS PTA &  & -0.082 & -0.001 & 0.236$^{\ast}$ & -0.455$^{\ast\ast\ast}$ \\
+     &  & (0.108) & (0.096) & (0.133) & (0.104) \\
+    NS PTA Lag &  & 0.294$^{\ast}$ & -0.079 & -0.242$^{\ast}$ & -0.126 \\
+     &  & (0.151) & (0.059) & (0.139) & (0.093) \\
+    NS PTA + NS PTA Lag &  & 0.212$^{\ast\ast}$ & -0.080 & -0.006 & -0.580$^{\ast\ast\ast}$ \\
+     &  & (0.097) & (0.112) & (0.169) & (0.111) \\
+    \hline
+    SS PTA & -0.364 & -0.310$^{\ast}$ & -0.006 & 0.417$^{\ast}$ & -0.315$^{\ast\ast\ast}$ \\
+     & (0.695) & (0.189) & (0.117) & (0.215) & (0.102) \\
+    SS PTA Lag & -0.247 & -0.123 & -0.037 & -0.129 & 0.057 \\
+     & (0.403) & (0.112) & (0.080) & (0.160) & (0.082) \\
+    SS PTA + SS PTA Lag & -0.610 & -0.433$^{\ast}$ & -0.043 & 0.287 & -0.258$^{\ast\ast}$ \\
+     & (0.676) & (0.229) & (0.126) & (0.228) & (0.125) \\
+    \hline
+    Exporter-Year FE & Yes & Yes & Yes & Yes & Yes \\
+    Importer-Year FE & Yes & Yes & Yes & Yes & Yes \\
+    Country-Pair FE & Yes & Yes & Yes & Yes & Yes \\
+    R-Squared & 0.997 & 0.997 & 0.992 & 0.986 & 0.989 \\
+    Observations & 1314 & 4230 & 10778 & 18152 & 36735 \\
+    \hline
+    \multicolumn{6}{l}{\footnotesize{Notes: Robust standard errors clustered at the country-pair level in parentheses.}} \\
+    \multicolumn{6}{l}{\footnotesize{Significance levels are indicated as follows: $^{\ast}$p$<$0.1; $^{\ast\ast}$p$<$0.05; $^{\ast\ast\ast}$p$<$0.01.}} \\
+    \end{tabular}
+    \end{adjustbox}
+\end{table}

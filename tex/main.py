@@ -23,6 +23,10 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # Create a new document
 doc = Document('23802_DV410_2024', documentclass='article', document_options=["12pt"])
 
+# Add the headheight and topmargin adjustments to the preamble
+# doc.preamble.append(Command('setlength', r'\headheight{14.5pt}'))
+# doc.preamble.append(Command('addtolength', r'\topmargin{-2.5pt}'))
+
 # Add necessary packages
 # doc.packages.append(NoEscape(r'\usepackage[backend=biber]{biblatex}'))
 doc.packages.append(Package('biblatex', options='backend=biber'))
@@ -42,11 +46,13 @@ doc.packages.append(Package('longtable'))
 doc.packages.append(Package('breqn'))
 doc.packages.append(Package('tabularx'))
 doc.packages.append(Package('graphicx'))
+doc.packages.append(Package('placeins'))
 doc.packages.append(Package('geometry'))  # Add the geometry package
 doc.packages.append(Package('inputenc', options='utf8'))
 
 # Set the margins using the geometry package
-doc.preamble.append(NoEscape(r'\geometry{left=1in, right=1in, top=1in, bottom=1in}'))
+# doc.preamble.append(NoEscape(r'\geometry{left=1in, right=1in, top=1in, bottom=1in}'))
+doc.preamble.append(NoEscape(r'\geometry{top=1in, bottom=1in, left=1in, right=1in, headheight=14.5pt}'))
 
 doc.preamble.append(NoEscape(r'\addbibresource{references.bib}'))
 doc.preamble.append(NoEscape(r'\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}'))
