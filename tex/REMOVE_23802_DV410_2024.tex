@@ -1,203 +1,15 @@
-\documentclass[12pt]{article}%
-\usepackage[T1]{fontenc}%
-\usepackage[utf8]{inputenc}%
-\usepackage{lmodern}%
-\usepackage{textcomp}%
-\usepackage{lastpage}%
-\usepackage[backend=biber]{biblatex}%
-\usepackage{fancyhdr}%
-\usepackage{lastpage}%
-\usepackage{ragged2e}%
-\usepackage{pdfpages}%
-\usepackage{hyperref}%
-\usepackage{setspace}%
-\usepackage{booktabs}%
-\usepackage{float}%
-\usepackage{threeparttable}%
-\usepackage{amssymb}%
-\usepackage{amsmath}%
-\usepackage{adjustbox}%
-\usepackage{longtable}%
-\usepackage{breqn}%
-\usepackage{tabularx}%
-\usepackage{graphicx}%
-\usepackage{placeins}%
-\usepackage{geometry}%
-\usepackage{fancyhdr}%
-%
-\geometry{top=1in, bottom=1in, left=1in, right=1in, headheight=14.5pt}%
-\addbibresource{references.bib}%
-\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}%
-\fancypagestyle{frontmatter}{%
-\renewcommand{\headrulewidth}{0pt}%
-\renewcommand{\footrulewidth}{0pt}%
-\fancyhead{%
-}%
-\fancyfoot{%
-}%
-\fancyhf{}%
-\fancyhead[L]{DV410}%
-\fancyhead[C]{\thepage}%
-\fancyhead[R]{23802}%
-}%
-\fancypagestyle{mainmatter}{%
-\renewcommand{\headrulewidth}{0pt}%
-\renewcommand{\footrulewidth}{0pt}%
-\fancyhead{%
-}%
-\fancyfoot{%
-}%
-\fancyhf{}%
-\fancyhead[L]{DV410}%
-\fancyhead[C]{Page \thepage\ of \pageref{LastPage}}%
-\fancyhead[R]{23802}%
-}%
-\setstretch{1.5}%
-\justifying%
-\pagenumbering{roman}%
-\pagestyle{fancy}%
-\fancyhf{}%
-\fancyhead[L]{DV410}%
-\fancyhead[C]{Page \thepage\ of \pageref{LastPage}}%
-\fancyhead[R]{23802}%
-%TC:ignore%
-\title{
-        \begin{flushright}
-        \large \textbf{Candidate Number: 23802}
-        \end{flushright}
-        \vspace*{30mm}
-        \begin{center}
-        \large MSc in Development Management 2023 \\
-        \large (Applied Development Economics Specialism) \\
-        \vspace*{5mm}
-        Dissertation submitted in partial fulfilment of the requirements of the degree. \\
-        \vspace*{35mm}
-        \large \textbf{Building and Stumbling Blocks: An Empirical Analysis of the Heterogenous Effects of Trade Agreements Between North and South Countries} \\
-        \vspace*{20mm}
-        \end{center}
-    }%
-\date{}%
-%TC:endignore%
-%
-\begin{document}%
-\normalsize%
-\includepdf[pages=-, offset=0 -1cm, frame]{DV410_Dissertation Cover Sheet_ Consent Form_Front Page_2023-24.pdf}%
-\pagestyle{frontmatter}%
-\maketitle%
 
-\vfill
-\begin{center}\textbf{Word Count: 8997}\end{center}
-\newpage%
-%TC:ignore%
-\vspace*{\fill}%
-\begin{center}%
-\begin{minipage}{0.8\textwidth}%
-\begin{center}%
-\section*{Abstract}%
-\end{center}%
-\justify%
-Extensions to the Gravity Model of Trade are used to empirically estimate across regions the heterogeneous partial effects of Trade Agreements (TAs) signed between 2000 and 2010 on trade volumes and value per unit of manufacturing products exported, as well as the effects on North{-}North, North{-}South and South{-}South bilateral trade relationships. We find that the average “total” partial effects of TAs in the period studied are similar to the estimates of the relevant literature, but there are heterogeneous effects of specific agreements within regions both on trade volume and value per unit. We also find heterogeneous effects of TAs on the different categories of bilateral trade relationships. We found examples of TAs having both positive and negative effects on both North{-}South and South{-}South trade.%
-\end{minipage}%
-\end{center}%
-\vspace*{\fill}%
-%TC:endignore%
-\newpage%
-\tableofcontents%
-\newpage%
-%TC:ignore%
-\section*{Abbreviations}%
-\label{sec:Abbreviations}%
-\begin{tabbing}%
-\hspace{3cm} \= \kill%
-\textbf{CMs} \> Common Markets \\%
-\textbf{COMTRADE} \> UN Commodity Trade Statistics Database \\%
-\textbf{CU} \> Customs Union \\%
-\textbf{DESTA} \> The Design of International Trade Agreements Database \\%
-\textbf{EPUV} \> Export Product Unit Value \\%
-\textbf{EUs} \> Economic Unions \\%
-\textbf{FTA} \> Free Trade Agreements \\%
-\textbf{HS} \> Harmonysed System \\%
-\textbf{INDSTAT } \> UNIDO Industrial Statistics database \\%
-\textbf{NRPTAs} \> Non-reciprocal Preferential Trade Agreements \\%
-\textbf{PTAs} \> Preferential Trade Agreements \\%
-\textbf{TAs} \> Trade Agreements \\%
-\textbf{TradeProd} \> The Trade and Production Database \\%
-\end{tabbing}
-
-%
-%TC:endignore%
-\newpage%
-%TC:ignore%
-\listoffigures%
-%TC:endignore%
-\newpage%
-%TC:ignore%
-\listoftables%
-%TC:endignore%
-\newpage%
-\pagenumbering{arabic}%
-\pagestyle{mainmatter}%
-\section{Introduction}%
-\label{sec:Introduction}%
 The proliferation of Trade Agreements (TAs) since the early 1990s has
 been well documented in the international trade academic literature
-(\cite{dahi_preferential_2013} Dahi \& Demir, 2013; \cite{mayda_south-south_2007} Mayda \& Steinberg, 2007). This trend has slowed
+(\cite{dahi_preferential_2013}; \cite{mayda_south-south_2007}). This trend has slowed
 down since the 1990s but is has not stopped. Table1 shows the historical
 evolution of TAs, showing the dramatic increase in the 1990s.%
 
-
-\begin{figure}[h!]%
-\centering%
-\includegraphics[width=0.8\textwidth]{figures/all_entries_agreements_per_year.jpg}%
-\caption{Trade Agreements Per Year}%
-\end{figure}
-
-%
-\FloatBarrier%
-\textit{Source: Visualisation made by author. Data by The Design of International Trade Agreements Database (DESTA).}%
-\FloatBarrier%
-Moreover, the vast majority of TAs have been signed between developing countries, what is referred to as “South{-}South” trade cooperation, covering an increasingly important share of global trade across industries. Table 2 shows the historical evolution of South{-}South TAs, Table 3 shows the historical evolution of North{-}South TAs, and Table 4 shows the historical evolution of North{-}North TAs, showcasing the significant difference in the number of agreements belonging to each group.%
-
-
-\begin{figure}[h!]%
-\centering%
-\includegraphics[width=0.8\textwidth]{figures/agreements_per_year_South-South.jpg}%
-\caption{Trade Agreements Per Year (South{-}South).}%
-\end{figure}
-
-%
-\FloatBarrier%
-\textit{Source: Visualisation made by author. Data by The Design of International Trade Agreements Database (DESTA).}%
-\FloatBarrier%
-
-
-\begin{figure}[h!]%
-\centering%
-\includegraphics[width=0.8\textwidth]{figures/agreements_per_year_North-South.jpg}%
-\caption{Trade Agreements Per Year (North{-}South).}%
-\end{figure}
-
-%
-\FloatBarrier%
-\textit{Source: Visualisation made by author. Data by The Design of International Trade Agreements Database (DESTA).}%
-\FloatBarrier%
-
-
-\begin{figure}[h!]%
-\centering%
-\includegraphics[width=0.8\textwidth]{figures/agreements_per_year_North-North.jpg}%
-\caption{Trade Agreements Per Year (North{-}North).}%
-\end{figure}
-
-%
-\FloatBarrier%
-\textit{Source: Visualisation made by author. Data by The Design of International Trade Agreements Database (DESTA).}%
-\FloatBarrier%
 Despite their apparent importance for the government of developing
 countries, a common view in the academic literature is that South-South
 TAs are not as effective as North-South TAs, and that they do not
-achieve significant effects, making them largely symbolic (\cite{gamso_leveling-up_2022} Gamso \&
-Postnikov, 2022). North-South agreements, signed between developed and
+achieve significant effects, making them largely symbolic (\cite{gamso_leveling-up_2022}). 
+North-South agreements, signed between developed and
 developing countries, are presented as a superior alternative, more
 effectively leading to increased trade for its members, and quality
 upgrading through learning-by-exporting dynamics and better access to
@@ -238,22 +50,11 @@ Section 4 presents and describes our main findings, and Section 5
 analyses and discusses their potential implications and how they fit
 within the relevant literature. Finally, Section 6 concludes.
 
-%
-\section{Literature Review}%
-\label{sec:LiteratureReview}%
-This section reviews the literature on the theoretical and empirical potential effects of TAs on exports and welfare and situates the analysis in the relevant field of research.%
-\subsection{Theoretical Framework}%
-\label{subsec:TheoreticalFramework}%
-The relevant theoretical framework in the literature is often described as a dichotomy, where TAs are either stumbling or building blocks in the development path of developing countries.%
-\subsubsection{Comparative Advantage and Trade Creation and Diversion}%
-\label{ssubsec:ComparativeAdvantageandTradeCreationandDiversion}%
-
-%
 Traditional trade theory emphasizes trade creation (allowing cheaper
 products from TA members to substitute for more expensive domestic
 products) and trade diversion (substituting products from non-TA members
 that were cheaper before the TA with products from TA members that are
-cheaper now due to the TA reducing tariffs) (\cite{schiff_regional_2003} Schiff, Winters and Schiff,
+cheaper now due to the TA reducing tariffs) (Schiff, Winters and Schiff,
 2003) and argues that the impact of TAs depends on the comparative
 advantage of member countries. In particular, it argues that TAs magnify
 the impacts of a country's comparative advantage, relative to the world
@@ -264,7 +65,7 @@ on the same factor endowment relative to the other member countries, the
 country with the ``extreme'' advantage will be more vulnerable to trade
 diversion effects, while countries with ``intermediate'' advantages will
 gain from trade creation effects, predicting divergence of trade
-outcomes, and winners and losers among member countries. (\cite{venables_winners_2003} Venables,
+outcomes, and winners and losers among member countries. (Venables,
 2003). This emphasis on the trade creation and trade diversion effects
 among member countries with significant differences in the comparative
 advantage of their factor endowments relative to the world and to each
@@ -275,7 +76,7 @@ should seek a TA with the other high-income country as it will gain
 more. On the contrary, if both members are lower-income countries, the
 country with the ``extreme'' comparative advantage, should not seek a TA
 with the other low-income member country as it will be vulnerable.
-(\cite{sanguinetti_impact_2010} Sanguinetti, Siedschlag and Martincus, 2010). This logic can be easily
+(Sanguinetti, Siedschlag and Martincus, 2010). This logic can be easily
 extended to the North-South and South-South types of TAs, as ``North''
 countries will reasonably have an ``extreme'' comparative advantage in
 skill-intensive goods relative to ``South'' countries, while ``South''
@@ -285,12 +86,12 @@ is also argued in the literature that benefiting from economies of scale
 through South-South economic integration is more difficult because
 member countries do not have complementary production and trade
 structures, nor high interpenetration of each other's markets on
-intra-industry trade. (\cite{schiff_regional_2003} Schiff, Winters and Schiff, 2003). Also, South
+intra-industry trade. (Schiff, Winters and Schiff, 2003). Also, South
 countries can benefit from greater technological diffusion from
 North-South TAs as the ``North'' countries have higher industrial
-development as well as investment in research (\cite{schiff_north-south_2008} Schiff and Wang, 2008).
+development as well as investment in research (Schiff and Wang, 2008).
 Finally, as the trend in manufacturing has been in favour of vertical
-specialization or value chain fragmentation (\cite{krugman_growing_1995} Krugman, 1995), North-South
+specialization or value chain fragmentation (Krugman, 1995), North-South
 TAs are preferable as developing countries strive to capture a greater
 portion of the value added. Based on these arguments, developing
 countries should therefore be better off entering into North-South
@@ -303,35 +104,32 @@ In contrast, classical development theory and new trade literature go
 beyond the static welfare gains from trade creation and diversion
 effects when analysing the effect of TAs. Developing countries can use
 TAs to overcome limitations of their domestic market size in the
-industrialization process (\cite{dahi_preferential_2013} Dahi and Demir, 2013). Such potential
+industrialization process (\cite{dahi_preferential_2013}). Such potential
 increases in the effective market size could help industries in
 developing countries achieve economies of scale and increase the skill
 content of production and exports, which in turn could improve the
 market penetration of exports of developing countries in developed
-markets in industrial products (\cite{fugazza_can_2006} Fugazza and Robert-Nicoud, 2006). Also,
+markets in industrial products (\cite{fugazza_can_2006}). Also,
 due to similarities in production patterns and resource base among
 developing countries, incentivising trade by lowering barriers could
 facilitate appropriate technology transfer, according to the needs of
-developing countries (\cite{unido_industrial_2006} UNIDO, 2006). Of particular relevance for
+developing countries (\cite{unido_industrial_2006}). Of particular relevance for
 developing countries, it is argued that the products that countries
 export matter for long-term economic performance. If a country exports
 products from industries that are more technology-intensive, these are
 likely to create input-output linkages and spillover effects in human
-and physical capital accumulation and innovation (\cite{hausmann_what_2007} Hausmann, Hwang and
-Rodrik, 2007). Furthermore, by allowing for factor accumulation, TAs can
+and physical capital accumulation and innovation (\cite{hausmann_what_2007}). Furthermore, by allowing for factor accumulation, TAs can
 reduce intra-block trade barriers and increase competition and access to
 cheaper intermediate goods, triggering changes in industrial production
 in member countries. As such, TAs among ``South'' countries can reduce
-intra-South barriers and lead to industrialization of the region (\cite{puga_trading_1998} Puga
-and Venables, 1998). In this context, what matters are not static gains
+intra-South barriers and lead to industrialization of the region (\cite{puga_trading_1998}). In this context, what matters are not static gains
 from TAs, but dynamic gains in industrial development. If South-South
 TAs truly promote industrial development of member countries, they might
 be desirable even if there are short-term losses due to trade diversion
-(\cite{dahi_preferential_2013} Dahi and Demir, 2013). Other arguments in the development literature
+(\cite{dahi_preferential_2013}). Other arguments in the development literature
 emphasize the asymmetries in bargaining power between ``North'' and
 ``South'' countries, which could lead to worse outcomes for developing
-countries if their policy space gets restricted (\cite{thrasher_21st_2008} Thrasher and Gallagher,
-2008). To the extent that these arguments hold true, developing
+countries if their policy space gets restricted (\cite{thrasher_21st_2008}). To the extent that these arguments hold true, developing
 countries could be better off entering into South-South rather than
 North-South agreements, or at least should pursue both kinds of
 agreements.
@@ -351,7 +149,7 @@ basis for the comparative advantage of countries, this literature
 proposes and finds evidence of patterns of path dependence depending on
 the current capabilities of countries, and the relatedness of current
 capabilities to the capabilities required to produce new products in the
-future (\cite{hausmann_structure_2007} Hausmann and Klinger, 2007). As it is observed that human
+future (\cite{hausmann_structure_2007}). As it is observed that human
 capital for one product is imperfectly substitutable for other products,
 and the degree of substitutability determines the relatedness of
 products, the implication is that, as countries experience a strong
@@ -361,7 +159,7 @@ future transformation are dictated by the current product space and its
 proximity to related products. Moreover, it also implies that there is a
 positive exponential relationship between the returns to the
 accumulation of new capabilities and the capabilities present in a
-country. (\cite{hausmann_country_2010} Hausmann and Hidalgo, 2010). The more diverse the product
+country. (\cite{hausmann_country_2010}). The more diverse the product
 structure of a country, the higher the returns to accumulate new
 capabilities. Inversely, we can find a ``trap of economic stasis'', in
 which countries with few capabilities have little incentives to
@@ -369,13 +167,13 @@ accumulate new capabilities as they will have negligible or no returns,
 predicting a world of divergence in industrial development. Furthermore,
 this literature suggests that countries converge to the level of income
 determined by their productive structures and how complex they are
-(\cite{hidalgo_building_2009} Hidalgo and Hausmann, 2009). An underlying assumption of this
+(\cite{hidalgo_building_2009}). An underlying assumption of this
 literature is that what a country exports matter and signals valuable
 information about a country's comparative advantage and productive
 structure, not only on its current industries and capabilities, but also
 on a component of the evolution of its comparative advantage based on
-the relatedness to other industries and capabilities (\cite{hausmann_implied_2014} Hausmann \emph{et
-al.}, 2014). The implications of this literature to the effects of TAs
+the relatedness to other industries and capabilities (\cite{hausmann_implied_2014}). 
+The implications of this literature to the effects of TAs
 appears to be relevant to the extent that TAs help countries acquire new
 capabilities and diversify their structure of product space. Logically,
 although North-South trade has the largest potential to allow South
@@ -386,7 +184,8 @@ context of our research should occur between countries with related
 productive structures. As such, South-South trade could function as a
 building block for developing countries to acquire new capabilities and
 diversify the structure of their product space, before they can take
-advantage of acquiring new capabilities through North-South trade.%
+advantage of acquiring new capabilities through North-South trade.
+%
 \subsection{Empirical Evidence}%
 \label{subsec:EmpiricalEvidence}%
 
@@ -400,20 +199,19 @@ meta-analysis of research papers on the effects of TAs on member trade,
 encompassing 85 papers and 1827 estimates, finds an average of 0.59 (an
 80\% increase in trade), with a median of 0.38 (a 46\% increase in
 trade), a wide range of coefficient estimates (-9.01 to 15.41), and only
-312 out of 1827 estimates reported as negative (\cite{cipollina_reciprocal_2010} Cipollina and Salvatici,
-2010). Furthermore, a survey of the empirical research on the effect of
+312 out of 1827 estimates reported as negative (\cite{cipollina_reciprocal_2010}). Furthermore, a survey of the empirical research on the effect of
 economic integration agreements on international trade flows, as well as
 using the most modern econometric techniques to address biases, found an
 increase of 50\% on international trade, but with significant variation
-in the effects of specific agreements (\cite{kohl_we_2014} Kohl, 2014). However, much of the
+in the effects of specific agreements (\cite{kohl_we_2014}). However, much of the
 empirical research is focused on the effects of TAs on or including the
 most advanced economies. Empirical research focused exclusively on the
 effects of South-South TAs or comparing them to the effects of
 North-North or North-South TAs, is much less prevalent in the
 literature. Although, several research papers do control for the type of
 agreement (North-South or South-South) and have found positive and
-significant effects of South-South TAs (\cite{medvedev_preferential_2006} Medvedev, 2006; \cite{mayda_south-south_2007} Mayda and
-Steinberg, 2007; \cite{dahi_preferential_2013} Dahi and Demir, 2013; \cite{deme_trade-creation_2017} Deme and Ndrianasy, 2017), these
+significant effects of South-South TAs 
+(\cite{medvedev_preferential_2006}; \cite{mayda_south-south_2007}; \cite{dahi_preferential_2013}; \cite{deme_trade-creation_2017}), these
 articles tend to be limited in their scope, sample size or only focus on
 trade volumes.
 
@@ -444,7 +242,7 @@ do with the effects of North-South versus South-South agreements. Third,
 model has a flexible structure, which will allow us to construct a
 specification tailored to our research. Finally, fourth, it holds
 consistent and remarkable predictive power, both with aggregate and
-sectoral data (\cite{yotov_advanced_2016} Yotov et al. 2016).
+sectoral data (\cite{yotov_advanced_2016}).
 
 Through the decades, the gravity equation has been regularly upgraded in
 the theoretical and empirical literature. Of relevance, the simple
@@ -452,30 +250,28 @@ intuition of the gravity model was theoretically extended by Anderson to
 note that, after controlling for size, the increase or decrease is
 \emph{relative} to the average barriers of the two countries with all
 their partners, which are referred as ``multilateral resistance''
-(\cite{anderson_theoretical_1979} Anderson 1979). The more trade barriers or resistance to trade exists
+(\cite{anderson_theoretical_1979}). The more trade barriers or resistance to trade exists
 with other countries relative to a given partner, the more a country is
 pushed to trade with said partner. Anderson also introduced the
 assumptions of product differentiation by place of origin, and Constant
 Elasticity of Substitution (CES) expenditures, or the Armington-CES
-assumption (\cite{yotov_advanced_2016} Yotov et al. 2016; \cite{chatzilazarou_trade_2023} Chatzilazarou and Dadakas 2023), which
+assumption (\cite{yotov_advanced_2016}; \cite{chatzilazarou_trade_2023}), which
 led us to today's generalized form of the gravity equation, as developed
-and popularised by Anderson and van Wincoop (\cite{anderson_gravity_2003} Anderson and van Wincoop
-2003).
+and popularised by Anderson and van Wincoop (\cite{anderson_gravity_2003}).
 
 Equally important, several empirical developments have strengthened the
 gravity model and inform our choice of methodology: Exporter-time and
 importer-time fixed effects are used to account for the multilateral
-resistance terms in a gravity estimation with panel data (\cite{olivero_dynamic_2012} Olivero and
-Yotov 2012); As the gravity model is often estimated with an OSL
+resistance terms in a gravity estimation with panel data (\cite{olivero_dynamic_2012});
+ As the gravity model is often estimated with an OSL
 estimator, zero-trade flows were dropped from the sample when trade was
 transformed into a logarithmic form. Also, trade data is recognized to
-suffer from heteroscedasticity (\cite{yotov_advanced_2016} Yotov et al. 2016). To solve for
+suffer from heteroscedasticity (\cite{yotov_advanced_2016}). To solve for
 zero-trade flows and heteroscedasticity, the Poisson Pseudo Maximum
 Likelihood (PPML) estimator has been proposed to estimate the gravity
-model, avoiding potential biases (\cite{silva_log_2006} Silva and Tenreyro 2006; \cite{santos_silva_further_2011} Santos Silva
-and Tenreyro 2011); Country-pair fixed effects has been proposed to
-account for the unobserved endogeneity of trade policy (\cite{baier_free_2007-1} Baier and
-Bergstrand 2007). It is worth nothing that the inclusion of
+model, avoiding potential biases (\cite{silva_log_2006}; \cite{santos_silva_further_2011});
+ Country-pair fixed effects has been proposed to
+account for the unobserved endogeneity of trade policy (\cite{baier_free_2007-1}). It is worth nothing that the inclusion of
 exporter-time and importer-time fixed effects will absorb all observable
 and unobservable time-varying country-specific characteristics that
 could affect the dependent variable, while the country-pair fixed
@@ -484,15 +280,13 @@ characteristics that could affect trade costs; The inclusion of
 intra-trade flows as well as international trade flows is proposed to
 correctly estimate the effects of non-discriminatory trade policy,
 allowing for consumers to choose products from both international and
-domestic sources (\cite{dai_trade-diversion_2014} Dai, Yotov, and Zylkin 2014; \cite{heid_estimating_2017} Heid, Larch, and Yotov
-2017); Year-intervals instead of data pooled over consecutive years
+domestic sources (\cite{dai_trade-diversion_2014}; \cite{heid_estimating_2017}); Year-intervals instead of data pooled over consecutive years
 should be used to allow for adjustment of trade flows to policies that
-might not have immediate effects (\cite{baier_free_2007-2} Baier and Bergstrand 2007; \cite{anderson_terms_2016-1} Anderson
-and Yotov 2016); And finally, to account for the effects of
+might not have immediate effects (\cite{baier_free_2007-2}; \cite{anderson_terms_2016-1}); And finally, to account for the effects of
 globalization forces that may biased the estimates of trade policies, a
 set of globalization dummies are recommended to control for the effects
-of globalization in the gravity model (\cite{yotov_simple_2012} Yotov 2012; \cite{bergstrand_economic_2015} Bergstrand, Larch,
-and Yotov 2015).%
+of globalization in the gravity model (\cite{yotov_simple_2012}; \cite{bergstrand_economic_2015}).
+%
 \subsubsection{Benchmark Model}%
 \label{ssubsec:BenchmarkModel}%
 
@@ -516,7 +310,8 @@ a TA at time \(t\) and, to account for potential ``phase-in'' effects
 over time of the TA, at time \(t - 5\); \(\sum_{t}^{}b_{t}\) is a set of
 dummies that equal 1 for international trade and 0 for domestic trade
 observations at each time \(t\); and \(\epsilon_{ij,t}\) is an error
-term.%
+term.
+%
 \subsubsection{TA Heterogeneity Model}%
 \label{ssubsec:TAHeterogeneityModel}%
 
@@ -528,7 +323,7 @@ agreements, this benchmark model, specifically
 partial effect of TAs on trade after accounting for lagged effects, but
 it cannot provide the effects for a given agreement. As such, an
 expansion can be implemented to capture heterogeneity in TA effects as
-proposed by Baier \emph{et al}. (\cite{baier_widely_2019} Baier, Yotov, and Zylkin 2019):
+proposed by Baier \emph{et al}. (\cite{baier_widely_2019}):
 
 \begin{multline}
     X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A} \beta_{1,A} \, TA_{ij,t} \right. + \sum_{A} \beta_{2,A} \, TA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
@@ -538,7 +333,8 @@ Equation (2) can be implemented to account for heterogeneous effects of
 TAs at the level of the specific agreement, by allowing for distinct
 average partial effects for each individual agreement, using superscript
 \(A\) to index by agreement and also allowing for agreement-specific
-lags: \(\beta_{A} = \beta_{1,A} + \beta_{2,A}\).%
+lags: \(\beta_{A} = \beta_{1,A} + \beta_{2,A}\).
+%
 \subsubsection{North{-}North, North{-}South and South{-}South TAs}%
 \label{ssubsec:North{-}North,North{-}SouthandSouth{-}SouthTAs}%
 
@@ -621,14 +417,14 @@ two ``South'' countries (SS).
 Inspired by other strands of the international trade literature, we also
 test our models using ``Unit Values'' of the products exported, by
 dividing the total value exported by the total weight exported in
-kilograms (\cite{latzer_average_2021} Latzer and Mayneris 2021; \cite{manova_export_2012} Manova and Zhang 2012; \cite{bastos_quality_2010} Bastos and
-Silva 2010). Using the unit value as the dependent variable in our
+kilograms (\cite{latzer_average_2021}; \cite{manova_export_2012}; \cite{bastos_quality_2010}).
+ Using the unit value as the dependent variable in our
 estimations allow us to analyse if the value per unit exported is
 affected by TAs. To be consistent in our effort to understand the
 potentially heterogenous effects of TAs according to the different
 category of the members in trade volume, but also in quality upgrading
 and industrialization development of countries, we focus on
-manufacturing products (\cite{chatzilazarou_trade_2023} Chatzilazarou and Dadakas 2023) with HS 2-digit
+manufacturing products (\cite{chatzilazarou_trade_2023}) with HS 2-digit
 codes 84 (Nuclear reactors, boilers, machinery and mechanical
 appliances; parts thereof ) and 85 (Electrical machinery and equipment
 and parts thereof; sound recorders and reproducers, television image and
@@ -639,7 +435,8 @@ television image and sour sound recorders and reproducers, and parts and
 accessories of such articles'' category from the World Customs
 Organization. Our aim is to compare the effects of TAs on trade volumes
 against the effects on the unit value of manufacturing products
-exported.%
+exported.
+%
 \subsection{Defining North and South}%
 \label{subsec:DefiningNorthandSouth}%
 
@@ -670,23 +467,24 @@ high-income countries include non-industrialized small-nations which we
 do not expect to generate significant effects on the industrial
 development as well as technology- and skills-upgrading of trade-partner
 countries. For such reasons, we have decided to use the same
-categorization of countries as Dahi \& Demir (\cite{dahi_south-south_2017} Dahi and Demir 2017) which
+categorization of countries as Dahi \& Demir (\cite{dahi_south-south_2017}) which
 takes into consideration characteristics such as incomes, production and
 trade structures, factor endowments, and human and institutional
 development to construct a list of ``North'' and ``South'' countries,
 and also keeps the groups consistent over time. This results in 23
 countries categorized as ``North'', and the rest as ``South''. A
 detailed list of the countries and their categories can be found in the
-Appendix.%
+Appendix.
+%
 \subsection{Data}%
 \label{subsec:Data}%
 
 %
 To construct our dataset we have combined TA data from the ``Design of
-International Trade Agreements'' (DESTA) (\cite{dur_andreas_leonardo_baccini_and_manfred_elsig_design_2014} Dür, Andreas, Leonardo Baccini
-and Manfred Elsig 2014) and from the CEPII ``Trade and Production
-Database'' (TradeProd) (\cite{thierry_mayer_gianluca_santoni_vincent_vicard_cepii_2023} Thierry Mayer, Gianluca Santoni, Vincent Vicard
-2023). The DESTA database aims to aggregate all agreements that have the
+International Trade Agreements'' (DESTA) (\cite{dur_andreas_leonardo_baccini_and_manfred_elsig_design_2014})
+ and from the CEPII ``Trade and Production
+Database'' (TradeProd) (\cite{thierry_mayer_gianluca_santoni_vincent_vicard_cepii_2023}). 
+The DESTA database aims to aggregate all agreements that have the
 potential to liberalise trade, including all agreements notified to the
 World Trade Organisation (WTO) and other agreements from a wide range of
 sources, covering 880 agreements for 204 countries since 1948 to 2023 in
@@ -724,8 +522,7 @@ As it is not possible to get data for product unit values for domestic
 trade, the estimations using this measure as the dependent variable will
 suffer from bias as the estimation does not include intra-trade effects.
 However, the direction of bias is important as not including intra-trade
-measures is expected to bias the effects of TAs downwards (\cite{yotov_advanced_2016} Yotov et al.
-2016), so we use this estimates as illustrative conservative
+measures is expected to bias the effects of TAs downwards (\cite{yotov_advanced_2016}), so we use this estimates as illustrative conservative
 measurements of the effects of TAs on the unit value of exported
 products.
 
@@ -785,7 +582,7 @@ negative coefficients. Across the regions, 64 out of 118 (54.24\%)
 coefficients have significant and positive effects, 42 out of 118
 (35.59\%) have no significant effects, and 12 out of 118 (10.17\%) have
 significand and negative effects. A summary of the findings can be found
-on Figure 4, with the significance of the coefficients on the Y axis (all
+on Table 1, with the significance of the coefficients on the Y axis (all
 non-significant coefficients assigned a value of -1 for ease of
 visualization, and significant coefficients assigned a value of 1, 2 or
 3 according to their significance, with the highest significance being
@@ -883,8 +680,8 @@ significant effects, and 8 out of 84 (9.52\%) have significand and
 negative effects; and, 3 out of 4 (75\%) NN coefficients have
 significant and positive effects, 1 out of 4 (25\%) have no significant
 effects, and none have significand and negative effects. A summary of
-the findings can be found on Figure 5 for North-South trade, Figure 6 for
-North-North trade and Figure 7 for South-South trade, with the
+the findings can be found on Table 2 for North-South trade, Table 3 for
+North-North trade and Table 4 for South-South trade, with the
 significance of the coefficients on the Y axis (all non-significant
 coefficients assigned a value of -1 for ease of visualization, and
 significant coefficients assigned a value of 1, 2 or 3 according to
@@ -1048,11 +845,10 @@ Some potential determinant mechanisms of the effects of TAs in the
 academic literature are related to the content of the TA, and the extent
 to which it removes trade barriers. TAs should have more potential for
 larger effects when they remove trade frictions imposed by other trade
-policies and regulations, domestic or foreign (\cite{baier_widely_2019} Baier et al., 2019).
+policies and regulations, domestic or foreign (\cite{baier_widely_2019}).
 Moreover, unilateral trade policies can create a terms-of-trade
 inefficiency externality when a government introduces a higher trade
-barrier, shifting the cost to foreign exporters (\cite{bagwell_economic_1999} Bagwell \& Staiger,
-1999). Since foreign exporters bear the cost of the inefficiency, there
+barrier, shifting the cost to foreign exporters (\cite{bagwell_economic_1999}). Since foreign exporters bear the cost of the inefficiency, there
 is a tendency by governments to set barriers at a higher level than it
 would be politically efficient. TAs can act as a mechanism to remove or
 lower said inefficiencies, resulting in better trade and welfare
@@ -1060,39 +856,35 @@ outcomes, or in an observed higher effect of a TA relative to
 non-members in our case. Through trade diversion, there is a theoretical
 possibility that the proliferation of TAs can harm the terms of trade of
 non-TA-members and create significant inefficiencies in the world
-trading system (\cite{anderson_terms_2016} Anderson \& Yotov, 2016), but empirical evidence so far
+trading system (\cite{anderson_terms_2016}), but empirical evidence so far
 finds that TAs negligibly harm non-members and global efficiency rises.
 
 Another strand of the relevant literature emphasises the extensive
 margin of trade ex-ante the signature of a TA as an important
 determinant of its effects. In particular, that TAs have an important
 effect in the growth of the extensive margin of trade, which in turn is
-a significant factor in the overall growth of total trade (\cite{kehoe_how_2013} Kehoe \&
-Ruhl, 2013). If a TA is signed between country members with low
+a significant factor in the overall growth of total trade (\cite{kehoe_how_2013}). If a TA is signed between country members with low
 diversity of traded goods, it is expected that we will see a bigger
 effects of the TA in trade growth driven by the increase in the number
 of goods traded and in the volume of trade of the least-traded products
-(\cite{kehoe_using_2015} Kehoe et al., 2015). Interestingly, empirical research shows that the
+(\cite{kehoe_using_2015}). Interestingly, empirical research shows that the
 number of products exported ex-ante is positively related to the trade
 creation after a TA, but when heterogeneous effects of TAs within
 agreements and country-pairs is taken into consideration, the extensive
-margin of trade does account for differences in trade creation (\cite{baier_widely_2019} Baier et
-al., 2019).
+margin of trade does account for differences in trade creation (\cite{baier_widely_2019}).
 
 There is also evidence that different types of agreements, such as
 non-reciprocal preferential trade agreements (NRPTAs), preferential
 trade agreements (PTAs), free trade agreements (FTA), customs unions
 (CU), common markets (CMs) and economic unions (EUs), can have different
-levels and time horizons of trade effects (\cite{baier_economic_2014} Baier et al., 2014; \cite{magee_new_2008-1} Magee,
-2008). This can occur because different types of TAs can induce
+levels and time horizons of trade effects (\cite{baier_economic_2014}; \cite{magee_new_2008-1}). This can occur because different types of TAs can induce
 different unobservable effects that reduce trade costs, as we observe
 that modern TAs not only reduce tariffs, but also regulate all kinds of
-non-tariff issues in what is called ``deep integration'' (\cite{anderson_terms_2016} Anderson \&
-Yotov, 2016). The deeper the integration, the more effective we expect
-TAs to be (\cite{kohl_we_2014} Kohl, 2014). It has also been shown that the design of TAs
+non-tariff issues in what is called ``deep integration'' (\cite{anderson_terms_2016}). The deeper the integration, the more effective we expect
+TAs to be (\cite{kohl_we_2014}). It has also been shown that the design of TAs
 matters, in terms of institutional design and legal enforceability, with
 more comprehensive agreements being better at stimulating positive trade
-outcomes (\cite{kohl_trade_2013} Kohl et al., 2013).
+outcomes (\cite{kohl_trade_2013}).
 
 The differences in market power across member countries could also be
 important, as countries with less market power relative to other TA
@@ -1100,7 +892,7 @@ members over their terms of trade are expected to grant smaller
 concessions when they negotiate agreements. Agreements between countries
 with relatively similar market power over each other's term of trade
 potentially have higher potential to eliminate inefficiencies and
-achieve higher effects (\cite{baier_widely_2019} Baier et al., 2019).
+achieve higher effects (\cite{baier_widely_2019}).
 
 Based on the academic arguments mentioned, can we expect that TAs will
 have more potential for effectively improve trade outcomes when the
@@ -1119,8 +911,7 @@ economies that enjoyed since the Post-World War II period. It could be
 the case that the same power dynamics observed between developed and
 developing countries by the classical development literature also occur
 in South-South relationships, and that they become a threat for the
-development of the least-developed economies in the South (\cite{dahi_south-south_2017} Dahi \&
-Demir, 2017). It is clear that more research focused on South-South
+development of the least-developed economies in the South (\cite{dahi_south-south_2017}). It is clear that more research focused on South-South
 dynamics is needed in order to guide the policy decisions of different
 groups of countries.
 
@@ -1203,8 +994,7 @@ potential areas for future research on ``South'' countries include
 research on the dynamic effects of TAs on the industrialization process
 and on technology absorption and upgrading; extending gravity models to
 capture effects of country-pairs member to a TA, and to capture effects
-on individual countries of a country-pair member to a TA (\cite{baier_widely_2019} Baier et al.,
-2019); extending the gravity model to capture effects of different types
+on individual countries of a country-pair member to a TA (\cite{baier_widely_2019}); extending the gravity model to capture effects of different types
 of TAs depending on their depth and content; different
 sub-classifications of ``South'' countries should be explored to further
 understand the limits to South-South cooperation in trade; and, beyond

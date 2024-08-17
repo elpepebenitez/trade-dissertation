@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the consolidated data
-file_path = './pta/desta_list_of_treaties_02_02_dyads.csv'
+file_path = './data/raw_data/pta/desta_list_of_treaties_02_02_dyads.csv'
 dyads_df = pd.read_csv(file_path)
 
 # print(dyads_df.head())

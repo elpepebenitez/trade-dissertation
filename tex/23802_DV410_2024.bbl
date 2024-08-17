@@ -19,6 +19,703 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{anderson_theoretical_1979}{article}{}
+      \name{author}{1}{}{%
+        {{hash=698a0bb775e87a0470cd7b92a0a5cd24}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={James\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{698a0bb775e87a0470cd7b92a0a5cd24}
+      \strng{fullhash}{698a0bb775e87a0470cd7b92a0a5cd24}
+      \strng{bibnamehash}{698a0bb775e87a0470cd7b92a0a5cd24}
+      \strng{authorbibnamehash}{698a0bb775e87a0470cd7b92a0a5cd24}
+      \strng{authornamehash}{698a0bb775e87a0470cd7b92a0a5cd24}
+      \strng{authorfullhash}{698a0bb775e87a0470cd7b92a0a5cd24}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-8282}
+      \field{journaltitle}{The American Economic Review}
+      \field{note}{Publisher: American Economic Association}
+      \field{number}{1}
+      \field{title}{A Theoretical Foundation for the Gravity Equation}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{69}
+      \field{year}{1979}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{106\bibrangedash 116}
+      \range{pages}{11}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/pepe/Zotero/storage/3RIASIW8/Anderson - 1979 - A Theoretical Foundation for the Gravity Equation.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org.gate3.library.lse.ac.uk/stable/1802501
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org.gate3.library.lse.ac.uk/stable/1802501
+      \endverb
+    \endentry
+    \entry{anderson_gravity_2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=698a0bb775e87a0470cd7b92a0a5cd24}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={James\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=e3c0b200e02cd8b0fa7bad64abd3587a}{%
+           family={Wincoop},
+           familyi={W\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{b66054bfc8f30f7edccc640a40e95837}
+      \strng{fullhash}{b66054bfc8f30f7edccc640a40e95837}
+      \strng{bibnamehash}{b66054bfc8f30f7edccc640a40e95837}
+      \strng{authorbibnamehash}{b66054bfc8f30f7edccc640a40e95837}
+      \strng{authornamehash}{b66054bfc8f30f7edccc640a40e95837}
+      \strng{authorfullhash}{b66054bfc8f30f7edccc640a40e95837}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Gravity equations have been widely used to infer trade flow effects of various institutional arrangements. We show that estimated gravity equations do not have a theoretical foundation. This implies both that estimation suffers from omitted variables bias and that comparative statics analysis is unfounded. We develop a method that (i) consistently and efficiently estimates a theoretical gravity equation and (ii) correctly calculates the comparative statics of trade frictions. We apply the method to solve the famous {McCallum} border puzzle. Applying our method, we find that national borders reduce trade between industrialized countries by moderate amounts of 20-50 percent.}
+      \field{issn}{0002-8282}
+      \field{journaltitle}{The American Economic Review}
+      \field{note}{Publisher: American Economic Association}
+      \field{number}{1}
+      \field{shorttitle}{Gravity with Gravitas}
+      \field{title}{Gravity with Gravitas: A Solution to the Border Puzzle}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{93}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{170\bibrangedash 192}
+      \range{pages}{23}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/pepe/Zotero/storage/WEX5RKQK/Anderson and van Wincoop - 2003 - Gravity with Gravitas A Solution to the Border Pu.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org.gate3.library.lse.ac.uk/stable/3132167
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org.gate3.library.lse.ac.uk/stable/3132167
+      \endverb
+    \endentry
+    \entry{anderson_terms_2016-1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=698a0bb775e87a0470cd7b92a0a5cd24}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={James\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=ec316c108e8808001ef50f84438ca9cb}{%
+           family={Yotov},
+           familyi={Y\bibinitperiod},
+           given={Yoto\bibnamedelima V.},
+           giveni={Y\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef5e95b29feccab4ee5ad7ec780e4cf5}
+      \strng{fullhash}{ef5e95b29feccab4ee5ad7ec780e4cf5}
+      \strng{bibnamehash}{ef5e95b29feccab4ee5ad7ec780e4cf5}
+      \strng{authorbibnamehash}{ef5e95b29feccab4ee5ad7ec780e4cf5}
+      \strng{authornamehash}{ef5e95b29feccab4ee5ad7ec780e4cf5}
+      \strng{authorfullhash}{ef5e95b29feccab4ee5ad7ec780e4cf5}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper infers the terms of trade effects of free trade agreements ({FTAs}) implemented in the 1990s. We estimate large {FTA} effects on bilateral trade volume in 2 digit manufacturing goods from 1990–2002, using panel data gravity methods to resolve two way causality. The terms of trade changes implied by these volume effects are deduced for 40 countries plus a rest-of-the-world aggregate using an endowments general equilibrium model. Some countries gain over 5\% of real manufacturing income, some lose less than 0.3\%. Global efficiency of manufactures trade rises 0.9\% based on a distance function measure of iceberg melting.}
+      \field{day}{1}
+      \field{issn}{0022-1996}
+      \field{journaltitle}{Journal of International Economics}
+      \field{month}{3}
+      \field{shortjournal}{Journal of International Economics}
+      \field{title}{Terms of trade and global efficiency effects of free trade agreements, 1990–2002}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{99}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{279\bibrangedash 298}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1016/j.jinteco.2015.10.006
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/pepe/Zotero/storage/3FVHNXLI/S0022199615001531.html:text/html;Submitted Version:/Users/pepe/Zotero/storage/GMS5TMS4/Anderson and Yotov - 2016 - Terms of trade and global efficiency effects of fr.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199615001531
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199615001531
+      \endverb
+      \keyw{Distance Function,Free trade agreements,Gravity,Terms of Trade}
+    \endentry
+    \entry{anderson_terms_2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=698a0bb775e87a0470cd7b92a0a5cd24}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={James\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=ec316c108e8808001ef50f84438ca9cb}{%
+           family={Yotov},
+           familyi={Y\bibinitperiod},
+           given={Yoto\bibnamedelima V.},
+           giveni={Y\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef5e95b29feccab4ee5ad7ec780e4cf5}
+      \strng{fullhash}{ef5e95b29feccab4ee5ad7ec780e4cf5}
+      \strng{bibnamehash}{ef5e95b29feccab4ee5ad7ec780e4cf5}
+      \strng{authorbibnamehash}{ef5e95b29feccab4ee5ad7ec780e4cf5}
+      \strng{authornamehash}{ef5e95b29feccab4ee5ad7ec780e4cf5}
+      \strng{authorfullhash}{ef5e95b29feccab4ee5ad7ec780e4cf5}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper infers the terms of trade effects of free trade agreements ({FTAs}) implemented in the 1990s. We estimate large {FTA} effects on bilateral trade volume in 2 digit manufacturing goods from 1990–2002, using panel data gravity methods to resolve two way causality. The terms of trade changes implied by these volume effects are deduced for 40 countries plus a rest-of-the-world aggregate using an endowments general equilibrium model. Some countries gain over 5\% of real manufacturing income, some lose less than 0.3\%. Global efficiency of manufactures trade rises 0.9\% based on a distance function measure of iceberg melting.}
+      \field{day}{1}
+      \field{issn}{0022-1996}
+      \field{journaltitle}{Journal of International Economics}
+      \field{month}{3}
+      \field{shortjournal}{Journal of International Economics}
+      \field{title}{Terms of trade and global efficiency effects of free trade agreements, 1990–2002}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{99}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{279\bibrangedash 298}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1016/j.jinteco.2015.10.006
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/pepe/Zotero/storage/D8UCWGCF/S0022199615001531.html:text/html;Submitted Version:/Users/pepe/Zotero/storage/ESSE5DNJ/Anderson and Yotov - 2016 - Terms of trade and global efficiency effects of fr.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199615001531
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199615001531
+      \endverb
+      \keyw{Free trade agreements,Gravity,Distance Function,Terms of Trade}
+    \endentry
+    \entry{bagwell_economic_1999}{article}{}
+      \name{author}{2}{}{%
+        {{hash=fd38522cddc3c3e516f95b3487662efa}{%
+           family={Bagwell},
+           familyi={B\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+        {{hash=159b8bb48f4c646a24c780919056924e}{%
+           family={Staiger},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c9c5bbc88dc016b3efa0300b0d45493}
+      \strng{fullhash}{1c9c5bbc88dc016b3efa0300b0d45493}
+      \strng{bibnamehash}{1c9c5bbc88dc016b3efa0300b0d45493}
+      \strng{authorbibnamehash}{1c9c5bbc88dc016b3efa0300b0d45493}
+      \strng{authornamehash}{1c9c5bbc88dc016b3efa0300b0d45493}
+      \strng{authorfullhash}{1c9c5bbc88dc016b3efa0300b0d45493}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a unified theoretical framework within which to interpret and evaluate the foundational principles of {GATT}. Working within a general equilibrium trade model, we represent government preferences in a way that is consistent with national income maximization but also allows for the possibility of distributional concerns as emphasized in leading political-economy models. Using this general framework, we establish that {GATT}'s principles of reciprocity and non-discrimination can be viewed as simple rules that assist governments in their effort to implement efficient trade agreements. From this perspective, we argue that preferential agreements undermine {GATT}'s ability to deliver efficient multilateral outcomes.}
+      \field{issn}{0002-8282}
+      \field{journaltitle}{The American Economic Review}
+      \field{note}{Publisher: American Economic Association}
+      \field{number}{1}
+      \field{title}{An Economic Theory of {GATT}}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{89}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{215\bibrangedash 248}
+      \range{pages}{34}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/pepe/Zotero/storage/8IT67A6I/Bagwell and Staiger - 1999 - An Economic Theory of GATT.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/116986
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/116986
+      \endverb
+    \endentry
+    \entry{baier_free_2007-1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=02ee380cd3de8367dae3057eae6ee45b}{%
+           family={Baier},
+           familyi={B\bibinitperiod},
+           given={Scott\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=6dfa641f406a3ac46c2f1a8f7b3ce423}{%
+           family={Bergstrand},
+           familyi={B\bibinitperiod},
+           given={Jeffrey\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{2a771ce516aa8e5f6a51bc8c5e03b81f}
+      \strng{fullhash}{2a771ce516aa8e5f6a51bc8c5e03b81f}
+      \strng{bibnamehash}{2a771ce516aa8e5f6a51bc8c5e03b81f}
+      \strng{authorbibnamehash}{2a771ce516aa8e5f6a51bc8c5e03b81f}
+      \strng{authornamehash}{2a771ce516aa8e5f6a51bc8c5e03b81f}
+      \strng{authorfullhash}{2a771ce516aa8e5f6a51bc8c5e03b81f}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{For over 40 years, the gravity equation has been a workhorse for cross-country empirical analyses of international trade flows and — in particular — the effects of free trade agreements ({FTAs}) on trade flows. However, the gravity equation is subject to the same econometric critique as earlier cross-industry studies of U.S. tariff and nontariff barriers and U.S. multilateral imports: trade policy is not an exogenous variable. We address econometrically the endogeneity of {FTAs}. Although instrumental-variable and control-function approaches do not adjust for endogeneity well, a panel approach does. Accounting econometrically for the {FTA} variable's endogeneity yields striking empirical results: the effect of {FTAs} on trade flows is quintupled. We find that, on average, an {FTA} approximately doubles two members' bilateral trade after 10 years.}
+      \field{day}{8}
+      \field{issn}{0022-1996}
+      \field{journaltitle}{Journal of International Economics}
+      \field{month}{3}
+      \field{number}{1}
+      \field{shortjournal}{Journal of International Economics}
+      \field{title}{Do free trade agreements actually increase members' international trade?}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{71}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{72\bibrangedash 95}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1016/j.jinteco.2006.02.005
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/pepe/Zotero/storage/6XWWT7E5/S0022199606000596.html:text/html;Submitted Version:/Users/pepe/Zotero/storage/BKSBTQQV/Baier and Bergstrand - 2007 - Do free trade agreements actually increase members.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199606000596
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199606000596
+      \endverb
+      \keyw{Free trade agreements,Gravity equation,International trade flows}
+    \endentry
+    \entry{baier_free_2007-2}{article}{}
+      \name{author}{2}{}{%
+        {{hash=02ee380cd3de8367dae3057eae6ee45b}{%
+           family={Baier},
+           familyi={B\bibinitperiod},
+           given={Scott\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=6dfa641f406a3ac46c2f1a8f7b3ce423}{%
+           family={Bergstrand},
+           familyi={B\bibinitperiod},
+           given={Jeffrey\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{2a771ce516aa8e5f6a51bc8c5e03b81f}
+      \strng{fullhash}{2a771ce516aa8e5f6a51bc8c5e03b81f}
+      \strng{bibnamehash}{2a771ce516aa8e5f6a51bc8c5e03b81f}
+      \strng{authorbibnamehash}{2a771ce516aa8e5f6a51bc8c5e03b81f}
+      \strng{authornamehash}{2a771ce516aa8e5f6a51bc8c5e03b81f}
+      \strng{authorfullhash}{2a771ce516aa8e5f6a51bc8c5e03b81f}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{For over 40 years, the gravity equation has been a workhorse for cross-country empirical analyses of international trade flows and — in particular — the effects of free trade agreements ({FTAs}) on trade flows. However, the gravity equation is subject to the same econometric critique as earlier cross-industry studies of U.S. tariff and nontariff barriers and U.S. multilateral imports: trade policy is not an exogenous variable. We address econometrically the endogeneity of {FTAs}. Although instrumental-variable and control-function approaches do not adjust for endogeneity well, a panel approach does. Accounting econometrically for the {FTA} variable's endogeneity yields striking empirical results: the effect of {FTAs} on trade flows is quintupled. We find that, on average, an {FTA} approximately doubles two members' bilateral trade after 10 years.}
+      \field{day}{8}
+      \field{issn}{0022-1996}
+      \field{journaltitle}{Journal of International Economics}
+      \field{month}{3}
+      \field{number}{1}
+      \field{shortjournal}{Journal of International Economics}
+      \field{title}{Do free trade agreements actually increase members' international trade?}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{71}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{72\bibrangedash 95}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1016/j.jinteco.2006.02.005
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/pepe/Zotero/storage/7W2URN3S/S0022199606000596.html:text/html;Submitted Version:/Users/pepe/Zotero/storage/AEMZPYPY/Baier and Bergstrand - 2007 - Do free trade agreements actually increase members.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199606000596
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199606000596
+      \endverb
+      \keyw{Free trade agreements,Gravity equation,International trade flows}
+    \endentry
+    \entry{baier_economic_2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=02ee380cd3de8367dae3057eae6ee45b}{%
+           family={Baier},
+           familyi={B\bibinitperiod},
+           given={Scott\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=6dfa641f406a3ac46c2f1a8f7b3ce423}{%
+           family={Bergstrand},
+           familyi={B\bibinitperiod},
+           given={Jeffrey\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=35570ec436d48530aaf39b0f44876f70}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6014a1bd07e16cf6f417d1f1e4edad82}
+      \strng{fullhash}{6014a1bd07e16cf6f417d1f1e4edad82}
+      \strng{bibnamehash}{6014a1bd07e16cf6f417d1f1e4edad82}
+      \strng{authorbibnamehash}{6014a1bd07e16cf6f417d1f1e4edad82}
+      \strng{authornamehash}{6014a1bd07e16cf6f417d1f1e4edad82}
+      \strng{authorfullhash}{6014a1bd07e16cf6f417d1f1e4edad82}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{One of the main policy sources of trade–cost changes is the formation of an economic integration agreement ({EIA}), which potentially affects an importing country's welfare. This paper: (i) provides the first evidence using gravity equations of both intensive and extensive (goods) margins being affected by {EIAs} employing a panel data set with a large number of country pairs, product categories, and {EIAs} from 1962 to 2000; (ii) provides the first evidence of the differential (partial) effects of various “types” of {EIAs} on these intensive and extensive margins of trade; and (iii) finds a novel differential “timing” of the two margins' (partial) effects with intensive-margin effects occurring sooner than extensive-margin effects, consistent with recent theoretical predictions. The results are robust to correcting for potential sample-selection, firm-heterogeneity, and reverse causality biases.}
+      \field{day}{1}
+      \field{issn}{0022-1996}
+      \field{journaltitle}{Journal of International Economics}
+      \field{month}{7}
+      \field{number}{2}
+      \field{shortjournal}{Journal of International Economics}
+      \field{title}{Economic integration agreements and the margins of international trade}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{93}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{339\bibrangedash 350}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.jinteco.2014.03.005
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/pepe/Zotero/storage/VLQN5FGM/S0022199614000506.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199614000506
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199614000506
+      \endverb
+      \keyw{Free trade agreements,International trade,Extensive margins,Intensive margins}
+    \endentry
+    \entry{baier_widely_2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=02ee380cd3de8367dae3057eae6ee45b}{%
+           family={Baier},
+           familyi={B\bibinitperiod},
+           given={Scott\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=ec316c108e8808001ef50f84438ca9cb}{%
+           family={Yotov},
+           familyi={Y\bibinitperiod},
+           given={Yoto\bibnamedelima V.},
+           giveni={Y\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=88bc781f11bc66d05407ccd7fda49461}{%
+           family={Zylkin},
+           familyi={Z\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{593815d5919d9bec2537d327b2f0cd7b}
+      \strng{fullhash}{593815d5919d9bec2537d327b2f0cd7b}
+      \strng{bibnamehash}{593815d5919d9bec2537d327b2f0cd7b}
+      \strng{authorbibnamehash}{593815d5919d9bec2537d327b2f0cd7b}
+      \strng{authornamehash}{593815d5919d9bec2537d327b2f0cd7b}
+      \strng{authorfullhash}{593815d5919d9bec2537d327b2f0cd7b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We develop a novel two stage methodology that allows us to study the empirical determinants of the ex post effects of past free trade agreements ({FTAs}) as well as obtain ex ante predictions for the effects of future {FTAs}. We first identify 908 unique estimates of the effects of {FTAs} on different trading pairs for the years 1986–2006. We then employ these estimates as our dependent variable in a “second stage” analysis characterizing the heterogeneity in these effects. Interestingly, most of this heterogeneity (∼2/3) occurs within {FTAs} (rather than across different {FTAs}), with asymmetric effects within pairs (on exports vs. imports) also playing an important role. Our second stage analysis provides several intuitive explanations behind these variations. Even within the same agreement, {FTA} effects are weaker for more distant pairs and for pairs with otherwise high levels of ex ante trade frictions. The effects of new {FTAs} are similarly weaker for pairs with existing agreements already in place. In addition, we are able to relate asymmetries in {FTA} effects to each country's ability to influence the other's terms of trade. Out-of-sample predictions incorporating these insights enable us to predict direction-specific effects of future {FTAs} between any pair of countries. A simulation of the general equilibrium effects of {TTIP} demonstrates the significance of our methods.}
+      \field{day}{1}
+      \field{issn}{0022-1996}
+      \field{journaltitle}{Journal of International Economics}
+      \field{month}{1}
+      \field{shortjournal}{Journal of International Economics}
+      \field{shorttitle}{On the widely differing effects of free trade agreements}
+      \field{title}{On the widely differing effects of free trade agreements: Lessons from twenty years of trade integration}
+      \field{urlday}{5}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{116}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{206\bibrangedash 226}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1016/j.jinteco.2018.11.002
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/pepe/Zotero/storage/HJMIPU5R/S0022199618304367.html:text/html;Submitted Version:/Users/pepe/Zotero/storage/TVIR9RS8/Baier et al. - 2019 - On the widely differing effects of free trade agre.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199618304367
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199618304367
+      \endverb
+      \keyw{Free Trade Agreements,International Trade,Structural Gravity}
+    \endentry
+    \entry{bastos_quality_2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=78f420f6c9cbe1466c534d4188312288}{%
+           family={Bastos},
+           familyi={B\bibinitperiod},
+           given={Paulo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1c6eba6fc60049144ef5de5092b9f39d}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Joana},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d14c6f70455d58f22e5c1e1da3ee8c85}
+      \strng{fullhash}{d14c6f70455d58f22e5c1e1da3ee8c85}
+      \strng{bibnamehash}{d14c6f70455d58f22e5c1e1da3ee8c85}
+      \strng{authorbibnamehash}{d14c6f70455d58f22e5c1e1da3ee8c85}
+      \strng{authornamehash}{d14c6f70455d58f22e5c1e1da3ee8c85}
+      \strng{authorfullhash}{d14c6f70455d58f22e5c1e1da3ee8c85}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{What drives export quality? Using Portuguese firm-level data on exports by product and destination market, we find that f.o.b. unit values increase systematically with distance, and tend to be higher in shipments to richer nations. These relationships reflect not only the sorting of firms across markets, but also the within-firm variation of unit values across destinations. Within product categories, higher-productivity firms tend to ship greater quantities at higher prices to a given market, consistent with higher quality. In addition, firm productivity tends to magnify the positive effect of distance on within-product unit values, suggesting that high-productivity, high-quality firms are more able to serve difficult markets.}
+      \field{day}{1}
+      \field{issn}{0022-1996}
+      \field{journaltitle}{Journal of International Economics}
+      \field{month}{11}
+      \field{number}{2}
+      \field{shortjournal}{Journal of International Economics}
+      \field{shorttitle}{The quality of a firm's exports}
+      \field{title}{The quality of a firm's exports: Where you export to matters}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{82}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{99\bibrangedash 111}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.jinteco.2010.07.001
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/pepe/Zotero/storage/LQ5F8UJI/S0022199610000632.html:text/html;Submitted Version:/Users/pepe/Zotero/storage/3HA7G8QD/Bastos and Silva - 2010 - The quality of a firm's exports Where you export .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199610000632
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199610000632
+      \endverb
+      \keyw{Product quality,Destination market,Firm heterogeneity,Firm-level exporting}
+    \endentry
+    \entry{bergstrand_economic_2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6dfa641f406a3ac46c2f1a8f7b3ce423}{%
+           family={Bergstrand},
+           familyi={B\bibinitperiod},
+           given={Jeffrey\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=3aea6858aaf09891dd1a058e5336b20a}{%
+           family={Larch},
+           familyi={L\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ec316c108e8808001ef50f84438ca9cb}{%
+           family={Yotov},
+           familyi={Y\bibinitperiod},
+           given={Yoto\bibnamedelima V.},
+           giveni={Y\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{68d90f37429e78a90e2d41a728be22d2}
+      \strng{fullhash}{68d90f37429e78a90e2d41a728be22d2}
+      \strng{bibnamehash}{68d90f37429e78a90e2d41a728be22d2}
+      \strng{authorbibnamehash}{68d90f37429e78a90e2d41a728be22d2}
+      \strng{authornamehash}{68d90f37429e78a90e2d41a728be22d2}
+      \strng{authorfullhash}{68d90f37429e78a90e2d41a728be22d2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using a novel common econometric specification, we examine the measurement of three important effects in international trade that historically have been addressed largely separately: the (partial) effects on trade of economic integration agreements, international borders, and bilateral distance. First, recent studies focusing on precise and unbiased estimates of effects of economic integration agreements ({EIAs}) on members׳ trade may be biased upward owing to inadequate control for time-varying exogenous unobservable country-pair-specific changes in bilateral export costs (possibly decreasing the costs of international relative to intranational trade); we find evidence of this bias using a properly specified gravity equation. Second, our novel methodology yields statistically significant estimates of the declining effect of “international borders” on world trade, now accounting for endogenous {EIA} formations and unobserved country-pair heterogeneity in initial levels. Third, we confirm recent evidence providing a solution to the “distance-elasticity puzzle,” but show that these estimates of the declining effect of distance on international trade are biased upward by not accounting for endogenous {EIA} formations and unobserved country-pair heterogeneity. We conclude our study with numerical general equilibrium comparative statics illustrating a substantive difference on trade effects of {EIAs} with and without allowance for the declining effects of international borders on world trade.}
+      \field{day}{1}
+      \field{issn}{0014-2921}
+      \field{journaltitle}{European Economic Review}
+      \field{month}{8}
+      \field{shortjournal}{European Economic Review}
+      \field{title}{Economic integration agreements, border effects, and distance elasticities in the gravity equation}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{78}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{307\bibrangedash 327}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1016/j.euroecorev.2015.06.003
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/pepe/Zotero/storage/W23DZS3S/S0014292115000847.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0014292115000847
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0014292115000847
+      \endverb
+      \keyw{International trade,Economic integration agreements,Gravity equations}
+    \endentry
+    \entry{chatzilazarou_trade_2023}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2ceec990393c1e367cfea9e1f7fa716a}{%
+           family={Chatzilazarou},
+           familyi={C\bibinitperiod},
+           given={Lazaros\bibnamedelima Antonios},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7abec152b1f81a52dc199a6acae6fb60}{%
+           family={Dadakas},
+           familyi={D\bibinitperiod},
+           given={Dimitrios},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f3e21fe6683c1b5d757c329fdb37a84f}
+      \strng{fullhash}{f3e21fe6683c1b5d757c329fdb37a84f}
+      \strng{bibnamehash}{f3e21fe6683c1b5d757c329fdb37a84f}
+      \strng{authorbibnamehash}{f3e21fe6683c1b5d757c329fdb37a84f}
+      \strng{authornamehash}{f3e21fe6683c1b5d757c329fdb37a84f}
+      \strng{authorfullhash}{f3e21fe6683c1b5d757c329fdb37a84f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Purpose This study deals with changes in European Union's ({EU}'s) trade potential in Machinery ({HS} 84–85) and Transportation ({HS}86-89) products. Design/methodology/approach The study uses a Structural Gravity model, Poisson Pseudo Maximum Likelihood ({PPML}) estimation together with panel data for the years 2002–2018 and a two-step procedure that employs predicted values of bilateral trade to compare potential to actual trade. Findings Results for Machinery products suggest a potential to expand trade with existing Regional Trade Agreements ({RTAs}) in the American continent, and countries of the {IGAD} region in Africa. In Transportation, a high trade potential with {RTAs} is found in the Americas, Africa and the Middle East. Policy suggestions concentrate on opportunities for enhancing trade relations through trade liberalization and agreement proliferation. Originality/value There are no studies to date, that examine “collective” measure of {EU} trade potential, that treats the {EU} as a single country. Changes in existing opportunities to expand trade, common for {EU} members, are of special interest for policy formulation, especially after the recent turmoil presented by the Global Financial Crisis ({GFC}) and the Greek Economic Crisis ({GEC}). Treating the {EU} as a single entity, is necessary for the formulation of an effective, common, {EU} trade policy. This study concentrates on the manufacturing sector to examine existing opportunities for the {EU} to expand trade, after the {GFC} and the {GEC}. This article deals with Machinery ({HS} 84 and 85) and Transportation ({HS} 86 through 89) products as they comprise a significant part of total {EU} exports, reaching 41\% of total exports in 2016. Finally, this study offers a unique illustration of results through trade potential heat maps.}
+      \field{day}{1}
+      \field{issn}{0144-3585}
+      \field{journaltitle}{Journal of Economic Studies}
+      \field{month}{1}
+      \field{note}{Publisher: Emerald Publishing Limited}
+      \field{number}{5}
+      \field{title}{Trade potential in European Union manufacturing}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{51}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1144\bibrangedash 1163}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1108/JES-06-2023-0292
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/pepe/Zotero/storage/MNEHVBZQ/Chatzilazarou and Dadakas - 2023 - Trade potential in European Union manufacturing.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1108/JES-06-2023-0292
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1108/JES-06-2023-0292
+      \endverb
+      \keyw{{EU},Manufacturing,{PPML},Structural gravity,Trade potential}
+    \endentry
+    \entry{cipollina_reciprocal_2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ad748259cfeb6c5bc99f1e19e33dc013}{%
+           family={Cipollina},
+           familyi={C\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1ea30980555c87d9eeaf1c9f23a19f66}{%
+           family={Salvatici},
+           familyi={S\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa44f3af0873a0225178172ae9ab3f0e}
+      \strng{fullhash}{aa44f3af0873a0225178172ae9ab3f0e}
+      \strng{bibnamehash}{aa44f3af0873a0225178172ae9ab3f0e}
+      \strng{authorbibnamehash}{aa44f3af0873a0225178172ae9ab3f0e}
+      \strng{authornamehash}{aa44f3af0873a0225178172ae9ab3f0e}
+      \strng{authorfullhash}{aa44f3af0873a0225178172ae9ab3f0e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The gravity model is a workhorse tool applicable in a wide range of empirical fields. It is regularly used to estimate the impact of reciprocal trade agreements ({RTAs}) on trade flows between partners. The studies report very different estimates since there is a significant difference in datasets, sample sizes, and independent variables. This paper combines, explains, and summarizes a large number of results using a meta-analysis approach. We provide pooled estimates, obtained from fixed and random effects models of the {RTAs}’ effect size on bilateral trade: the hypothesis that there is no effect of {RTAs} on trade is robustly rejected at standard significance levels. The information collected on each estimate allows us to test the sensitivity of the results to alternative specifications and differences in the control variables considered, as well as the impact of the publication selection process.}
+      \field{issn}{1467-9396}
+      \field{journaltitle}{Review of International Economics}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-9396.2009.00877.x}
+      \field{number}{1}
+      \field{shorttitle}{Reciprocal Trade Agreements in Gravity Models}
+      \field{title}{Reciprocal Trade Agreements in Gravity Models: A Meta-Analysis}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{18}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{63\bibrangedash 80}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1111/j.1467-9396.2009.00877.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/pepe/Zotero/storage/FK7BBKGV/Cipollina and Salvatici - 2010 - Reciprocal Trade Agreements in Gravity Models A M.pdf:application/pdf;Snapshot:/Users/pepe/Zotero/storage/54VDK7TA/j.1467-9396.2009.00877.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9396.2009.00877.x
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9396.2009.00877.x
+      \endverb
+    \endentry
     \entry{dahi_preferential_2013}{article}{}
       \name{author}{2}{}{%
         {{hash=c1d506d1cee8559ce739f11b2a4d8445}{%
@@ -38,6 +735,7 @@
       \strng{authorbibnamehash}{975eaa1103c053196c10726bfd776c97}
       \strng{authornamehash}{975eaa1103c053196c10726bfd776c97}
       \strng{authorfullhash}{975eaa1103c053196c10726bfd776c97}
+      \field{extraname}{1}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
@@ -72,6 +770,1633 @@
       \verb https://search.ebscohost.com/login.aspx?direct=true&db=bth&AN=89600898&site=ehost-live
       \endverb
       \keyw{F15,International trade,developing countries,Economic conditions in developing countries,Exports,F13,F14,gravity equation,Gravity model (Social sciences),industrial development,L60,manufactured goods exports,Manufactured products,Mathematical models,O24,preferential trade agreements,south–south and south–north trade}
+    \endentry
+    \entry{dahi_south-south_2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c1d506d1cee8559ce739f11b2a4d8445}{%
+           family={Dahi},
+           familyi={D\bibinitperiod},
+           given={Omar\bibnamedelima S.},
+           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=6da76faadbec759e64d245c2dcdacf72}{%
+           family={Demir},
+           familyi={D\bibinitperiod},
+           given={Firat},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{975eaa1103c053196c10726bfd776c97}
+      \strng{fullhash}{975eaa1103c053196c10726bfd776c97}
+      \strng{bibnamehash}{975eaa1103c053196c10726bfd776c97}
+      \strng{authorbibnamehash}{975eaa1103c053196c10726bfd776c97}
+      \strng{authornamehash}{975eaa1103c053196c10726bfd776c97}
+      \strng{authorfullhash}{975eaa1103c053196c10726bfd776c97}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper surveys the literature on costs and benefits of South-South versus North-South economic exchanges. Unlike the case for North-South exchanges, academic work on South-South economic relations has been historically limited given their marginal importance in the global economy. After the 1990s, the literature has changed in two main ways. First, South-South trade and finance since then has increased dramatically, leading to a bourgeoning literature on the topic. Second, the rise of the Emerging South has opened up new lines of inquiry to include not just the traditional topics of trade and preferential trading agreements, but also cover technology transfer, capital flows, labor migration, institutions, and environment. We discuss how this literature has evolved to take into account the greater complexity of South-South relations with a focus on China in Africa as well as the blurring of the lines between heterodox and mainstream analysis of South-South relations. We end the review by showing how the empirical and theoretical literature is exploring the increasing divergence within the global South between what we refer to as the Emerging South and the Rest of South.}
+      \field{issn}{09500804}
+      \field{journaltitle}{Journal of Economic Surveys}
+      \field{month}{12}
+      \field{note}{Publisher: Wiley-Blackwell}
+      \field{number}{5}
+      \field{shorttitle}{South-South and North-South Economic Exchanges}
+      \field{title}{South-South and North-South Economic Exchanges: Does It Matter Who Is Exchanging What and with Whom?}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{31}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1449\bibrangedash 1486}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.1111/joes.12225
+      \endverb
+      \verb{file}
+      \verb EBSCO Full Text:/Users/pepe/Zotero/storage/TZAFGIZX/Dahi and Demir - 2017 - South-South and North-South Economic Exchanges Do.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://search.ebscohost.com/login.aspx?direct=true&db=bth&AN=126171983&site=ehost-live
+      \endverb
+      \verb{url}
+      \verb https://search.ebscohost.com/login.aspx?direct=true&db=bth&AN=126171983&site=ehost-live
+      \endverb
+      \keyw{Africa,Analytical Political Economy,China,Global North-South divide,Heterodox economics,Heterodox theory,International economic relations,Neoclassical school of economics,Neoclassical theory,South-South and South-North trade and finance,South–South and South–North trade and finance}
+    \endentry
+    \entry{dai_trade-diversion_2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=03d76d5d8eb8612a29627ed9f548fe3e}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Mian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ec316c108e8808001ef50f84438ca9cb}{%
+           family={Yotov},
+           familyi={Y\bibinitperiod},
+           given={Yoto\bibnamedelima V.},
+           giveni={Y\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=88bc781f11bc66d05407ccd7fda49461}{%
+           family={Zylkin},
+           familyi={Z\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{281a8e249571fc9fa3b95db975e82dfd}
+      \strng{fullhash}{281a8e249571fc9fa3b95db975e82dfd}
+      \strng{bibnamehash}{281a8e249571fc9fa3b95db975e82dfd}
+      \strng{authorbibnamehash}{281a8e249571fc9fa3b95db975e82dfd}
+      \strng{authornamehash}{281a8e249571fc9fa3b95db975e82dfd}
+      \strng{authorfullhash}{281a8e249571fc9fa3b95db975e82dfd}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Trade-diversion effects of free trade agreements ({FTAs}) have not been thoroughly examined empirically. Using a novel empirical approach, we confirm that {FTAs} divert trade away from non-member countries and even more so from internal trade (domestic sales) in member countries.}
+      \field{day}{1}
+      \field{issn}{0165-1765}
+      \field{journaltitle}{Economics Letters}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{Economics Letters}
+      \field{title}{On the trade-diversion effects of free trade agreements}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{122}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{321\bibrangedash 325}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.econlet.2013.12.024
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0165176513005636
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0165176513005636
+      \endverb
+      \keyw{Free trade agreements,International trade,Trade diversion,Gravity}
+    \endentry
+    \entry{deme_trade-creation_2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c01ca2d6b9b48939382ce64ce00be951}{%
+           family={Deme},
+           familyi={D\bibinitperiod},
+           given={Mamit},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c00d1ff35a0e3214c6c8293a7ec343b9}{%
+           family={Ndrianasy},
+           familyi={N\bibinitperiod},
+           given={Estrella\bibnamedelima R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{94a53d968dd8607779961e84867200ae}
+      \strng{fullhash}{94a53d968dd8607779961e84867200ae}
+      \strng{bibnamehash}{94a53d968dd8607779961e84867200ae}
+      \strng{authorbibnamehash}{94a53d968dd8607779961e84867200ae}
+      \strng{authornamehash}{94a53d968dd8607779961e84867200ae}
+      \strng{authorfullhash}{94a53d968dd8607779961e84867200ae}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Although the number of regional trade arrangements ({RTAs}) among the lowest-income developing countries is surging, the literature on their welfare effects is still scarce, and the few that exist fail to provide conclusive results. Furthermore, these {RTAs} are dominated by countries with a small share of total exports destined for intraregional trade flows. Our study focuses on the welfare effects of {RTAs} (pertaining to trade creation and trade diversion) among this group of countries. We use a theoretically justified gravity model to estimate welfare effects, focusing on trade creation and trade diversion and deviating from the norm in related studies, accounting for heterogeneity in third countries. Using {ECOWAS} as a sample, we estimate welfare effects on 1992–2012 annual bilateral imports for 14 countries from 169 countries. Contrary to conventional expectations in the literature, we find that economic integration among small and relatively low-income countries that have a small share of total trade with each other is welfare-improving for the members as a group, for the majority of the individual member countries, and for some third countries. Accounting for heterogeneity in third countries reveals that an {RTA} among low-income countries has a particularly robust trade-creation effect.}
+      \field{day}{9}
+      \field{issn}{00036846}
+      \field{journaltitle}{Applied Economics}
+      \field{month}{5}
+      \field{note}{Publisher: Routledge}
+      \field{number}{22}
+      \field{shorttitle}{Trade-creation and trade-diversion effects of regional trade arrangements}
+      \field{title}{Trade-creation and trade-diversion effects of regional trade arrangements: low-income countries}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{49}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2188\bibrangedash 2202}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1080/00036846.2016.1234700
+      \endverb
+      \verb{file}
+      \verb EBSCO Full Text:/Users/pepe/Zotero/storage/GIV2K4WD/Deme and Ndrianasy - 2017 - Trade-creation and trade-diversion effects of regi.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://search.ebscohost.com/login.aspx?direct=true&db=bth&AN=121290652&site=ehost-live
+      \endverb
+      \verb{url}
+      \verb https://search.ebscohost.com/login.aspx?direct=true&db=bth&AN=121290652&site=ehost-live
+      \endverb
+      \keyw{F15,Preferential trade agreements,F13,F14,Gravity model (Social sciences),Developing countries,Economic Community of West African States,{ECOWAS},gravity model,Heterogeneity,Low-income countries,south–south trade,third country heterogeneity,trade-creation}
+    \endentry
+    \entry{dur_andreas_leonardo_baccini_and_manfred_elsig_design_2014}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=11ed81c077ee2982e04a1518099ff87e}{%
+           family={{Dür, Andreas, Leonardo Baccini and Manfred Elsig}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Review of International Organizations}%
+      }
+      \strng{namehash}{11ed81c077ee2982e04a1518099ff87e}
+      \strng{fullhash}{11ed81c077ee2982e04a1518099ff87e}
+      \strng{bibnamehash}{11ed81c077ee2982e04a1518099ff87e}
+      \strng{authorbibnamehash}{11ed81c077ee2982e04a1518099ff87e}
+      \strng{authornamehash}{11ed81c077ee2982e04a1518099ff87e}
+      \strng{authorfullhash}{11ed81c077ee2982e04a1518099ff87e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{9(3): 353-375}
+      \field{title}{"The Design of International Trade Agreements: Introducing a New Database"}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{version}{Version 2.2 (2023)}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Downloads | Design of Trade Agreements (DESTA) Database:/Users/pepe/Zotero/storage/3YVIIKLH/downloads.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.designoftradeagreements.org/downloads/
+      \endverb
+      \verb{url}
+      \verb https://www.designoftradeagreements.org/downloads/
+      \endverb
+    \endentry
+    \entry{fugazza_can_2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ead55906c9a45cec1080fe1e0bc42fef}{%
+           family={Fugazza},
+           familyi={F\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c5a9376d81ddaf32b23c1820e8e6e7a3}{%
+           family={Robert-Nicoud},
+           familyi={R\bibinithyphendelim N\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{f162a628da4e9b80a016319e7f2bc1de}
+      \strng{fullhash}{f162a628da4e9b80a016319e7f2bc1de}
+      \strng{bibnamehash}{f162a628da4e9b80a016319e7f2bc1de}
+      \strng{authorbibnamehash}{f162a628da4e9b80a016319e7f2bc1de}
+      \strng{authornamehash}{f162a628da4e9b80a016319e7f2bc1de}
+      \strng{authorfullhash}{f162a628da4e9b80a016319e7f2bc1de}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper uses a combination of Ethier (1982) and Melitz's (2003) models to show that liberalizing trade among developing countries, so-called South-South trade, could contribute to improve the access to international markets of developing countries' would-be exporters. Lower trade barriers among developing countries has the effect of lowering the price of intermediate inputs and eventually allows exporters in those countries to serve international markets. We also compare unilateral and multilateral South-South trade liberalization and find that the latter unambiguously reduces the price of intermediates in all participating countries, whereas the former has ambiguous effects.}
+      \field{issn}{1225-651X}
+      \field{journaltitle}{Journal of Economic Integration}
+      \field{note}{Publisher: Center for Economic Integration, Sejong University}
+      \field{number}{2}
+      \field{title}{Can South-South trade Liberalisation Stimulate North-South Trade?}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{21}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{234\bibrangedash 253}
+      \range{pages}{20}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/pepe/Zotero/storage/MSEXCX2C/Fugazza and Robert-Nicoud - 2006 - Can South-South trade Liberalisation Stimulate Nor.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/23000611
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/23000611
+      \endverb
+    \endentry
+    \entry{gamso_leveling-up_2022}{article}{}
+      \name{author}{2}{}{%
+        {{hash=07d753f4c3cca55cb6a1772e15c82841}{%
+           family={Gamso},
+           familyi={G\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=aa09ec55bcb37eb1db1a94680c719ce5}{%
+           family={Postnikov},
+           familyi={P\bibinitperiod},
+           given={Evgeny},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{61f2e159cc06160d8f14541d015306f4}
+      \strng{fullhash}{61f2e159cc06160d8f14541d015306f4}
+      \strng{bibnamehash}{61f2e159cc06160d8f14541d015306f4}
+      \strng{authorbibnamehash}{61f2e159cc06160d8f14541d015306f4}
+      \strng{authornamehash}{61f2e159cc06160d8f14541d015306f4}
+      \strng{authorfullhash}{61f2e159cc06160d8f14541d015306f4}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Conventional wisdom holds that not all preferential trade agreements ({PTAs}) are alike. Trade agreements between developed and developing countries (North-South {PTAs}) tend to be characterized by great depth, such that they include chapters for many trade-related regulatory issues, including intellectual property, foreign investment, and investor-state dispute settlement, among other things. In this way, North-South {PTAs} are thought to be different from South-South {PTAs} (between developing countries), which are shallower and focus on removing traditional tariff barriers to trade, as opposed to tackling trade-related regulatory issues. However, some developing countries appear to prefer deeper trade agreements, which begs the questions: How deep are South-South {PTAs} and what explains the variation in their depth? We address these questions using statistical analysis and interviews with current and former trade officials from developing countries. Our findings show that developing countries form deep trade agreements with one another when both are parties to North-South {PTAs}, as each are familiar and comfortable with the sorts of provisions in deep agreements. Our findings suggest that the formation of deep trade agreements between developing countries reflects socialization into the liberal international order through policy learning.}
+      \field{day}{3}
+      \field{issn}{0969-2290}
+      \field{journaltitle}{Review of International Political Economy}
+      \field{month}{9}
+      \field{note}{Publisher: Routledge \_eprint: https://doi.org/10.1080/09692290.2021.1939762}
+      \field{number}{5}
+      \field{shorttitle}{Leveling-up}
+      \field{title}{Leveling-up: explaining the depth of South-South trade agreements}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{29}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1601\bibrangedash 1624}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1080/09692290.2021.1939762
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/pepe/Zotero/storage/I33M23JV/Gamso and Postnikov - 2022 - Leveling-up explaining the depth of South-South t.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/09692290.2021.1939762
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/09692290.2021.1939762
+      \endverb
+      \keyw{Preferential trade agreements,deep trade agenda,emerging economies,liberal international order,policy learning,South-South trade}
+    \endentry
+    \entry{hausmann_country_2010}{online}{}
+      \name{author}{2}{}{%
+        {{hash=f3985a0120da059a9b2dc10fff3af15f}{%
+           family={Hausmann},
+           familyi={H\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=766f75fa2f6e90fc264b64843a1f0604}{%
+           family={Hidalgo},
+           familyi={H\bibinitperiod},
+           given={César\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7164ed17d2802f45280e9d1f865134a}
+      \strng{fullhash}{d7164ed17d2802f45280e9d1f865134a}
+      \strng{bibnamehash}{d7164ed17d2802f45280e9d1f865134a}
+      \strng{authorbibnamehash}{d7164ed17d2802f45280e9d1f865134a}
+      \strng{authornamehash}{d7164ed17d2802f45280e9d1f865134a}
+      \strng{authorfullhash}{d7164ed17d2802f45280e9d1f865134a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Country diversification, product ubiquity, and economic divergence}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Country diversification, product ubiquity, and economic divergence | The Growth Lab:/Users/pepe/Zotero/storage/2B9JM29Y/country-diversification-product-ubiquity-and-economic-divergence.html:text/html
+      \endverb
+    \endentry
+    \entry{hausmann_what_2007}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f3985a0120da059a9b2dc10fff3af15f}{%
+           family={Hausmann},
+           familyi={H\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=aae42cf2718499a1afee456551f59938}{%
+           family={Hwang},
+           familyi={H\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=838c73523715fb8fdf83d1d7a57cc6bd}{%
+           family={Rodrik},
+           familyi={R\bibinitperiod},
+           given={Dani},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{26d9cedb2209654368789d0e86d534fc}
+      \strng{fullhash}{26d9cedb2209654368789d0e86d534fc}
+      \strng{bibnamehash}{26d9cedb2209654368789d0e86d534fc}
+      \strng{authorbibnamehash}{26d9cedb2209654368789d0e86d534fc}
+      \strng{authornamehash}{26d9cedb2209654368789d0e86d534fc}
+      \strng{authorfullhash}{26d9cedb2209654368789d0e86d534fc}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{When local cost discovery generates knowledge spillovers, specialization patterns become partly indeterminate and the mix of goods that a country produces may have important implications for economic growth. We demonstrate this proposition formally and adduce some empirical support for it. We construct an index of the "income level of a country's exports," document its properties, and show that it predicts subsequent economic growth.}
+      \field{issn}{1381-4338}
+      \field{journaltitle}{Journal of Economic Growth}
+      \field{note}{Publisher: Springer}
+      \field{number}{1}
+      \field{title}{What You Export Matters}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{12}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 25}
+      \range{pages}{25}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/pepe/Zotero/storage/QDBQJRJB/Hausmann et al. - 2007 - What You Export Matters.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org.gate3.library.lse.ac.uk/stable/40216112
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org.gate3.library.lse.ac.uk/stable/40216112
+      \endverb
+    \endentry
+    \entry{hausmann_structure_2007}{online}{}
+      \name{author}{2}{}{%
+        {{hash=f3985a0120da059a9b2dc10fff3af15f}{%
+           family={Hausmann},
+           familyi={H\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b9a0522b1f7541579d8083c3992f0aa6}{%
+           family={Klinger},
+           familyi={K\bibinitperiod},
+           given={Bailey},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{fed2d2ab323d68a61b055a0db8acbeb0}
+      \strng{fullhash}{fed2d2ab323d68a61b055a0db8acbeb0}
+      \strng{bibnamehash}{fed2d2ab323d68a61b055a0db8acbeb0}
+      \strng{authorbibnamehash}{fed2d2ab323d68a61b055a0db8acbeb0}
+      \strng{authornamehash}{fed2d2ab323d68a61b055a0db8acbeb0}
+      \strng{authorfullhash}{fed2d2ab323d68a61b055a0db8acbeb0}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Structure of the Product Space and the Evolution of Comparative Advantage}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb The Structure of the Product Space and the Evolution of Comparative Advantage | The Growth Lab:/Users/pepe/Zotero/storage/SPHSN9ES/structure-product-space-and-evolution-comparative-advantage.html:text/html
+      \endverb
+    \endentry
+    \entry{hausmann_implied_2014}{online}{}
+      \name{author}{4}{}{%
+        {{hash=f3985a0120da059a9b2dc10fff3af15f}{%
+           family={Hausmann},
+           familyi={H\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=44e01ad4326354e9fa029fe56182fac3}{%
+           family={Hidalgo},
+           familyi={H\bibinitperiod},
+           given={Cesar\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=02e92f0360d44c08f0f16f37cf128c46}{%
+           family={Stock},
+           familyi={S\bibinitperiod},
+           given={Daniel\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=974bc793a6b6f7b152593d65fad1ccb8}{%
+           family={Yildirim},
+           familyi={Y\bibinitperiod},
+           given={Muhammed\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{457178d795a1f2e27c6900933da06878}
+      \strng{fullhash}{aac280fda6d2db5ee6a258cb67875b8e}
+      \strng{bibnamehash}{457178d795a1f2e27c6900933da06878}
+      \strng{authorbibnamehash}{457178d795a1f2e27c6900933da06878}
+      \strng{authornamehash}{457178d795a1f2e27c6900933da06878}
+      \strng{authorfullhash}{aac280fda6d2db5ee6a258cb67875b8e}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Volume: 276}
+      \field{title}{Implied Comparative Advantage}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Implied Comparative Advantage | The Growth Lab:/Users/pepe/Zotero/storage/ZJA96G8D/implied-comparative-advantage.html:text/html
+      \endverb
+    \endentry
+    \entry{heid_estimating_2017}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=98317911014cb6beb6a11f1f8db09cc7}{%
+           family={Heid},
+           familyi={H\bibinitperiod},
+           given={Benedikt},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3aea6858aaf09891dd1a058e5336b20a}{%
+           family={Larch},
+           familyi={L\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ec316c108e8808001ef50f84438ca9cb}{%
+           family={Yotov},
+           familyi={Y\bibinitperiod},
+           given={Yoto\bibnamedelima V.},
+           giveni={Y\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rochester, {NY}}%
+      }
+      \strng{namehash}{546f00f91972009ac20ec31614084acc}
+      \strng{fullhash}{546f00f91972009ac20ec31614084acc}
+      \strng{bibnamehash}{546f00f91972009ac20ec31614084acc}
+      \strng{authorbibnamehash}{546f00f91972009ac20ec31614084acc}
+      \strng{authornamehash}{546f00f91972009ac20ec31614084acc}
+      \strng{authorfullhash}{546f00f91972009ac20ec31614084acc}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a simple method to identify the effects of unilateral and non-discriminatory trade policies on bilateral trade within a theoretically-consistent empirical gravity model. Specifically, we argue that structural gravity estimations should be performed with data that include not only international trade flows but also intra-national trade flows. The use of intra-national sales allows identification of the effects of non-discriminatory trade policies on the importer side (e.g. most favored nation tariffs) and on the exporter side (e.g. export subsidies), even in the presence of exporter and importer fixed effects. An important byproduct of our approach is that it can be used to recover estimates of the export-supply elasticity and of the import-demand elasticity. We demonstrate the effectiveness of our techniques in the case of {MFN} tariffs and "Time to Export" as representative determinants of trade on the importer and on the exporter side, respectively. Our methods can be extended to quantify the impact on trade of any country-specific characteristics as well as any non-trade policies.}
+      \field{day}{16}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{3100014}
+      \field{title}{Estimating the Effects of Non-Discriminatory Trade Policies within Structural Gravity Models}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2139/ssrn.3100014
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/pepe/Zotero/storage/JGR9NHHE/Heid et al. - 2017 - Estimating the Effects of Non-Discriminatory Trade.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://papers.ssrn.com/abstract=3100014
+      \endverb
+      \verb{url}
+      \verb https://papers.ssrn.com/abstract=3100014
+      \endverb
+      \keyw{gravity model,non-discriminatory trade policies,subsidies,tariffs,time to export,trade elasticity of substitution}
+    \endentry
+    \entry{hidalgo_building_2009}{online}{}
+      \name{author}{2}{}{%
+        {{hash=766f75fa2f6e90fc264b64843a1f0604}{%
+           family={Hidalgo},
+           familyi={H\bibinitperiod},
+           given={César\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f3985a0120da059a9b2dc10fff3af15f}{%
+           family={Hausmann},
+           familyi={H\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a61d3bab1fee151a0e434fe1788703d4}
+      \strng{fullhash}{a61d3bab1fee151a0e434fe1788703d4}
+      \strng{bibnamehash}{a61d3bab1fee151a0e434fe1788703d4}
+      \strng{authorbibnamehash}{a61d3bab1fee151a0e434fe1788703d4}
+      \strng{authornamehash}{a61d3bab1fee151a0e434fe1788703d4}
+      \strng{authorfullhash}{a61d3bab1fee151a0e434fe1788703d4}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Building Blocks of Economic Complexity}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb The Building Blocks of Economic Complexity | The Growth Lab:/Users/pepe/Zotero/storage/XKMHMAZP/building-blocks-economic-complexity.html:text/html
+      \endverb
+    \endentry
+    \entry{kehoe_using_2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=aabda8b743524364f0d6ca216694ef2a}{%
+           family={Kehoe},
+           familyi={K\bibinitperiod},
+           given={Timothy\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c7eeeefac0fd3fed74e1ccea6d00c187}{%
+           family={Rossbach},
+           familyi={R\bibinitperiod},
+           given={Jack},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fc8f971922f9521fbff2ffedd87f8809}{%
+           family={Ruhl},
+           familyi={R\bibinitperiod},
+           given={Kim\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c889111b9d837d267416b82e4c025f8}
+      \strng{fullhash}{3c889111b9d837d267416b82e4c025f8}
+      \strng{bibnamehash}{3c889111b9d837d267416b82e4c025f8}
+      \strng{authorbibnamehash}{3c889111b9d837d267416b82e4c025f8}
+      \strng{authornamehash}{3c889111b9d837d267416b82e4c025f8}
+      \strng{authorfullhash}{3c889111b9d837d267416b82e4c025f8}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper develops a methodology for predicting the impact of trade liberalization on exports by industry (3-digit {ISIC}) based on the pre-liberalization distribution of exports by product (5-digit {SITC}). We evaluate the ability of our methodology to account for the industry-level variation in export growth by using our model to “predict” the growth in industry trade from the North American Free Trade Agreement ({NAFTA}). We show that our method performs significantly better than the applied general equilibrium models originally used for the policy evaluation of {NAFTA}. We find that the most important products in our analysis are not the ones with zero pre-liberalization trade, but those with positive, yet small amounts of pre-liberalization trade.}
+      \field{day}{1}
+      \field{issn}{0022-1996}
+      \field{journaltitle}{Journal of International Economics}
+      \field{month}{7}
+      \field{number}{2}
+      \field{shortjournal}{Journal of International Economics}
+      \field{title}{Using the new products margin to predict the industry-level impact of trade reform}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{96}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{289\bibrangedash 297}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.jinteco.2015.03.004
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/pepe/Zotero/storage/ISV974CT/Kehoe et al. - 2015 - Using the new products margin to predict the indus.pdf:application/pdf;ScienceDirect Snapshot:/Users/pepe/Zotero/storage/FH8LK2C9/S0022199615000586.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199615000586
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199615000586
+      \endverb
+      \keyw{Industry,Product,Trade liberalization}
+    \endentry
+    \entry{kehoe_how_2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=aabda8b743524364f0d6ca216694ef2a}{%
+           family={Kehoe},
+           familyi={K\bibinitperiod},
+           given={Timothy\bibnamedelima J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=fc8f971922f9521fbff2ffedd87f8809}{%
+           family={Ruhl},
+           familyi={R\bibinitperiod},
+           given={Kim\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc5036ddab5caa49623dd52efd9371de}
+      \strng{fullhash}{dc5036ddab5caa49623dd52efd9371de}
+      \strng{bibnamehash}{dc5036ddab5caa49623dd52efd9371de}
+      \strng{authorbibnamehash}{dc5036ddab5caa49623dd52efd9371de}
+      \strng{authornamehash}{dc5036ddab5caa49623dd52efd9371de}
+      \strng{authorfullhash}{dc5036ddab5caa49623dd52efd9371de}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a methodology for studying changes in bilateral commodity trade due to goods not exported previously or exported only in small quantities. Using a panel of 1,900 country pairs, we find that increased trade of these “least-traded goods” is an important factor in trade growth. This extensive margin accounts for 10 percent of the growth in trade for {NAFTA} country pairs, for example, and 26 percent in trade between the United States and Chile, China, and Korea. Looking at country pairs with no major trade policy change or structural change, however, we find little change in the extensive margin.}
+      \field{issn}{0022-3808}
+      \field{journaltitle}{Journal of Political Economy}
+      \field{month}{4}
+      \field{note}{Publisher: The University of Chicago Press}
+      \field{number}{2}
+      \field{title}{How Important Is the New Goods Margin in International Trade?}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{121}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{358\bibrangedash 392}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.1086/670272
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/pepe/Zotero/storage/Y3F6PM8G/Kehoe and Ruhl - 2013 - How Important Is the New Goods Margin in Internati.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.journals.uchicago.edu/doi/10.1086/670272
+      \endverb
+      \verb{url}
+      \verb https://www.journals.uchicago.edu/doi/10.1086/670272
+      \endverb
+    \endentry
+    \entry{kohl_we_2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=faa697db0e64c106d812312ae4aff6af}{%
+           family={Kohl},
+           familyi={K\bibinitperiod},
+           given={Tristan},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{faa697db0e64c106d812312ae4aff6af}
+      \strng{fullhash}{faa697db0e64c106d812312ae4aff6af}
+      \strng{bibnamehash}{faa697db0e64c106d812312ae4aff6af}
+      \strng{authorbibnamehash}{faa697db0e64c106d812312ae4aff6af}
+      \strng{authornamehash}{faa697db0e64c106d812312ae4aff6af}
+      \strng{authorfullhash}{faa697db0e64c106d812312ae4aff6af}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study surveys the empirical literature in which the gravity equation has been used to study the effect of economic integration agreements ({EIAs}) on international trade flows. We show that most studies either focus on improving the methodology to assess regionalism's overall impact, or on a small set of well-known agreements without necessarily adopting new methodological improvements. We bridge this gap by providing individual estimates for {EIAs} on world trade, while employing first-differencing techniques to correct for endogeneity bias and account for phase-in effects. Overall, {EIAs} promote trade by at most 50 \%. Surprisingly, more than half of the {EIAs} investigated have had no discernible impact on trade at all, while only about one quarter of the agreements are trade promoting. Characteristics of these agreements, such as their institutional quality, design, and their members' involvement in the World Trade Organisation, shed more light on how this variation can be understood.}
+      \field{issn}{1610-2878}
+      \field{journaltitle}{Review of World Economics / Weltwirtschaftliches Archiv}
+      \field{note}{Publisher: Springer}
+      \field{number}{3}
+      \field{title}{Do we really know that trade agreements increase trade?}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{150}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{443\bibrangedash 469}
+      \range{pages}{27}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/pepe/Zotero/storage/XMU2JJIU/Kohl - 2014 - Do we really know that trade agreements increase t.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org.gate3.library.lse.ac.uk/stable/44211813
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org.gate3.library.lse.ac.uk/stable/44211813
+      \endverb
+    \endentry
+    \entry{kohl_trade_2013}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=faa697db0e64c106d812312ae4aff6af}{%
+           family={Kohl},
+           familyi={K\bibinitperiod},
+           given={Tristan},
+           giveni={T\bibinitperiod}}}%
+        {{hash=97e21a8939658bf1c0aafe8e96ab6181}{%
+           family={Brakman},
+           familyi={B\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8ec6b2fa584744ce3086d9c3337699ee}{%
+           family={Garretsen},
+           familyi={G\bibinitperiod},
+           given={Harry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rochester, {NY}}%
+      }
+      \strng{namehash}{de54be68c998fea236d14208bb8297e0}
+      \strng{fullhash}{de54be68c998fea236d14208bb8297e0}
+      \strng{bibnamehash}{de54be68c998fea236d14208bb8297e0}
+      \strng{authorbibnamehash}{de54be68c998fea236d14208bb8297e0}
+      \strng{authornamehash}{de54be68c998fea236d14208bb8297e0}
+      \strng{authorfullhash}{de54be68c998fea236d14208bb8297e0}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In a seminal paper, Rose (2004) found that the assumed positive impact of the {WTO} on international trade was questionable. This finding has been scrutinized and modified in subsequent research, using different datasets, econometric methods and separating the {WTO} from other forms of trade agreements. A key characteristic of this literature is the rather simplistic way in which trade agreements are treated whereby all trade agreements are lumped together. Trade agreements come, however, in many different forms and shapes. This paper addresses these differences in trade agreements. Using a unique database of 296 trade agreements, we distinguish 17 trade-related policy domains, 9 indicators of institutional quality and indicate whether the agreements contain legally enforceable commitments. This extensive and novel taxonomy of trade agreements enables us to allow for the possible heterogeneity of the impact of trade agreements on international trade. Using a gravity model, we find that trade agreement heterogeneity indeed matters for international trade, both positively and negatively.}
+      \field{day}{31}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{2274605}
+      \field{shorttitle}{Do Trade Agreements Stimulate International Trade Differently?}
+      \field{title}{Do Trade Agreements Stimulate International Trade Differently? Evidence from 296 Trade Agreements}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2139/ssrn.2274605
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/pepe/Zotero/storage/BYUGLM5L/Kohl et al. - 2013 - Do Trade Agreements Stimulate International Trade .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://papers.ssrn.com/abstract=2274605
+      \endverb
+      \verb{url}
+      \verb https://papers.ssrn.com/abstract=2274605
+      \endverb
+      \keyw{international trade,gravity model,trade agreements}
+    \endentry
+    \entry{krugman_growing_1995}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1dc32e0388d1f3dd99440cc8a5c3333b}{%
+           family={Krugman},
+           familyi={K\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1dc32e0388d1f3dd99440cc8a5c3333b}
+      \strng{fullhash}{1dc32e0388d1f3dd99440cc8a5c3333b}
+      \strng{bibnamehash}{1dc32e0388d1f3dd99440cc8a5c3333b}
+      \strng{authorbibnamehash}{1dc32e0388d1f3dd99440cc8a5c3333b}
+      \strng{authornamehash}{1dc32e0388d1f3dd99440cc8a5c3333b}
+      \strng{authorfullhash}{1dc32e0388d1f3dd99440cc8a5c3333b}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Brookings Papers on Economic Activity}
+      \field{langid}{english}
+      \field{title}{Growing World Trade: Causes and Consequences}
+      \field{year}{1995}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Krugman - Growing World Trade Causes and Consequences.pdf:/Users/pepe/Zotero/storage/2R6SN7QH/Krugman - Growing World Trade Causes and Consequences.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{latzer_average_2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3d3170b50725892b9112b9d70cacba0e}{%
+           family={Latzer},
+           familyi={L\bibinitperiod},
+           given={Hélène},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e62b376f6a1dc2cd236c7188cfa8992e}{%
+           family={Mayneris},
+           familyi={M\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{799e112f4434a7df25db4b7d59d913cb}
+      \strng{fullhash}{799e112f4434a7df25db4b7d59d913cb}
+      \strng{bibnamehash}{799e112f4434a7df25db4b7d59d913cb}
+      \strng{authorbibnamehash}{799e112f4434a7df25db4b7d59d913cb}
+      \strng{authornamehash}{799e112f4434a7df25db4b7d59d913cb}
+      \strng{authorfullhash}{799e112f4434a7df25db4b7d59d913cb}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper analyses the relationship between a country’s income distribution and its exports’ unit values. Using bilateral export flows, we not only confirm the positive association between a country’s average income and its export unit values, but further identify a heterogeneous relationship with income inequality: we find a greater income spread to be associated with higher export unit values in the case of poor countries only. These results are robust to the inclusion of controls for other determinants of export unit values, as well as to the use of alternative measures of income inequality and of the quality index. We finally discuss various theoretical rationalisations for this heterogeneous relationship between income inequality and the quality content of exports along the average income dimension, and show suggestive evidence that demand-side mechanisms can account for it, at least partly.}
+      \field{day}{1}
+      \field{issn}{0167-2681}
+      \field{journaltitle}{Journal of Economic Behavior \& Organization}
+      \field{month}{5}
+      \field{shortjournal}{Journal of Economic Behavior \& Organization}
+      \field{title}{Average income, income inequality and export unit values}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{185}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{625\bibrangedash 646}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1016/j.jebo.2021.03.002
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/pepe/Zotero/storage/5B6WCWPP/S0167268121000913.html:text/html;Submitted Version:/Users/pepe/Zotero/storage/EQPHPJTU/Latzer and Mayneris - 2021 - Average income, income inequality and export unit .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167268121000913
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167268121000913
+      \endverb
+      \keyw{Trade,Export unit values,Home market effect,Income distribution,Product quality}
+    \endentry
+    \entry{magee_new_2008-1}{article}{}
+      \name{author}{1}{}{%
+        {{hash=20eeb84f531cc608c871e1af41a74078}{%
+           family={Magee},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelimb S.\bibnamedelimi P.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{20eeb84f531cc608c871e1af41a74078}
+      \strng{fullhash}{20eeb84f531cc608c871e1af41a74078}
+      \strng{bibnamehash}{20eeb84f531cc608c871e1af41a74078}
+      \strng{authorbibnamehash}{20eeb84f531cc608c871e1af41a74078}
+      \strng{authornamehash}{20eeb84f531cc608c871e1af41a74078}
+      \strng{authorfullhash}{20eeb84f531cc608c871e1af41a74078}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper estimates the effects of regional agreements on trade flows controlling for country pair, importer-year, and exporter-year fixed effects. These fixed effects capture the determinants of trade flows normally included in gravity model specifications and control for yearly shocks to countries' trade. Controlling for the fixed effects generally reduces the estimated trade impacts of regional agreements. The estimates reveal that regional agreements have significant anticipatory effects on trade flows and continue to affect trade for up to 11 years after they begin. The paper also presents estimated effects on individual countries' trade flows in year five of the agreements.}
+      \field{day}{1}
+      \field{issn}{0022-1996}
+      \field{journaltitle}{Journal of International Economics}
+      \field{month}{7}
+      \field{number}{2}
+      \field{shortjournal}{Journal of International Economics}
+      \field{title}{New measures of trade creation and trade diversion}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{75}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{349\bibrangedash 362}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.jinteco.2008.03.006
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/pepe/Zotero/storage/IVGEV82V/S0022199608000287.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199608000287
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199608000287
+      \endverb
+      \keyw{Gravity model,Regional trade agreements,Trade creation,Trade diversion}
+    \endentry
+    \entry{manova_export_2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e4b5c11b407f793a31e6747b1377f52d}{%
+           family={Manova},
+           familyi={M\bibinitperiod},
+           given={Kalina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=af6676fd57905f96e6d74773e0c58962}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhiwei},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{33df2969e0a91762d954b2003a14dc97}
+      \strng{fullhash}{33df2969e0a91762d954b2003a14dc97}
+      \strng{bibnamehash}{33df2969e0a91762d954b2003a14dc97}
+      \strng{authorbibnamehash}{33df2969e0a91762d954b2003a14dc97}
+      \strng{authornamehash}{33df2969e0a91762d954b2003a14dc97}
+      \strng{authorfullhash}{33df2969e0a91762d954b2003a14dc97}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article establishes six stylized facts about firms' export prices using detailed customs data on the universe of Chinese trade flows. First, across firms selling a given product, exporters that charge higher prices earn greater revenues in each destination, have bigger worldwide sales, and enter more markets. Second, firms that export more, enter more markets, and charge higher export prices import more expensive inputs. Third, across destinations within a firm-product, firms set higher prices in richer, larger, bilaterally more distant and overall less remote countries. Fourth, across destinations within a firm-product, firms earn bigger revenues in markets where they set higher prices. Fifth, across firms within a product, exporters with more destinations offer a wider range of export prices. Finally, firms that export more, enter more markets, and offer a wider range of export prices pay a wider range of input prices and source inputs from more origin countries. We propose that trade models should incorporate two features to rationalize these patterns in the data: more successful exporters use higher quality inputs to produce higher quality goods (stylized facts 1 and 2), and firms vary the quality of their products across destinations by using inputs of different quality levels (stylized facts 3, 4, 5, and 6).}
+      \field{issn}{0033-5533}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{note}{Publisher: Oxford University Press}
+      \field{number}{1}
+      \field{title}{Export Prices Across Firms and Destinations}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{127}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{379\bibrangedash 436}
+      \range{pages}{58}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/pepe/Zotero/storage/ANHGF8TD/Manova and Zhang - 2012 - Export Prices Across Firms and Destinations.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org.gate3.library.lse.ac.uk/stable/41337213
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org.gate3.library.lse.ac.uk/stable/41337213
+      \endverb
+    \endentry
+    \entry{mayda_south-south_2007}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=66cc7ff6f69c40d6019270a5876f0702}{%
+           family={Mayda},
+           familyi={M\bibinitperiod},
+           given={Anna\bibnamedelima Maria},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5db86cd25b99fbd099c3fad248745da9}{%
+           family={Steinberg},
+           familyi={S\bibinitperiod},
+           given={Chad},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rochester, {NY}}%
+      }
+      \strng{namehash}{54cf5b034dba7cc6fbb5a1204f92b44c}
+      \strng{fullhash}{54cf5b034dba7cc6fbb5a1204f92b44c}
+      \strng{bibnamehash}{54cf5b034dba7cc6fbb5a1204f92b44c}
+      \strng{authorbibnamehash}{54cf5b034dba7cc6fbb5a1204f92b44c}
+      \strng{authornamehash}{54cf5b034dba7cc6fbb5a1204f92b44c}
+      \strng{authorfullhash}{54cf5b034dba7cc6fbb5a1204f92b44c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{South-South trade agreements are proliferating: Developing countries signed 70 new agreements between 1990 and 2003. Yet the impact of these agreements is largely unknown. This paper focuses on the static effects of South-South preferential trade agreements stemming from changes in trade patterns. Specifically, it estimates the impact of the Common Market for Eastern and Southern Africa ({COMESA}) on Uganda's imports between 1994 and 2003. Detailed import and tariff data at the 6-digit harmonized system level are used for more than 1,000 commodities. Based on a difference-in-difference estimation strategy, the paper finds that - in contrast to evidence from aggregate statistics - {COMESA}'s preferential tariff liberalization has not considerably increased Uganda's trade with member countries, on average across sectors. The effect, however, is heterogeneous across sectors. Finally, the paper finds no evidence of trade-diversion effects.}
+      \field{day}{1}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{967881}
+      \field{shorttitle}{Do South-South Trade Agreements Increase Trade?}
+      \field{title}{Do South-South Trade Agreements Increase Trade? Commodity-Level Evidence from {COMESA}}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:/Users/pepe/Zotero/storage/5L3KHV9Z/Mayda and Steinberg - 2007 - Do South-South Trade Agreements Increase Trade Co.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://papers.ssrn.com/abstract=967881
+      \endverb
+      \verb{url}
+      \verb https://papers.ssrn.com/abstract=967881
+      \endverb
+      \keyw{Developing countries,Commodities,Common Market for Eastern and Southern Africa,Imports,International trade agreements,Trade models,Uganda}
+    \endentry
+    \entry{medvedev_preferential_2006}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=77d135d7367d30a6897e050cf3434362}{%
+           family={Medvedev},
+           familyi={M\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Rochester, {NY}}%
+      }
+      \strng{namehash}{77d135d7367d30a6897e050cf3434362}
+      \strng{fullhash}{77d135d7367d30a6897e050cf3434362}
+      \strng{bibnamehash}{77d135d7367d30a6897e050cf3434362}
+      \strng{authorbibnamehash}{77d135d7367d30a6897e050cf3434362}
+      \strng{authornamehash}{77d135d7367d30a6897e050cf3434362}
+      \strng{authorfullhash}{77d135d7367d30a6897e050cf3434362}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The author investigates the effects of preferential trade agreements ({PTAs}) on bilateral trade flows using a comprehensive database of {PTAs} in force and a detailed matrix of world trade. He shows that total trade between {PTA} partners is a poor proxy for preferential trade (trade in tariff lines where preferences are likely to matter): while the former amounted to one-third of global trade in 2000-02, the latter was between one-sixth and one-tenth of world trade. His gravity model estimates indicate that using total rather than preferential trade to assess the impact of {PTAs} leads to a significant downward bias in the {PTA} coefficient. The author finds that product exclusions and long phase-in periods significantly limit preferential trade, and their removal could more than double trade in tariff lines above 3 percent of most-favored-nation ({MFN}) duties. He also shows that the effects of {PTAs} on trade vary by type of agreement and are increasing in the incomes of {PTA} partners.}
+      \field{day}{1}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{938031}
+      \field{title}{Preferential Trade Agreements and Their Role in World Trade}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:/Users/pepe/Zotero/storage/EVRDKYRG/Medvedev - 2006 - Preferential Trade Agreements and Their Role in Wo.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://papers.ssrn.com/abstract=938031
+      \endverb
+      \verb{url}
+      \verb https://papers.ssrn.com/abstract=938031
+      \endverb
+      \keyw{Economic Theory \& Research,Free Trade,Trade and Services,Trade Law,Trade Policy}
+    \endentry
+    \entry{olivero_dynamic_2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=72bc573cf30ae1e417bf6e0c935b786c}{%
+           family={Olivero},
+           familyi={O\bibinitperiod},
+           given={María\bibnamedelima Pía},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=ec316c108e8808001ef50f84438ca9cb}{%
+           family={Yotov},
+           familyi={Y\bibinitperiod},
+           given={Yoto\bibnamedelima V.},
+           giveni={Y\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{9551f6f719c82243e4958729ecd529e8}
+      \strng{fullhash}{9551f6f719c82243e4958729ecd529e8}
+      \strng{bibnamehash}{9551f6f719c82243e4958729ecd529e8}
+      \strng{authorbibnamehash}{9551f6f719c82243e4958729ecd529e8}
+      \strng{authornamehash}{9551f6f719c82243e4958729ecd529e8}
+      \strng{authorfullhash}{9551f6f719c82243e4958729ecd529e8}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Numerous gravity applications have resorted to panel data econometric techniques over the past decade. However, with the theory of gravity being so far only static, these estimations lack solid structural dynamic foundations. As a consequence, a consensus on a unified dynamic gravity estimation approach is yet to be reached. In this paper, (i) we build the theoretical foundations for a dynamic gravity model, (ii) we provide guidance for gravity-type estimations with panel data and we consider applications, and (iii) we calibrate and simulate our model to compare its properties with those of the standard, static gravity setup.}
+      \field{issn}{1540-5982}
+      \field{journaltitle}{Canadian Journal of Economics/Revue canadienne d'économique}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1540-5982.2011.01687.x}
+      \field{number}{1}
+      \field{shorttitle}{Dynamic gravity}
+      \field{title}{Dynamic gravity: endogenous country size and asset accumulation}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{45}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{64\bibrangedash 92}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1111/j.1540-5982.2011.01687.x
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/pepe/Zotero/storage/WX7RGZ6G/Olivero and Yotov - 2012 - Dynamic gravity endogenous country size and asset.pdf:application/pdf;Snapshot:/Users/pepe/Zotero/storage/895IISWR/j.1540-5982.2011.01687.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary-wiley-com.gate3.library.lse.ac.uk/doi/abs/10.1111/j.1540-5982.2011.01687.x
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary-wiley-com.gate3.library.lse.ac.uk/doi/abs/10.1111/j.1540-5982.2011.01687.x
+      \endverb
+      \keyw{F10,F11}
+    \endentry
+    \entry{puga_trading_1998}{article}{}
+      \name{author}{2}{}{%
+        {{hash=df48badcd48acbe3766261e4d6d39fe4}{%
+           family={Puga},
+           familyi={P\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8439e59065381dcf4bdd913e708f694b}{%
+           family={Venables},
+           familyi={V\bibinitperiod},
+           given={Anthony\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7719b652cb42d6c1035aaf01c3e8e57b}
+      \strng{fullhash}{7719b652cb42d6c1035aaf01c3e8e57b}
+      \strng{bibnamehash}{7719b652cb42d6c1035aaf01c3e8e57b}
+      \strng{authorbibnamehash}{7719b652cb42d6c1035aaf01c3e8e57b}
+      \strng{authornamehash}{7719b652cb42d6c1035aaf01c3e8e57b}
+      \strng{authorfullhash}{7719b652cb42d6c1035aaf01c3e8e57b}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Trading Arrangements and Industrial Development}
+      \field{year}{1998}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Puga and Venables - Trading Arrangements and Industrial Development.pdf:/Users/pepe/Zotero/storage/XFQEWAR6/Puga and Venables - Trading Arrangements and Industrial Development.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{sanguinetti_impact_2010}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9f221feddae0c4b84ff99beb6e6d615e}{%
+           family={Sanguinetti},
+           familyi={S\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a72d5131070df683c5f6c7d57d07ca01}{%
+           family={Siedschlag},
+           familyi={S\bibinitperiod},
+           given={Iulia},
+           giveni={I\bibinitperiod}}}%
+        {{hash=bf799a88e1617de2272e8211cbb6b19d}{%
+           family={Martincus},
+           familyi={M\bibinitperiod},
+           given={Christian\bibnamedelima Volpe},
+           giveni={C\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{f03343bef56864c9ae4410c48dea9570}
+      \strng{fullhash}{f03343bef56864c9ae4410c48dea9570}
+      \strng{bibnamehash}{f03343bef56864c9ae4410c48dea9570}
+      \strng{authorbibnamehash}{f03343bef56864c9ae4410c48dea9570}
+      \strng{authornamehash}{f03343bef56864c9ae4410c48dea9570}
+      \strng{authorfullhash}{f03343bef56864c9ae4410c48dea9570}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Preferential trade agreements could lead to a reallocation of resources across sectors and countries. Production patterns resulting from North-North regional integration initiatives have been documented in several studies. However, empirical evidence on South-South trade agreements is limited. The purpose of this paper is to fill this gap in the empirical literature by looking at the effects of the establishment of {MERCOSUR} on manufacturing production patterns in Argentina, Brazil, and Uruguay over the period 1985-1998. We find that deepened preferential trade liberalization has fostered a reshaping of manufacturing production structures according to regional comparative advantage in labor and skilled labor. Furthermore, declining internal tariffs have weakened agglomeration forces determined by the distribution of market sizes. By using {GMM} estimation techniques, we ensure that these results are robust to endogeneity and serial correlation.}
+      \field{issn}{1225-651X}
+      \field{journaltitle}{Journal of Economic Integration}
+      \field{note}{Publisher: Center for Economic Integration, Sejong University}
+      \field{number}{1}
+      \field{shorttitle}{The Impact of South-South Preferential Trade Agreements on Industrial Development}
+      \field{title}{The Impact of South-South Preferential Trade Agreements on Industrial Development: An Empirical Test}
+      \field{urlday}{1}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{25}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{69\bibrangedash 103}
+      \range{pages}{35}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/pepe/Zotero/storage/8WSWH59Y/Sanguinetti et al. - 2010 - The Impact of South-South Preferential Trade Agree.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/23000966
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/23000966
+      \endverb
+    \endentry
+    \entry{santos_silva_further_2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f7d9517834d099db2eb6466210af186b}{%
+           family={Santos\bibnamedelima Silva},
+           familyi={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={J.\bibnamedelimi M.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=476ad06d8906e302627f01a0af0a60aa}{%
+           family={Tenreyro},
+           familyi={T\bibinitperiod},
+           given={Silvana},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fee8c56ab98325a272df0bb6cd9f37b}
+      \strng{fullhash}{5fee8c56ab98325a272df0bb6cd9f37b}
+      \strng{bibnamehash}{5fee8c56ab98325a272df0bb6cd9f37b}
+      \strng{authorbibnamehash}{5fee8c56ab98325a272df0bb6cd9f37b}
+      \strng{authornamehash}{5fee8c56ab98325a272df0bb6cd9f37b}
+      \strng{authorfullhash}{5fee8c56ab98325a272df0bb6cd9f37b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We extend the simulation results in Santos Silva and Tenreyro (2006, The log of gravity, The Review of Economics and Statistics, 88, 641–658) by considering a novel data-generating process. Our results confirm that the Poisson pseudo-maximum likelihood estimator is generally well behaved, even when the proportion of zeros in the sample is very large.}
+      \field{day}{1}
+      \field{issn}{0165-1765}
+      \field{journaltitle}{Economics Letters}
+      \field{month}{8}
+      \field{number}{2}
+      \field{shortjournal}{Economics Letters}
+      \field{title}{Further simulation evidence on the performance of the Poisson pseudo-maximum likelihood estimator}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{112}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{220\bibrangedash 222}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1016/j.econlet.2011.05.008
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/pepe/Zotero/storage/QXKYPG9M/Santos Silva and Tenreyro - 2011 - Further simulation evidence on the performance of .pdf:application/pdf;ScienceDirect Snapshot:/Users/pepe/Zotero/storage/VHNETCQ7/S0165176511001741.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0165176511001741
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0165176511001741
+      \endverb
+      \keyw{International trade,Gravity equation,Finite mixtures,Zeros}
+    \endentry
+    \entry{schiff_north-south_2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0dbe91f68596cfe99d50711cb9390d29}{%
+           family={Schiff},
+           familyi={S\bibinitperiod},
+           given={Maurice},
+           giveni={M\bibinitperiod}}}%
+        {{hash=13d56781dd2ac84fabb06028ad649970}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yanling},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a14c05d6d03760a6798ac020d8e7682}
+      \strng{fullhash}{9a14c05d6d03760a6798ac020d8e7682}
+      \strng{bibnamehash}{9a14c05d6d03760a6798ac020d8e7682}
+      \strng{authorbibnamehash}{9a14c05d6d03760a6798ac020d8e7682}
+      \strng{authornamehash}{9a14c05d6d03760a6798ac020d8e7682}
+      \strng{authorfullhash}{9a14c05d6d03760a6798ac020d8e7682}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper examines the impact on total factor productivity ({TFP}) growth in the South of North-South and South-South trade-related technology diffusion and of foreign direct investment ({FDI}). North-South and South-South trade-related research and development (R\&D) stocks are constructed based on industry-specific R\&D in the North, North-South and South-South trade patterns, and input-output relations in the South. The main findings are: 1. Both North-South and South-South trade-related R\&D have a positive impact on {TFP} growth in the South; 2. {FDI} has a positive, though smaller, impact on {TFP} growth; 3. The impact on {TFP} growth of trade-related technology diffusion increases with the level of education in the case of North-South trade but not in the case of South-South trade.}
+      \field{day}{1}
+      \field{issn}{0022-0388}
+      \field{journaltitle}{The Journal of Development Studies}
+      \field{month}{1}
+      \field{note}{Publisher: Routledge \_eprint: https://doi.org/10.1080/00220380701722282}
+      \field{number}{1}
+      \field{shorttitle}{North-South and South-South Trade-Related Technology Diffusion}
+      \field{title}{North-South and South-South Trade-Related Technology Diffusion: How Important Are They in Improving {TFP} Growth?}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{44}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{49\bibrangedash 59}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1080/00220380701722282
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/00220380701722282
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/00220380701722282
+      \endverb
+    \endentry
+    \entry{schiff_regional_2003}{book}{}
+      \name{author}{3}{}{%
+        {{hash=27dc494684d516971e9ca6a142b4f5c3}{%
+           family={Schiff},
+           familyi={S\bibinitperiod},
+           given={Maurice\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=7e4a555a16d2088c519befe98eccc805}{%
+           family={Winters},
+           familyi={W\bibinitperiod},
+           given={L.\bibnamedelimi Alan},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0dbe91f68596cfe99d50711cb9390d29}{%
+           family={Schiff},
+           familyi={S\bibinitperiod},
+           given={Maurice},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Washington, {UNITED} {STATES}}%
+      }
+      \list{publisher}{1}{%
+        {World Bank Publications}%
+      }
+      \strng{namehash}{2f6ae9d087f99d1a4bdb03dc00c9a773}
+      \strng{fullhash}{2f6ae9d087f99d1a4bdb03dc00c9a773}
+      \strng{bibnamehash}{2f6ae9d087f99d1a4bdb03dc00c9a773}
+      \strng{authorbibnamehash}{2f6ae9d087f99d1a4bdb03dc00c9a773}
+      \strng{authornamehash}{2f6ae9d087f99d1a4bdb03dc00c9a773}
+      \strng{authorfullhash}{2f6ae9d087f99d1a4bdb03dc00c9a773}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-280-08664-9}
+      \field{title}{Regional Integration And Development}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb ProQuest Ebook Snapshot:/Users/pepe/Zotero/storage/H9NNVI4L/reader.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://ebookcentral.proquest.com/lib/londonschoolecons/detail.action?docID=3050563
+      \endverb
+      \verb{url}
+      \verb http://ebookcentral.proquest.com/lib/londonschoolecons/detail.action?docID=3050563
+      \endverb
+      \keyw{International economic relations.,Commercial policy.,Free trade.,Regionalism.,Trade blocs.}
+    \endentry
+    \entry{silva_log_2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=48c3783c9f699a8ab7182d1d688c548b}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi M.\bibnamedelimi C.\bibnamedelimi Santos},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=476ad06d8906e302627f01a0af0a60aa}{%
+           family={Tenreyro},
+           familyi={T\bibinitperiod},
+           given={Silvana},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{99c1847071b10b85a0bedba4d8f579f8}
+      \strng{fullhash}{99c1847071b10b85a0bedba4d8f579f8}
+      \strng{bibnamehash}{99c1847071b10b85a0bedba4d8f579f8}
+      \strng{authorbibnamehash}{99c1847071b10b85a0bedba4d8f579f8}
+      \strng{authornamehash}{99c1847071b10b85a0bedba4d8f579f8}
+      \strng{authorfullhash}{99c1847071b10b85a0bedba4d8f579f8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although economists have long been aware of Jensen's in-equality, many econometric applications have neglected an important implication of it: under heteroskedasticity, the parameters of log-linearized models estimated by {OLS} lead to biased estimates of the true elasticities. We explain why this problem arises and propose an appropriate estimator. Our criticism of conventional practices and the proposed solution extend to a broad range of applications where log-linearized equations are estimated. We develop the argument using one particular illustration, the gravity equation for trade. We find significant differences between estimates obtained with the proposed estimator and those obtained with the traditional method.}
+      \field{issn}{0034-6535}
+      \field{journaltitle}{The Review of Economics and Statistics}
+      \field{note}{Publisher: The {MIT} Press}
+      \field{number}{4}
+      \field{title}{The Log of Gravity}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{88}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{641\bibrangedash 658}
+      \range{pages}{18}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/pepe/Zotero/storage/B526NQNP/Silva and Tenreyro - 2006 - The Log of Gravity.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org.gate3.library.lse.ac.uk/stable/40043025
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org.gate3.library.lse.ac.uk/stable/40043025
+      \endverb
+    \endentry
+    \entry{thierry_mayer_gianluca_santoni_vincent_vicard_cepii_2023}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2e55cbfeb3abef0e04a3dbe975d7b69f}{%
+           family={{Thierry Mayer, Gianluca Santoni, Vincent Vicard}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e55cbfeb3abef0e04a3dbe975d7b69f}
+      \strng{fullhash}{2e55cbfeb3abef0e04a3dbe975d7b69f}
+      \strng{bibnamehash}{2e55cbfeb3abef0e04a3dbe975d7b69f}
+      \strng{authorbibnamehash}{2e55cbfeb3abef0e04a3dbe975d7b69f}
+      \strng{authornamehash}{2e55cbfeb3abef0e04a3dbe975d7b69f}
+      \strng{authorfullhash}{2e55cbfeb3abef0e04a3dbe975d7b69f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Trade and Production Database ({TradeProd}), provides data on international and domestic trade flows and trade protection. The database covers 165 countries and 9 industrial sectors over the period 1966-2020. {TradeProd} is intended for econometric estimation of the gravity equation and also includes a yearly balanced dataset necessary for counterfactual exercises using new quantitative trade models.}
+      \field{number}{{TradeProd}}
+      \field{title}{The {CEPII} Trade and Production database ({TradeProd})}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=5
+      \endverb
+      \verb{url}
+      \verb http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=5
+      \endverb
+    \endentry
+    \entry{thrasher_21st_2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0dec40193441dbf28f70c760a1187f21}{%
+           family={Thrasher},
+           familyi={T\bibinitperiod},
+           given={Rachel\bibnamedelima Denae},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ef71c77bb842916ebdaef9581eebad0f}{%
+           family={Gallagher},
+           familyi={G\bibinitperiod},
+           given={Kevin\bibnamedelima P},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a6a8598181ffece98b7f005b578d6fa}
+      \strng{fullhash}{8a6a8598181ffece98b7f005b578d6fa}
+      \strng{bibnamehash}{8a6a8598181ffece98b7f005b578d6fa}
+      \strng{authorbibnamehash}{8a6a8598181ffece98b7f005b578d6fa}
+      \strng{authornamehash}{8a6a8598181ffece98b7f005b578d6fa}
+      \strng{authorfullhash}{8a6a8598181ffece98b7f005b578d6fa}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{title}{21st Century Trade Agreements: Implications for Long-Run Development Policy}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Thrasher and Gallagher - 2008 - 21st Century Trade Agreements Implications for Lo.pdf:/Users/pepe/Zotero/storage/WQ5469SP/Thrasher and Gallagher - 2008 - 21st Century Trade Agreements Implications for Lo.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{unido_industrial_2006}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a9f176f6dbfd459c652abd194aac625f}{%
+           family={{UNIDO}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9f176f6dbfd459c652abd194aac625f}
+      \strng{fullhash}{a9f176f6dbfd459c652abd194aac625f}
+      \strng{bibnamehash}{a9f176f6dbfd459c652abd194aac625f}
+      \strng{authorbibnamehash}{a9f176f6dbfd459c652abd194aac625f}
+      \strng{authornamehash}{a9f176f6dbfd459c652abd194aac625f}
+      \strng{authorfullhash}{a9f176f6dbfd459c652abd194aac625f}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Industrial Development, Trade and Poverty Reduction through South-South Cooperation}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb industrial_development_south_south_cooperation_0.pdf:/Users/pepe/Zotero/storage/K5BESEHI/industrial_development_south_south_cooperation_0.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.unido.org/sites/default/files/2013-02/industrial_development_south_south_cooperation_0.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.unido.org/sites/default/files/2013-02/industrial_development_south_south_cooperation_0.pdf
+      \endverb
+    \endentry
+    \entry{venables_winners_2003}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8439e59065381dcf4bdd913e708f694b}{%
+           family={Venables},
+           familyi={V\bibinitperiod},
+           given={Anthony\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8439e59065381dcf4bdd913e708f694b}
+      \strng{fullhash}{8439e59065381dcf4bdd913e708f694b}
+      \strng{bibnamehash}{8439e59065381dcf4bdd913e708f694b}
+      \strng{authorbibnamehash}{8439e59065381dcf4bdd913e708f694b}
+      \strng{authornamehash}{8439e59065381dcf4bdd913e708f694b}
+      \strng{authorfullhash}{8439e59065381dcf4bdd913e708f694b}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{How are the benefits and costs of a customs union divided between member countries? Outcomes depend on the comparative advantage of members, relative to each other and relative to the rest of the world. Countries with a comparative advantage between that of their partners and the rest of the world do better than countries with an ‘extreme’ comparative advantage. Consequently, integration between low income countries tends to lead to divergence of member country incomes, while agreements between high income countries cause convergence. Results suggest that developing countries are likely to be better served by ‘north‐south’ than by ‘south‐south’ agreements.}
+      \field{day}{1}
+      \field{issn}{0013-0133}
+      \field{journaltitle}{The Economic Journal}
+      \field{month}{10}
+      \field{number}{490}
+      \field{shortjournal}{The Economic Journal}
+      \field{title}{Winners and Losers from Regional Integration Agreements}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{113}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{747\bibrangedash 761}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1111/1468-0297.t01-1-00155
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/pepe/Zotero/storage/R3VX7NYM/Venables - 2003 - Winners and Losers from Regional Integration Agree.pdf:application/pdf;Snapshot:/Users/pepe/Zotero/storage/J44KXGRE/5079609.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/1468-0297.t01-1-00155
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/1468-0297.t01-1-00155
+      \endverb
+    \endentry
+    \entry{yotov_simple_2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ec316c108e8808001ef50f84438ca9cb}{%
+           family={Yotov},
+           familyi={Y\bibinitperiod},
+           given={Yoto\bibnamedelima V.},
+           giveni={Y\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec316c108e8808001ef50f84438ca9cb}
+      \strng{fullhash}{ec316c108e8808001ef50f84438ca9cb}
+      \strng{bibnamehash}{ec316c108e8808001ef50f84438ca9cb}
+      \strng{authorbibnamehash}{ec316c108e8808001ef50f84438ca9cb}
+      \strng{authornamehash}{ec316c108e8808001ef50f84438ca9cb}
+      \strng{authorfullhash}{ec316c108e8808001ef50f84438ca9cb}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{I propose a simple solution to the distance puzzle in international trade. Contrary to existing estimates of persistent or increasing distance effects on trade, I offer robust evidence that the impact of distance on trade has fallen steadily over time.}
+      \field{day}{1}
+      \field{issn}{0165-1765}
+      \field{journaltitle}{Economics Letters}
+      \field{month}{12}
+      \field{number}{3}
+      \field{shortjournal}{Economics Letters}
+      \field{title}{A simple solution to the distance puzzle in international trade}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{117}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{794\bibrangedash 798}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.econlet.2012.08.032
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/pepe/Zotero/storage/JILUR5VF/S0165176512004673.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0165176512004673
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0165176512004673
+      \endverb
+      \keyw{Structural gravity,(Missing) globalization,Distance puzzle}
+    \endentry
+    \entry{yotov_advanced_2016}{book}{}
+      \name{author}{4}{}{%
+        {{hash=ec316c108e8808001ef50f84438ca9cb}{%
+           family={Yotov},
+           familyi={Y\bibinitperiod},
+           given={Yoto\bibnamedelima V.},
+           giveni={Y\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=3649845d8a0f1639d38d13fa9724ec8f}{%
+           family={Piermartini},
+           familyi={P\bibinitperiod},
+           given={Roberta},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6d7951340a794bb0e642abd12ee77ef4}{%
+           family={Monteiro},
+           familyi={M\bibinitperiod},
+           given={José-Antonio},
+           giveni={J\bibinithyphendelim A\bibinitperiod}}}%
+        {{hash=3aea6858aaf09891dd1a058e5336b20a}{%
+           family={Larch},
+           familyi={L\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {WTO}%
+      }
+      \strng{namehash}{b8faabeeb284b856c3c6887ed2e96983}
+      \strng{fullhash}{5203e7a58c8dbd1054d28172820ae0ab}
+      \strng{bibnamehash}{b8faabeeb284b856c3c6887ed2e96983}
+      \strng{authorbibnamehash}{b8faabeeb284b856c3c6887ed2e96983}
+      \strng{authornamehash}{b8faabeeb284b856c3c6887ed2e96983}
+      \strng{authorfullhash}{5203e7a58c8dbd1054d28172820ae0ab}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{15}
+      \field{isbn}{978-92-870-4368-9}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{shorttitle}{An Advanced Guide to Trade Policy Analysis​}
+      \field{title}{An Advanced Guide to Trade Policy Analysis​: The Structural Gravity Model}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.30875/abc0167e-en
+      \endverb
+      \verb{file}
+      \verb Yotov et al. - 2016 - An Advanced Guide to Trade Policy Analysis The S.pdf:/Users/pepe/Zotero/storage/RALPET4P/Yotov et al. - 2016 - An Advanced Guide to Trade Policy Analysis The S.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.wto-ilibrary.org/content/books/9789287043689
+      \endverb
+      \verb{url}
+      \verb https://www.wto-ilibrary.org/content/books/9789287043689
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
