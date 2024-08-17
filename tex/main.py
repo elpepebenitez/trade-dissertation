@@ -27,9 +27,14 @@ doc = Document('23802_DV410_2024', documentclass='article', document_options=["1
 # doc.preamble.append(Command('setlength', r'\headheight{14.5pt}'))
 # doc.preamble.append(Command('addtolength', r'\topmargin{-2.5pt}'))
 
+# Explicitly set UTF-8 encoding
+doc.packages.append(Package('inputenc', options='utf8'))
+doc.packages.append(Package('fontenc', options='T1'))
+
 # Add necessary packages
 # doc.packages.append(NoEscape(r'\usepackage[backend=biber]{biblatex}'))
 doc.packages.append(Package('biblatex', options='backend=biber'))
+# doc.preamble.append(NoEscape(r'\usepackage[backend=biber,style=authoryear]{biblatex}'))
 doc.packages.append(NoEscape(r'\usepackage{fancyhdr}'))
 doc.packages.append(NoEscape(r'\usepackage{lastpage}'))
 doc.packages.append(NoEscape(r'\usepackage{ragged2e}'))
@@ -117,11 +122,11 @@ add_analysis_and_discussion(doc)
 add_conclusion(doc)
 doc.append(NoEscape(r'\newpage'))
 
-# Add references
+# # Add references
 add_references(doc)
 doc.append(NoEscape(r'\newpage'))
 
-# Add appendix
+# # Add appendix
 add_appendix(doc)
 
 # Save the LaTeX document
