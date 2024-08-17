@@ -7,10 +7,15 @@ PY_DIR = ./tex
 BIB_FILE = $(PY_DIR)/references.bib
 
 # Define Word documents and corresponding LaTeX files
+# All docs:
+DOCS = introduction compad_literature_review scale_literature_review empirical_literature_review exports_literature_review methodology_benchmark methodology_data methodology_epuv methodology_gravity methodology_het methodology_ns methodology_south findings_benchmark findings_het findings_nsb findings_nsh findings_epuv determinants_analysis limitations_analysis conclusion
 # DOCS = introduction literature_review methodology_benchmark methodology_data methodology_epuv methodology_gravity methodology_het methodology_ns methodology_south findings analysis_and_discussion conclusion
 # DOCS = findings_benchmark findings_het findings_nsb findings_nsh findings_epuv
 # DOCS = compad_literature_review scale_literature_review empirical_literature_review exports_literature_review
-DOCS = introduction analysis_and_discussion conclusion
+# DOCS = introduction analysis_and_discussion conclusion
+# DOCS = exports_literature_review
+# DOCS = determinants_analysis limitations_analysis
+
 
 TEX_FILES = $(patsubst %, $(TEX_DIR)/%.tex, $(DOCS))
 

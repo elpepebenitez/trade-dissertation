@@ -8,16 +8,19 @@ def add_abbreviations(doc):
 
         # Add abbreviations here
         abbreviations = [
-            ("AI", "Artificial Intelligence"),
-            ("API", "Application Programming Interface"),
-            ("CPU", "Central Processing Unit"),
-            ("GPU", "Graphics Processing Unit"),
-            ("IoT", "Internet of Things"),
-            ("ML", "Machine Learning"),
-            ("NLP", "Natural Language Processing"),
-            ("RAM", "Random Access Memory"),
-            ("UX", "User Experience"),
-            ("UI", "User Interface")
+            ("TAs", "Trade Agreements"),
+            ("NRPTAs", "Non-reciprocal Preferential Trade Agreements"),
+            ("PTAs", "Preferential Trade Agreements"),
+            ("FTA", "Free Trade Agreements"),
+            ("CU", "Customs Union"),
+            ("CMs", "Common Markets"),
+            ("EUs", "Economic Unions"),
+            ("EPUV", "Export Product Unit Value"),
+            ("HS", "Harmonysed System"),
+            ("DESTA", "The Design of International Trade Agreements Database"),
+            ("TradeProd", "The Trade and Production Database"),
+            ("COMTRADE", "UN Commodity Trade Statistics Database"),
+            ("INDSTAT ", "UNIDO Industrial Statistics database")
         ]
 
         # Sort abbreviations alphabetically

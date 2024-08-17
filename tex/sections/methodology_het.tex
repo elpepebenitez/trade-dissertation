@@ -1,19 +1,18 @@
 In contrast with our main interest of research, which are the potential
-heterogenous effects of PTAs on different members for different types of
+heterogenous effects of TAs on different members for different types of
 agreements, this benchmark model, specifically
 \(\beta = \beta_{1} + \beta_{2}\) , would provide the average ``total''
-partial effect of PTAs on trade after accounting for lagged effects, but
+partial effect of TAs on trade after accounting for lagged effects, but
 it cannot provide the effects for a given agreement. As such, an
-expansion can be implemented to capture heterogeneity in PTA effects as
+expansion can be implemented to capture heterogeneity in TA effects as
 proposed by Baier \emph{et al}. (Baier, Yotov, and Zylkin 2019):
 
-% \[(2)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}^{}{\beta_{1,A}{PTA}_{ij,t}} + \sum_{A}^{}{\beta_{2,A}{PTA}_{ij,t - 5}} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
 \begin{multline}
-    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A} \beta_{1,A} \, PTA_{ij,t} \right. + \sum_{A} \beta_{2,A} \, PTA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A} \beta_{1,A} \, TA_{ij,t} \right. + \sum_{A} \beta_{2,A} \, TA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
 \end{multline}
 
 Equation (2) can be implemented to account for heterogeneous effects of
-PTAs at the level of the specific agreement, by allowing for distinct
+TAs at the level of the specific agreement, by allowing for distinct
 average partial effects for each individual agreement, using superscript
 \(A\) to index by agreement and also allowing for agreement-specific
 lags: \(\beta_{A} = \beta_{1,A} + \beta_{2,A}\).
