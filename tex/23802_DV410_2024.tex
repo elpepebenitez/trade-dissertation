@@ -72,7 +72,7 @@
         \vspace*{5mm}
         Dissertation submitted in partial fulfilment of the requirements of the degree. \\
         \vspace*{35mm}
-        \Huge \textbf{Title title title} \\
+        \large \textbf{Building and Stumbling Blocks: An Empirical Analysis of the Heterogenous Effects of Trade Agreements Between North and South Countries} \\
         \vspace*{20mm}
         \end{center}
     }%
@@ -86,7 +86,7 @@
 \maketitle%
 
 \vfill
-\begin{center}\textbf{Word Count: 7182}\end{center}
+\begin{center}\textbf{Word Count: 8673}\end{center}
 \newpage%
 %TC:ignore%
 \vspace*{\fill}%
@@ -96,7 +96,7 @@
 \section*{Abstract}%
 \end{center}%
 \justify%
-This is the abstract text. It should be centered on the page, and the text should be justified. This is the abstract text. It should be centered on the page, and the text should be justified. This is the abstract text. It should be centered on the page, and the text should be justified. This is the abstract text. It should be centered on the page, and the text should be justified. This is the abstract text. It should be centered on the page, and the text should be justified. %
+Extensions to the Gravity Model of Trade are used to empirically estimate across regions the heterogeneous partial effects of Trade Agreements (TAs) signed between 2000 and 2010 on trade volumes and value per unit of manufacturing products exported, as well as the effects on North{-}North, North{-}South and South{-}South bilateral trade relationships. We find that the average “total” partial effects of TAs in the period studied are similar to the estimates of the relevant literature, but there are heterogeneous effects of specific agreements within regions both on trade volume and value per unit. We also find heterogeneous effects of TAs on the different categories of bilateral trade relationships. We found examples of TAs having both positive and negative effects on both North{-}South and South{-}South trade.%
 \end{minipage}%
 \end{center}%
 \vspace*{\fill}%
@@ -109,16 +109,19 @@ This is the abstract text. It should be centered on the page, and the text shoul
 \label{sec:Abbreviations}%
 \begin{tabbing}%
 \hspace{3cm} \= \kill%
-\textbf{AI} \> Artificial Intelligence \\%
-\textbf{API} \> Application Programming Interface \\%
-\textbf{CPU} \> Central Processing Unit \\%
-\textbf{GPU} \> Graphics Processing Unit \\%
-\textbf{IoT} \> Internet of Things \\%
-\textbf{ML} \> Machine Learning \\%
-\textbf{NLP} \> Natural Language Processing \\%
-\textbf{RAM} \> Random Access Memory \\%
-\textbf{UI} \> User Interface \\%
-\textbf{UX} \> User Experience \\%
+\textbf{CMs} \> Common Markets \\%
+\textbf{COMTRADE} \> UN Commodity Trade Statistics Database \\%
+\textbf{CU} \> Customs Union \\%
+\textbf{DESTA} \> The Design of International Trade Agreements Database \\%
+\textbf{EPUV} \> Export Product Unit Value \\%
+\textbf{EUs} \> Economic Unions \\%
+\textbf{FTA} \> Free Trade Agreements \\%
+\textbf{HS} \> Harmonysed System \\%
+\textbf{INDSTAT } \> UNIDO Industrial Statistics database \\%
+\textbf{NRPTAs} \> Non-reciprocal Preferential Trade Agreements \\%
+\textbf{PTAs} \> Preferential Trade Agreements \\%
+\textbf{TAs} \> Trade Agreements \\%
+\textbf{TradeProd} \> The Trade and Production Database \\%
 \end{tabbing}
 
 %
@@ -136,15 +139,47 @@ This is the abstract text. It should be centered on the page, and the text shoul
 \pagestyle{mainmatter}%
 \section{Introduction}%
 \label{sec:Introduction}%
-This is the introduction
+Background and context
 
-\textbf{Stylised facts}
+Research problem
 
-\textbf{Ideas:}
+Significance of study
 
-Total number of SS, NS and NN PTAs
+Research questions
 
-Share of SS, NS and NN PTAs
+no conclusive answer to the research questions of whether South-South
+TAs act as building blocks or stumbling blocks to developing countries,
+or if they are preferable to North-South agreements.
+
+Set up the relevance of the topic.
+
+Proliferation of TAs
+
+In the recent decades, alongside a liberalization of foreign trade,
+developing countries of all sizes and regions have actively made efforts
+to enter into Trade Agreements (TAs), with both other developing
+countries as well as already developed nations.
+
+What are we studying (Research question(s)), on what countries, and why.
+
+Heterogeneity within agreements and not only across. Different effects
+of an agreement on its members.
+
+What methodology is used in the paper and why.
+
+How does this paper relate to the wider literature. What are we
+contributing.
+
+Gravity literature. Export complexity.
+
+Stylized facts on the historical evolution of the adoption of TAs and
+the diversity of products exported.
+
+Ideas:
+
+Total number of SS, NS and NN TAs
+
+Share of SS, NS and NN TAs
 
 Total exports by S and N countries
 
@@ -156,11 +191,13 @@ Share of total exports of manufactured by S and N countries
 
 Number of products exported by S and N countries
 
-The organization of this article is as follows: Section II provides a
-brief literature review of the PTAs, South--South trade and the
-importance of the structure of trade. Section III introduces the
-methodology and data. Section IV presents the empirical results fol-
-lowed by a discussion of the robustness tests. Section V concludes.
+Section. The paper proceeds in section 2 with a review of the relevant
+theoretical and empirical literature on the effects of TAs on
+North-South and South-South trade and potential development
+implications. Section 3 introduces our empirical methodology and data.
+Section 4 presents and describes our main findings, and Section 5
+analyses and discusses their potential implications and how they fit
+within the relevant literature. Finally, Section 6 concludes.
 %
 This is the introduction section. Here is a citation: %
 \cite{dahi_preferential_2013}
@@ -168,69 +205,68 @@ This is the introduction section. Here is a citation: %
 %
 \section{Literature Review}%
 \label{sec:LiteratureReview}%
-This section reviews the literature on the theoretical and empirical potential effects of PTAs on exports and welfare and situates the analysis in the relevant field of research.%
+This section reviews the literature on the theoretical and empirical potential effects of TAs on exports and welfare and situates the analysis in the relevant field of research.%
 \subsection{Theoretical Framework}%
 \label{subsec:TheoreticalFramework}%
-Stumbling block vs building block dichotomy.%
-\subsubsection{Comparative advantage and trade creation and diversion}%
-\label{ssubsec:Comparativeadvantageandtradecreationanddiversion}%
+The relevant theoretical framework in the literature is often described as a dichotomy, where TAs are either stumbling or building blocks in the development path of developing countries.%
+\subsubsection{Comparative Advantage and Trade Creation and Diversion}%
+\label{ssubsec:ComparativeAdvantageandTradeCreationandDiversion}%
 
 %
 Traditional trade theory emphasizes trade creation (allowing cheaper
-products from PTA members to substitute for more expensive domestic
-products) and trade diversion (substituting products from non-PTA
-members that were cheaper before the PTA with products from PTA members
-that are cheaper now due to the PTA reducing tariffs) (Schiff, Winters
-and Schiff, 2003) and argues that the impact of PTAs depends on the
-comparative advantage of member countries. In particular, it argues that
-PTAs magnify the impacts of a country's comparative advantage, relative
-to the world and to other member countries signatories of a common PTA.
-If member countries of a PTA have a comparative advantage on a factor
-endowment relative to the world, but one country also has a comparative
-advantage on the same factor endowment relative to the other member
-countries, the country with the ``extreme'' advantage will be more
-vulnerable to trade diversion effects, while countries with
-``intermediate'' advantages will gain from trade creation effects,
-predicting divergence of trade outcomes, and winners and losers among
-member countries. (Venables, 2003). This emphasis on the trade creation
-and trade diversion effects among member countries with significant
-differences in the comparative advantage of their factor endowments
-relative to the world and to each other, suggests that, when the country
-with the ``extreme'' comparative advantage is a high-income country,
-relative to a lower-income country with an ``intermediate'' comparative
-advantage, the lower-income country should seek a PTA with the other
-high-income country as it will gain more. On the contrary, if both
-members are lower-income countries, the country with the ``extreme''
-comparative advantage, should not seek a PTA with the other low-income
-member country as it will be vulnerable. (Sanguinetti, Siedschlag and
-Martincus, 2010). This logic can be easily extended to the North-South
-and South-South types of PTAs, as ``North'' countries will reasonably
-have an ``extreme'' comparative advantage in skill-intensive goods
-relative to ``South'' countries, while ``South'' countries will
-reasonably have an ``extreme'' comparative advantage in labour-intensive
-goods relative to ``North'' countries. Furthermore, it is also argued in
-the literature that benefiting from economies of scale through
-South-South economic integration is more difficult because member
-countries do not have complementary production and trade structures, nor
-high interpenetration of each other's markets on intra-industry trade.
-(Schiff, Winters and Schiff, 2003). Also, South countries can benefit
-from greater technological diffusion from North-South PTAs as the
-``North'' countries have higher industrial development as well as
-investment in research (Schiff and Wang, 2008). Finally, as the trend in
-manufacturing has been in favour of vertical specialization or value
-chain fragmentation (Krugman, 1995), North-South PTAs are preferable as
-developing countries strive to capture a greater portion of the value
-added. Based on these arguments, developing countries should therefore
-be better off entering into North-South rather than South-South
-agreements.%
+products from TA members to substitute for more expensive domestic
+products) and trade diversion (substituting products from non-TA members
+that were cheaper before the TA with products from TA members that are
+cheaper now due to the TA reducing tariffs) (Schiff, Winters and Schiff,
+2003) and argues that the impact of TAs depends on the comparative
+advantage of member countries. In particular, it argues that TAs magnify
+the impacts of a country's comparative advantage, relative to the world
+and to other member countries signatories of a common TA. If member
+countries of a TA have a comparative advantage on a factor endowment
+relative to the world, but one country also has a comparative advantage
+on the same factor endowment relative to the other member countries, the
+country with the ``extreme'' advantage will be more vulnerable to trade
+diversion effects, while countries with ``intermediate'' advantages will
+gain from trade creation effects, predicting divergence of trade
+outcomes, and winners and losers among member countries. (Venables,
+2003). This emphasis on the trade creation and trade diversion effects
+among member countries with significant differences in the comparative
+advantage of their factor endowments relative to the world and to each
+other, suggests that, when the country with the ``extreme'' comparative
+advantage is a high-income country, relative to a lower-income country
+with an ``intermediate'' comparative advantage, the lower-income country
+should seek a TA with the other high-income country as it will gain
+more. On the contrary, if both members are lower-income countries, the
+country with the ``extreme'' comparative advantage, should not seek a TA
+with the other low-income member country as it will be vulnerable.
+(Sanguinetti, Siedschlag and Martincus, 2010). This logic can be easily
+extended to the North-South and South-South types of TAs, as ``North''
+countries will reasonably have an ``extreme'' comparative advantage in
+skill-intensive goods relative to ``South'' countries, while ``South''
+countries will reasonably have an ``extreme'' comparative advantage in
+labour-intensive goods relative to ``North'' countries. Furthermore, it
+is also argued in the literature that benefiting from economies of scale
+through South-South economic integration is more difficult because
+member countries do not have complementary production and trade
+structures, nor high interpenetration of each other's markets on
+intra-industry trade. (Schiff, Winters and Schiff, 2003). Also, South
+countries can benefit from greater technological diffusion from
+North-South TAs as the ``North'' countries have higher industrial
+development as well as investment in research (Schiff and Wang, 2008).
+Finally, as the trend in manufacturing has been in favour of vertical
+specialization or value chain fragmentation (Krugman, 1995), North-South
+TAs are preferable as developing countries strive to capture a greater
+portion of the value added. Based on these arguments, developing
+countries should therefore be better off entering into North-South
+rather than South-South agreements.%
 \subsubsection{Economies of Scale, Input{-}Output linkages and Products Exported}%
 \label{ssubsec:EconomiesofScale,Input{-}OutputlinkagesandProductsExported}%
 
 %
 In contrast, classical development theory and new trade literature go
 beyond the static welfare gains from trade creation and diversion
-effects when analysing the effect of PTAs. Developing countries can use
-PTAs to overcome limitations of their domestic market size in the
+effects when analysing the effect of TAs. Developing countries can use
+TAs to overcome limitations of their domestic market size in the
 industrialization process (Dahi and Demir, 2013). Such potential
 increases in the effective market size could help industries in
 developing countries achieve economies of scale and increase the skill
@@ -246,35 +282,86 @@ export matter for long-term economic performance. If a country exports
 products from industries that are more technology-intensive, these are
 likely to create input-output linkages and spillover effects in human
 and physical capital accumulation and innovation (Hausmann, Hwang and
-Rodrik, 2007). Furthermore, by allowing for factor accumulation, PTAs
-can reduce intra-block trade barriers and increase competition and
-access to cheaper intermediate goods, triggering changes in industrial
-production in member countries. As such, PTAs among ``South'' countries
-can reduce intra-South barriers and lead to industrialization of the
-region (Puga and Venables, 1998). In this context, what matters are not
-static gains from PTAs, but dynamic gains in industrial development. If
-South-South PTAs truly promote industrial development of member
-countries, they might be desirable even if there are short-term losses
-due to trade diversion (Dahi and Demir, 2013). Other arguments in the
-development literature emphasize the asymmetries in bargaining power
-between ``North'' and ``South'' countries, which could lead to worse
-outcomes for developing countries if their policy space gets restricted
-(Thrasher and Gallagher, 2008). To the extent that these arguments hold
-true, developing countries could be better off entering into South-South
-rather than North-South agreements, or at least should pursue both kinds
-of agreements.
+Rodrik, 2007). Furthermore, by allowing for factor accumulation, TAs can
+reduce intra-block trade barriers and increase competition and access to
+cheaper intermediate goods, triggering changes in industrial production
+in member countries. As such, TAs among ``South'' countries can reduce
+intra-South barriers and lead to industrialization of the region (Puga
+and Venables, 1998). In this context, what matters are not static gains
+from TAs, but dynamic gains in industrial development. If South-South
+TAs truly promote industrial development of member countries, they might
+be desirable even if there are short-term losses due to trade diversion
+(Dahi and Demir, 2013). Other arguments in the development literature
+emphasize the asymmetries in bargaining power between ``North'' and
+``South'' countries, which could lead to worse outcomes for developing
+countries if their policy space gets restricted (Thrasher and Gallagher,
+2008). To the extent that these arguments hold true, developing
+countries could be better off entering into South-South rather than
+North-South agreements, or at least should pursue both kinds of
+agreements.
 
+%
+\subsection{Relevance of the Structure of Product Space}%
+\label{subsec:RelevanceoftheStructureofProductSpace}%
+
+%
+As a compliment to trade theory, new trade theory and classical
+development theory, there is a recent strand of the academic literature
+that emphasises the importance of the structure of the product space
+exported by each country in the structural transformation process.
+Beyond factor endowments of physical, human and institutional capital,
+and their subsequent evolution through accumulation processes, as the
+basis for the comparative advantage of countries, this literature
+proposes and finds evidence of patterns of path dependence depending on
+the current capabilities of countries, and the relatedness of current
+capabilities to the capabilities required to produce new products in the
+future (Hausmann and Klinger, 2007). As it is observed that human
+capital for one product is imperfectly substitutable for other products,
+and the degree of substitutability determines the relatedness of
+products, the implication is that, as countries experience a strong
+tendency to move into products related to that require the capabilities
+that a country already has or that are similar, the opportunities for
+future transformation are dictated by the current product space and its
+proximity to related products. Moreover, it also implies that there is a
+positive exponential relationship between the returns to the
+accumulation of new capabilities and the capabilities present in a
+country. (Hausmann and Hidalgo, 2010). The more diverse the product
+structure of a country, the higher the returns to accumulate new
+capabilities. Inversely, we can find a ``trap of economic stasis'', in
+which countries with few capabilities have little incentives to
+accumulate new capabilities as they will have negligible or no returns,
+predicting a world of divergence in industrial development. Furthermore,
+this literature suggests that countries converge to the level of income
+determined by their productive structures and how complex they are
+(Hidalgo and Hausmann, 2009). An underlying assumption of this
+literature is that what a country exports matter and signals valuable
+information about a country's comparative advantage and productive
+structure, not only on its current industries and capabilities, but also
+on a component of the evolution of its comparative advantage based on
+the relatedness to other industries and capabilities (Hausmann \emph{et
+al.}, 2014). The implications of this literature to the effects of TAs
+appears to be relevant to the extent that TAs help countries acquire new
+capabilities and diversify their structure of product space. Logically,
+although North-South trade has the largest potential to allow South
+countries to acquire new capabilities, we expect that the highest
+returns should be made by acquiring capabilities in industries and
+products related to the current capabilities of countries, which in the
+context of our research should occur between countries with related
+productive structures. As such, South-South trade could function as a
+building block for developing countries to acquire new capabilities and
+diversify the structure of their product space, before they can take
+advantage of acquiring new capabilities through North-South trade.
 %
 \subsection{Empirical Evidence}%
 \label{subsec:EmpiricalEvidence}%
 
 %
-The preference of a type of partner in a PTAs then becomes an empirical
-question. Do South-South PTAs promote trade and industrial development
+The preference of a type of partner in a TAs then becomes an empirical
+question. Do South-South TAs promote trade and industrial development
 among their members? The empirical literature overall reports positive
-effects of PTAs on the trade of member countries, but with considerable
+effects of TAs on the trade of member countries, but with considerable
 heterogeneity on the estimation coefficients. For example, a
-meta-analysis of research papers on the effects of PTAs on member trade,
+meta-analysis of research papers on the effects of TAs on member trade,
 encompassing 85 papers and 1827 estimates, finds an average of 0.59 (an
 80\% increase in trade), with a median of 0.38 (a 46\% increase in
 trade), a wide range of coefficient estimates (-9.01 to 15.41), and only
@@ -284,21 +371,16 @@ economic integration agreements on international trade flows, as well as
 using the most modern econometric techniques to address biases, found an
 increase of 50\% on international trade, but with significant variation
 in the effects of specific agreements (Kohl, 2014). However, much of the
-empirical research is focused on the effects of PTAs on or including the
+empirical research is focused on the effects of TAs on or including the
 most advanced economies. Empirical research focused exclusively on the
-effects of South-South PTAs or comparing them to the effects of
-North-North or North-South PTAs, is much less prevalent in the
-literature. However, several research papers do control for the type of
+effects of South-South TAs or comparing them to the effects of
+North-North or North-South TAs, is much less prevalent in the
+literature. Although, several research papers do control for the type of
 agreement (North-South or South-South) and have found positive and
-significant effects of South-South PTAs (Medvedev, 2006; Mayda and
-Steinberg, 2007; Dahi and Demir, 2013; Deme and Ndrianasy, 2017), but
-these articles tend to be limited in their scope, sample size or only
-focus on trade volumes.%
-\subsection{Significance of Exports}%
-\label{subsec:SignificanceofExports}%
-
-%
-Significance of Exports
+significant effects of South-South TAs (Medvedev, 2006; Mayda and
+Steinberg, 2007; Dahi and Demir, 2013; Deme and Ndrianasy, 2017), these
+articles tend to be limited in their scope, sample size or only focus on
+trade volumes.
 
 %
 \section{Methodology}%
@@ -375,7 +457,8 @@ and Yotov 2016); And finally, to account for the effects of
 globalization forces that may biased the estimates of trade policies, a
 set of globalization dummies are recommended to control for the effects
 of globalization in the gravity model (Yotov 2012; Bergstrand, Larch,
-and Yotov 2015).%
+and Yotov 2015).
+%
 \subsubsection{Benchmark Model}%
 \label{ssubsec:BenchmarkModel}%
 
@@ -385,57 +468,56 @@ relevant literature, we employ the following gravity equation using a
 PPML estimator and a balanced panel data approach with multiple
 exporters, multiple importers and time as our benchmark model:
 
-% \[(1)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1}{PTA}_{ij,t} + \beta_{2}{PTA}_{ij,t - 5} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
 \begin{multline}
-    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1} \, PTA_{ij,t} \right. + \beta_{2} \, PTA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1} \, TA_{ij,t} \right. + \beta_{2} \, TA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
 \end{multline}
 
 Where \(X_{ij,t}\) denotes the value of exports from an origin country
 \(i\) to a destination country \(j\); \(\eta_{i,t}\) and \(\psi_{j,t}\)
 are, respectively, exporter-time and importer-time fixed-effects;
 \(\gamma_{\binom{-}{ij}}\) is a country-pair fixed-effect;
-\({PTA}_{ij,t}\) and \({PTA}_{ij,t - 5}\) are our main variables of
+\({TA}_{ij,t}\) and \({TA}_{ij,t - 5}\) are our main variables of
 interest, which, respectively indicate if \(i\) and \(j\) are members of
-a PTA at time \(t\) and, to account for potential ``phase-in'' effects
-over time of the PTA, at time \(t - 5\); \(\sum_{t}^{}b_{t}\) is a set
-of dummies that equal 1 for international trade and 0 for domestic trade
+a TA at time \(t\) and, to account for potential ``phase-in'' effects
+over time of the TA, at time \(t - 5\); \(\sum_{t}^{}b_{t}\) is a set of
+dummies that equal 1 for international trade and 0 for domestic trade
 observations at each time \(t\); and \(\epsilon_{ij,t}\) is an error
-term.%
-\subsubsection{PTA Heterogeneity Model}%
-\label{ssubsec:PTAHeterogeneityModel}%
+term.
+%
+\subsubsection{TA Heterogeneity Model}%
+\label{ssubsec:TAHeterogeneityModel}%
 
 %
 In contrast with our main interest of research, which are the potential
-heterogenous effects of PTAs on different members for different types of
+heterogenous effects of TAs on different members for different types of
 agreements, this benchmark model, specifically
 \(\beta = \beta_{1} + \beta_{2}\) , would provide the average ``total''
-partial effect of PTAs on trade after accounting for lagged effects, but
+partial effect of TAs on trade after accounting for lagged effects, but
 it cannot provide the effects for a given agreement. As such, an
-expansion can be implemented to capture heterogeneity in PTA effects as
+expansion can be implemented to capture heterogeneity in TA effects as
 proposed by Baier \emph{et al}. (Baier, Yotov, and Zylkin 2019):
 
-% \[(2)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}^{}{\beta_{1,A}{PTA}_{ij,t}} + \sum_{A}^{}{\beta_{2,A}{PTA}_{ij,t - 5}} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
 \begin{multline}
-    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A} \beta_{1,A} \, PTA_{ij,t} \right. + \sum_{A} \beta_{2,A} \, PTA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A} \beta_{1,A} \, TA_{ij,t} \right. + \sum_{A} \beta_{2,A} \, TA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
 \end{multline}
 
 Equation (2) can be implemented to account for heterogeneous effects of
-PTAs at the level of the specific agreement, by allowing for distinct
+TAs at the level of the specific agreement, by allowing for distinct
 average partial effects for each individual agreement, using superscript
 \(A\) to index by agreement and also allowing for agreement-specific
-lags: \(\beta_{A} = \beta_{1,A} + \beta_{2,A}\).%
-\subsubsection{North{-}North, North{-}South and South{-}South PTAs}%
-\label{ssubsec:North{-}North,North{-}SouthandSouth{-}SouthPTAs}%
+lags: \(\beta_{A} = \beta_{1,A} + \beta_{2,A}\).
+%
+\subsubsection{North{-}North, North{-}South and South{-}South TAs}%
+\label{ssubsec:North{-}North,North{-}SouthandSouth{-}SouthTAs}%
 
 %
 In order to analyse the differentiated effects of North-North,
-North-South and South-South PTAs, we extend both models to get estimates
-for each type of PTA. Our benchmark model is extended as follows:
+North-South and South-South TAs, we extend both models to get estimates
+for each type of TA. Our benchmark model is extended as follows:
 
-% \[(3)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1NN}{PTA\_ NN}_{ij,t} + \beta_{2NN}{PTA\_ NN}_{ij,t - 5} + + \beta_{1NS}{PTA\_ NS}_{ij,t} + \beta_{2NS}{PTA\_ NS}_{ij,t - 5} + \beta_{1SS}{PTA\_ SS}_{ij,t} + \beta_{2SS}{PTA\_ SS}_{ij,t - 5} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
 \begin{multline}
-    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1NN} \, PTA\_NN_{ij,t} + \beta_{2NN} \, PTA\_NN_{ij,t-5} \right. \\
-    + \beta_{1NS} \, PTA\_NS_{ij,t} + \beta_{2NS} \, PTA\_NS_{ij,t-5} + \beta_{1SS} \, PTA\_SS_{ij,t} + \beta_{2SS} \, PTA\_SS_{ij,t-5} \\
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1NN} \, TA\_NN_{ij,t} + \beta_{2NN} \, TA\_NN_{ij,t-5} \right. \\
+    + \beta_{1NS} \, TA\_NS_{ij,t} + \beta_{2NS} \, TA\_NS_{ij,t-5} + \beta_{1SS} \, TA\_SS_{ij,t} + \beta_{2SS} \, TA\_SS_{ij,t-5} \\
     + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
 \end{multline}
 
@@ -444,22 +526,21 @@ Where \(X_{ij,t}\)\hspace{0pt} denotes the value of exports from country
 \(\psi_{j,t}\ \)are exporter-time and importer-time fixed effects,
 respectively; \(\gamma_{\binom{-}{ij}}\) is a country-pair fixed effect;
 \hspace{0pt}\(\beta_{1NN}\) and \(\beta_{2NN}\) are the coefficients for
-the immediate and lagged effects of a North-North PTA (\(PTA\_ NN\));
+the immediate and lagged effects of a North-North TA (\(TA\_ NN\));
 \hspace{0pt}\hspace{0pt}\(\beta_{1NS}\) and \(\beta_{2NS}\) are the
-coefficients for the immediate and lagged effects of a North-South PTA
-(\(PTA\_ SN\)); \hspace{0pt}\hspace{0pt}\(\beta_{1SS}\) and
+coefficients for the immediate and lagged effects of a North-South TA
+(\(TA\_ SN\)); \hspace{0pt}\hspace{0pt}\(\beta_{1SS}\) and
 \(\beta_{2SS}\) are the coefficients for the immediate and lagged
-effects of a South-South PTA (\(PTA\_ SS\)); \(\sum_{t}^{}b_{t}\) is a
-set of time dummies accounting for international trade-specific effects
-at each time \(t\); and \(\epsilon_{ij,t}\) is the error term.
+effects of a South-South TA (\(TA\_ SS\)); \(\sum_{t}^{}b_{t}\) is a set
+of time dummies accounting for international trade-specific effects at
+each time \(t\); and \(\epsilon_{ij,t}\) is the error term.
 
 Equation (2) also gets extended to capture the heterogeneous effects of
-the different types of PTAs as follows:
+the different types of TAs as follows:
 
-% \[(4)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}^{}{(\beta_{1,A,NN}{PTA\_ NN}_{ij,t}\  + \ \beta_{2,A,NN}{PTA\_ NN}_{ij,t - 5})} + \sum_{A}^{}{(\beta_{1,A,NS}{PTA\_ NS}_{ij,t}\  + \ \beta_{2,A,NS}{PTA\_ NS}_{ij,t - 5})} + \sum_{A}^{}{(\beta_{1,A,SS}{PTA\_ SS}_{ij,t}\  + \ \beta_{2,A,SS}{PTA\_ SS}_{ij,t - 5})} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
 \begin{multline}
-    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}\left(\beta_{1,A,NN} \, PTA\_NN_{ij,t} + \beta_{2,A,NN} \, PTA\_NN_{ij,t-5}\right) \right. \\
-    + \sum_{A}\left(\beta_{1,A,NS} \, PTA\_NS_{ij,t} + \beta_{2,A,NS} \, PTA\_NS_{ij,t-5}\right) + \sum_{A}\left(\beta_{1,A,SS} \, PTA\_SS_{ij,t} + \beta_{2,A,SS} \, PTA\_SS_{ij,t-5}\right) \\
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}\left(\beta_{1,A,NN} \, TA\_NN_{ij,t} + \beta_{2,A,NN} \, TA\_NN_{ij,t-5}\right) \right. \\
+    + \sum_{A}\left(\beta_{1,A,NS} \, TA\_NS_{ij,t} + \beta_{2,A,NS} \, TA\_NS_{ij,t-5}\right) + \sum_{A}\left(\beta_{1,A,SS} \, TA\_SS_{ij,t} + \beta_{2,A,SS} \, TA\_SS_{ij,t-5}\right) \\
     + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
 \end{multline}
 
@@ -469,34 +550,34 @@ Where \(X_{ij,t}\)\hspace{0pt} denotes the value of exports from country
 respectively; \(\gamma_{\binom{-}{ij}}\) is a country-pair fixed effect;
 The summations \hspace{0pt}\(\sum_{}^{}A\) denote the sum over different
 agreements \(A\) for: \(\beta_{1,A,NN}\) and \(\beta_{2,A,NN}\):
-Coefficients for the immediate and lagged effects of North-North PTAs
-\hspace{0pt}(\(PTA\_ NN\)); \(\beta_{1,A,NS}\) and \(\beta_{2,A,NS}\):
-Coefficients for the immediate and lagged effects of North-South PTAs
-(\(PTA\_ SN\)); \(\beta_{1,A,SS}\) and \(\beta_{2,A,SS}\): Coefficients
-for the immediate and lagged effects of South-South PTAs (\(PTA\_ SS\));
+Coefficients for the immediate and lagged effects of North-North TAs
+\hspace{0pt}(\(TA\_ NN\)); \(\beta_{1,A,NS}\) and \(\beta_{2,A,NS}\):
+Coefficients for the immediate and lagged effects of North-South TAs
+(\(TA\_ SN\)); \(\beta_{1,A,SS}\) and \(\beta_{2,A,SS}\): Coefficients
+for the immediate and lagged effects of South-South TAs (\(TA\_ SS\));
 \(\sum_{t}^{}b_{t}\) is a set of time dummies accounting for
 trade-specific effects at each time \(t\); and \(\epsilon_{ij,t}\) is
 the error term.
 
 For both extended models we use the following variables:
-\({PTA\_ NN}_{ij,t}\) is a dummy variable that takes the value of 1 if
-the trade pair \((i,j)\) is North-North and part of a PTA at time \(t\),
-and 0 otherwise; \({PTA\_ NN}_{ij,t - 5}\) is a dummy variable that
-takes the value of 1 if the trade pair \((i,j)\) is North-North and was
-part of a PTA at time \(t\)\emph{-5}, and 0 otherwise;
-\({PTA\_ NS}_{ij,t}\) is a dummy variable that takes the value of 1 if
-the trade pair \((i,j)\) is North-South and part of a PTA at time \(t\),
-and 0 otherwise; \({PTA\_ NS}_{ij,t - 5}\) is a dummy variable that
-takes the value of 1 if the trade pair \((i,j)\) is North-South and was
-part of a PTA at time \(t\)\emph{-5}, and 0 otherwise;
-\({PTA\_ SS}_{ij,t}\) is a dummy variable that takes the value of 1 if
-the trade pair \((i,j)\) is South-South and part of a PTA at time \(t\),
-and 0 otherwise; \({PTA\_ SS}_{ij,t - 5}\) is a dummy variable that
-takes the value of 1 if the trade pair \((i,j)\) is South-South and was
-part of a PTA at time \(t\)\emph{-5}, and 0 otherwise;
+\({TA\_ NN}_{ij,t}\) is a dummy variable that takes the value of 1 if
+the trade pair \((i,j)\) is North-North and part of a TA at time \(t\),
+and 0 otherwise; \({TA\_ NN}_{ij,t - 5}\) is a dummy variable that takes
+the value of 1 if the trade pair \((i,j)\) is North-North and was part
+of a TA at time \(t\)\emph{-5}, and 0 otherwise; \({TA\_ NS}_{ij,t}\) is
+a dummy variable that takes the value of 1 if the trade pair \((i,j)\)
+is North-South and part of a TA at time \(t\), and 0 otherwise;
+\({TA\_ NS}_{ij,t - 5}\) is a dummy variable that takes the value of 1
+if the trade pair \((i,j)\) is North-South and was part of a TA at time
+\(t\)\emph{-5}, and 0 otherwise; \({TA\_ SS}_{ij,t}\) is a dummy
+variable that takes the value of 1 if the trade pair \((i,j)\) is
+South-South and part of a TA at time \(t\), and 0 otherwise;
+\({TA\_ SS}_{ij,t - 5}\) is a dummy variable that takes the value of 1
+if the trade pair \((i,j)\) is South-South and was part of a TA at time
+\(t\)\emph{-5}, and 0 otherwise;
 
 The extended models allow us to capture the differentiated effects of
-PTAs on bilateral exports depending on whether the pair country are two
+TAs on bilateral exports depending on whether the pair country are two
 ``North'' countries (NN), a ``North'' and a ``South'' country (NS), or
 two ``South'' countries (SS).
 
@@ -511,8 +592,8 @@ dividing the total value exported by the total weight exported in
 kilograms (Latzer and Mayneris 2021; Manova and Zhang 2012; Bastos and
 Silva 2010). Using the unit value as the dependent variable in our
 estimations allow us to analyse if the value per unit exported is
-affected by PTAs. To be consistent in our effort to understand the
-potentially heterogenous effects of PTAs according to the different
+affected by TAs. To be consistent in our effort to understand the
+potentially heterogenous effects of TAs according to the different
 category of the members in trade volume, but also in quality upgrading
 and industrialization development of countries, we focus on
 manufacturing products (Chatzilazarou and Dadakas 2023) with HS 2-digit
@@ -524,15 +605,16 @@ articles) which are part of the ``Machinery and mechanical appliances;
 electrical equipment; parts thereof; sound recorders and reproducers,
 television image and sour sound recorders and reproducers, and parts and
 accessories of such articles'' category from the World Customs
-Organization. Our aim is to compare the effects of PTAs on trade volumes
+Organization. Our aim is to compare the effects of TAs on trade volumes
 against the effects on the unit value of manufacturing products
-exported.%
+exported.
+%
 \subsection{Defining North and South}%
 \label{subsec:DefiningNorthandSouth}%
 
 %
 Defining which countries belong to the ``North'' and ``South''
-categories is a key step in order to properly analyse the impact of PTAs
+categories is a key step in order to properly analyse the impact of TAs
 on different bilateral export relationships. However, it is important to
 consider that any way in which we categorize countries can be criticised
 for not taking into consideration the diverse and heterogenous
@@ -547,7 +629,7 @@ depends on the research question at hand. For the purposes of this
 paper, we will not consider such heterogeneity within groups, and just
 focus on categorising countries as ``North'' and ``South'', but by no
 means does this assumes that countries are homogenous within groups.
-This is just a useful distinction to study heterogeneity across PTA
+This is just a useful distinction to study heterogeneity across TA
 effects.
 
 One intuitive approach could be to categorize countries based on their
@@ -564,12 +646,13 @@ development to construct a list of ``North'' and ``South'' countries,
 and also keeps the groups consistent over time. This results in 23
 countries categorized as ``North'', and the rest as ``South''. A
 detailed list of the countries and their categories can be found in the
-Appendix.%
+Appendix.
+%
 \subsection{Data}%
 \label{subsec:Data}%
 
 %
-To construct our dataset we have combined PTA data from the ``Design of
+To construct our dataset we have combined TA data from the ``Design of
 International Trade Agreements'' (DESTA) (Dür, Andreas, Leonardo Baccini
 and Manfred Elsig 2014) and from the CEPII ``Trade and Production
 Database'' (TradeProd) (Thierry Mayer, Gianluca Santoni, Vincent Vicard
@@ -579,17 +662,17 @@ World Trade Organisation (WTO) and other agreements from a wide range of
 sources, covering 880 agreements for 204 countries since 1948 to 2023 in
 the last updated version.
 
-Our sample consists of PTAs signed between the years 2000 to 2010 and
-the country members to these PTAs, totalling 154 agreements and 143
-member countries. For ease of estimation, and to get a sense of
-geographical differences, we estimate our models by PTA region for five
-main regions: Africa, Americas, Asia, Europe and Intercontinental (We
-exclude Oceania {[}11 countries and 1 agreement{]} for lack of
-sufficient trade data for our estimations). Each region has the
-following samples of agreements and countries: Intercontinental (114
-countries and 64 agreements), Europe (42 countries and 41 agreements),
-Asia (35 countries and 33 agreements), Americas (15 countries and 13
-agreements) and Africa (10 countries and 2 agreements).
+Our sample consists of TAs signed between the years 2000 to 2010 and the
+country members to these TAs, totalling 154 agreements and 143 member
+countries. For ease of estimation, and to get a sense of geographical
+differences, we estimate our models by TA region for five main regions:
+Africa, Americas, Asia, Europe and Intercontinental (We exclude Oceania
+{[}11 countries and 1 agreement{]} for lack of sufficient trade data for
+our estimations). Each region has the following samples of agreements
+and countries: Intercontinental (114 countries and 64 agreements),
+Europe (42 countries and 41 agreements), Asia (35 countries and 33
+agreements), Americas (15 countries and 13 agreements) and Africa (10
+countries and 2 agreements).
 
 For all countries in our sample, we get international trade and domestic
 trade flows from the TradeProd database, which has been created
@@ -611,9 +694,9 @@ As it is not possible to get data for product unit values for domestic
 trade, the estimations using this measure as the dependent variable will
 suffer from bias as the estimation does not include intra-trade effects.
 However, the direction of bias is important as not including intra-trade
-measures is expected to bias the effects of PTAs downwards (Yotov et al.
+measures is expected to bias the effects of TAs downwards (Yotov et al.
 2016), so we use this estimates as illustrative conservative
-measurements of the effects of PTAs on the unit value of exported
+measurements of the effects of TAs on the unit value of exported
 products.
 
 %
@@ -626,133 +709,142 @@ This section presents and describes the results of estimating our gravity models
 \label{subsec:BenchmarkResults}%
 We begin by briefly discussing the results of our benchmark estimation
 by region, contained in Table 1. We immediately see that the average
-``cumulative'' effects of PTAs on trade flows after accounting for
-phase-in effects (the sum of the current and lagged PTA estimates), is
+``cumulative'' effects of TAs on trade flows after accounting for
+phase-in effects (the sum of the current and lagged TA estimates), is
 heterogenous across regions. Only Americas, Europe and Intercontinental
-PTAs have statistically significant results, with all coefficients being
+TAs have statistically significant results, with all coefficients being
 positive and generally similar to the results we would expect according
-to the literature. The smallest effect, that of Intercontinental PTAs,
+to the literature. The smallest effect, that of Intercontinental TAs,
 has a statistically significant coefficient at the 5\% of 0.203 with a
 standard error of (0.106). We interpret this coefficient as
-Intercontinental PTAs having an average a partial effect of
+Intercontinental TAs having an average a partial effect of
 (exp(0.203)-1)x100\%. = 22.5\% increase in trade flows. The largest
-effect, that of Europe's PTAs, has a statistically significant
+effect, that of Europe's TAs, has a statistically significant
 coefficient at the 1\% of 0.475 with a standard error of (0.025). We
-interpret this coefficient as Europe's PTAs having an average a partial
+interpret this coefficient as Europe's TAs having an average a partial
 effect of (exp(0.475)-1)x100\%. = 60.8\% increase in trade flows. On the
 other hand, Africa and Asia does not have statistically significant
 results, with Asia's coefficient taking a negative value. Interestingly,
-Africa's PTA coefficient is highly significant and positive, and PTA Lag
-is not significant and negative, while Asia's PTA coefficient is not
-significant and positive, and PTA Lag is highly significant and
-negative.
+Africa's TA coefficient is highly significant and positive, and TA Lag
+is not significant and negative, while Asia's TA coefficient is not
+significant and positive, and TA Lag is highly significant and negative.
 %
 \input{tables/benchmark_region_table.tex}%
 \FloatBarrier
 
 %
-\subsection{PTA Heterogeneity Results}%
-\label{subsec:PTAHeterogeneityResults}%
-The results of our model allowing for heterogenous effects of PTAs is
-shown in Table 2 through Table 6. Again, we can observe significant
-heterogeneity across regions and PTAs. Africa in Table 2 has no
-statistically significant effect for any PTA. Americas in Table 3 has
-ten PTAs with statistically significant and positive coefficients, two
-with no statistically significant effect, and one PTA with a
-statistically significant and negative coefficient. Asia in Table 4 has
-eight PTAs with statistically significant and positive coefficients,
-nine with no statistically significant effect, and four PTAs with
-statistically significant and negative coefficients. Europe in Table 5
-has eighteen PTAs with statistically significant and positive
-coefficients, nine with no statistically significant effect, and one PTA
+\subsection{TA Heterogeneity Results}%
+\label{subsec:TAHeterogeneityResults}%
+The results of our model allowing for heterogenous effects of TAs is
+shown in Tables 15 through Table 19 in Appendix III. Again, we can
+observe significant heterogeneity across regions and TAs. Africa in
+Table 15 has no statistically significant effect for any TA. Americas in
+Table 16 has ten TAs with statistically significant and positive
+coefficients, two with no statistically significant effect, and one TA
+with a statistically significant and negative coefficient. Asia in Table
+17 has eight TAs with statistically significant and positive
+coefficients, nine with no statistically significant effect, and four
+TAs with statistically significant and negative coefficients. Europe in
+Table 18 has eighteen TAs with statistically significant and positive
+coefficients, nine with no statistically significant effect, and one TA
 with a statistically significant and negative coefficient. And finally,
-Intercontinental in Table 6 has twenty-eight PTAs with statistically
+Intercontinental in Table 19 has twenty-eight TAs with statistically
 significant and positive coefficients, twenty with no statistically
-significant effect, and six PTAs with statistically significant and
+significant effect, and six TAs with statistically significant and
 negative coefficients. Across the regions, 64 out of 118 (54.24\%)
 coefficients have significant and positive effects, 42 out of 118
 (35.59\%) have no significant effects, and 12 out of 118 (10.17\%) have
-significand and negative effects.
+significand and negative effects. A summary of the findings can be found
+on Table 1, with the significance of the coefficients on the Y axis (all
+non-significant coefficients assigned a value of -1 for ease of
+visualization, and significant coefficients assigned a value of 1, 2 or
+3 according to their significance, with the highest significance being
+3) magnitude of the coefficients on the X axis, showing negative and
+positive coefficients.
 %
-\input{tables/benchmark_Africa_pta_table.tex}%
-\input{tables/benchmark_Americas_pta_table.tex}%
-\input{tables/benchmark_Asia_pta_table.tex}%
-\input{tables/benchmark_Europe_pta_table.tex}%
-\input{tables/benchmark_Intercontinental_pta_table.tex}%
+
+
+\begin{figure}[h!]%
+\centering%
+\includegraphics[width=0.8\textwidth]{figures/pta_het_vis.jpeg}%
+\caption{TA Heterogeneity Across Regions}%
+\end{figure}
+
+%
 \FloatBarrier
 
 %
-\subsection{North{-}North, North{-}South and South{-}South PTAs}%
-\label{subsec:North{-}North,North{-}SouthandSouth{-}SouthPTAs}%
+\subsection{North{-}North, North{-}South and South{-}South TAs}%
+\label{subsec:North{-}North,North{-}SouthandSouth{-}SouthTAs}%
 \subsubsection{North{-}South Benchmark Results}%
 \label{ssubsec:North{-}SouthBenchmarkResults}%
 We present the results of our extended models allowing us to capture the
-differentiated effects of PTAs on bilateral exports depending on whether
+differentiated effects of TAs on bilateral exports depending on whether
 the pair country are two ``North'' countries (NN), a ``North'' and a
 ``South'' country (NS), or two ``South'' countries (SS).
 
 The results of the extended benchmark estimation by region, contained in
-Table 7 again show heterogenous results across regions. It is
-interesting to note that by disaggregating the PTA effects, in the case
+Table 2 again show heterogenous results across regions. It is
+interesting to note that by disaggregating the TA effects, in the case
 of Americas and Europe, both of which had significant and positive
 coefficients in the benchmark estimation, now again have significant and
-positive coefficients for both NS PTA + Lag and SS PTA + Lag , but the
-effects are larger in both cases for the SS PTA + Lag coefficient. Asia
-now has a slightly significant and negative coefficient for NS PTA + Lag
-while the coefficient for SS PTA + Lag remains not significant.
+positive coefficients for both NS TA + Lag and SS TA + Lag , but the
+effects are larger in both cases for the SS TA + Lag coefficient. Asia
+now has a slightly significant and negative coefficient for NS TA + Lag
+while the coefficient for SS TA + Lag remains not significant.
 Intercontinental have significant and positive effects of NS Lag and SS
-Lag, but NS PTA + Lag and SS PTA + Lag are both not significant now.
+Lag, but NS TA + Lag and SS TA + Lag are both not significant now.
 Africa's coefficients remain not significant, and it is the only region
-with only South-South PTAs.
+with only South-South TAs.
 %
 \input{tables/benchmark_ns_table.tex}%
 \FloatBarrier
 
 %
-\subsubsection{North{-}South PTA Heterogeneity Results}%
-\label{ssubsec:North{-}SouthPTAHeterogeneityResults}%
+\subsubsection{North{-}South TA Heterogeneity Results}%
+\label{ssubsec:North{-}SouthTAHeterogeneityResults}%
 The results of our extended model allowing for heterogenous effects of
-PTAs is shown in Table 8 through Table 12. Africa in table 8 only has
-effects for South-South PTAs and again has no statistically significant
-effect for any PTA. Americas in Table 9 has five PTAs with North-South
-estimates, one of which has statistically significant and negative
-effects for NS PTA + Lag and statistically significant and positive
-effects for SS PTA + Lag. Of the remaining four, none have estimates for
-SS PTA + Lag, three are statistically significant and positive, and one
-is not statistically significant. It has eight PTAs with South-South
-estimates, seven of which have statistically significant and positive
-effects, while one does not have statistically significant effects.
-Americas does not have any coefficients for North-North. Asia in Table
-10 has two PTAs with North-South estimates, one of which is
-statistically significant and positive, while the other is not
-statistically significant. It has nineteen PTAs with South-South
+TAs is shown in Appendix IV in Tables 20 through Table 24. Africa in
+table 20 only has effects for South-South TAs and again has no
+statistically significant effect for any TA. Americas in Table 21 has
+five TAs with North-South estimates, one of which has statistically
+significant and negative effects for NS TA + Lag and statistically
+significant and positive effects for SS TA + Lag. Of the remaining four,
+none have estimates for SS TA + Lag, three are statistically significant
+and positive, and one is not statistically significant. It has eight TAs
+with South-South estimates, seven of which have statistically
+significant and positive effects, while one does not have statistically
+significant effects. Americas does not have any coefficients for
+North-North. Asia in Table 22 has two TAs with North-South estimates,
+one of which is statistically significant and positive, while the other
+is not statistically significant. It has nineteen TAs with South-South
 estimates, seven of which have statistically significant and positive
 effects, four have statistically significant and negative coefficients,
 and eight does not have statistically significant effects. Asia does not
-have any coefficients for North-North. Europe in Table 11 has eight PTA
+have any coefficients for North-North. Europe in Table 23 has eight TA
 North-South estimates, five of which are statistically significant and
 positive, and the others are not statistically significant. One of the
 five agreements with statistically significant and positive coefficients
-for NS PTA + Lag also has a statistically significant and positive
-coefficient for SS PTA + Lag. None of the other agreements with a NS
+for NS TA + Lag also has a statistically significant and positive
+coefficient for SS TA + Lag. None of the other agreements with a NS
 coefficient have statistically significant coefficients for SS. It has
 nineteen South-South estimates, thirteen are statistically significant
 and positive, one is statistically significant and negative, and five
 are not significant. Finally, the region has one agreement with a
 North-North estimate, which also has a North-South and a South-South
 estimate and they are all statistically significant and positive.
-Intercontinental in Table 12 has thirty PTA North-South estimates, of
+Intercontinental in Table 24 has thirty TA North-South estimates, of
 which twelve are statistically significant and positive, fifteen are not
 statistically significant, and three are statistically significant and
-negative for NS PTA + Lag. None of these PTAs also have coefficients for
-SS PTA + Lag of which five are statistically significant and positive,
+negative for NS TA + Lag. None of these TAs also have coefficients for
+SS TA + Lag of which five are statistically significant and positive,
 three are not statistically significant, and one is statistically
 significant and negative. It has twenty-one estimates for South-South,
 of which fourteen are statistically significant and positive, five are
 not statistically significant, and two are statistically significant and
 negative. It has three agreements with North-North estimates, two
 statistically significant and positive, and one are not statistically
-significant. Across the regions and PTAs, 23 out of 47 (48.94\%) NS
+significant. Across the regions and TAs, 23 out of 47 (48.94\%) NS
 coefficients have significant and positive effects, 20 out of 47
 (42.55\%) have no significant effects, and 4 out of 47 (8.51\%) have
 significand and negative effects; 49 out of 84 (58.33\%) SS coefficients
@@ -760,15 +852,43 @@ have significant and positive effects, 27 out of 84 (32.14\%) have no
 significant effects, and 8 out of 84 (9.52\%) have significand and
 negative effects; and, 3 out of 4 (75\%) NN coefficients have
 significant and positive effects, 1 out of 4 (25\%) have no significant
-effects, and none have significand and negative effects.
+effects, and none have significand and negative effects. A summary of
+the findings can be found on Table 2 for North-South trade, Table 3 for
+North-North trade and Table 4 for South-South trade, with the
+significance of the coefficients on the Y axis (all non-significant
+coefficients assigned a value of -1 for ease of visualization, and
+significant coefficients assigned a value of 1, 2 or 3 according to
+their significance, with the highest significance being 3) magnitude of
+the coefficients on the X axis, showing negative and positive
+coefficients.
 %
-\input{tables/ns_pta_Africa.tex}%
-\input{tables/ns_pta_Americas.tex}%
-\input{tables/ns_pta_Asia.tex}%
-\FloatBarrier%
-\input{tables/ns_pta_Europe.tex}%
-\FloatBarrier%
-\input{tables/ns_pta_Intercontinental.tex}%
+
+
+\begin{figure}[h!]%
+\centering%
+\includegraphics[width=0.8\textwidth]{figures/North-South_trade_relationships_visualization.jpeg}%
+\caption{North{-}South TA Heterogeneity Across Regions Extended}%
+\end{figure}
+
+%
+
+
+\begin{figure}[h!]%
+\centering%
+\includegraphics[width=0.8\textwidth]{figures/North-North_trade_relationships_visualization.jpeg}%
+\caption{North{-}North TA Heterogeneity Across Regions Extended}%
+\end{figure}
+
+%
+
+
+\begin{figure}[h!]%
+\centering%
+\includegraphics[width=0.8\textwidth]{figures/South-South_trade_relationships_visualization.jpeg}%
+\caption{South{-}South TA Heterogeneity Across Regions Extended}%
+\end{figure}
+
+%
 \FloatBarrier
 
 %
@@ -777,95 +897,95 @@ effects, and none have significand and negative effects.
 Finally, we present the results of running our estimations substituting
 trade flows as our dependent variable for the unit values of products
 exported, specifically under the HS 2-digit codes 84 and 85 for
-manufacturing products, in order to analyse if the effect of PTAs goes
+manufacturing products, in order to analyse if the effect of TAs goes
 beyond trade volumes. For ease of comparison, we ran each estimation
 twice for each HS code: one with trade volume as the dependent variable,
 and one with the unit value of the product exported as the dependent
 variable.
 
-Tables 13 and 14, and 15 and 16, show the results of our benchmark model
-for each region for trade volumes and the unit value of the product
+Tables 4 and 5, and 6 and 7, show the results of our benchmark model for
+each region for trade volumes and the unit value of the product
 exported, and for HS 84 and 85, respectively. We continue to observe
-heterogeneous results across regions. In table 13, for the trade volume
-of HS 84, none of the PTA + Lag coefficients are statistically
+heterogeneous results across regions. In table 3, for the trade volume
+of HS 84, none of the TA + Lag coefficients are statistically
 significant with the exception of the Intercontinental region, for which
-it is statistically significant and negative. In table 14, for the unit
+it is statistically significant and negative. In table 4, for the unit
 value of the product exported of HS 84, the effects are not significant
 for Africa and Asia, they are significant and negative for Americas, and
 significant and positive for Europe and Intercontinental. Interestingly,
-these results suggest that Intercontinental PTAs reduced the volume of
-trade of HS 84 products but increased the value per unit. In table 15,
-for the trade volume of HS 85, PTA + Lag coefficients are not
+these results suggest that Intercontinental TAs reduced the volume of
+trade of HS 84 products but increased the value per unit. In table 5,
+for the trade volume of HS 85, TA + Lag coefficients are not
 statistically significant for Americas, Asia and Intercontinental, while
 Africa's results are significant and positive, and Europe's are
-significant and negative. In table 16, for the unit value of the product
+significant and negative. In table 6, for the unit value of the product
 exported of HS 85, results are only slightly significant for
 Intercontinental, with a negative coefficient. The rest of the regions
 do not have significant results.
 
-Tables 17 and 18, and 19 and 20, show the results of our extended
-benchmark model with North-North, North-South and South-South PTAs, for
-each region for trade volumes and the unit value of the product
-exported, and for HS 84 and 85, respectively. In table 17, for the trade
-volume of HS 84, we observe that for North-North trade, PTA + Lag
+Tables 7 and 8, and 9 and 10, show the results of our extended benchmark
+model with North-North, North-South and South-South TAs, for each region
+for trade volumes and the unit value of the product exported, and for HS
+84 and 85, respectively. In table 7, for the trade volume of HS 84, we
+observe that for North-North trade, TA + Lag coefficient for
+Intercontinental has a significant and positive coefficient, while
+Europe's is not significant. For North-South trade TA + Lag coefficients
+are not significant for Asia and Europe, while they are significant and
+positive for Americas, and significant and negative for
+Intercontinental. For South-South trade, TA + Lag for Africa, Asia and
+Europe do not have significant coefficients, while the coefficients of
+Americas and Intercontinental are significant and negative. In table 8,
+for the unit value of the product exported of HS 84, for North-North
+trade's TA + Lag, Europe's coefficient is significant and positive and
+the coefficient of Intercontinental is not significant. For North-South
+trade, none of the TA + Lag coefficients are significant. For
+South-South trade, the TA + Lag coefficients of Africa, Americas and
+Asia are not significant, while Europe and Intercontinental have
+significant and positive coefficients. Interestingly, while trade volume
+for North-South and South-South for Intercontinental TAs decreased, the
+value per unit of South-South trade increased. In table 9, for the trade
+volume of HS 85, we observe that for North-North trade, TA + Lag
 coefficient for Intercontinental has a significant and positive
-coefficient, while Europe's is not significant. For North-South trade
-PTA + Lag coefficients are not significant for Asia and Europe, while
-they are significant and positive for Americas, and significant and
-negative for Intercontinental. For South-South trade, PTA + Lag for
-Africa, Asia and Europe do not have significant coefficients, while the
-coefficients of Americas and Intercontinental are significant and
-negative. In table 18, for the unit value of the product exported of HS
-84, for North-North trade's PTA + Lag, Europe's coefficient is
-significant and positive and the coefficient of Intercontinental is not
-significant. For North-South trade, none of the PTA + Lag coefficients
-are significant. For South-South trade, the PTA + Lag coefficients of
-Africa, Americas and Asia are not significant, while Europe and
-Intercontinental have significant and positive coefficients.
-Interestingly, while trade volume for North-South and South-South for
-Intercontinental PTAs decreased, the value per unit of South-South trade
-increased. In table 19, for the trade volume of HS 85, we observe that
-for North-North trade, PTA + Lag coefficient for Intercontinental has a
-significant and positive coefficient, while Europe's is not significant.
-For North-South trade PTA + Lag coefficients are not significant for
-Americas, Asia and Intercontinental, while they are significant and
-negative for Europe. For South-South trade, PTA + Lag for Americas,
-Asia, Europe and Intercontinental do not have significant coefficients,
-while the coefficient of Africa is significant and positive. In table
-20, for the unit value of the product exported of HS 85, for North-North
-trade's PTA + Lag, Europe and Intercontinental's coefficients are not
-significant. For North-South trade, the PTA + Lag coefficients for
-Americas and Europe are not significant, while they are significant and
-negative for Asia and Intercontinental. For South-South trade, the PTA +
-Lag coefficients of Africa, Americas and Intercontinental are not
-significant, while Europe has significant and negative coefficients and
-Asia has significant and positive coefficients. Interestingly, for
-Asia's exports, the value per unit of product exported decreased with
-North-South trade but increased with South-South trade.
+coefficient, while Europe's is not significant. For North-South trade TA
++ Lag coefficients are not significant for Americas, Asia and
+Intercontinental, while they are significant and negative for Europe.
+For South-South trade, TA + Lag for Americas, Asia, Europe and
+Intercontinental do not have significant coefficients, while the
+coefficient of Africa is significant and positive. In table 10, for the
+unit value of the product exported of HS 85, for North-North trade's TA
++ Lag, Europe and Intercontinental coefficients are not significant. For
+North-South trade, the TA + Lag coefficients for Americas and Europe are
+not significant, while they are significant and negative for Asia and
+Intercontinental. For South-South trade, the TA + Lag coefficients of
+Africa, Americas and Intercontinental are not significant, while Europe
+has significant and negative coefficients and Asia has significant and
+positive coefficients. Interestingly, for Asia's exports, the value per
+unit of product exported decreased with North-South trade but increased
+with South-South trade.
 
-Finally, for illustrative purposed, in tables 21 and 22, and 23 and 24,
-we include the estimates of our model allowing for PTA specific effects,
-extended with North-North, North-South and South-South PTAs, for Africa
+Finally, for illustrative purposed, in tables 11 and 12, and 13 and 14,
+we include the estimates of our model allowing for TA specific effects,
+extended with North-North, North-South and South-South TAs, for Africa
 and Americas, for trade volumes and the unit value of the product
-exported, and for HS 84 and 85, respectively. In table 21, for the trade
-volumes of HS 84 and 85 for Africa, which only has South-South PTAs, we
-can see that PTA 670 had statistically significant and negative effects
-on the trade volume of HS 84, and not significant for HS 85. PTA 787 did
+exported, and for HS 84 and 85, respectively. In table 11, for the trade
+volumes of HS 84 and 85 for Africa, which only has South-South TAs, we
+can see that TA 670 had statistically significant and negative effects
+on the trade volume of HS 84, and not significant for HS 85. TA 787 did
 not have a significant impact on trade volume of HS 84, while it has
-significant and positive effects on HS 85. In table 22, for the unit
+significant and positive effects on HS 85. In table 12, for the unit
 value of products HS 84 and 85 exported for the region of Africa, we can
-see that PTA 670 did not have significant effects on the value per unit
-of products in HS 84 and 85. PTA 787 did not have a significant impact
-on the value per unit of HS 84, while it has significant and positive
-effects on HS 85. This is a case where we can see a that a PTA has a
+see that TA 670 did not have significant effects on the value per unit
+of products in HS 84 and 85. TA 787 did not have a significant impact on
+the value per unit of HS 84, while it has significant and positive
+effects on HS 85. This is a case where we can see a that a TA has a
 significant effect on the volume of trade and in the value per unit of a
 category of manufacturing products of a South-South trade relationship.
 
-In table 23, for the trade volumes of HS 84 and 85, and table 24 for the
+In table 13, for the trade volumes of HS 84 and 85, and table 14 for the
 unit value of products HS 84 and 85, all for the region of Americas,
-which has North-South and South-South PTAs, we can observe heterogeneous
-effects of different PTAs on the different types of bilateral trade
-relationships. One interesting example is PTA 188, which has North-South
+which has North-South and South-South TAs, we can observe heterogeneous
+effects of different TAs on the different types of bilateral trade
+relationships. One interesting example is TA 188, which has North-South
 and South-South trade among its members. It has positive and significant
 effects in the trade volumes of HS 84 and 85 for South-South trade,
 while it has no significant effect in the trade volume of HS 84 and 85
@@ -891,43 +1011,176 @@ unit of HS 85 for both North-South and South-South trade.
 %
 \section{Analysis and Discussion}%
 \label{sec:AnalysisandDiscussion}%
-This is the analysis and discussion
+Our analysis finds evidence of positive, negative and not significant effects of TAs on both South{-}South and North{-}South trade relationships, on trade volumes and on the value per unit of manufacturing products exported, relative to trade with non{-}members. The magnitudes of our findings are similar to the estimates in the empirical literature on the effects of TAs on trade. Our findings on the heterogeneous of effects of TAs appear to indicate that TAs can have positive and negative effects on North{-}South and South{-}South bilateral trade relationships, and that declaring them as stumbling or building blocks of industrial development and growth is not straight forward.%
+\subsection{Potential Determinant Mechanisms of Heterogeneous Effects of TAs }%
+\label{subsec:PotentialDeterminantMechanismsofHeterogeneousEffectsofTAs}%
+Some potential determinant mechanisms of the effects of TAs in the
+academic literature are related to the content of the TA, and the extent
+to which it removes trade barriers. TAs should have more potential for
+larger effects when they remove trade frictions imposed by other trade
+policies and regulations, domestic or foreign (Baier et al., 2019).
+Moreover, unilateral trade policies can create a terms-of-trade
+inefficiency externality when a government introduces a higher trade
+barrier, shifting the cost to foreign exporters (Bagwell \& Staiger,
+1999). Since foreign exporters bear the cost of the inefficiency, there
+is a tendency by governments to set barriers at a higher level than it
+would be politically efficient. TAs can act as a mechanism to remove or
+lower said inefficiencies, resulting in better trade and welfare
+outcomes, or in an observed higher effect of a TA relative to
+non-members in our case. Through trade diversion, there is a theoretical
+possibility that the proliferation of TAs can harm the terms of trade of
+non-TA-members and create significant inefficiencies in the world
+trading system (Anderson \& Yotov, 2016), but empirical evidence so far
+finds that TAs negligibly harm non-members and global efficiency rises.
 
-``Several themes emerge from this newly bourgeoning literature. First,
-South--South trade and finance is now a significant economic and
-political force for South countries as well as for the global economy.
-There is a near consensus therefore that South--South economic relations
-do matter and that they have the potential to have a significant
-developmental impact. Moreover, this impact may be positive or negative,
-that is, that it may help or hinder the long-term developmental goals of
-exchanging parties. Second, much of South--South manufactures trade is
-concentrated in high-technology-and-skill content, opening the door for
-potential long-run dynamic gains from trade. However, these gains are
-being increasingly concentrated within a small number of South
-countries. The global South is, in fact, splitting into two groups,
-which we refer to as the Emerging South and the Rest of South with very
-different outcomes. While there is evidence for gains through
-South--South trade, there is also evidence that the Emerging South is
-rising at the expense of the Rest of South. Finally, the South--South
-exchanges have expanded significantly to cover issues including
-financial flows and technology transfer, among other topics. The overall
-conclusion of this diverse literature is that while it does matter who
-is exchanging what and with whom, South--South trade is not a panacea
-for the development challenges in Southern countries. On the contrary,
-South--South exchange themselves may become a potential threat for
-development for some of the Southern countries.'' (Dahi \& Demir, 2017)
+Another strand of the relevant literature emphasises the extensive
+margin of trade ex-ante the signature of a TA as an important
+determinant of its effects. In particular, that TAs have an important
+effect in the growth of the extensive margin of trade, which in turn is
+a significant factor in the overall growth of total trade (Kehoe \&
+Ruhl, 2013). If a TA is signed between country members with low
+diversity of traded goods, it is expected that we will see a bigger
+effects of the TA in trade growth driven by the increase in the number
+of goods traded and in the volume of trade of the least-traded products
+(Kehoe et al., 2015). Interestingly, empirical research shows that the
+number of products exported ex-ante is positively related to the trade
+creation after a TA, but when heterogeneous effects of TAs within
+agreements and country-pairs is taken into consideration, the extensive
+margin of trade does account for differences in trade creation (Baier et
+al., 2019).
 
-References
+There is also evidence that different types of agreements, such as
+non-reciprocal preferential trade agreements (NRPTAs), preferential
+trade agreements (PTAs), free trade agreements (FTA), customs unions
+(CU), common markets (CMs) and economic unions (EUs), can have different
+levels and time horizons of trade effects (Baier et al., 2014; Magee,
+2008). This can occur because different types of TAs can induce
+different unobservable effects that reduce trade costs, as we observe
+that modern TAs not only reduce tariffs, but also regulate all kinds of
+non-tariff issues in what is called ``deep integration'' (Anderson \&
+Yotov, 2016). The deeper the integration, the more effective we expect
+TAs to be (Kohl, 2014). It has also been shown that the design of TAs
+matters, in terms of institutional design and legal enforceability, with
+more comprehensive agreements being better at stimulating positive trade
+outcomes (Kohl et al., 2013).
 
-Dahi, O. S., \& Demir, F. (2017). South-South and North-South Economic
-Exchanges: Does It Matter Who Is Exchanging What and with Whom?
-\emph{Journal of Economic Surveys}, \emph{31}(5), 1449--1486.
-https://doi.org/10.1111/joes.12225
+The differences in market power across member countries could also be
+important, as countries with less market power relative to other TA
+members over their terms of trade are expected to grant smaller
+concessions when they negotiate agreements. Agreements between countries
+with relatively similar market power over each other's term of trade
+potentially have higher potential to eliminate inefficiencies and
+achieve higher effects (Baier et al., 2019).
+
+Based on the academic arguments mentioned, can we expect that TAs will
+have more potential for effectively improve trade outcomes when the
+bilateral relationship is South-South vs North-South? It would appear
+that it depends highly on the terms of trade inefficiencies and the
+potential for increases in the extensive margin of trade ex-ante the
+agreement is in place, as well as in the design and depth of the
+agreement. These are considerations that should be taken on a bilateral
+basis, rather than in an aggregated matter. Moreover, as more
+South-South TAs are signed, and more of the share of global trade
+happens among South countries, the North-South distinction also starts
+to lose relevance. Evidence appears to show that the ``South'' is
+splitting into groups, with the ``Emerging South'' growing at an
+accelerated pace and even challenging the hegemony that developed
+economies that enjoyed since the Post-World War II period. It could be
+the case that the same power dynamics observed between developed and
+developing countries by the classical development literature also occur
+in South-South relationships, and that they become a threat for the
+development of the least-developed economies in the South (Dahi \&
+Demir, 2017). It is clear that more research focused on South-South
+dynamics is needed in order to guide the policy decisions of different
+groups of countries.
+
+It appears clear from the literature studied and from the empirical
+analysis carried out in this paper, that TAs have significant potential
+and that they can be an effective development policy tool for South
+countries based on their dynamic effects on the structure of production
+capacity, as long as a proper analysis of current capabilities and
+identification of related products and industries is carried out. South
+countries should strive to acquire new capabilities close-by in
+relatedness to the capabilities already in place and choose appropriate
+partner countries to do so. For more immediate concerns of trade
+creation and trade diversion, it should be taken into consideration low
+traded and non-traded products between potential partners to increase
+the chances of trade creation, as well as striving for deep integration
+in the design of the agreement as much as possible.
+
+%
+\subsection{Limitations}%
+\label{subsec:Limitations}%
+Although the predictive power of the Gravity Model of Trade is well
+established in the relevant literature, and we have done our best to
+follow the best practices to avoid endogeneity when studying the effects
+of preferential agreements on international trade, it is important to
+note that out empirical analysis does not claim to achieve a causal
+inference on the effects of TAs. There could be other policies and
+forces driving the effects described in our estimates. Also, since the
+period studied comprehends the global financial crisis of 2007-2008, it
+is possible that running the same models for other periods of time could
+find different results. Our estimates could also be constrained by the
+quality of the data and reporting or measurement error in trade flows,
+particularly in South countries without robust institutional capacity
+and statistical infrastructure. By using relatively modern data we hope
+to mitigate this concern, but we acknowledge that the data of the first
+half of our period studied (1995-2005) might be less accurate than the
+later period (2005-2015). Still, this research provides useful insights,
+even if they are just illustrative, on the heterogeneous effects of TAs,
+and their development potential and use by developing countries.
 
 %
 \section{Conclusion}%
 \label{sec:Conclusion}%
-This is the conclusion
+This paper empirically analysed the effects of TAs on the volume of
+trade of exports and on the value per unit of manufacturing products
+exported of member-countries to agreements signed between the years 2000
+and 2015, with an ample dataset comprised of 154 agreements and 143
+countries, using a gravity model of trade, updated with the best
+practices in the literature, and subsequent extensions to capture the
+heterogeneous effects of TAs on its members, and on their disaggregated
+bilateral trade relationships classified as North-North, North-South and
+South-South, relative to non-TA-members. We found coefficient magnitudes
+consistent with the empirical literature and high degrees of
+heterogeneity on the effects of TAs, and no conclusive answer to the
+research questions of whether South-South TAs act as building blocks or
+stumbling blocks to developing countries, or if they are preferable to
+North-South agreements. We proposed some potential mechanisms driving
+the heterogeneity of the effects of TAs, and also cautioned against
+threating the ``South'' as a homogeneous group.
+
+In this paper we have proposed several methodological innovations to
+advance the literature on the effects of TAs. We use a modern data set,
+comprised of data between the years 1995 and 2015, with data on both
+international and domestic trade. We do not focus our sample on
+particular regions or groups of countries, nor on specific agreements.
+We try to cover as many countries and TAs as possible, without over
+representation of developed or ``North'' countries or of the biggest
+agreements. We extend traditional gravity estimations to capture
+heterogenous effects of TAs instead of the average ``total'' partial
+effect as is common in the literature, as well as heterogenous effects
+of TAs on the different categories of bilateral trade relationships
+(North-North, North-South and South-South). Finally, we complement our
+main estimations by replacing bilateral trade volume with the export
+product unit value of manufacturing products (HS codes 84 and 85).
+
+Future research on the heterogenous effects of TAs using gravity models
+is promising, as the empirical methods continue to improve, and they are
+applied to get more detailed and nuanced estimates that can better guide
+the developmental decisions and policies of developing countries. Some
+potential areas for future research on ``South'' countries include
+research on the dynamic effects of TAs on the industrialization process
+and on technology absorption and upgrading; extending gravity models to
+capture effects of country-pairs member to a TA, and to capture effects
+on individual countries of a country-pair member to a TA (Baier et al.,
+2019); extending the gravity model to capture effects of different types
+of TAs depending on their depth and content; different
+sub-classifications of ``South'' countries should be explored to further
+understand the limits to South-South cooperation in trade; and, beyond
+trade volume, the measure of export product unit value can be used to
+capture the increase or decrease of the value per unit commodities and
+goods in specific industries.
 
 %
 \newpage%
@@ -942,9 +1195,44 @@ This is the conclusion
 %TC:ignore%
 \section{Appendix}%
 \label{sec:Appendix}%
-\subsection{Subsection in Appendix}%
-\label{subsec:SubsectioninAppendix}%
-Content in the appendix should not be counted in the word count.
+\subsection{Appendix I {-} Sample Countries}%
+\label{subsec:AppendixI{-}SampleCountries}%
+\includepdf[pages=-, fitpaper=true]{tables/countries.pdf}
+
+%
+\subsection{Appendix II {-} Sample TAs}%
+\label{subsec:AppendixII{-}SampleTAs}%
+\includepdf[pages=-, fitpaper=true]{tables/pta_list.pdf}
+
+%
+\subsection{Appendix III {-} Regression Tables by Region for TA Heterogeneity Model}%
+\label{subsec:AppendixIII{-}RegressionTablesbyRegionforTAHeterogeneityModel}%
+\FloatBarrier%
+\input{tables/benchmark_Africa_pta_table.tex}%
+\FloatBarrier%
+\input{tables/benchmark_Americas_pta_table.tex}%
+\FloatBarrier%
+\input{tables/benchmark_Asia_pta_table.tex}%
+\FloatBarrier%
+\input{tables/benchmark_Europe_pta_table.tex}%
+\FloatBarrier%
+\input{tables/benchmark_Intercontinental_pta_table.tex}%
+\FloatBarrier
+
+%
+\subsection{Appendix IV {-} Regression Tables by Region for TA Heterogeneity Extended Model}%
+\label{subsec:AppendixIV{-}RegressionTablesbyRegionforTAHeterogeneityExtendedModel}%
+\FloatBarrier%
+\input{tables/ns_pta_Africa.tex}%
+\FloatBarrier%
+\input{tables/ns_pta_Americas.tex}%
+\FloatBarrier%
+\input{tables/ns_pta_Asia.tex}%
+\FloatBarrier%
+\input{tables/ns_pta_Europe.tex}%
+\FloatBarrier%
+\input{tables/ns_pta_Intercontinental.tex}%
+\FloatBarrier
 
 %
 %TC:endignore%

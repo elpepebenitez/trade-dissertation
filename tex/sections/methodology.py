@@ -13,12 +13,12 @@ def add_methodology(doc):
                     benchmark_content = file.read()
             doc.append(NoEscape(benchmark_content))
 
-            with doc.create(Subsubsection('PTA Heterogeneity Model')):
+            with doc.create(Subsubsection('TA Heterogeneity Model')):
                 with open('sections/methodology_het.tex', 'r') as file:
                     het_content = file.read()
             doc.append(NoEscape(het_content))
 
-            with doc.create(Subsubsection('North-North, North-South and South-South PTAs')):
+            with doc.create(Subsubsection('North-North, North-South and South-South TAs')):
                 with open('sections/methodology_ns.tex', 'r') as file:
                     ns_content = file.read()
             doc.append(NoEscape(ns_content))

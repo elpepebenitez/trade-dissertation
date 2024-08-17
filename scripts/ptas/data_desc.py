@@ -1,16 +1,17 @@
 import os
 import pandas as pd
+import csv
 
 # Define the folder path
 folder_path = "./data/processed_data/ptas/"
 
-# Initialize dictionaries to store counts by region
+# Initialize dictionaries to store data
 unique_countries_by_region = {}
 unique_agreements_by_region = {}
+agreement_country_mapping = {}
 
 # Initialize sets to store unique values across all regions
 all_unique_countries = set()
-all_unique_agreements = set()
 
 # Iterate through each file in the folder
 for filename in os.listdir(folder_path):
@@ -24,32 +25,93 @@ for filename in os.listdir(folder_path):
         region = os.path.splitext(filename)[0]
         
         # Unique countries in this file
-        unique_countries = set(df['iso1']).union(set(df['iso2']))
+        unique_countries = set(df['country1']).union(set(df['country2']))
         unique_countries_by_region[region] = len(unique_countries)
         
         # Add to the global set of unique countries
         all_unique_countries.update(unique_countries)
         
-        # Unique agreements in this file
-        unique_agreements = set(df['base_treaty'])
-        unique_agreements_by_region[region] = len(unique_agreements)
+        # Unique agreements and their member countries in this file
+        for agreement in df['wto_name'].unique():
+            if agreement not in agreement_country_mapping:
+                agreement_country_mapping[agreement] = set()
+            agreement_countries = set(df.loc[df['wto_name'] == agreement, 'country1']).union(
+                                  set(df.loc[df['wto_name'] == agreement, 'country2']))
+            agreement_country_mapping[agreement].update(agreement_countries)
+
+# Convert sets to sorted lists for easier readability
+all_unique_countries = sorted(all_unique_countries)
+agreement_country_mapping = {k: sorted(v) for k, v in agreement_country_mapping.items()}
+
+# Display the list of all unique countries
+print(f"Total Unique Countries (All Regions): {len(all_unique_countries)}")
+print("\nList of All Unique Countries:")
+for country in all_unique_countries:
+    print(country)
+
+# Save the agreements and their respective countries to a CSV file
+output_file = "./data/processed_data/ptas/pta_list.csv"
+with open(output_file, 'w', newline='') as f:
+    writer = csv.writer(f)
+    writer.writerow(['Agreement Name', 'Countries'])
+    for agreement, countries in agreement_country_mapping.items():
+        writer.writerow([agreement, ', '.join(countries)])
+
+print(f"\nThe list of agreements and their respective countries has been saved to {output_file}")
+
+
+# import os
+# import pandas as pd
+
+# # Define the folder path
+# folder_path = "./data/processed_data/ptas/"
+
+# # Initialize dictionaries to store counts by region
+# unique_countries_by_region = {}
+# unique_agreements_by_region = {}
+
+# # Initialize sets to store unique values across all regions
+# all_unique_countries = set()
+# all_unique_agreements = set()
+
+# # Iterate through each file in the folder
+# for filename in os.listdir(folder_path):
+#     if filename.endswith(".csv"):
+#         file_path = os.path.join(folder_path, filename)
         
-        # Add to the global set of unique agreements
-        all_unique_agreements.update(unique_agreements)
+#         # Load the data
+#         df = pd.read_csv(file_path)
+        
+#         # Get the region name from the filename (assuming region name is part of the filename)
+#         region = os.path.splitext(filename)[0]
+        
+#         # Unique countries in this file
+#         unique_countries = set(df['iso1']).union(set(df['iso2']))
+#         unique_countries_by_region[region] = len(unique_countries)
+        
+#         # Add to the global set of unique countries
+#         all_unique_countries.update(unique_countries)
+        
+#         # Unique agreements in this file
+#         unique_agreements = set(df['base_treaty'])
+#         unique_agreements_by_region[region] = len(unique_agreements)
+        
+#         # Add to the global set of unique agreements
+#         all_unique_agreements.update(unique_agreements)
 
-# Final counts
-total_unique_countries = len(all_unique_countries)
-total_unique_agreements = len(all_unique_agreements)
+# # Final counts
+# total_unique_countries = len(all_unique_countries)
+# total_unique_agreements = len(all_unique_agreements)
 
-# Display results
-print(f"Total Unique Countries (All Regions): {total_unique_countries}")
-print(f"Total Unique Agreements (All Regions): {total_unique_agreements}")
-print("\nUnique Countries by Region:")
-for region, count in unique_countries_by_region.items():
-    print(f"{region}: {count}")
-print("\nUnique Agreements by Region:")
-for region, count in unique_agreements_by_region.items():
-    print(f"{region}: {count}")
+# # Display results
+# print(f"Total Unique Countries (All Regions): {total_unique_countries}")
+# print(f"Total Unique Agreements (All Regions): {total_unique_agreements}")
+# print("\nUnique Countries by Region:")
+# for region, count in unique_countries_by_region.items():
+#     print(f"{region}: {count}")
+# print("\nUnique Agreements by Region:")
+# for region, count in unique_agreements_by_region.items():
+#     print(f"{region}: {count}")
 
 # import pandas as pd
 

@@ -1,28 +1,33 @@
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
-\contentsline {section}{\numberline {2}Literature Review}{1}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Theoretical Framework}{1}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Comparative advantage and trade creation and diversion}{1}{subsubsection.2.1.1}%
+\contentsline {section}{\numberline {2}Literature Review}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Theoretical Framework}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Comparative Advantage and Trade Creation and Diversion}{2}{subsubsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.2}Economies of Scale, Input{-}Output linkages and Products Exported}{3}{subsubsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.2}Empirical Evidence}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Significance of Exports}{4}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Methodology}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Empirical Strategy}{5}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}The Gravity Model of Trade}{5}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Benchmark Model}{6}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}PTA Heterogeneity Model}{7}{subsubsection.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.4}North{-}North, North{-}South and South{-}South PTAs}{7}{subsubsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.2}Export Product Unit Value}{9}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Defining North and South}{10}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Data}{11}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Findings}{12}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Benchmark Results}{12}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}PTA Heterogeneity Results}{13}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}North{-}North, North{-}South and South{-}South PTAs}{19}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}North{-}South Benchmark Results}{19}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}North{-}South PTA Heterogeneity Results}{20}{subsubsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.4}Export Product Unit Value Results}{31}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Analysis and Discussion}{42}{section.5}%
-\contentsline {section}{\numberline {6}Conclusion}{42}{section.6}%
-\contentsline {section}{\numberline {7}References}{43}{section.7}%
-\contentsline {section}{\numberline {8}Appendix}{44}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Subsection in Appendix}{44}{subsection.8.1}%
+\contentsline {subsection}{\numberline {2.2}Relevance of the Structure of Product Space}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Empirical Evidence}{6}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Methodology}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Empirical Strategy}{6}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}The Gravity Model of Trade}{6}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Benchmark Model}{8}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}TA Heterogeneity Model}{9}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}North{-}North, North{-}South and South{-}South TAs}{9}{subsubsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.2}Export Product Unit Value}{11}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Defining North and South}{12}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Data}{12}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Findings}{14}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Benchmark Results}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}TA Heterogeneity Results}{15}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}North{-}North, North{-}South and South{-}South TAs}{16}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}North{-}South Benchmark Results}{16}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}North{-}South TA Heterogeneity Results}{18}{subsubsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.4}Export Product Unit Value Results}{20}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Analysis and Discussion}{31}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Potential Determinant Mechanisms of Heterogeneous Effects of TAs }{31}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Limitations}{33}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Conclusion}{34}{section.6}%
+\contentsline {section}{\numberline {7}References}{36}{section.7}%
+\contentsline {section}{\numberline {8}Appendix}{37}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Appendix I {-} Sample Countries}{37}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Appendix II {-} Sample TAs}{39}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Appendix III {-} Regression Tables by Region for TA Heterogeneity Model}{44}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Appendix IV {-} Regression Tables by Region for TA Heterogeneity Extended Model}{50}{subsection.8.4}%

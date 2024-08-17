@@ -73,7 +73,7 @@ multiple exporters, multiple importers and time as our benchmark model:
 
 % \[(1)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1}{PTA}_{ij,t} + \beta_{2}{PTA}_{ij,t - 5} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
 \begin{multline}
-    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1} \, PTA_{ij,t} \right. + \beta_{2} \, PTA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1} \, TA_{ij,t} \right. + \beta_{2} \, TA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
 \end{multline}
 
 Where \(X_{ij,t}\) denotes the value of exports from an origin country
@@ -101,7 +101,7 @@ effects as proposed by Baier \emph{et al}. (Baier, Yotov, and Zylkin
 
 % \[(2)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}^{}{\beta_{1,A}{PTA}_{ij,t}} + \sum_{A}^{}{\beta_{2,A}{PTA}_{ij,t - 5}} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
 \begin{multline}
-    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A} \beta_{1,A} \, PTA_{ij,t} \right. + \sum_{A} \beta_{2,A} \, PTA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A} \beta_{1,A} \, TA_{ij,t} \right. + \sum_{A} \beta_{2,A} \, TA_{ij,t-5} + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
 \end{multline}
 
 Equation (2) can be implemented to account for heterogeneous effects of
@@ -116,8 +116,8 @@ for each type of PTA. Our benchmark model is extended as follows:
 
 % \[(3)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1NN}{PTA\_ NN}_{ij,t} + \beta_{2NN}{PTA\_ NN}_{ij,t - 5} + \beta_{1NS}{PTA\_ NS}_{ij,t} + \beta_{2NS}{PTA\_ NS}_{ij,t - 5} + \beta_{1SS}{PTA\_ SS}_{ij,t} + \beta_{2SS}{PTA\_ SS}_{ij,t - 5} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
 \begin{multline}
-    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1NN} \, PTA\_NN_{ij,t} + \beta_{2NN} \, PTA\_NN_{ij,t-5} \right. \\
-    + \beta_{1NS} \, PTA\_NS_{ij,t} + \beta_{2NS} \, PTA\_NS_{ij,t-5} + \beta_{1SS} \, PTA\_SS_{ij,t} + \beta_{2SS} \, PTA\_SS_{ij,t-5} \\
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \beta_{1NN} \, TA\_NN_{ij,t} + \beta_{2NN} \, TA\_NN_{ij,t-5} \right. \\
+    + \beta_{1NS} \, TA\_NS_{ij,t} + \beta_{2NS} \, TA\_NS_{ij,t-5} + \beta_{1SS} \, TA\_SS_{ij,t} + \beta_{2SS} \, TA\_SS_{ij,t-5} \\
     + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
 \end{multline}
 
@@ -141,8 +141,8 @@ the different types of PTAs as follows:
 % \[(4)\ \ \ \ \ X_{ij,t} = \ exp(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}^{}{(\beta_{1,A,NN}{PTA\_ NN}_{ij,t}\  + \ \beta_{2,A,NN}{PTA\_ NN}_{ij,t - 5})} + \sum_{A}^{}{(\beta_{1,A,NS}{PTA\_ NS}_{ij,t}\  + \ \beta_{2,A,NS}{PTA\_ NS}_{ij,t - 5})} + \sum_{A}^{}{(\beta_{1,A,SS}{PTA\_ SS}_{ij,t}\  + \ \beta_{2,A,SS}{PTA\_ SS}_{ij,t - 5})} + \sum_{t}^{}b_{t}) + \epsilon_{ij,t}\]
 
 \begin{multline}
-    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}\left(\beta_{1,A,NN} \, PTA\_NN_{ij,t} + \beta_{2,A,NN} \, PTA\_NN_{ij,t-5}\right) \right. \\
-    + \sum_{A}\left(\beta_{1,A,NS} \, PTA\_NS_{ij,t} + \beta_{2,A,NS} \, PTA\_NS_{ij,t-5}\right) + \sum_{A}\left(\beta_{1,A,SS} \, PTA\_SS_{ij,t} + \beta_{2,A,SS} \, PTA\_SS_{ij,t-5}\right) \\
+    X_{ij,t} = \exp\left(\eta_{i,t} + \psi_{j,t} + \gamma_{\binom{-}{ij}} + \sum_{A}\left(\beta_{1,A,NN} \, TA\_NN_{ij,t} + \beta_{2,A,NN} \, TA\_NN_{ij,t-5}\right) \right. \\
+    + \sum_{A}\left(\beta_{1,A,NS} \, TA\_NS_{ij,t} + \beta_{2,A,NS} \, TA\_NS_{ij,t-5}\right) + \sum_{A}\left(\beta_{1,A,SS} \, TA\_SS_{ij,t} + \beta_{2,A,SS} \, TA\_SS_{ij,t-5}\right) \\
     + \left. \sum_{t} b_{t} \right) + \epsilon_{ij,t}
 \end{multline}
 

@@ -2,9 +2,9 @@ from pylatex import Section, NoEscape, Subsection, NewPage, Subsubsection
 
 def add_literature_review(doc):
     with doc.create(Section('Literature Review')):
-        doc.append('This section reviews the literature on the theoretical and empirical potential effects of PTAs on exports and welfare and situates the analysis in the relevant field of research.')
+        doc.append('This section reviews the literature on the theoretical and empirical potential effects of TAs on exports and welfare and situates the analysis in the relevant field of research.')
         with doc.create(Subsection('Theoretical Framework')):
-            doc.append('Stumbling block vs building block dichotomy.')
+            doc.append('The relevant theoretical framework in the literature is often described as a dichotomy, where TAs are either stumbling or building blocks in the development path of developing countries.')
             with doc.create(Subsubsection('Comparative Advantage and Trade Creation and Diversion')):
                 with open('sections/compad_literature_review.tex', 'r') as file:
                     compad_litreview_content = file.read()
@@ -20,15 +20,15 @@ def add_literature_review(doc):
             #         _litreview_content = file.read()
             # doc.append(NoEscape(_litreview_content))
         
+        with doc.create(Subsection('Relevance of the Structure of Product Space')):
+            with open('sections/exports_literature_review.tex', 'r') as file:
+                exports_litreview_content = file.read()
+        doc.append(NoEscape(exports_litreview_content))
+        
         with doc.create(Subsection('Empirical Evidence')):
             with open('sections/empirical_literature_review.tex', 'r') as file:
                 empirical_litreview_content = file.read()
         doc.append(NoEscape(empirical_litreview_content))
-
-        with doc.create(Subsection('Significance of Exports')):
-            with open('sections/exports_literature_review.tex', 'r') as file:
-                exports_litreview_content = file.read()
-        doc.append(NoEscape(exports_litreview_content))
         
         # with open('sections/literature_review.tex', 'r') as file:
         #             literature_review_content = file.read()
