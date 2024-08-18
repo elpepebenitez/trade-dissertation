@@ -16,6 +16,7 @@ from sections.analysis_and_discussion import add_analysis_and_discussion
 from sections.conclusion import add_conclusion
 from sections.references import add_references
 from sections.appendix import add_appendix
+from sections.acknowledgements import add_acknowledgements
 
 # Change the current working directory to the tex folder
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -99,6 +100,8 @@ doc.preamble.append(NoEscape(r'\fancyhead[R]{23802}'))
 add_title(doc)
 doc.append(NoEscape(r'\newpage'))
 add_abstract(doc)
+doc.append(NoEscape(r'\newpage'))
+add_acknowledgements(doc)
 doc.append(NoEscape(r'\newpage'))
 doc.append(NoEscape(r'\tableofcontents'))
 doc.append(NoEscape(r'\newpage'))

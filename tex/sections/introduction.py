@@ -14,7 +14,7 @@ def add_introduction(doc):
         doc.append(NoEscape(r'\textit{Source: Visualisation made by author. Data by The Design of International Trade Agreements Database (DESTA).}'))
         doc.append(Command('FloatBarrier'))
 
-        doc.append('Moreover, the vast majority of TAs have been signed between developing countries, what is referred to as “South-South” trade cooperation, covering an increasingly important share of global trade across industries. Table 2 shows the historical evolution of South-South TAs, Table 3 shows the historical evolution of North-South TAs, and Table 4 shows the historical evolution of North-North TAs, showcasing the significant difference in the number of agreements belonging to each group.')
+        doc.append('Moreover, the vast majority of TAs have been signed between developing countries, what is referred to as “South-South” trade cooperation, covering an increasingly important share of global trade across industries. Figure 2 shows the historical evolution of South-South TAs, Figure 3 shows the historical evolution of North-South TAs, and Figure 4 shows the historical evolution of North-North TAs, showcasing the significant difference in the number of agreements and countries belonging to each group.')
         
         with doc.create(Figure(position='h!')) as ss_tas_per_year:
                 ss_tas_per_year.add_image('figures/agreements_per_year_South-South.jpg', width=NoEscape(r'0.8\textwidth'))

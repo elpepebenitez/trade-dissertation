@@ -8,26 +8,26 @@
 \contentsline {section}{\numberline {3}Methodology}{9}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Empirical Strategy}{9}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}The Gravity Model of Trade}{9}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Benchmark Model}{10}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}TA Heterogeneity Model}{11}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.2}Benchmark Model}{11}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}TA Heterogeneity Model}{12}{subsubsection.3.1.3}%
 \contentsline {subsubsection}{\numberline {3.1.4}North{-}North, North{-}South and South{-}South TAs}{12}{subsubsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.2}Export Product Unit Value}{13}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Defining North and South}{14}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.2}Export Product Unit Value}{14}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Defining North and South}{15}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Data}{15}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Findings}{16}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Benchmark Results}{16}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}TA Heterogeneity Results}{17}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}North{-}North, North{-}South and South{-}South TAs}{18}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}North{-}South Benchmark Results}{18}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}North{-}South TA Heterogeneity Results}{19}{subsubsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.4}Export Product Unit Value Results}{22}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Analysis and Discussion}{33}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Potential Determinant Mechanisms of Heterogeneous Effects of TAs }{33}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Limitations}{35}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Conclusion}{36}{section.6}%
-\contentsline {section}{\numberline {7}References}{38}{section.7}%
-\contentsline {section}{\numberline {8}Appendix}{46}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Appendix I {-} Sample Countries}{46}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Appendix II {-} Sample TAs}{48}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Appendix III {-} Regression Tables by Region for TA Heterogeneity Model}{53}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Appendix IV {-} Regression Tables by Region for TA Heterogeneity Extended Model}{59}{subsection.8.4}%
+\contentsline {section}{\numberline {4}Findings}{17}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Benchmark Results}{17}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}TA Heterogeneity Results}{18}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}North{-}North, North{-}South and South{-}South TAs}{19}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}North{-}South Benchmark Results}{19}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}North{-}South TA Heterogeneity Results}{21}{subsubsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.4}Export Product Unit Value Results}{23}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Analysis and Discussion}{34}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Potential Determinant Mechanisms of Heterogeneous Effects of TAs }{34}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Limitations}{36}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Conclusion}{37}{section.6}%
+\contentsline {section}{\numberline {7}References}{39}{section.7}%
+\contentsline {section}{\numberline {8}Appendix}{47}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Appendix I {-} Sample Countries}{47}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Appendix II {-} Sample TAs}{49}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Appendix III {-} Regression Tables by Region for TA Heterogeneity Model}{54}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Appendix IV {-} Regression Tables by Region for TA Heterogeneity Extended Model}{60}{subsection.8.4}%

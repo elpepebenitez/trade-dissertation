@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is '23802_DV410_2024.blg'
-[109] biber-darwin:340> INFO - === Sat Aug 17, 2024, 20:06:09
+[108] biber-darwin:340> INFO - === Sun Aug 18, 2024, 19:42:39
 [133] Biber.pm:419> INFO - Reading '23802_DV410_2024.bcf'
-[288] Biber.pm:979> INFO - Found 49 citekeys in bib section 0
-[309] Biber.pm:4419> INFO - Processing section 0
-[325] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[347] bibtex.pm:1713> INFO - LaTeX decoding ...
-[712] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[1110] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1110] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1110] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[1111] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[1192] bbl.pm:660> INFO - Writing '23802_DV410_2024.bbl' with encoding 'UTF-8'
-[1234] bbl.pm:763> INFO - Output to 23802_DV410_2024.bbl
+[292] Biber.pm:979> INFO - Found 53 citekeys in bib section 0
+[313] Biber.pm:4419> INFO - Processing section 0
+[328] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[350] bibtex.pm:1713> INFO - LaTeX decoding ...
+[731] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[1158] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1158] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1159] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[1159] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[1245] bbl.pm:660> INFO - Writing '23802_DV410_2024.bbl' with encoding 'UTF-8'
+[1290] bbl.pm:763> INFO - Output to 23802_DV410_2024.bbl
