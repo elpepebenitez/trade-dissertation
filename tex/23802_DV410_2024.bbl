@@ -164,7 +164,7 @@
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S0022199615001531
       \endverb
-      \keyw{Distance Function,Free trade agreements,Gravity,Terms of Trade}
+      \keyw{Free trade agreements,Gravity,Distance Function,Terms of Trade}
     \endentry
     \entry{anderson_terms_2016}{article}{}
       \name{author}{2}{}{%
@@ -267,6 +267,66 @@
       \verb{url}
       \verb https://www.jstor.org/stable/116986
       \endverb
+    \endentry
+    \entry{bahar_neighbors_2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4f7665124d8207e4af0a580e52796f2e}{%
+           family={Bahar},
+           familyi={B\bibinitperiod},
+           given={Dany},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f3985a0120da059a9b2dc10fff3af15f}{%
+           family={Hausmann},
+           familyi={H\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=44e01ad4326354e9fa029fe56182fac3}{%
+           family={Hidalgo},
+           familyi={H\bibinitperiod},
+           given={Cesar\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{36497eaf68ed2c0bda01129d41d08e21}
+      \strng{fullhash}{36497eaf68ed2c0bda01129d41d08e21}
+      \strng{bibnamehash}{36497eaf68ed2c0bda01129d41d08e21}
+      \strng{authorbibnamehash}{36497eaf68ed2c0bda01129d41d08e21}
+      \strng{authornamehash}{36497eaf68ed2c0bda01129d41d08e21}
+      \strng{authorfullhash}{36497eaf68ed2c0bda01129d41d08e21}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The literature on knowledge diffusion shows that knowledge decays strongly with distance. In this paper we document that the probability that a product is added to a country's export basket is, on average, 65\% larger if a neighboring country is a successful exporter of that same product. For existing products, growth of exports in a country is 1.5\% higher per annum if it has a neighbor with comparative advantage in these products. While these results could be driven by a common third factor that escapes our controls, they align with our expectations of the localized character of knowledge diffusion.}
+      \field{day}{1}
+      \field{issn}{0022-1996}
+      \field{journaltitle}{Journal of International Economics}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Journal of International Economics}
+      \field{shorttitle}{Neighbors and the evolution of the comparative advantage of nations}
+      \field{title}{Neighbors and the evolution of the comparative advantage of nations: Evidence of international knowledge diffusion?}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{92}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{111\bibrangedash 123}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.jinteco.2013.11.001
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/pepe/Zotero/storage/EA9WBKKV/Bahar et al. - 2014 - Neighbors and the evolution of the comparative adv.pdf:application/pdf;ScienceDirect Snapshot:/Users/pepe/Zotero/storage/Z6LGNLKI/S0022199613001098.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199613001098
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022199613001098
+      \endverb
+      \keyw{Diffusion,Export similarity,Knowledge,Productivity,Spillovers,Technology}
     \endentry
     \entry{baier_free_2007-1}{article}{}
       \name{author}{2}{}{%
@@ -1078,6 +1138,95 @@
       \endverb
       \keyw{Preferential trade agreements,deep trade agenda,emerging economies,liberal international order,policy learning,South-South trade}
     \endentry
+    \entry{hallak_product-quality_2010}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b31793e9d70c83ba5b6e56264a695ea7}{%
+           family={Hallak},
+           familyi={H\bibinitperiod},
+           given={Juan\bibnamedelima Carlos},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b31793e9d70c83ba5b6e56264a695ea7}
+      \strng{fullhash}{b31793e9d70c83ba5b6e56264a695ea7}
+      \strng{bibnamehash}{b31793e9d70c83ba5b6e56264a695ea7}
+      \strng{authorbibnamehash}{b31793e9d70c83ba5b6e56264a695ea7}
+      \strng{authornamehash}{b31793e9d70c83ba5b6e56264a695ea7}
+      \strng{authorfullhash}{b31793e9d70c83ba5b6e56264a695ea7}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Linder hypothesis has attracted substantial empirical research over decades. However, the evidence has failed to provide consistent support for it. This paper explains the failure. Building a theoretical framework in which, as in Linder's theory, product quality plays the central role, I show that the Linder hypothesis is formally derived but holds only when formulated as a sector-level prediction. This prediction is then estimated using a sample of 64 countries in 1995. The results support the sectoral Linder hypothesis: controlling for the effect of intersectoral determinants of trade, countries of similar income per capita trade more intensely with one another.}
+      \field{issn}{0034-6535}
+      \field{journaltitle}{The Review of Economics and Statistics}
+      \field{note}{Publisher: The {MIT} Press}
+      \field{number}{3}
+      \field{title}{A Product-Quality View of the Linder Hypothesis}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{92}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{453\bibrangedash 466}
+      \range{pages}{14}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/pepe/Zotero/storage/T39RKMAJ/Hallak - 2010 - A Product-Quality View of the Linder Hypothesis.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/27867551
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/27867551
+      \endverb
+    \endentry
+    \entry{hallak_product_2006}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b31793e9d70c83ba5b6e56264a695ea7}{%
+           family={Hallak},
+           familyi={H\bibinitperiod},
+           given={Juan\bibnamedelima Carlos},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b31793e9d70c83ba5b6e56264a695ea7}
+      \strng{fullhash}{b31793e9d70c83ba5b6e56264a695ea7}
+      \strng{bibnamehash}{b31793e9d70c83ba5b6e56264a695ea7}
+      \strng{authorbibnamehash}{b31793e9d70c83ba5b6e56264a695ea7}
+      \strng{authornamehash}{b31793e9d70c83ba5b6e56264a695ea7}
+      \strng{authorfullhash}{b31793e9d70c83ba5b6e56264a695ea7}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00221996}
+      \field{journaltitle}{Journal of International Economics}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Journal of International Economics}
+      \field{title}{Product quality and the direction of trade}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{68}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{238\bibrangedash 265}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1016/j.jinteco.2005.04.001
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0022199605000516
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0022199605000516
+      \endverb
+    \endentry
     \entry{hausmann_country_2010}{online}{}
       \name{author}{2}{}{%
         {{hash=f3985a0120da059a9b2dc10fff3af15f}{%
@@ -1885,6 +2034,51 @@
       \field{dateera}{ce}
       \verb{file}
       \verb Puga and Venables - Trading Arrangements and Industrial Development.pdf:/Users/pepe/Zotero/storage/XFQEWAR6/Puga and Venables - Trading Arrangements and Industrial Development.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{regolo_export_2013}{article}{}
+      \name{author}{1}{}{%
+        {{hash=10bdfcc188f0fb6cc5a9ef12e5548734}{%
+           family={Regolo},
+           familyi={R\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{10bdfcc188f0fb6cc5a9ef12e5548734}
+      \strng{fullhash}{10bdfcc188f0fb6cc5a9ef12e5548734}
+      \strng{bibnamehash}{10bdfcc188f0fb6cc5a9ef12e5548734}
+      \strng{authorbibnamehash}{10bdfcc188f0fb6cc5a9ef12e5548734}
+      \strng{authornamehash}{10bdfcc188f0fb6cc5a9ef12e5548734}
+      \strng{authorfullhash}{10bdfcc188f0fb6cc5a9ef12e5548734}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{00221996}
+      \field{journaltitle}{Journal of International Economics}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{2}
+      \field{shortjournal}{Journal of International Economics}
+      \field{shorttitle}{Export diversification}
+      \field{title}{Export diversification: How much does the choice of the trading partner matter?}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{91}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{329\bibrangedash 342}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.jinteco.2013.07.004
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0022199613000731
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0022199613000731
       \endverb
     \endentry
     \entry{sanguinetti_impact_2010}{article}{}
