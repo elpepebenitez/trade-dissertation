@@ -1,3 +1,3 @@
 # trade-dissertation
 
-## This is my first commit for my LSE quantitative dissertation
+## This is my final commit for my LSE quantitative dissertation
